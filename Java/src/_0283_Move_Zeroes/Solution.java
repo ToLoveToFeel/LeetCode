@@ -1,19 +1,21 @@
 package _0283_Move_Zeroes;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 class Solution {
+    // 时间复杂度：O(n)
+    // 空间复杂度：O(n)
     public void moveZeroes(int[] nums) {
-        LinkedList<Integer> linkedList = new LinkedList<Integer>();
+        ArrayList<Integer> nonZerosElements = new ArrayList<>();
 
         for (int i = 0; i < nums.length; i++)
             if (0 != nums[i])
-                linkedList.addLast(nums[i]);
-        int length = linkedList.size();
-        for (int i = 0; i < length; i++)
-            nums[i] = linkedList.removeFirst();
+                nonZerosElements.add(nums[i]);
 
-        for (int i = length; i < nums.length; i++)
+        for (int i = 0; i < nonZerosElements.size(); i++)
+            nums[i] = nonZerosElements.get(i);
+
+        for (int i = nonZerosElements.size(); i < nums.length; i++)
             nums[i] = 0;
 
     }
