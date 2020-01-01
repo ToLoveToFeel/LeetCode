@@ -11,14 +11,14 @@ public class Solution {
 
         int length = nums.length + 1;
 
-        for (int i = 0; i < nums.length; i++)
-            for (int j = i; j < nums.length; j++) {
+        for (int l = 0; l < nums.length; l++)
+            for (int r = l; r < nums.length; r++) {
                 int sum = 0;
-                for (int k = i; k <= j; k++)
+                for (int k = l; k <= r; k++)
                     sum += nums[k];
 
                 if (sum >= s)
-                    length = Math.min(length, j - i + 1);
+                    length = Math.min(length, r - l + 1);
 
             }
 

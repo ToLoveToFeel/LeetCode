@@ -11,7 +11,7 @@ public class Solution2 {
 
         int[] sums = new int[nums.length + 1];  // sums[i]代表nums[0...i)的和
         sums[0] = 0;
-        for (int i = 1; i < sums.length; i++)
+        for (int i = 1; i <= sums.length; i++)
             sums[i] = sums[i-1] + nums[i-1];
 
         int length = nums.length + 1;
