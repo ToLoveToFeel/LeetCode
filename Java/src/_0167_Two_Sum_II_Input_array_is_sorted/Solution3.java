@@ -7,7 +7,7 @@ public class Solution3 {
 
         int[] ret = new int[2];
 
-        int l = 0, r = numbers.length - 1;
+        int l = 0, r = numbers.length - 1;  // 对撞指针
         while (l < r){
             if (numbers[l] + numbers[r] == target){
                 ret[0] = l + 1;
