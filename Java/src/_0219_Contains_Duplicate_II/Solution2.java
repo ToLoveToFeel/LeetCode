@@ -5,6 +5,7 @@ import java.util.HashSet;
 public class Solution2 {
     // 时间复杂度：O(n)
     // 空间复杂度：O(k)
+    // 对比0003问题，0003问题滑动窗口不固定
     public boolean containsNearbyDuplicate(int[] nums, int k) {
 
         HashSet<Integer> record = new HashSet<>();
