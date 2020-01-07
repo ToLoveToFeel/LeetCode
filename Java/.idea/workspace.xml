@@ -12,32 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_0061_Rotate_List/Solution.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_0020_Valid_Parentheses/question.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categoryDescription.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/categoryDescription.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="443">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,9 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/_0075_Sort_Colors/Solution.java" />
-        <option value="$PROJECT_DIR$/src/_0075_Sort_Colors/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/_0167_Two_Sum_II_Input_array_is_sorted/Solution.java" />
         <option value="$PROJECT_DIR$/src/_0167_Two_Sum_II_Input_array_is_sorted/Solution2.java" />
         <option value="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution3.java" />
         <option value="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/question.txt" />
@@ -110,8 +89,11 @@
         <option value="$PROJECT_DIR$/src/_0061_Rotate_List/ListNode.java" />
         <option value="$PROJECT_DIR$/src/_0061_Rotate_List/question.txt" />
         <option value="$PROJECT_DIR$/src/_0061_Rotate_List/Solution.java" />
-        <option value="$PROJECT_DIR$/src/categoryDescription.txt" />
         <option value="$PROJECT_DIR$/src/_0020_Valid_Parentheses/question.txt" />
+        <option value="$PROJECT_DIR$/src/categoryDescription.txt" />
+        <option value="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/question.txt" />
+        <option value="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution.java" />
       </list>
     </option>
   </component>
@@ -317,7 +299,7 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_0020_Valid_Parentheses" type="462c0819:PsiDirectoryNode" />
+              <item name="_0144_Binary_Tree_Preorder_Traversal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -605,12 +587,12 @@
       <workItem from="1578291591693" duration="2857000" />
       <workItem from="1578366496849" duration="1467000" />
       <workItem from="1578378544898" duration="3717000" />
-      <workItem from="1578403096297" duration="166000" />
+      <workItem from="1578403096297" duration="1134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68361000" />
+    <option name="totallyTimeSpent" value="69329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -658,27 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_0075_Sort_Colors/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0349_Intersection_of_Two_Arrays/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0349_Intersection_of_Two_Arrays/question.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_0350_Intersection_of_Two_Arrays_II/question.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -990,8 +951,37 @@
     <entry file="file://$PROJECT_DIR$/src/categoryDescription.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/question.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
