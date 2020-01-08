@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Solution {
     // 递归算法
+    // 时间复杂度：O(n)，n为节点数目
+    // 空间复杂度：O(h)，h为二叉树高度
     public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
 
