@@ -12,7 +12,7 @@ public class Solution {
         if (null == root)
             return res;
 
-        LinkedList<Pair<TreeNode, Integer>> q = new LinkedList<>();
+        LinkedList<Pair<TreeNode, Integer>> q = new LinkedList<>();  // q作为队列
         q.addLast(new Pair<>(root, 0));
         while (!q.isEmpty()){
             Pair<TreeNode, Integer> front = q.removeFirst();
