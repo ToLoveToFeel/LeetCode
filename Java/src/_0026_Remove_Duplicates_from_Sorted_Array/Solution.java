@@ -1,6 +1,8 @@
 package _0026_Remove_Duplicates_from_Sorted_Array;
 
 class Solution {
+    // 时间复杂度：O(n)
+    // 空间复杂度：O(1)
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0)
             return 0;
