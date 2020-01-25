@@ -1,7 +1,6 @@
 package _0125_Valid_Palindrome;
 
 public class Solution {
-    // 提交不通过
     // 时间复杂度：O(n)
     // 空间复杂度：O(1)
     public boolean isPalindrome(String s) {
@@ -10,9 +9,12 @@ public class Solution {
         int j = s.length() - 1;
 
         while (i < j){
-            while (!isValidCharacter(s.charAt(i)))
+            while (i < s.length() && !isValidCharacter(s.charAt(i)))
                 i++;
-            while (!isValidCharacter(s.charAt(j)))
+            if (i == s.length())  // 全部为非字母
+                return true;
+
+            while (j > 0 &&!isValidCharacter(s.charAt(j)))
                 j--;
 
             if(s.charAt(i) != s.charAt(j))
@@ -29,7 +31,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String s = "A man, a plan, a canal: Panama";
+//        String s = "A man, a plan, a canal: Panama";
+        String s = ".,";
 
         System.out.println((new Solution()).isPalindrome(s));
     }
