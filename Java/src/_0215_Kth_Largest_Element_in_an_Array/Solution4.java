@@ -24,7 +24,11 @@ public class Solution4 {
     private int partion(int[] nums, int l, int r){
         swap(nums, l, (int)(Math.random() * (r - l + 1) + l));
         int v = nums[l];  // 标定点
-        // arr[i+1...j] > v    arr[j+1...i-1] < v
+        //          arr[l+1...j] > v     arr[j+1...i-1] < v
+        // \--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\
+        //   l     l+1            j     j+1            i-1     i
+        // if(nums[i] > nums[l])   (1) 交换nums[i]和nums[j+1];   (2) j++;   (3)i++;考察下一个元素
+        // 最后交换nums[l]和nums[j]
         int j = l;
         for (int i = l+1; i <= r; i++)
             if (nums[i] > v){
