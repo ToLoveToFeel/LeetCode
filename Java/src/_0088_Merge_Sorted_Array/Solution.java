@@ -1,4 +1,4 @@
-package _0088_Merge_Sorted_Array.question;
+package _0088_Merge_Sorted_Array;
 
 public class Solution {
     // 时间复杂度：O(m+n)
@@ -8,9 +8,9 @@ public class Solution {
         if(length == 0)
             return;
         int[] aux = new int[length];
-        int i = 0;
-        int j = 0;
-        int k = 0;  // [0...k]已经排好序
+        int i = 0;  // nums1[0...i)已经遍历过
+        int j = 0;  // nums2[0...j)已经遍历过
+        int k = 0;  // aux[0...k)已经排好序
         while (k < length){
             if (i >= m)
                 aux[k++] = nums2[j++];

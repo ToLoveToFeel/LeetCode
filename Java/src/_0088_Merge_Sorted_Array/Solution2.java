@@ -1,4 +1,4 @@
-package _0088_Merge_Sorted_Array.question;
+package _0088_Merge_Sorted_Array;
 
 public class Solution2 {
     // 时间复杂度：O(m+n)
