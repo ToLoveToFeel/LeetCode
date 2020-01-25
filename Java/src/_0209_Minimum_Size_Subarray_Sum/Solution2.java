@@ -11,14 +11,16 @@ public class Solution2 {
 
         int[] sums = new int[nums.length + 1];  // sums[i]代表nums[0...i)的和
         sums[0] = 0;
-        for (int i = 1; i <= sums.length; i++)
+        for (int i = 1; i <= nums.length; i++)
             sums[i] = sums[i-1] + nums[i-1];
 
         int length = nums.length + 1;
         for (int l = 0; l < nums.length; l++)
             for (int r = l; r < nums.length; r++)
-                if (sums[r+1] - sums[l] >= s)   // [0...r+1) - [0...l) = [l...r]
+                if (sums[r+1] - sums[l] >= s) {   // [0...r+1) - [0...l) = [l...r]
                     length = Math.min(length, r - l + 1);
+                    break;
+                }
 
         return length == nums.length + 1 ? 0 : length;
     }
