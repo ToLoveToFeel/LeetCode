@@ -7,7 +7,7 @@ import java.util.List;
 public class Solution2 {
     // 使用双索引技术解决
     // 时间复杂度：O(n^2)
-    // 空间复杂度：O(n)
+    // 空间复杂度：O(1)
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums.length < 3)
