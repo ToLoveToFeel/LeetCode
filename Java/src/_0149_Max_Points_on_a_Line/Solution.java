@@ -11,7 +11,6 @@ public class Solution {
             return points.length;
 
         int res = 1;
-
         for (int i = 0; i < points.length; i++){
             // 针对每个点i，考虑其余所有点和点i的斜率，斜率相同的点在一条直线上
             // <K,V>：<斜率，点数目>
@@ -29,17 +28,17 @@ public class Solution {
                         hashMap.put(pair, hashMap.get(pair) + 1);
                 }
             }
-            if (i == 61){
-                for (int j = 0; j < points.length; j++){
-                    if (points[j][0] == points[i][0] && points[j][1] == points[i][1])
-                        samePoint++;
-                    else {
-                        Pair<Integer, Integer> pair = slope(points[j], points[i]);
-                        if (pair.getKey() == 4 && pair.getValue() == 1)
-                            System.out.println("(" + points[j][0] + ", " + points[j][1] + ")");
-                    }
-                }
-            }
+//            if (i == 61){
+//                for (int j = 0; j < points.length; j++){
+//                    if (points[j][0] == points[i][0] && points[j][1] == points[i][1])
+//                        samePoint++;
+//                    else {
+//                        Pair<Integer, Integer> pair = slope(points[j], points[i]);
+//                        if (pair.getKey() == 4 && pair.getValue() == 1)
+//                            System.out.println("(" + points[j][0] + ", " + points[j][1] + ")");
+//                    }
+//                }
+//            }
             res = Math.max(res, samePoint);  // 考虑情况：所有的点都是同一个位置
             for (Pair<Integer, Integer> pair:hashMap.keySet())
                 res = Math.max(res, hashMap.get(pair) + samePoint);
