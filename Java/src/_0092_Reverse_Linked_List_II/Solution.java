@@ -9,7 +9,7 @@ public class Solution {
         ListNode next;
         ListNode(int x) { val = x; }
     }
-    public ListNode left = new ListNode(0);  // 翻转后的头
+    public ListNode left = new ListNode(0);  // 第n+1个结点
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode dummyHead = new ListNode(0);
@@ -21,7 +21,7 @@ public class Solution {
         ListNode tail = pre.next;  // 翻转后链表的结尾
 
         pre.next = reverse(pre.next, n - m);
-        tail.next =left;
+        tail.next = left;
 
         return dummyHead.next;
     }
