@@ -33,7 +33,7 @@ public class Solution {
             }
         }
 
-        throw new IllegalArgumentException("No Solution!");
+        throw new IllegalArgumentException("No Trie!");
     }
 
     public static void main(String[] args) {

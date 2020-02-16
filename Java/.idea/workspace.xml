@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/categoryDescription.txt" afterPath="$PROJECT_DIR$/src/categoryDescription.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/Solution.java" afterPath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_0279_Perfect_Squares/Solution.java" afterPath="$PROJECT_DIR$/src/_0279_Perfect_Squares/Solution.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Solution.java" afterPath="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,16 +42,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Solution.java">
+      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
               <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
+                <element signature="class#Node#0;class#Trie#0" expanded="false" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="method#insert#0;class#Trie#0" expanded="false" />
+                <element signature="method#search#0;class#Trie#0" expanded="false" />
+                <element signature="method#startsWith#0;class#Trie#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trie2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/_0202_Happy_Number/Solution.java" />
-        <option value="$PROJECT_DIR$/src/_0202_Happy_Number/Solution2.java" />
         <option value="$PROJECT_DIR$/src/_0290_Word_Pattern/question.txt" />
         <option value="$PROJECT_DIR$/src/_0290_Word_Pattern/Solution.java" />
         <option value="$PROJECT_DIR$/src/_0088_Merge_Sorted_Array/question/Solution.java" />
@@ -163,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/categoryDescription.txt" />
         <option value="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/question.txt" />
         <option value="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie.java" />
       </list>
     </option>
   </component>
@@ -373,7 +394,7 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_0980_Unique_Paths_III" type="462c0819:PsiDirectoryNode" />
+              <item name="_0208_Implement_Trie_Prefix_Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -697,7 +718,7 @@
       <workItem from="1580438616238" duration="4373000" />
       <workItem from="1580476546863" duration="2843000" />
       <workItem from="1581579905811" duration="692000" />
-      <workItem from="1581820473189" duration="988000" />
+      <workItem from="1581820473189" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -892,7 +913,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218453000" />
+    <option name="totallyTimeSpent" value="219300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -912,6 +933,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23504274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -925,7 +947,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,13 +1002,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_0016_3Sum_Closest/question.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_0015_3Sum/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1338,15 +1352,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
           <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="class#Node#0;class#Trie#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="method#insert#0;class#Trie#0" expanded="false" />
+            <element signature="method#search#0;class#Trie#0" expanded="false" />
+            <element signature="method#startsWith#0;class#Trie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0208_Implement_Trie_Prefix_Tree/Trie2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
           </folding>
         </state>
       </provider>

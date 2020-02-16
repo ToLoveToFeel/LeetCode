@@ -2,7 +2,7 @@ package _0208_Implement_Trie_Prefix_Tree;
 
 import java.util.TreeMap;
 
-public class Solution {
+public class Trie {
 
     private class Node{
 
@@ -21,7 +21,7 @@ public class Solution {
 
     private Node root;
 
-    public Solution(){
+    public Trie(){
         root = new Node();
     }
 
