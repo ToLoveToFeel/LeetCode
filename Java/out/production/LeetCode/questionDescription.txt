@@ -47,7 +47,7 @@
 
 
 0049    Group Anagrams          给定一个字符串数组，将anagrams组合在一起。
-
+0050    Pow(x, n)               求x的n次方
 
 
 
