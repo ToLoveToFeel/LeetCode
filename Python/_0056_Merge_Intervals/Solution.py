@@ -5,6 +5,7 @@
 # @FileName   : Solution.py
 # @Software   : PyCharm
 # @github     : https://github.com/i-love-linux/LeetCode
+# 合并区间
 
 
 class Solution(object):

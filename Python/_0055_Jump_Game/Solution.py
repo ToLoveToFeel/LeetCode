@@ -5,6 +5,7 @@
 # @FileName   : Solution.py
 # @Software   : PyCharm
 # @github     : https://github.com/i-love-linux/LeetCode
+# 跳跃游戏
 
 
 class Solution(object):
