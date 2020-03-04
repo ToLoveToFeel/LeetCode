@@ -44,7 +44,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int k = 1;
+        int k = 2;
         ListNode head = new ListNode(arr);
         System.out.println(head);
 
