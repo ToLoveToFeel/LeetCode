@@ -11,47 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_0064_Minimum_Path_Sum/question.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_0064_Minimum_Path_Sum/Solution.py">
+        <entry file="file://$PROJECT_DIR$/_0189_Rotate_Array/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_0061_Rotate_List/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="23" selection-start-line="31" selection-start-column="8" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_0058_Length_of_Last_Word/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="31" lean-forward="true" selection-start-line="10" selection-end-line="31" />
+            <state relative-caret-position="210">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -86,6 +50,8 @@
         <option value="$PROJECT_DIR$/_0048_Rotate_Image/Solution.py" />
         <option value="$PROJECT_DIR$/_0064_Minimum_Path_Sum/question.txt" />
         <option value="$PROJECT_DIR$/_0064_Minimum_Path_Sum/Solution.py" />
+        <option value="$PROJECT_DIR$/_0189_Rotate_Array/question.txt" />
+        <option value="$PROJECT_DIR$/_0189_Rotate_Array/Solution.py" />
       </list>
     </option>
   </component>
@@ -158,6 +124,11 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="_0064_Minimum_Path_Sum" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="_0189_Rotate_Array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Solution (4)">
+  <component name="RunManager" selected="Python.Solution (5)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,7 +229,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,30 +237,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0061_Rotate_List" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0189_Rotate_Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0061_Rotate_List/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0189_Rotate_Array/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (4)" />
+      <item itemvalue="Python.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (5)" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution (1)" />
-        <item itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -334,14 +305,8 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="dp[i+1][c]" language="Python" />
-        <watch expression="grid[i][c]" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -358,27 +323,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_0054_Spiral_Matrix/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_0055_Jump_Game/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_0056_Merge_Intervals/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_0057_Insert_Interval/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -692,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_0058_Length_of_Last_Word/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="31" lean-forward="true" selection-start-line="10" selection-end-line="31" />
+        <state relative-caret-position="930">
+          <caret line="31" selection-start-line="10" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -704,10 +648,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_0189_Rotate_Array/question.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_0064_Minimum_Path_Sum/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-790731582/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="4251" column="29" lean-forward="true" selection-start-line="4251" selection-start-column="29" selection-end-line="4251" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_0189_Rotate_Array/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
