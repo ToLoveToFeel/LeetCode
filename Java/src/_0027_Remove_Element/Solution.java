@@ -6,7 +6,7 @@ class Solution {
     public int removeElement(int[] nums, int val) {
         int k = 0;  // nums[0...k)中的元素均为删除val后的元素
 
-        for (int i = 0; i < nums.length; i++)  // 两个索引，一个跟踪当前考察的元素，另一个考察删除val最新的索引
+        for (int i = 0; i < nums.length; i++)  // 两个索引，i一个跟踪当前考察的元素，k另一个考察删除val最新的索引
             if (nums[i] != val)
                 nums[k++] = nums[i];
 
