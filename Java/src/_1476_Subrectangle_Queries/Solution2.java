@@ -6,12 +6,12 @@ import java.util.ArrayList;
  * Date: 2020/8/30 20:48
  * Content:
  */
-class SubrectangleQueries {
+class SubrectangleQueries2 {
 
     int[][] rectangle;
     ArrayList<ArrayList<Integer>> history = new ArrayList<>();
 
-    public SubrectangleQueries(int[][] rectangle) {
+    public SubrectangleQueries2(int[][] rectangle) {
         this.rectangle = rectangle;
     }
 
@@ -44,7 +44,7 @@ class SubrectangleQueries {
                 {3, 2, 1},
                 {1, 1, 1}
         };
-        SubrectangleQueries sq = new SubrectangleQueries(rectangle);
+        SubrectangleQueries2 sq = new SubrectangleQueries2(rectangle);
         System.out.println(sq.getValue(0, 2));
         sq.updateSubrectangle(0, 0, 3, 2, 5);
         System.out.println(sq.getValue(0, 2));
