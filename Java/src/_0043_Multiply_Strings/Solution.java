@@ -15,8 +15,9 @@ class Solution {
         while (p >= 0 || q >= 0) {
             int x = (p >= 0 ? (num1.charAt(p) - '0') : 0);
             int y = (q >= 0 ? (num2.charAt(q) - '0') : 0);
-            res.append((x + y + temp) % 10);
-            temp = (x + y + temp) / 10;
+            int t = x + y + temp;
+            res.append((t) % 10);
+            temp = (t) / 10;
             p --;
             q --;
         }
@@ -40,8 +41,9 @@ class Solution {
             int temp = 0;
             while (p >= 0) {
                 int y = num1.charAt(p) - '0';
-                res.append((x * y + temp) % 10);
-                temp = (x * y + temp) / 10;
+                int t = x * y + temp;
+                res.append((t) % 10);
+                temp = (t) / 10;
                 p --;
             }
             if (temp != 0)
