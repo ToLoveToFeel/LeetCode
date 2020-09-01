@@ -27,8 +27,8 @@ class Solution3 {
         int C = sum / 2;
         boolean[] dp = new boolean[C + 1];
 
-        for (int i = 0; i <= C; i++)
-            dp[i] = (nums[0] == i);
+        for (int j = 0; j <= C; j++)
+            dp[j] = (nums[0] == j);
         for (int i = 1; i < n; i++)
             for (int j = C; j >= nums[i]; j--)
                 dp[j] = dp[j] || dp[j - nums[i]];
