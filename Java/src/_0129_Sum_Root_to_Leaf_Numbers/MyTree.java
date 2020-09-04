@@ -1,4 +1,4 @@
-package _0000_classicalProblems.mytree;
+package _0129_Sum_Root_to_Leaf_Numbers;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -63,14 +63,14 @@ public class MyTree {
         if (leftIndex <= n - 1) {  // 说明 num[leftIndex] 存在
             if (nums[leftIndex] != Integer.MIN_VALUE) {
                 node.left = new TreeNode(nums[leftIndex]);
-                size++;
+                size ++;
                 createByLevelOrder(node.left, nums, leftIndex);
             }
             int rightIndex = leftIndex + 1;  // nums[index]对应二叉树节点的左孩子下标为 2 * index + 2
             if (rightIndex <= n - 1) {  // 只有 num[leftIndex] 存在，考察rightIndex才有意义
                 if (nums[rightIndex] != Integer.MIN_VALUE) {
                     node.right = new TreeNode(nums[rightIndex]);
-                    size++;
+                    size ++;
                     createByLevelOrder(node.right, nums, rightIndex);
                 }
             }

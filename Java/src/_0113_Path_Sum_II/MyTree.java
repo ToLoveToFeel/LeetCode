@@ -24,6 +24,7 @@ public class MyTree {
         if (nums.length == 0 || nums[0] == Integer.MIN_VALUE)
             return;
         root = new TreeNode(nums[0]);
+        size++;
         createByLevelOrder(root, nums, 0);
     }
 
@@ -45,6 +46,7 @@ public class MyTree {
             return;
 
         root = new TreeNode(nums[0]);
+        size++;
         createByLevelOrder(root, nums, 0);
     }
 
@@ -61,12 +63,14 @@ public class MyTree {
         if (leftIndex <= n - 1) {  // 说明 num[leftIndex] 存在
             if (nums[leftIndex] != Integer.MIN_VALUE) {
                 node.left = new TreeNode(nums[leftIndex]);
+                size++;
                 createByLevelOrder(node.left, nums, leftIndex);
             }
             int rightIndex = leftIndex + 1;  // nums[index]对应二叉树节点的左孩子下标为 2 * index + 2
             if (rightIndex <= n - 1) {  // 只有 num[leftIndex] 存在，考察rightIndex才有意义
                 if (nums[rightIndex] != Integer.MIN_VALUE) {
                     node.right = new TreeNode(nums[rightIndex]);
+                    size++;
                     createByLevelOrder(node.right, nums, rightIndex);
                 }
             }
