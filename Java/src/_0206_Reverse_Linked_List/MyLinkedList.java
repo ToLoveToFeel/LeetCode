@@ -1,4 +1,4 @@
-package _0000_classicalProblems.mylinkedlist;
+package _0206_Reverse_Linked_List;
 
 /**
  * Date: 2020/9/4 18:08

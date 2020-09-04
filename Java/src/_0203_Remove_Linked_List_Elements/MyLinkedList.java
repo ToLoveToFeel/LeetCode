@@ -1,4 +1,4 @@
-package _0000_classicalProblems.mylinkedlist;
+package _0203_Remove_Linked_List_Elements;
 
 /**
  * Date: 2020/9/4 18:08
