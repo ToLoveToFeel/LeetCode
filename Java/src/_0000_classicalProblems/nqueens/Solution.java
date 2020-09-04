@@ -1,4 +1,4 @@
-package _0000_classicalProblems.nqueue;
+package _0000_classicalProblems.nqueens;
 
 import java.util.Arrays;
 import java.util.LinkedList;
