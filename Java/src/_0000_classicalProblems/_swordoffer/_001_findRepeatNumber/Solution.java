@@ -1,4 +1,4 @@
-package _0000_classicalProblems._swordoffer._001_LCOF;
+package _0000_classicalProblems._swordoffer._001_findRepeatNumber;
 
 import java.util.HashSet;
 

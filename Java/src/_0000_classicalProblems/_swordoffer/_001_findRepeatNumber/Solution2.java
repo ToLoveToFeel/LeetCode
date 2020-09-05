@@ -1,6 +1,4 @@
-package _0000_classicalProblems._swordoffer._001_LCOF;
-
-import java.util.HashSet;
+package _0000_classicalProblems._swordoffer._001_findRepeatNumber;
 
 /**
  * Date: 2020/9/5 21:34
