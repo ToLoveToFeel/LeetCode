@@ -1,4 +1,4 @@
-package _0000_classicalProblems.knapsack.Knapsack01;
+package _0000_classicalProblems.knapsack.knapsack01;
 
 import java.util.Arrays;
 

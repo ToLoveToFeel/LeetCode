@@ -1,6 +1,4 @@
-package _0000_classicalProblems.knapsack.Knapsack01;
-
-import java.util.Arrays;
+package _0000_classicalProblems.knapsack.knapsack01;
 
 /**
  * Date: 2020/9/1 17:26
