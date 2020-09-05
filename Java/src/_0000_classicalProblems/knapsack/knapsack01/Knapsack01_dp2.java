@@ -18,7 +18,7 @@ public class Knapsack01_dp2 {
             for (int j = 0; j <= C; j++) {
                 dp[i%2][j] = dp[(i - 1)%2][j];
                 if (j >= w[i])
-                    dp[i%2][j] = Math.max(dp[i%2][j], v[i] + dp[(i - 1)%2][j - w[i]]);
+                    dp[i%2][j] = Math.max(dp[i%2][j], dp[(i - 1)%2][j - w[i]] + v[i]);
             }
         return dp[(n - 1)%2][C];
     }

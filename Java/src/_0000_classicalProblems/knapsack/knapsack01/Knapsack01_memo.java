@@ -21,7 +21,7 @@ public class Knapsack01_memo {
 
         int res = bestValue(w, v, index - 1, c);
         if (c >= w[index])
-            res = Math.max(res, v[index] + bestValue(w, v, index - 1, c - w[index]));
+            res = Math.max(res, bestValue(w, v, index - 1, c - w[index]) + v[index]);
         memo[index][c] = res;
         return res;
     }

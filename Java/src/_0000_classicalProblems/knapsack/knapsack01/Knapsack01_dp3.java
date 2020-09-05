@@ -8,15 +8,18 @@ package _0000_classicalProblems.knapsack.knapsack01;
  */
 public class Knapsack01_dp3 {
     // dp[n][C]：考虑将前n个物品放进容量为C的背包，使得价值最大
+    // dp[C]
     public int knapsack01(int[] w, int[] v, int C) {
         int n = w.length;  // 物品的个数
         int[] dp = new int[C + 1];
 
+        // 因为需要上一行的信息，所以首先要算出上一行的信息
         for (int j = 0; j <= C; j++)
             dp[j] = (j >= w[0] ? v[0] : 0);
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i < n; i++)  // 从第1个物品开始，不可以重复（物品下标从0开始）
             for (int j = C; j >= w[i]; j--)
-                dp[j] = Math.max(dp[j], v[i] + dp[j - w[i]]);
+                // j 从大向小变化（表格从右向左更新）是因为需要使用上一行的值
+                dp[j] = Math.max(dp[j], dp[j - w[i]] + v[i]);
         return dp[C];
     }
 
