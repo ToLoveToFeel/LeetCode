@@ -12,6 +12,7 @@ class Solution {
     private int count;
     private boolean[] used;
 
+    // 向这个排列的末尾添加第 index+1 个元素，获得一个有 index+1 个元素的排列
     private void generatePermutation(int[] nums, int index) {
         if (index == nums.length) {
             count++;

@@ -10,6 +10,8 @@ public class Solution {
     private ArrayList<List<Integer>> res;
     private boolean[] used;
 
+    // p中保存了一个有index个元素的排列
+    // 向这个排列的末尾添加第 index+1 个元素，获得一个有 index+1 个元素的排列
     private void generatePermutation(int[] nums, int index, LinkedList<Integer> p){
         if (index == nums.length){
             res.add((LinkedList<Integer>)p.clone());
