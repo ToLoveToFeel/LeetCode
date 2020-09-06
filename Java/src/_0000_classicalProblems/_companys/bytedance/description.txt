@@ -1,0 +1,49 @@
+挑战字符串
+    无重复字符串的最长子串         Leetcode 0003       √
+    最长公共前缀                 Leetcode 0014       √
+    字符串的排列                 无
+    字符串相乘                   Leetcode 0043       √
+    翻转字符串里的单词             Leetcode 0151
+    简化路径                     Leetcode 0071       √
+    复制IP地址                   Leetcode 0093
+
+数组与排序
+    三数之和                     Leetcode 0015       √
+    岛屿的最大面积                Leetcode 0695       √
+    搜索旋转排序数组               Leetcode 0033
+    最长连续递增序列               Leetcode 0674                对比Leetcode 0300 最长上升子序列
+    数组的第K个最大元素            Leetcode 0215       √
+    最长连续序列                  Leetcode 0128
+    第k个排列                    Leetcode 0060      √
+    朋友圈                       Leetcode 0547
+    合并区间                     Leetcode 0056      √
+    接雨水                       Leetcode 0042
+
+链表与树
+    合并两个有序链表               Leetcode 0021      √
+    翻转链表                     Leetcode 0206      √
+    两数相加                     Leetcode 0002      √
+    排序链表                     Leetcode 0148      √
+    环形链表II                   Leetcode 0142                Leetcode 0141 环形链表
+    相交链表                     Leetcode 0160
+    合并K个升序链表               Leetcode 0023
+    二叉树的最近公共祖先           Leetcode 0236                Leetcode 0235 二叉搜索树的最近公共祖先
+    二叉树的锯齿形层次遍历          Leetcode 0103
+
+动态或贪心
+    买卖股票的最佳时机             Leetcode 0121                Leetcode 0123 买卖股票的最佳时机III
+    买卖股票的最佳时机II           Leetcode 0122                Leetcode 0188 买卖股票的最佳时机IV
+    最大正方形                   Leetcode 0221
+    最大子序和                   Leetcode 0053      √
+    三角形最小路径和              Leetcode 0120      √
+    俄罗斯套娃信封问题             Leetcode 0354
+
+数据结构
+    最小栈                       Leetcode 0155
+    LRU缓存机制                  Leetcode 0146
+    全O(1)的数据结构              Leetcode 0432
+
+拓展练习
+    x的平方根                    Leetcode 0069
+    UTF-8编码验证                Leetcode 0393
+    第二高的薪水                  Leetcode 0176

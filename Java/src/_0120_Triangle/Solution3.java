@@ -15,6 +15,7 @@ import java.util.List;
 class Solution3 {
     Integer[][] dp;
 
+    // 状态dp[i][j]：到达三角形位置(i, j)的最小路径和
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         if (n == 0)

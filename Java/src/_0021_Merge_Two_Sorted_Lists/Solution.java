@@ -18,7 +18,7 @@ public class Solution {
             if (p.val < q.val) {  // 链表l1不断向下走
                 pre = p;
                 p = p.next;
-            } else{  // 插入到p之前，pre之后
+            } else {  // 插入到p之前，pre之后
                 ListNode temp = q;
                 q = q.next;
                 temp.next = p;
@@ -26,10 +26,19 @@ public class Solution {
                 pre = pre.next;
             }
         }
-        if (q != null){
+        if (q != null) {
             pre.next = q;
         }
 
         return dummyHead.next;
+    }
+
+    public static void main(String[] args) {
+        // 创建链表，获取链表头结点
+        ListNode l1 = (new MyLinkedList(new int[]{1, 2, 4})).getHead();
+        // 创建链表，获取链表头结点
+        ListNode l2 = (new MyLinkedList(new int[]{1, 3, 4})).getHead();
+        l1 = (new Solution()).mergeTwoLists(l1, l2);
+        MyLinkedList.printLinkedList(l1);
     }
 }
