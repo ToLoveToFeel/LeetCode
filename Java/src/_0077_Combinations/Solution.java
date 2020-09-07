@@ -21,12 +21,10 @@ class Solution {
             generateCombinations(n, k, i+1, c);
             c.removeLast();
         }
-
-        return;
     }
 
     public List<List<Integer>> combine(int n, int k) {
-        res = new ArrayList<List<Integer>>();
+        res = new ArrayList<>();
         if (n <= 0 || k <= 0 || k > n)
             return res;
 
