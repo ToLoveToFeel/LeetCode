@@ -1,9 +1,6 @@
 package _0347_Top_K_Frequent_Elements;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.HashMap;
-import java.util.PriorityQueue; //默认最小堆
-import java.util.Comparator;
+
+import java.util.*;
 
 class Solution2 {
     private class Freq {
@@ -22,18 +19,18 @@ class Solution2 {
         }
     }
 
-    public List<Integer> topKFrequent(int[] nums, int k) {
+    public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
-        for (int num:nums) {
+        for (int num : nums) {
             if (hashMap.containsKey(num))
-                hashMap.put(num, hashMap.get(num)+1);
+                hashMap.put(num, hashMap.get(num) + 1);
             else
                 hashMap.put(num, 1);
         }
 
         PriorityQueue<Freq> priorityQueue = new PriorityQueue<>(new FreqComparator());
-        for (int key:hashMap.keySet()) {
+        for (int key : hashMap.keySet()) {
             if (priorityQueue.size() < k)
                 priorityQueue.add(new Freq(key, hashMap.get(key)));
             else if (hashMap.get(key) > priorityQueue.peek().freq) {
@@ -42,15 +39,24 @@ class Solution2 {
             }
         }
 
-        LinkedList<Integer> ret = new LinkedList<>();
+        ArrayList<Integer> ret = new ArrayList<>();
         while (!priorityQueue.isEmpty()) {
             ret.add(priorityQueue.remove().e);
         }
-        return ret;
+
+        // 转换为数组
+        int[] res = new int[ret.size()];
+        for (int i = 0; i < ret.size(); i++) {
+            res[i] = ret.get(i);
+        }
+        return res;
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2,2,1,1,1,1,3,3,3,7,7,7,7,7,7,5,5,4,6,6,6};
-        System.out.println((new Solution2()).topKFrequent(nums, 2));
+        int[] nums = {2, 2, 1, 1, 1, 1, 3, 3, 3, 7, 7, 7, 7, 7, 7, 5, 5, 4, 6, 6, 6};
+        int[] res = (new Solution2()).topKFrequent(nums, 2);
+        for (int num : res) {
+            System.out.print(num + " ");
+        }
     }
 }

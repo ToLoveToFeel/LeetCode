@@ -1,4 +1,5 @@
 package _0347_Top_K_Frequent_Elements;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.HashMap;
@@ -8,17 +9,17 @@ class Solution4 {
     public List<Integer> topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
-        for (int num:nums) {
+        for (int num : nums) {
             if (hashMap.containsKey(num))
-                hashMap.put(num, hashMap.get(num)+1);
+                hashMap.put(num, hashMap.get(num) + 1);
             else
                 hashMap.put(num, 1);
         }
 
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(
-                (a,b) -> hashMap.get(a) - hashMap.get(b)
+                (a, b) -> hashMap.get(a) - hashMap.get(b)
         );
-        for (int key:hashMap.keySet()) {
+        for (int key : hashMap.keySet()) {
             if (priorityQueue.size() < k)
                 priorityQueue.add(key);
             else if (hashMap.get(key) > hashMap.get(priorityQueue.peek())) {
@@ -35,7 +36,7 @@ class Solution4 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2,2,1,1,1,1,3,3,3,7,7,7,7,7,7,5,5,4,6,6,6};
+        int[] nums = {2, 2, 1, 1, 1, 1, 3, 3, 3, 7, 7, 7, 7, 7, 7, 5, 5, 4, 6, 6, 6};
         System.out.println((new Solution4()).topKFrequent(nums, 2));
     }
 }
