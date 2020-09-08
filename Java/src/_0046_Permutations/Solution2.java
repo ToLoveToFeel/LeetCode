@@ -10,17 +10,6 @@ public class Solution2 {
     // 空间复杂度：O(n)
     private ArrayList<List<Integer>> res;
 
-    public List<List<Integer>> permute(int[] nums) {
-
-        res = new ArrayList<List<Integer>>();
-        if(nums == null || nums.length == 0)
-            return res;
-
-        generatePermutation(nums, 0);
-
-        return res;
-    }
-
     private void generatePermutation(int[] nums, int index){
 
         if(index == nums.length){
@@ -36,8 +25,17 @@ public class Solution2 {
             generatePermutation(nums, index + 1);
             swap(nums, i, index);
         }
+    }
 
-        return;
+    public List<List<Integer>> permute(int[] nums) {
+
+        res = new ArrayList<List<Integer>>();
+        if(nums == null || nums.length == 0)
+            return res;
+
+        generatePermutation(nums, 0);
+
+        return res;
     }
 
     private void swap(int[] nums, int i, int j){
