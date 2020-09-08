@@ -8,7 +8,7 @@ public class KnapsackComplete_dp {
     // dp[n][C]：考虑将前n个物品放进容量为C的背包，使得价值最大
     // dp[C]
     public int knapsackComplete(int[] w, int[] v, int C) {
-        int n = w.length;  // 物品的个数
+        int n = w.length;  // 类别的个数
         int[] dp = new int[C + 1];
 
         // 因为不需要上一行的值，因此不需要计算

@@ -26,7 +26,7 @@ public class KnapsackComplete_memo {
     // dp[n][C]：考虑将前n个物品放进容量为C的背包，使得价值最大
     // dp[C]
     public int knapsackComplete(int[] w, int[] v, int C) {
-        int n = w.length;  // 物品的个数
+        int n = w.length;  // 类别的个数
         memo = new int[n][C + 1];
         for (int i = 0; i < memo.length; i++)
             Arrays.fill(memo[i], -1);
