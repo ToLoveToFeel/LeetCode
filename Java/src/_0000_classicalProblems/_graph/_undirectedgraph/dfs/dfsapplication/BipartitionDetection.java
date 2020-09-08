@@ -42,6 +42,8 @@ public class BipartitionDetection {
         return isBipartite;
     }
 
+    public int[] colors(){ return colors;}
+
     public static void main(String[] args) {
         String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/dfs/dfsapplication";
 
