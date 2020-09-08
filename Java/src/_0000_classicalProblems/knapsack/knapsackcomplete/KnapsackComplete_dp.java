@@ -15,7 +15,7 @@ public class KnapsackComplete_dp {
         dp[0] = 0;
         for (int i = 0; i < n; i++)  // 从第0个物品开始放入，可以重复（物品下标从0开始）
             for (int j = w[i]; j <= C; j++)
-                // j 从大向小变化（表格从左向右更新）是因为不需要使用上一行的值
+                // j 从小向大变化（表格从左向右更新）是因为不需要使用上一行的值
                 dp[j] = Math.max(dp[j], dp[j - w[i]] + v[i]);
         return dp[C];
     }
