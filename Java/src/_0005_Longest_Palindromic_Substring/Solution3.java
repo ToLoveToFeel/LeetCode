@@ -8,7 +8,8 @@ package _0005_Longest_Palindromic_Substring;
  */
 class Solution3 {
     // 动态规划
-    // 状态转移方程：dp[i][j] = (s[i] == s[j]) and (j - i < 3 or dp[i + 1][j -1])
+    // 状态转移方程：dp[i][j] = (s[i] == s[j]) and (j - i < 3 or dp[i + 1][j - 1])
+    // j - i < 3 是因为[i + 1, j - 1]不构成区间，即(j - 1) - (i + 1) + 1 < 2 ==> j - i < 3
     public String longestPalindrome(String s) {
         if (s.length() < 2)
             return s;
