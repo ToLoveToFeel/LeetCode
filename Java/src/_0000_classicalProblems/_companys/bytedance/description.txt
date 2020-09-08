@@ -15,7 +15,7 @@
     数组的第K个最大元素            Leetcode 0215       √
     最长连续序列                  Leetcode 0128
     第k个排列                    Leetcode 0060      √
-    朋友圈                       Leetcode 0547
+    朋友圈                       Leetcode 0547      √
     合并区间                     Leetcode 0056      √
     接雨水                       Leetcode 0042
 
