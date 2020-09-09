@@ -20,6 +20,9 @@ public class Solution3 {
      * 再举一个具体的例子：nums=[1, 3, 4], target=7;
      * dp[7] = dp[6] + dp[4] + dp[3]
      * 即：7 的组合数可以由三部分组成，1 和 dp[6]，3 和 dp[4], 4 和dp[3];
+     *
+     * 不能使用二维矩阵，这是由于状态转移方程所决定的，需要将每次结果进行累加
+     * 不同于背包问题，外层循环是对c进行遍历的，内层循环是对n遍历，因为每次都要对dp[c]进行多次累加计算
      */
     public int combinationSum4(int[] nums, int target) {
         int n = nums.length;  // 物品类别的数
