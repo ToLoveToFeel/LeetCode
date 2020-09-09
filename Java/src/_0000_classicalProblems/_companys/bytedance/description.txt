@@ -24,7 +24,7 @@
     翻转链表                     Leetcode 0206      √
     两数相加                     Leetcode 0002      √
     排序链表                     Leetcode 0148      √
-    环形链表II                   Leetcode 0142                Leetcode 0141 环形链表
+    环形链表II                   Leetcode 0142      √         Leetcode 0141 环形链表
     相交链表                     Leetcode 0160      √
     合并K个升序链表               Leetcode 0023
     二叉树的最近公共祖先           Leetcode 0236                Leetcode 0235 二叉搜索树的最近公共祖先

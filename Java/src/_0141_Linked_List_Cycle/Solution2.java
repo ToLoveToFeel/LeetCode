@@ -1,7 +1,5 @@
 package _0141_Linked_List_Cycle;
 
-import java.util.HashSet;
-
 /**
  * Date: 2020/9/9 20:17
  * Content:
@@ -15,14 +13,15 @@ public class Solution2 {
             return false;
 
         ListNode slowNode = head;
-        ListNode fastNode = head.next;
-        while (slowNode != fastNode) {
+        ListNode fastNode = head;
+        while (true) {
             if (fastNode == null || fastNode.next == null)
                 return false;
             slowNode = slowNode.next;
             fastNode = fastNode.next.next;
+            if (slowNode == fastNode)
+                return true;
         }
-        return true;
     }
 
     public static void main(String[] args) {
