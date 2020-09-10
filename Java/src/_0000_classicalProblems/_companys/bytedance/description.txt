@@ -40,7 +40,7 @@
 
 数据结构
     最小栈                       Leetcode 0155
-    LRU缓存机制                  Leetcode 0146
+    LRU缓存机制                  Leetcode 0146      √
     全O(1)的数据结构              Leetcode 0432
 
 拓展练习
