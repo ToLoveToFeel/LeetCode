@@ -44,6 +44,6 @@
     全O(1)的数据结构              Leetcode 0432
 
 拓展练习
-    x的平方根                    Leetcode 0069
+    x的平方根                    Leetcode 0069      √
     UTF-8编码验证                Leetcode 0393
     第二高的薪水                  Leetcode 0176
