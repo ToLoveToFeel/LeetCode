@@ -5,7 +5,7 @@
     字符串相乘                   Leetcode 0043       √
     翻转字符串里的单词             Leetcode 0151
     简化路径                     Leetcode 0071       √
-    复制IP地址                   Leetcode 0093
+    复原IP地址                   Leetcode 0093       √
 
 数组与排序
     三数之和                     Leetcode 0015       √
