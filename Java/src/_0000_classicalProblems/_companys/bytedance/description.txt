@@ -10,7 +10,7 @@
 数组与排序
     三数之和                     Leetcode 0015       √
     岛屿的最大面积                Leetcode 0695       √
-    搜索旋转排序数组               Leetcode 0033
+    搜索旋转排序数组               Leetcode 0033      √
     最长连续递增序列               Leetcode 0674      √         对比Leetcode 0300 最长上升子序列
     数组的第K个最大元素            Leetcode 0215       √
     最长连续序列                  Leetcode 0128       √
