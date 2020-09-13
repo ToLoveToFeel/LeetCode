@@ -45,5 +45,5 @@
 
 拓展练习
     x的平方根                    Leetcode 0069      √
-    UTF-8编码验证                Leetcode 0393
+    UTF-8编码验证                Leetcode 0393      √
     第二高的薪水                  Leetcode 0176
