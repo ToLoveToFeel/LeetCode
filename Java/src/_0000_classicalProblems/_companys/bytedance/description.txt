@@ -31,7 +31,7 @@
     二叉树的锯齿形层次遍历          Leetcode 0103
 
 动态或贪心
-    买卖股票的最佳时机             Leetcode 0121                Leetcode 0123 买卖股票的最佳时机III
+    买卖股票的最佳时机             Leetcode 0121     √          Leetcode 0123 买卖股票的最佳时机III
     买卖股票的最佳时机II           Leetcode 0122                Leetcode 0188 买卖股票的最佳时机IV
     最大正方形                   Leetcode 0221
     最大子序和                   Leetcode 0053      √
