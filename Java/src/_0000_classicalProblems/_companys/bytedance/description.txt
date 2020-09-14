@@ -3,7 +3,7 @@
     最长公共前缀                 Leetcode 0014       √
     字符串的排列                 无
     字符串相乘                   Leetcode 0043       √
-    翻转字符串里的单词             Leetcode 0151
+    翻转字符串里的单词             Leetcode 0151       √
     简化路径                     Leetcode 0071       √
     复原IP地址                   Leetcode 0093       √
 
