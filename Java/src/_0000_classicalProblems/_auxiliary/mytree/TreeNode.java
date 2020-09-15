@@ -1,4 +1,4 @@
-package _0000_classicalProblems.mytree;
+package _0000_classicalProblems._auxiliary.mytree;
 
 public class TreeNode {
     int val;

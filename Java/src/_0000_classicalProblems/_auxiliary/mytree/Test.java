@@ -1,6 +1,4 @@
-package _0000_classicalProblems.mytree;
-
-import _0113_Path_Sum_II.TreeNode;
+package _0000_classicalProblems._auxiliary.mytree;
 
 /**
  * Date: 2020/9/4 17:41
