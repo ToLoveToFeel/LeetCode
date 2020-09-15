@@ -1,4 +1,4 @@
-package _0077_Combinations;
+package _0000_classicalProblems.combination;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,18 +9,18 @@ public class Solution2 {  // 剪枝
     // 空间复杂度：O(k)
     private ArrayList<List<Integer>> res;
 
-    // 求解C(n,k)，当前已经找到的组合存储在c中，需要从start开始搜索新的元素
-    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c){
-        if (c.size() == k){
-            res.add((LinkedList<Integer>)c.clone());
+    // 求解 C(n,k) ，当前已经找到的组合存储在 c 中，需要从 [start...n] 开始搜索新的元素
+    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c) {
+        if (c.size() == k) {
+            res.add((LinkedList<Integer>) c.clone());
             return;
         }
 
-        // 还有k-c.size()个空位，所以[i...n]中至少k-c.size()个元素
+        // 还有 k-c.size() 个空位，所以 [i...n] 中至少 k-c.size() 个元素
         // 所以 n-i+1 >= k-c.size()，所以 i <= n-(k-c.size())+1
-        for (int i = start; i <= n - (k - c.size()) + 1; i++){
+        for (int i = start; i <= n - (k - c.size()) + 1; i++) {
             c.addLast(i);
-            generateCombinations(n, k, i+1, c);
+            generateCombinations(n, k, i + 1, c);
             c.removeLast();
         }
     }
@@ -36,8 +36,8 @@ public class Solution2 {  // 剪枝
         return res;
     }
 
-    private static void printList(List<Integer> list){
-        for (Integer e:list)
+    private static void printList(List<Integer> list) {
+        for (Integer e : list)
             System.out.print(e + " ");
         System.out.println();
     }

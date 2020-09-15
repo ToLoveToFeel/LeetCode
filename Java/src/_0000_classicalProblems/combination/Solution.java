@@ -1,24 +1,26 @@
-package _0077_Combinations;
+package _0000_classicalProblems.combination;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+
+// https://leetcode-cn.com/problems/combinations/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-ma-/
 
 class Solution {
     // 时间复杂度：O(n^k)
     // 空间复杂度：O(k)
     private ArrayList<List<Integer>> res;
 
-    // 求解C(n,k)，当前已经找到的组合存储在c中，需要从start开始搜索新的元素
-    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c){
-        if (c.size() == k){
-            res.add((LinkedList<Integer>)c.clone());
+    // 求解 C(n,k)，当前已经找到的组合存储在c中，需要从 [start...n] 开始搜索新的元素
+    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c) {
+        if (c.size() == k) {
+            res.add((LinkedList<Integer>) c.clone());
             return;
         }
 
-        for (int i = start; i <= n; i++){
+        for (int i = start; i <= n; i++) {
             c.addLast(i);
-            generateCombinations(n, k, i+1, c);
+            generateCombinations(n, k, i + 1, c);
             c.removeLast();
         }
     }
@@ -34,8 +36,8 @@ class Solution {
         return res;
     }
 
-    private static void printList(List<Integer> list){
-        for (Integer e:list)
+    private static void printList(List<Integer> list) {
+        for (Integer e : list)
             System.out.print(e + " ");
         System.out.println();
     }
