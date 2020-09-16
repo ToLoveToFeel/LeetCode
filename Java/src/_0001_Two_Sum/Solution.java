@@ -18,10 +18,8 @@ class Solution {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
 
-        int[] res = new int[2];
-
-        res = (new Solution()).twoSum(numbers, target);
-        for (int i = 0; i < res.length; i++)
-            System.out.println(res[i]);
+        int[] res = (new Solution()).twoSum(numbers, target);
+        for (int re : res)
+            System.out.println(re);
     }
 }

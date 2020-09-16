@@ -9,13 +9,11 @@ public class Solution2 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> record = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (record.containsKey(complement)){
-                int[] res = {i, record.get(complement)};
-                return res;
+            if (record.containsKey(complement)) {
+                return new int[]{i, record.get(complement)};
             }
-
             record.put(nums[i], i);
         }
 
@@ -23,13 +21,11 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {2,7,11,15};
+        int[] numbers = {2, 7, 11, 15};
         int target = 9;
 
-        int[] res = new int[2];
-
-        res = (new Solution2()).twoSum(numbers, target);
-        for (int i = 0; i < res.length; i++)
-            System.out.println(res[i]);
+        int[] res = (new Solution2()).twoSum(numbers, target);
+        for (int re : res)
+            System.out.println(re);
     }
 }
