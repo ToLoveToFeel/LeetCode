@@ -17,4 +17,16 @@ public class Solution {
 
         return root;
     }
+
+    public static void main(String[] args) {
+        int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
+        int[] nums = new int[]{
+                4,
+                2, 7,
+                1, 3, 6, 9
+        };
+
+        TreeNode root = (new MyTree(nums)).getRoot();
+        System.out.println(MyTree.levelOrder((new Solution()).invertTree(root)));
+    }
 }
