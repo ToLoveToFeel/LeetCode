@@ -1,5 +1,0 @@
-package _0000_classicalProblems._datastructure.segmenttree;
-
-public interface Merger<E> {
-    E merge(E a, E b);
-}
