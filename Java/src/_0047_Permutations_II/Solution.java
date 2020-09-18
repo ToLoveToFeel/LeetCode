@@ -1,14 +1,15 @@
-package _0000_classicalProblems.permutation;
+package _0047_Permutations_II;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-// https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/
-
+/**
+ * Date: 2020/9/18 9:51
+ * Content:
+ */
 public class Solution {
-    // 时间复杂度：O(n^n)
-    // 空间复杂度：O(n)
     private ArrayList<List<Integer>> res;
     private boolean[] used;
 
@@ -16,27 +17,31 @@ public class Solution {
     // 向这个排列的末尾添加第 index+1 个元素，获得一个有 index+1 个元素的排列
     private void generatePermutation(int[] nums, int index, LinkedList<Integer> p) {
         if (index == nums.length) {
-            res.add((LinkedList<Integer>) p.clone());
+            res.add((List<Integer>) p.clone());
             return;
         }
 
-        for (int i = 0; i < nums.length; i++)
+        for (int i = 0; i < nums.length; i++) {
             if (!used[i]) {
-                p.addLast(nums[i]);
+                if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])  // 剪枝，去重
+                    continue;
+
+                p.add(nums[i]);
                 used[i] = true;
                 generatePermutation(nums, index + 1, p);
                 used[i] = false;
                 p.removeLast();
             }
+        }
     }
 
-    public List<List<Integer>> permute(int[] nums) {
+    public List<List<Integer>> permuteUnique(int[] nums) {
         res = new ArrayList<>();
-
         if (nums == null || nums.length == 0)
             return res;
 
-        used = new boolean[nums.length];  // 默认为 false
+        Arrays.sort(nums);
+        used = new boolean[nums.length];
         LinkedList<Integer> p = new LinkedList<>();
         generatePermutation(nums, 0, p);
 
@@ -44,7 +49,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
-        System.out.println((new Solution()).permute(nums));
+//        int[] nums = {1, 1, 2};
+        int[] nums = {3, 3, 0, 3};
+        System.out.println((new Solution()).permuteUnique(nums));
     }
 }
