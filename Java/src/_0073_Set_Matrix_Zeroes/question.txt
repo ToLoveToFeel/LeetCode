@@ -1,4 +1,4 @@
-零矩阵         对应Leetcode 73
+矩阵置零         对应_0000_study._leetcode._interviewquestions._01_08_Zero_Matrix
 //编写一种算法，若M × N矩阵中某个元素为0，则将其所在的行与列清零。
 //
 //
