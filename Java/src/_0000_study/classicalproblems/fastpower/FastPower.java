@@ -12,7 +12,7 @@ public class FastPower {
             if ((b & 1) == 1) {
                 res = res * a;
             }
-            b /= 2;
+            b >>= 1;
             a = a * a;
         }
         return res;
