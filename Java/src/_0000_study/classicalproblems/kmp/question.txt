@@ -36,11 +36,83 @@ PMT    0 0 1 2 3 4 0 1
 针对这种情况，我们只需要将 j 的位置移动到 T 数组索引为 PMT[6-1]=4 的位置继续和 S 比较即可
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 我们看到，对于每次 j 需要移动的位置有一个偏差(上面的PMT[6-1])，为了计算方便，我们引入 next 数组
-next[i] = PMT[i - 1], i >= 1
+next[i] = PMT[i - 1], i >= 1, 所以 next[i] 代表的是 [0...i-1]的最长公共 前缀 后缀 的长度(注意：前缀后缀不包含自身)
 next[0] = -1, 另外 next[1] 一定为 0
 因此，next: -1 0 0 1 2 3 4 0
-next数组的计算过程如下：
+next数组的计算过程如下：(T: a b a b a b c a)
+    next[0] = -1;
+    next[1] = 0;
 
+      i = 1                         next[2] = 0
+      |
+    a b a b a b c a
+      a b a b a b c a
+      |
+      j = 0
+
+        i = 2                       next[3] = 1     (T[2] = T[0])
+        |
+    a b a b a b c a
+        a b a b a b c a
+        |
+        j = 0
+
+          i = 3                     next[4] = 2     (T[3] = T[1])
+          |
+    a b a b a b c a
+        a b a b a b c a
+          |
+          j = 1
+
+            i = 4                   next[5] = 3     (T[4] = T[2])
+            |
+    a b a b a b c a
+        a b a b a b c a
+            |
+            j = 2
+
+              i = 5                 next[6] = 4     (T[5] = T[3])
+              |
+    a b a b a b c a
+        a b a b a b c a
+              |
+              j = 3
+
+
+                i = 6               T[6] != T[4],  j = next[j] = next[4] = 2
+                |
+    a b a b a b c a
+        a b a b a b c a
+                |
+                j = 4
+
+                i = 6               T[6] != T[2],  j = next[j] = next[2] = 0
+                |
+    a b a b a b c a
+            a b a b a b c a
+                |
+                j = 2
+
+                i = 6               T[6] != T[0],  j = next[j] = next[0] = -1
+                |
+    a b a b a b c a
+                a b a b a b c a
+                |
+                j = 0
+
+                i = 6               因为 j = -1, 所以 next[7] = -1 + 1 = 0
+                |
+    a b a b a b c a
+                a b a b a b c a
+               |
+               j = -1
+
+                  i = 7             i = 7 >= T.length() - 1, 退出循环
+                  |
+    a b a b a b c a
+                  a b a b a b c a
+                  |
+                  j = 0
 
 参考网址：
     https://www.zhihu.com/question/21923021
