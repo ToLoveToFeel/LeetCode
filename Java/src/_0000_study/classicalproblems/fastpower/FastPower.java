@@ -10,10 +10,10 @@ public class FastPower {
         int res = 1;
         while (b != 0) {
             if ((b & 1) == 1) {
-                res *= a;
+                res = res * a;
             }
             b /= 2;
-            a *= a;
+            a = a * a;
         }
         return res;
     }
