@@ -21,8 +21,6 @@ public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0)
             return null;
-        if (lists.length == 1 && lists[0] == null)
-            return null;
 
         for (int step = 1; step < lists.length; step += step) {  // 每次合并的两个链表的索引差值
             for (int i = 0; i + step < lists.length; i += (step + step)) {  // i 代表两个待合并链表中的第一个
