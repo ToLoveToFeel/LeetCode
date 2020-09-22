@@ -10,19 +10,19 @@ import java.util.List;
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> res = new ArrayList<>();
-        if (rowIndex <= 0)
+        if (rowIndex < 0)
             return res;
 
         res.add(1);
-        for (int i = 1; i < rowIndex; i++) {
-            // rowIndex - 1 - i + 1 = rowIndex - i
-            long temp = ((long) res.get(i - 1)) * (rowIndex - i) / i;
+        for (int i = 1; i <= rowIndex; i++) {
+            long temp = ((long) res.get(i - 1)) * (rowIndex - i + 1) / i;
             res.add((int) temp);
         }
         return res;
     }
 
     public static void main(String[] args) {
-        System.out.println((new Solution()).getRow(33));
+        System.out.println((new Solution()).getRow(0));
+        System.out.println((new Solution()).getRow(3));
     }
 }
