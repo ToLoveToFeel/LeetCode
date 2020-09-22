@@ -3,7 +3,7 @@ package _0968_Binary_Tree_Cameras;
 /**
  * Date: 2020/9/22 8:55
  * Content:
- * 该解法没有理解，所以为完成，可以参 Solution2
+ * 该解法没有理解，所以没有完成，可以参 Solution2
  */
 public class Solution {
     /*
