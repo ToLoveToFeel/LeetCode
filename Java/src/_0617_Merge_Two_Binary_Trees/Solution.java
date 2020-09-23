@@ -48,6 +48,6 @@ public class Solution {
         TreeNode root2 = (new MyTree(nums2)).getRoot();
 
         TreeNode newRoot = (new Solution()).mergeTrees(root1, root2);
-        MyTree.levelOrder(newRoot);
+        System.out.println(MyTree.levelOrder(newRoot));
     }
 }

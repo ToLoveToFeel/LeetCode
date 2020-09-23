@@ -78,6 +78,10 @@ public class MyTree {
     }
 
     // 层次遍历
+    public ArrayList<List<Integer>> levelOrder() {
+        return levelOrder(root);
+    }
+
     public static ArrayList<List<Integer>> levelOrder(TreeNode root) {
         ArrayList<List<Integer>> res = new ArrayList<>();
         if (null == root)
@@ -105,7 +109,6 @@ public class MyTree {
             res.add(level);
             levelNum = newLevelNum;
         }
-        System.out.println(res);
         return res;
     }
 
