@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Solution2 {
     // 时间复杂度：O(n)
     // 空间复杂度：O(n)
-    // 了解即可
+    // 记忆化搜索
     public int numSquares(int n) {
 
         int[] mem = new int[n+1];
@@ -15,7 +15,6 @@ public class Solution2 {
     }
 
     private int numSquares(int n, int[] mem){
-
         if(n == 0)
             return 0;
 
@@ -29,7 +28,6 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-
         System.out.println((new Solution2()).numSquares(12));
         System.out.println((new Solution2()).numSquares(13));
     }
