@@ -20,8 +20,7 @@ public class Solution {
                     right = mid - 1;
                 else
                     left = mid + 1;
-            }
-            else {  // 右半边有序
+            } else {  // 右半边有序
                 if (nums[right] >= target && target > nums[mid])
                     left = mid + 1;
                 else
