@@ -7,8 +7,7 @@ public class Solution {
 
         // 将deadends放入deadset中，方便在O(1)的时间查找
         HashSet<String> deadset = new HashSet<>();
-        for (String s : deadends)
-            deadset.add(s);
+        Collections.addAll(deadset, deadends);
 
         if (deadset.contains(target))
             return -1;
