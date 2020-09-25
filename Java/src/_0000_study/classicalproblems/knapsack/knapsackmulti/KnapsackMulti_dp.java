@@ -20,7 +20,7 @@ public class KnapsackMulti_dp {
             }
 
         for (int i = 1; i < n; i++)
-            for (int j = C; j >= w[i]; j--) {  // 因为要用到上一行的信息，所以j要从大到小比那里
+            for (int j = C; j >= w[i]; j--) {  // 因为要用到上一行的信息，所以j要从大到小变化
                 int k = 1;
                 while (k <= m[i] && k * w[i] <= j) {
                     dp[j] = Math.max(dp[j], dp[j - k * w[i]] + k * v[i]);
