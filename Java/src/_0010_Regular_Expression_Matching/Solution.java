@@ -64,8 +64,7 @@ public class Solution {
                 }
             }
         }
-        boolean lastRow[] = dp[dp.length - 1];
-        return lastRow[lastRow.length - 1];
+        return dp[s.length()][p.length()];
     }
 
     public static void main(String[] args) {
