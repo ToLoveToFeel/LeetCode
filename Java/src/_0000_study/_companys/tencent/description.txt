@@ -12,7 +12,7 @@
     字符串相乘                       Leetcode 0043   √
     反转字符串                       Leetcode 0344   √
     翻转字符串中的单词III              Leetcode 0557   √
-    除自身以外数组的乘积               Leetcode 0238
+    除自身以外数组的乘积               Leetcode 0238   √
     存在重复元素                      Leetcode 0217   √
     螺旋矩阵                         Leetcode 0054   √
     合并两个有序数组                   Leetcode 0088   √
