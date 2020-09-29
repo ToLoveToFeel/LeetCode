@@ -3,9 +3,10 @@ package _0000_study._algorithm.treetraversal.inorder;
 import _0000_study._algorithm.treetraversal.MyTree;
 import _0000_study._algorithm.treetraversal.TreeNode;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Date: 2020/9/19 10:15
@@ -13,15 +14,15 @@ import java.util.Stack;
  * 中序遍历：递归
  */
 public class Inorder {
-    public List<Integer> inorderTraversal(TreeNode root){
+    public List<Integer> inorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
         if (root == null)
             return res;
 
-        Stack<TreeNode> stack = new Stack<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode curNode = root;
-        while (curNode != null || !stack.isEmpty()){
-            while (curNode != null){
+        while (curNode != null || !stack.isEmpty()) {
+            while (curNode != null) {
                 stack.push(curNode);
                 curNode = curNode.left;
             }

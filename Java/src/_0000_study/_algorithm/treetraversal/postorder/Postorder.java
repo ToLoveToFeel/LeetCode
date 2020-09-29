@@ -3,9 +3,10 @@ package _0000_study._algorithm.treetraversal.postorder;
 import _0000_study._algorithm.treetraversal.MyTree;
 import _0000_study._algorithm.treetraversal.TreeNode;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Date: 2020/9/19 10:15
@@ -16,17 +17,17 @@ public class Postorder {
     /*
         思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
      */
-    public List<Integer> postorderTraversal(TreeNode root){
+    public List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
-        if (null == root)
+        if (root == null)
             return res;
 
-        Stack<TreeNode> stack = new Stack<>();
-        Stack<TreeNode> output = new Stack<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        Deque<TreeNode> output = new ArrayDeque<>();
         TreeNode curNode = root;
 
-        while (null != curNode || !stack.empty()){
-            while (null != curNode){
+        while (curNode != null || !stack.isEmpty()) {
+            while (curNode != null) {
                 output.push(curNode);
                 stack.push(curNode);
                 curNode = curNode.right;
