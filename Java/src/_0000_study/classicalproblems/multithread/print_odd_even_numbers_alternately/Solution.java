@@ -13,7 +13,7 @@ public class Solution {
     public static void main(String[] args) {
         // 创建 Runnable 实例
         Runnable r1 = () -> {  // 打印偶数的线程
-            while (count <= MAX_NUM) {
+            while (count <= MAX_NUM) {  // while 这一行和下面的 synchronized 对应行不可以交换位置，否则会发生死锁
                 synchronized (lock) {
                     if ((count & 1) == 0)  // 如果 count 是偶数
                         System.out.println(Thread.currentThread().getName() + ": " + count++);

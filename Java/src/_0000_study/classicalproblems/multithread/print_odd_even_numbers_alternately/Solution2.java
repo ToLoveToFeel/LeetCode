@@ -29,6 +29,8 @@ public class Solution2 {
     static class MyRunnable implements Runnable {
         @Override
         public void run() {
+            // while 这一行和下面的 synchronized 对应行可以交换位置
+            // 原因在于 lock.wait(); 会释放 synchronized 时获得到的 monitor 锁, 被唤醒的线程又获取该锁
             while (count <= MAX_NUM) {
                 synchronized (lock) {
                     // 拿到锁就打印
