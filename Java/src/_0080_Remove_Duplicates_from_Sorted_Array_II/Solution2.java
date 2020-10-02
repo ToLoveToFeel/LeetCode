@@ -7,11 +7,11 @@ public class Solution2 {
         int i = 0;
         int j = 0;
 
-        while (j < nums.length){
+        while (j < nums.length) {
             int k = nextIndex(nums, j);
-            int len = Math.min(2, k-j);
+            int len = Math.min(2, k - j);
             for (int ii = 0; ii < len; ii++)
-                nums[i+ii] = nums[j];
+                nums[i + ii] = nums[j];
 
             i += len;
             j = k;
@@ -20,7 +20,7 @@ public class Solution2 {
         return i;
     }
 
-    private int nextIndex(int[] nums, int index){
+    private int nextIndex(int[] nums, int index) {
         for (int i = index; i < nums.length; i++)
             if (nums[i] != nums[index])
                 return i;
@@ -28,7 +28,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,1,1,2,2,3};
+        int[] nums = {1, 1, 1, 2, 2, 3};
 
         System.out.println((new Solution2()).removeDuplicates(nums));
     }
