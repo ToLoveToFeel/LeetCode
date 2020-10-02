@@ -22,7 +22,7 @@ public class MyLinkedList {
 
     // 创建链表
     public ListNode createLinkedList(int[] nums) {
-        if (0 == nums.length)
+        if (nums.length == 0)
             return null;
 
         ListNode head = new ListNode(nums[0]);
