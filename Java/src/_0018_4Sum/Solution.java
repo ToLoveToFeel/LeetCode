@@ -27,8 +27,6 @@ public class Solution {
 
                 int p1 = j + 1;
                 int p2 = n - 1;
-                if (p1 >= p2)
-                    break;
 
                 while (p1 < p2) {
                     if (nums[p1] + nums[p2] == t) {
