@@ -30,7 +30,7 @@ public class Solution {
         nums = unique(nums);
 
         for (int i = 0; i < nums.length; i++)
-            for (int j = i+1; j < nums.length; j++){
+            for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] * 2 + nums[j] == 0 && counter.get(nums[i]) >= 2)
                     res.add(generateList(nums[i], nums[i], nums[j]));
                 if (nums[i] + nums[j] * 2 == 0 && counter.get(nums[j]) >= 2)
@@ -43,7 +43,7 @@ public class Solution {
         return res;
     }
 
-    private List<Integer> generateList(int a, int b, int c){
+    private List<Integer> generateList(int a, int b, int c) {
         List<Integer> item = new ArrayList<>();
         item.add(a);
         item.add(b);
@@ -54,14 +54,14 @@ public class Solution {
 
     // 对已经拍好序的数组去重，返回去重后的数组
     // LeetCode 0026号问题
-    private int[] unique(int[] nums){
+    private int[] unique(int[] nums) {
         if (nums.length == 0)
             return nums;
 
         int k = 1;  // [0...k)中的元素均为去重后的元素
         int removeValue = nums[0];
         for (int i = 1; i < nums.length; i++)
-            if (nums[i] != removeValue){
+            if (nums[i] != removeValue) {
                 nums[k++] = nums[i];
                 removeValue = nums[i];
             }
@@ -77,9 +77,9 @@ public class Solution {
         int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> res = (new Solution()).threeSum(nums);
 
-        for (int i = 0; i < res.size(); i++){
+        for (int i = 0; i < res.size(); i++) {
             List item = res.get(i);
-            System.out.println("[" + item.get(0) + " " + item.get(1) + " " +item.get(2) + "]");
+            System.out.println("[" + item.get(0) + " " + item.get(1) + " " + item.get(2) + "]");
         }
     }
 }
