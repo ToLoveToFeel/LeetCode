@@ -11,26 +11,24 @@ package _0152_Maximum_Product_Subarray;
  * 状态转移：
  * dpMax[i] = Math.max(dpMax[i-1]*nums[i], Math.max(dpMin[i-1]*nums[i], nums[i]))
  * dpMin[i] = Math.min(dpMax[i-1]*nums[i], Math.min(dpMin[i-1]*nums[i], nums[i]))
+ *
+ * Solution的空间优化
  */
-public class Solution {
+public class Solution2 {
     public int maxProduct(int[] nums) {
         if (nums.length == 0)
             return 0;
 
-        int[] dpMax = new int[nums.length];
-        int[] dpMin = new int[nums.length];
-
-        dpMax[0] = nums[0];
-        dpMin[0] = nums[0];
+        int dpMax = nums[0];
+        int dpMin = nums[0];
+        int res = nums[0];
 
         for (int i = 1; i < nums.length; i++) {
-            dpMax[i] = Math.max(dpMax[i - 1] * nums[i], Math.max(dpMin[i - 1] * nums[i], nums[i]));
-            dpMin[i] = Math.min(dpMax[i - 1] * nums[i], Math.min(dpMin[i - 1] * nums[i], nums[i]));
-        }
-
-        int res = dpMax[0];
-        for (int i = 1; i < dpMax.length; i++) {
-            res = Math.max(res, dpMax[i]);
+            int max = dpMax;
+            int min = dpMin;
+            dpMax = Math.max(max * nums[i], Math.max(min * nums[i], nums[i]));
+            dpMin = Math.min(max * nums[i], Math.min(min * nums[i], nums[i]));
+            res = Math.max(res, dpMax);
         }
 
         return res;
@@ -44,6 +42,6 @@ public class Solution {
 //        int[] nums = {-1, -5, -2, 2, 3};  // 60
 //        int[] nums = {-1, 2, 3};  // 6
 //        int[] nums = {7, -2, -4};  // 56
-        System.out.println((new Solution()).maxProduct(nums));
+        System.out.println((new Solution2()).maxProduct(nums));
     }
 }
