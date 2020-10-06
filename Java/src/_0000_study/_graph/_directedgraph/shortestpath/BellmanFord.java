@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.shortestpath;
 
 import _0000_study._graph.graphrepresentation.WeightedGraph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -77,7 +78,7 @@ public class BellmanFord {
     }
 
     static public void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/shortestpath";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/shortestpath";
 
         WeightedGraph g = new WeightedGraph(graphPath + "/wg.txt", true);
         BellmanFord bf = new BellmanFord(g, 0);

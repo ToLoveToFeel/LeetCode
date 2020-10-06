@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.dfs;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Stack;
@@ -41,7 +42,7 @@ public class GraphDFSnr {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/dfs";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/dfs";
         Graph g = new Graph(graphPath + "/g.txt");
         GraphDFSnr graphDFSnr = new GraphDFSnr(g);
         System.out.println(graphDFSnr.pre());

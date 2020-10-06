@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.mst;
 
 import _0000_study._graph.graphrepresentation.WeightedGraph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 
@@ -54,7 +55,7 @@ public class CC {
     }
 
     public static void main(String[] args){
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/mst";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/mst";
         WeightedGraph g = new WeightedGraph(graphPath + "/g.txt");
         CC cc = new CC(g);
         System.out.println(cc.count());

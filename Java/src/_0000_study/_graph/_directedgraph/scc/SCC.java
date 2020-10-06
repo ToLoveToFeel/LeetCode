@@ -2,6 +2,7 @@ package _0000_study._graph._directedgraph.scc;
 
 import _0000_study._graph._directedgraph.dfs.GraphDFS;
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -66,7 +67,7 @@ public class SCC {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/scc";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/scc";
 
         Graph g = new Graph(graphPath + "/ug.txt", true);
         SCC scc = new SCC(g);

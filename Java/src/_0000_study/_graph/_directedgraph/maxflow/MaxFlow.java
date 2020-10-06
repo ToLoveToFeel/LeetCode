@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.maxflow;
 
 import _0000_study._graph.graphrepresentation.WeightedGraph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.*;
 
@@ -105,7 +106,7 @@ public class MaxFlow {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/maxflow";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/maxflow";
 
         WeightedGraph network = new WeightedGraph(graphPath + "/network.txt", true);
         MaxFlow maxflow = new MaxFlow(network, 0, 3);

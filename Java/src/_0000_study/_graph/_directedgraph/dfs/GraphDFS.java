@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.dfs;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 
@@ -40,7 +41,7 @@ public class GraphDFS {
     }
 
     public static void main(String[] args){
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/dfs";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/dfs";
         Graph g = new Graph(graphPath + "/ug.txt", true);
         GraphDFS graphDFS = new GraphDFS(g);
         System.out.println("DFS preOrder : " + graphDFS.pre());

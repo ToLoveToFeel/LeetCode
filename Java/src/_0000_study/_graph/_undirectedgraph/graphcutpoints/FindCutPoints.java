@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.graphcutpoints;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.HashSet;
 
@@ -57,7 +58,7 @@ public class FindCutPoints {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/graphcutpoints";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/graphcutpoints";
 
         Graph g = new Graph(graphPath + "/g.txt");
         FindCutPoints fc = new FindCutPoints(g);

@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.bfs.bfsapplication;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -79,7 +80,7 @@ public class USSSPath {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/bfs/bfsapplication";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/bfs/bfsapplication";
 
         Graph g = new Graph(graphPath + "/g.txt");
         USSSPath ussspath = new USSSPath(g, 0);

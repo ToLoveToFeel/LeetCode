@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.shortestpath;
 
 import _0000_study._graph.graphrepresentation.WeightedGraph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.Arrays;
 
@@ -53,7 +54,7 @@ public class Floyed {
     }
 
     static public void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/shortestpath";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/shortestpath";
         WeightedGraph g = new WeightedGraph(graphPath + "/g.txt");
         Floyed floyed = new Floyed(g);
         if (!floyed.hasNegativeCycle()) {

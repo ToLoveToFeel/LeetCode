@@ -3,6 +3,7 @@ package _0000_study._graph._directedgraph.toposort;
 import _0000_study._graph._directedgraph.cycledetection.DirectedCycleDetection;
 import _0000_study._graph._directedgraph.dfs.GraphDFS;
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,7 +41,7 @@ public class TopoSort2 {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/toposort";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/toposort";
 
         Graph ug = new Graph(graphPath + "/ug.txt", true);
         TopoSort2 topoSort = new TopoSort2(ug);

@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.bfs;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -45,7 +46,7 @@ public class GraphBFS {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/bfs";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/bfs";
         Graph g = new Graph(graphPath + "/g.txt");
         GraphBFS graphBFS = new GraphBFS(g);
         System.out.println("BFS order : " + graphBFS.order());

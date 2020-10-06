@@ -2,6 +2,7 @@ package _0000_study._graph._undirectedgraph.euler;
 
 import _0000_study._graph._undirectedgraph.bfs.bfsapplication.CC;
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Stack;
@@ -51,7 +52,7 @@ public class EulerLoop2 {
     }
 
     public static void main(String[] args){
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/euler";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/euler";
         Graph g = new Graph(graphPath + "/g.txt");
         EulerLoop2 el = new EulerLoop2(g);
         System.out.println(el.result());

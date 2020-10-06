@@ -2,6 +2,7 @@ package _0000_study._graph._undirectedgraph.graphbridges;
 
 import _0000_study._graph.graphrepresentation.Edge;
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 
@@ -51,7 +52,7 @@ public class FindBridges {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/graphbridges";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/graphbridges";
 
         Graph g = new Graph(graphPath + "/g.txt");
         FindBridges fb = new FindBridges(g);

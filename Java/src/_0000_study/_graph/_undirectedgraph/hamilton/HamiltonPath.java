@@ -1,6 +1,7 @@
 package _0000_study._graph._undirectedgraph.hamilton;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -59,7 +60,7 @@ public class HamiltonPath {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_undirectedgraph/hamilton";
+        String graphPath = FilePrefix.pathPrefix + "_undirectedgraph/hamilton";
 
         Graph g = new Graph(graphPath + "/g.txt");
         HamiltonPath hp = new HamiltonPath(g, 0);

@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.toposort;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -54,7 +55,7 @@ public class TopoSort {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/toposort";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/toposort";
 
         Graph g = new Graph(graphPath + "/ug.txt", true);
         TopoSort topoSort = new TopoSort(g);

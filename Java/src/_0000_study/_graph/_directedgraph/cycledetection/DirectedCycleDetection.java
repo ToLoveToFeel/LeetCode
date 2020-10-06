@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.cycledetection;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 public class DirectedCycleDetection {
     // 有向无权图
@@ -44,7 +45,7 @@ public class DirectedCycleDetection {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/cycledetection";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/cycledetection";
 
         Graph g = new Graph(graphPath + "/ug.txt", true);
         DirectedCycleDetection cycleDetection = new DirectedCycleDetection(g);

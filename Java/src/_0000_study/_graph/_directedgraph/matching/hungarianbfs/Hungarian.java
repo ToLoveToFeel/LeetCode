@@ -2,6 +2,7 @@ package _0000_study._graph._directedgraph.matching.hungarianbfs;
 
 import _0000_study._graph._undirectedgraph.dfs.dfsapplication.BipartitionDetection;
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.*;
 
@@ -79,7 +80,7 @@ public class Hungarian {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/matching";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/matching";
 
         Graph g = new Graph(graphPath + "/g.txt");
         Hungarian hungarian = new Hungarian(g);

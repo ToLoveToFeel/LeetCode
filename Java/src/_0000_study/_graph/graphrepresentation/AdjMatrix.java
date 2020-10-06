@@ -1,5 +1,7 @@
 package _0000_study._graph.graphrepresentation;
 
+import _0000_study._graph.util.FilePrefix;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -84,7 +86,7 @@ public class AdjMatrix {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/graphrepresentation";
+        String graphPath = FilePrefix.pathPrefix + "graphrepresentation";
         AdjMatrix adjMatrix = new AdjMatrix(graphPath + "/g.txt");
         System.out.println(adjMatrix);
     }

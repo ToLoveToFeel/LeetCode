@@ -4,6 +4,7 @@ import _0000_study._graph._directedgraph.maxflow.MaxFlow;
 import _0000_study._graph._undirectedgraph.dfs.dfsapplication.BipartitionDetection;
 import _0000_study._graph.graphrepresentation.Graph;
 import _0000_study._graph.graphrepresentation.WeightedGraph;
+import _0000_study._graph.util.FilePrefix;
 
 public class BipartiteMatching {
     // 使用最大流算法解决二部图的最大匹配问题
@@ -46,7 +47,7 @@ public class BipartiteMatching {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/matching";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/matching";
 
         Graph g = new Graph(graphPath + "/g.txt");
         BipartiteMatching bm = new BipartiteMatching(g);

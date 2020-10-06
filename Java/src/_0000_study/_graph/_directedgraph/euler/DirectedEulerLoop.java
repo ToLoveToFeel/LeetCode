@@ -1,6 +1,7 @@
 package _0000_study._graph._directedgraph.euler;
 
 import _0000_study._graph.graphrepresentation.Graph;
+import _0000_study._graph.util.FilePrefix;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -50,7 +51,7 @@ public class DirectedEulerLoop {
     }
 
     public static void main(String[] args) {
-        String graphPath = "./src/_0000_classicalProblems/_graph/_directedgraph/euler";
+        String graphPath = FilePrefix.pathPrefix + "_directedgraph/euler";
 
         Graph g = new Graph(graphPath + "/ug.txt", true);
         DirectedEulerLoop el = new DirectedEulerLoop(g);
