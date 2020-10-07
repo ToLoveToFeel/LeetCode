@@ -8,28 +8,26 @@ public class Solution2 {
         int zero = -1;          // nums[0...zero] == 0
         int two = nums.length;  // nums[two...n-1] == 2
 
-        for (int i = 0; i < two; ){
-            if (1 == nums[i])
+        for (int i = 0; i < two; ) {
+            if (nums[i] == 1)
                 i++;
-            else if (2 == nums[i])
+            else if (nums[i] == 2)
                 swap(nums, --two, i);
-            else {
-                if (0 != nums[i])
-                    throw new IllegalArgumentException("Out of range [0..2]!");
+            else {  // nums[i] == 1
                 swap(nums, ++zero, i++);
             }
         }
 
     }
 
-    private void swap(int[] arr, int i, int j){
+    private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,0};
+        int[] nums = {1, 2, 0};
         (new Solution2()).sortColors(nums);
         for (int i = 0; i < nums.length; i++)
             System.out.println(nums[i]);

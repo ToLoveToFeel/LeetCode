@@ -9,7 +9,7 @@ class Solution {
         for (int i = 0; i < 3; i++)
             count[i] = 0;
 
-        for (int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             if (!(nums[i] >= 0 && nums[i] <= 2))
                 throw new IllegalArgumentException("Out of range [0..2]!");
             count[nums[i]]++;
@@ -23,7 +23,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2,0,2,1,1,0};
+        int[] nums = {2, 0, 2, 1, 1, 0};
         (new Solution()).sortColors(nums);
         for (int i = 0; i < nums.length; i++)
             System.out.println(nums[i]);
