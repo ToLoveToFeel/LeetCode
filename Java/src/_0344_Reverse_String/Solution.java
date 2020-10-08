@@ -5,13 +5,13 @@ public class Solution {
     // 空间复杂度：O(1)
     public void reverseString(char[] s) {  // 对撞指针
         int l = 0;
-        int r = s.length -1;
+        int r = s.length - 1;
 
         while (l < r)
             swap(s, l++, r--);
     }
 
-    private void swap(char[] s, int l, int r){
+    private void swap(char[] s, int l, int r) {
         char c = s[l];
         s[l] = s[r];
         s[r] = c;
