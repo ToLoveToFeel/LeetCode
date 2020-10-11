@@ -1,8 +1,7 @@
 package _0038_Count_and_Say;
 
-import _0000_study._datastructure.map.Map;
-
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Date: 2020/10/11 10:02
@@ -13,7 +12,7 @@ public class Solution {
         if (!(n > 0 && n <= 30))
             throw new IllegalArgumentException("PInput Error!");
 
-        HashMap<Integer, String> map = new HashMap<Integer, String>() {{
+        Map<Integer, String> map = new HashMap<Integer, String>() {{
             put(1, "1");
             put(2, "11");
             put(3, "21");
