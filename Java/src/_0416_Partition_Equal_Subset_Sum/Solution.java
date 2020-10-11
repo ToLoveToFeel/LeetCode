@@ -9,9 +9,9 @@ package _0416_Partition_Equal_Subset_Sum;
 class Solution {
     // 使用nums[0...index]，是否可以填满一个容量为sum的背包
     private boolean tryPartition(int[] nums, int index, int sum) {
-        if (sum ==0)
+        if (sum == 0)
             return true;
-        if (sum < 0  || index<0)
+        if (sum < 0 || index < 0)
             return false;
 
         return tryPartition(nums, index - 1, sum) ||
