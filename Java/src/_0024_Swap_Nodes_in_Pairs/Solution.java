@@ -6,7 +6,7 @@ public class Solution {
         dummyHead.next = head;
 
         ListNode p = dummyHead;
-        while (null != p.next && null != p.next.next){
+        while (p.next != null && p.next.next != null) {
             ListNode node1 = p.next;
             ListNode node2 = node1.next;
             ListNode next = node2.next;
@@ -22,12 +22,11 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3 ,4};
-        ListNode head = new ListNode(nums);
-        System.out.println(head);
+        // 创建链表，获取链表头结点
+        ListNode head = (new MyLinkedList(new int[]{1, 2, 3, 4})).getHead();
+        MyLinkedList.printLinkedList(head);
 
-        ListNode ret = (new Solution()).swapPairs(head);
-
-        System.out.println(ret);
+        head = (new Solution()).swapPairs(head);
+        MyLinkedList.printLinkedList(head);
     }
 }
