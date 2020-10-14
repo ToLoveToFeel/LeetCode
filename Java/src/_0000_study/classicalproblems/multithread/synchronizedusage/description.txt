@@ -1,0 +1,5 @@
+关于 synchronized 的使用
+
+synchronized两种用法：
+    对象锁：包括 方法锁 （默认锁对象为this当前实例对象）和 同步代码块锁 （自己指定锁对象）
+    类锁：值synchronized修饰静态的方法 或 指定锁为class对象。
