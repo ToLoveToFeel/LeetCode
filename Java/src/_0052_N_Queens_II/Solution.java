@@ -32,8 +32,8 @@ public class Solution {
 
     public int totalNQueens(int n) {
         col = new boolean[n];
-        dia1 = new boolean[2 * n + 1];
-        dia2 = new boolean[2 * n + 1];
+        dia1 = new boolean[2 * n - 1];
+        dia2 = new boolean[2 * n - 1];
 
         totalNQueens(n, 0);
 
