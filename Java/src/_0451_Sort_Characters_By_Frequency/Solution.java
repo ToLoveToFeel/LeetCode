@@ -21,12 +21,13 @@ public class Solution {
 
         String res = "";
         List<Map.Entry<Character, Integer>> list = new ArrayList<>(map.entrySet()); //转换为list
-        list.sort(new Comparator<Map.Entry<Character, Integer>>() {
-            @Override
-            public int compare(Map.Entry<Character, Integer> o1, Map.Entry<Character, Integer> o2) {
-                return o2.getValue().compareTo(o1.getValue());
-            }
-        });
+//        list.sort(new Comparator<Map.Entry<Character, Integer>>() {
+//            @Override
+//            public int compare(Map.Entry<Character, Integer> o1, Map.Entry<Character, Integer> o2) {
+//                return o2.getValue().compareTo(o1.getValue());
+//            }
+//        });
+        list.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
 
         for (int i = 0; i < list.size(); i++){
             char c = list.get(i).getKey();
