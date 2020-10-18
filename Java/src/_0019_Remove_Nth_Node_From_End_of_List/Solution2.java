@@ -15,7 +15,7 @@ public class Solution2 {
         for (int i = 0; i < n + 1; i++)
             q = q.next;
 
-        while (null != q){
+        while (q != null) {
             p = p.next;
             q = q.next;
         }
@@ -26,12 +26,11 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        int n = 5;
-        ListNode head = new ListNode(arr);
-        System.out.println(head);
+        int n = 2;
+        // 创建链表，获取链表头结点
+        ListNode head = (new MyLinkedList(new int[]{1, 2, 3, 4, 5})).getHead();
 
-        head = (new Solution()).removeNthFromEnd(head, n);
-        System.out.println(head);
+        head = (new Solution2()).removeNthFromEnd(head, n);
+        MyLinkedList.printLinkedList(head);
     }
 }

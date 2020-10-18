@@ -9,8 +9,8 @@ public class Solution {
         int delNum = 0;  // 存储正数要删除的元素位置，head位置为1
 
         ListNode curNode = head;
-        while (curNode != null){
-            count ++;
+        while (curNode != null) {
+            count++;
             curNode = curNode.next;
         }
 
@@ -29,12 +29,11 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        int n = 1;
-        ListNode head = new ListNode(arr);
-        System.out.println(head);
+        int n = 2;
+        // 创建链表，获取链表头结点
+        ListNode head = (new MyLinkedList(new int[]{1, 2, 3, 4, 5})).getHead();
 
         head = (new Solution()).removeNthFromEnd(head, n);
-        System.out.println(head);
+        MyLinkedList.printLinkedList(head);
     }
 }
