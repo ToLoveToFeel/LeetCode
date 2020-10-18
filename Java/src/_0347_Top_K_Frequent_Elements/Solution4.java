@@ -3,7 +3,7 @@ package _0347_Top_K_Frequent_Elements;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.HashMap;
-import java.util.PriorityQueue; //默认最小堆
+import java.util.PriorityQueue;  // 默认最小堆
 
 class Solution4 {
     public List<Integer> topKFrequent(int[] nums, int k) {

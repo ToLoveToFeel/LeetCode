@@ -2,7 +2,7 @@
 // Time    :  2020-01-26
 package _0451_Sort_Characters_By_Frequency;
 
-import java.util.PriorityQueue;
+import java.util.PriorityQueue;  // 默认小顶堆
 
 public class Solution2 {
     public String frequencySort(String s) {
