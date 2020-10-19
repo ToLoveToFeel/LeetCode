@@ -24,6 +24,7 @@ public class Solution {
         while (!stack.isEmpty())
             sb.append(stack.pop());
 
+//        return sb.toString();
         return sb.reverse().toString();
     }
 
