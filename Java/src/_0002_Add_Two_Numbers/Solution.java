@@ -39,4 +39,13 @@ class Solution {
 
         return dummyHead.next;
     }
+
+    public static void main(String[] args) {
+        // 创建链表，获取链表头结点
+        ListNode l1 = (new MyLinkedList(new int[]{2, 4, 3})).getHead();
+        ListNode l2 = (new MyLinkedList(new int[]{5, 6, 4})).getHead();
+
+        ListNode l = (new Solution()).addTwoNumbers(l1, l2);
+        MyLinkedList.printLinkedList(l);
+    }
 }
