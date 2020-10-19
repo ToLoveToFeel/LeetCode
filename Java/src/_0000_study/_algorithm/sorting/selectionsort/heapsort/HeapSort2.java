@@ -15,7 +15,7 @@ public class HeapSort2 {
     public static void sort(Comparable[] arr) {
 
         int n = arr.length;
-        MaxHeap<Comparable> maxHeap = new MaxHeap<Comparable>(arr);
+        MaxHeap<Comparable> maxHeap = new MaxHeap<>(arr);
         for (int i = n - 1; i >= 0; i--)
             arr[i] = maxHeap.extractMax();
     }

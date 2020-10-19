@@ -106,7 +106,7 @@ public class MaxHeap<Item extends Comparable> {
     // 测试 MaxHeap
     public static void main(String[] args) {
 
-        MaxHeap<Integer> maxHeap = new MaxHeap<Integer>(100);
+        MaxHeap<Integer> maxHeap = new MaxHeap<>(100);
         int N = 100; // 堆中元素个数
         int M = 100; // 堆中元素取值范围[0, M)
         for (int i = 0; i < N; i++)

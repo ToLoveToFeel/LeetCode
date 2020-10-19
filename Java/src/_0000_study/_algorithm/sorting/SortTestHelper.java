@@ -5,7 +5,7 @@ import java.lang.Class;
 
 public class SortTestHelper {
 
-    public static final String packagePrefix = "_0000_classicalProblems._algorithm.sorting";
+    public static final String packagePrefix = "_0000_study._algorithm.sorting";
 
     // SortTestHelper不允许产生任何实例
     private SortTestHelper(){}
