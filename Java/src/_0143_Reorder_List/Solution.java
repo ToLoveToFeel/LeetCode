@@ -20,7 +20,7 @@ public class Solution {
         ListNode newHead = slowNode.next;
         slowNode.next = null;
 
-        // 将后一个链表翻转，后一个链表的头结点为 newHead，链表翻转可以参考 Leetcode 0203
+        // 将后一个链表翻转，后一个链表的头结点为 newHead，链表翻转可以参考 Leetcode 0206
         newHead = reverseList(newHead);
 
         // 将两个链表交叉拼接在一起
