@@ -30,6 +30,7 @@ public class PreparedStatementQueryTest {
         orderList.forEach(System.out::println);
     }
 
+    // 针对于不同的表的通用的查询操作，返回表中的记录集合
     public <T> List<T> getForList(Class<T> clazz, String sql, Object... args) {
         Connection conn = null;
         PreparedStatement ps = null;
@@ -50,10 +51,10 @@ public class PreparedStatementQueryTest {
             // 通过 ResultSetMetaData 获取结果集中的列数
             int columnCount = rsmd.getColumnCount();
             //创建集合对象
-            ArrayList<T> list = new ArrayList<T>();
+            ArrayList<T> list = new ArrayList<>();
             while (rs.next()) {
                 T t = clazz.newInstance();
-                // 处理结果集一行数据中的每一个列:给t对象指定的属性赋值
+                // 处理结果集一行数据中的每一个列: 给t对象指定的属性赋值
                 for (int i = 0; i < columnCount; i++) {
                     // 获取列值
                     Object columValue = rs.getObject(i + 1);
@@ -135,6 +136,7 @@ public class PreparedStatementQueryTest {
             // 5.资源的关闭
             JDBCUtils.closeResource(conn, ps, rs);
         }
+
         return null;
     }
 }
