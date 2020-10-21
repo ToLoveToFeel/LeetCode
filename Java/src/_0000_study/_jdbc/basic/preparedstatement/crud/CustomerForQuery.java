@@ -1,4 +1,4 @@
-package _0000_study._jdbc.basic.preparedstatementcrud;
+package _0000_study._jdbc.basic.preparedstatement.crud;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;
@@ -7,14 +7,12 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 
-import _0000_study._jdbc.basic.preparedstatementcrud.bean.Customer;
+import _0000_study._jdbc.basic.preparedstatement.bean.Customer;
 import _0000_study._jdbc.util.JDBCUtils;
 import org.junit.Test;
 
 /**
- * @author shkstart  Email:shkstart@126.com
- * @Description 针对于Customers表的查询操作
- * @date 上午10:04:55
+ * 针对于Customers表的查询操作
  */
 public class CustomerForQuery {
 

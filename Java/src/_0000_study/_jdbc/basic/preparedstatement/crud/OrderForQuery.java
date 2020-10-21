@@ -1,4 +1,4 @@
-package _0000_study._jdbc.basic.preparedstatementcrud;
+package _0000_study._jdbc.basic.preparedstatement.crud;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;
@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 
-import _0000_study._jdbc.basic.preparedstatementcrud.bean.Order;
+import _0000_study._jdbc.basic.preparedstatement.bean.Order;
 import _0000_study._jdbc.util.JDBCUtils;
 import org.junit.Test;
 

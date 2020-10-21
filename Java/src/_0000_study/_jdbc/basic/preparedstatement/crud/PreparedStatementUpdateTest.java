@@ -1,4 +1,4 @@
-package _0000_study._jdbc.basic.preparedstatementcrud;
+package _0000_study._jdbc.basic.preparedstatement.crud;
 
 import _0000_study._jdbc.util.JDBCUtils;
 import org.junit.Test;

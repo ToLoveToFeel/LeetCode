@@ -1,4 +1,4 @@
-package _0000_study._jdbc.basic.preparedstatementcrud.bean;
+package _0000_study._jdbc.basic.preparedstatement.bean;
 
 import java.sql.Date;
 
