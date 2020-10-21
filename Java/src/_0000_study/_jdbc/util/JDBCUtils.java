@@ -37,36 +37,28 @@ public class JDBCUtils {
         return conn;
     }
 
+    // 关闭 Connection 的操作
+    public static void closeResource(Connection conn) {
+        closeResource(conn, null, null);
+    }
 
-    // 关闭连接和Statement的操作
+    // 关闭 Connection 和 Statement 的操作
     public static void closeResource(Connection conn, Statement ps) {
-        try {
-            if (ps != null)
-                ps.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            if (conn != null)
-                conn.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        closeResource(conn, ps, null);
     }
 
     // 关闭资源操作
     public static void closeResource(Connection conn, Statement ps, ResultSet rs) {
         try {
-            if (ps != null)
-                ps.close();
+            if (conn != null)
+                conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
         try {
-            if (conn != null)
-                conn.close();
+            if (ps != null)
+                ps.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -233,5 +225,31 @@ public class JDBCUtils {
         }
 
         return null;
+    }
+
+    /*
+     * 考虑事务之后的更新操作，senior包中才用到这些函数
+     */
+    // 通用的增删改操作---version 2.0 （考虑上事务）
+    public static int updateRowWithTx(Connection conn, String sql, Object... args) {  // sql中占位符的个数与可变形参的长度相同！
+        PreparedStatement ps = null;
+        try {
+            // 1.获取数据库的连接 ---- 此时不需要这一步骤
+
+            // 2.预编译sql语句，返回PreparedStatement的实例
+            ps = conn.prepareStatement(sql);
+            // 3.填充占位符
+            for (int i = 0; i < args.length; i++) {
+                ps.setObject(i + 1, args[i]);  // 小心参数声明错误！！
+            }
+            // 4.执行
+            return ps.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 5.资源的关闭
+            JDBCUtils.closeResource(null, ps);
+        }
+        return 0;
     }
 }

@@ -2,3 +2,35 @@
 JDBC的使用
 
 https://www.cnblogs.com/dadian/p/11936056.html
+
+一些命令：
+    cmd登陆mysql: mysql -u root -p123456
+    创建mysql数据库用户: create user tom identified by '123456';
+    授予权限:
+        # 授予通过网络方式登录的tom用户，对所有库所有表的全部权限，密码设为 123456.
+        grant all privileges on *.* to tom@'%'  identified by '123456';
+        # 给tom用户使用本地命令行方式，授予atguigudb这个库下的所有表的插删改查的权限。
+        grant select,insert,delete,update on atguigudb.* to tom@localhost identified by '123456';
+    查看当前的隔离级别: SELECT @@tx_isolation;
+    设置当前 mySQL 连接的隔离级别: set transaction isolation level read committed;
+    设置数据库系统的全局的隔离级别: set global transaction isolation level read committed;
+
+DDL(Data Definition Language 数据定义语言)用于操作对象和对象的属性:
+    Create、Drop、Alter等
+DML(Data Manipulation Language 数据操控语言)用于操作数据库对象中包含的数据，也就是说操作的单位是记录：
+    insert、delete、update
+DQL(Data Query Language 数据查询语言)：
+    select
+DCL(Data Control Language 数据控制语句)的操作是数据库对象的权限，这些操作的确定使数据更加的安全:
+    grant、revoke
+
+
+面试题1：PreparedStatement vs. Statement 对比
+    (1) 都是Oracle(Sun)公司jdbc接口中定义的规范，不是第三方的，都是接口，即面向接口编程，同时PreparedStatement是Statement的子接口;
+    (2) 两者作用相当于信使，目的是将sql语句送到数据库;
+    (3) 开发当中，不使用Statement，都是使用PreparedStatement，替换的原因有四点：
+        (3.1) Statement存在拼串操作，繁琐;
+        (3.2) Statement存在SQL注入问题;
+        (3.3) PreparedStatement可以操作Blob字段;
+        (3.4) PreparedStatement在批量插入操作时效率比较高(预编译：语法检查，语义检查只需要进行一次; 可以缓存sql语句，最后一次性提交);
+

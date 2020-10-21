@@ -103,7 +103,7 @@ public class ConnectionTest {
      * 2.如果需要修改配置文件信息，可以避免程序重新打包。
      */
     @Test
-    public void getConnection5() throws Exception {
+    public void getConnection() throws Exception {
 
         // 1.读取配置文件中的4个基本信息
         InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH);
