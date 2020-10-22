@@ -252,4 +252,125 @@ public class JDBCUtils {
         }
         return 0;
     }
+
+    // 通用的查询操作，用于返回数据表中的一条记录（version 2.0：考虑上事务）
+    public static <T> T getInstanceWithTx(Connection conn, Class<T> clazz, String sql, Object... args) {
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            // 1.获取数据库的连接 ---- 此时不需要这一步骤
+
+            // 2.预编译sql语句，返回PreparedStatement的实例
+            ps = conn.prepareStatement(sql);
+            // 3.填充占位符
+            for (int i = 0; i < args.length; i++) {
+                ps.setObject(i + 1, args[i]);
+            }
+            // 4.执行,并返回结果集
+            rs = ps.executeQuery();
+            // 获取结果集的元数据: ResultSetMetaData
+            ResultSetMetaData rsmd = rs.getMetaData();
+            // 通过 ResultSetMetaData 获取结果集中的列数
+            int columnCount = rsmd.getColumnCount();
+            if (rs.next()) {
+                T t = clazz.newInstance();
+                // 处理结果集一行数据中的每一个列
+                for (int i = 0; i < columnCount; i++) {
+                    // 获取列值
+                    Object columValue = rs.getObject(i + 1);
+
+                    // 获取每个列的列名
+                    // String columnName = rsmd.getColumnName(i + 1);
+                    String columnLabel = rsmd.getColumnLabel(i + 1);
+
+                    // 给t对象指定的columnName属性，赋值为columValue：通过反射
+                    Field field = clazz.getDeclaredField(columnLabel);
+                    field.setAccessible(true);
+                    field.set(t, columValue);
+                }
+                return t;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 5.资源的关闭
+            JDBCUtils.closeResource(null, ps, rs);
+        }
+
+        return null;
+    }
+
+    // 通用的查询操作，用于返回数据表中的记录集合（version 2.0：考虑上事务）
+    public static <T> List<T> getForListWithTx(Connection conn, Class<T> clazz, String sql, Object... args) {
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            // 1.获取数据库的连接 ---- 此时不需要这一步骤
+
+            // 2.预编译sql语句，返回PreparedStatement的实例
+            ps = conn.prepareStatement(sql);
+            // 3.填充占位符
+            for (int i = 0; i < args.length; i++) {
+                ps.setObject(i + 1, args[i]);
+            }
+            // 4.执行,并返回结果集
+            rs = ps.executeQuery();
+            // 获取结果集的元数据: ResultSetMetaData
+            ResultSetMetaData rsmd = rs.getMetaData();
+            // 通过 ResultSetMetaData 获取结果集中的列数
+            int columnCount = rsmd.getColumnCount();
+            //创建集合对象
+            ArrayList<T> list = new ArrayList<>();
+            while (rs.next()) {
+                T t = clazz.newInstance();
+                // 处理结果集一行数据中的每一个列: 给t对象指定的属性赋值
+                for (int i = 0; i < columnCount; i++) {
+                    // 获取列值
+                    Object columValue = rs.getObject(i + 1);
+
+                    // 获取每个列的列名
+                    // String columnName = rsmd.getColumnName(i + 1);
+                    String columnLabel = rsmd.getColumnLabel(i + 1);
+
+                    // 给t对象指定的columnName属性，赋值为columValue：通过反射
+                    Field field = clazz.getDeclaredField(columnLabel);
+                    field.setAccessible(true);
+                    field.set(t, columValue);
+                }
+                list.add(t);
+            }
+            return list;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 5.资源的关闭
+            JDBCUtils.closeResource(null, ps, rs);
+        }
+
+        return null;
+    }
+
+    // 返回数据库当前会话(Session)的隔离级别
+    public static String getTransactionIsolation(Connection conn) throws SQLException {
+        int level = conn.getTransactionIsolation();
+        switch (level) {
+            case 0:
+                return "TRANSACTION_NONE";
+            case 1:
+                return "TRANSACTION_READ_UNCOMMITTED";
+            case 2:
+                return "TRANSACTION_READ_COMMITTED";
+            case 4:
+                return "TRANSACTION_REPEATABLE_READ";
+            case 8:
+                return "TRANSACTION_SERIALIZABLE";
+        }
+
+        throw new RuntimeException("Error Transaction Isolation Level!");
+    }
+
+    // 设置数据库的隔离级别，只能更改当前 Session 的隔离级别
+    public static void setTransactionIsolation(Connection conn, int level) throws SQLException {
+        conn.setTransactionIsolation(level);  // mysql源码中有错误检查
+    }
 }

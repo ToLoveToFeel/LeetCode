@@ -72,4 +72,22 @@ public class TransactionTest {
             JDBCUtils.closeResource(conn);
         }
     }
+
+    // 设置、获取数据库当前会话(Session)的隔离级别
+    @Test
+    public void testTransactionIsolationLevel() {
+        Connection conn = null;
+        try {
+            // 获取连接
+            conn = JDBCUtils.getConnection();
+            // 设置当前连接 conn 的隔离级别
+            JDBCUtils.setTransactionIsolation(conn, Connection.TRANSACTION_READ_COMMITTED);
+            // 获取当前连接 conn 的隔离级别
+            System.out.println(JDBCUtils.getTransactionIsolation(conn));
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.closeResource(conn);
+        }
+    }
 }

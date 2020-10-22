@@ -9,8 +9,8 @@ https://www.cnblogs.com/dadian/p/11936056.html
     授予权限:
         # 授予通过网络方式登录的tom用户，对所有库所有表的全部权限，密码设为 123456.
         grant all privileges on *.* to tom@'%'  identified by '123456';
-        # 给tom用户使用本地命令行方式，授予atguigudb这个库下的所有表的插删改查的权限。
-        grant select,insert,delete,update on atguigudb.* to tom@localhost identified by '123456';
+        # 给tom用户使用本地命令行方式，授予 test 这个库下的所有表的插删改查的权限。
+        grant select,insert,delete,update on test.* to tom@localhost identified by '123456';
     查看当前的隔离级别: SELECT @@tx_isolation;
     设置当前 mySQL 连接的隔离级别: set transaction isolation level read committed;
     设置数据库系统的全局的隔离级别: set global transaction isolation level read committed;
