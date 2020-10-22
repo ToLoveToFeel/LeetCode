@@ -13,12 +13,12 @@ import java.util.Properties;
  */
 public class JDBCUtils {
     // 配置文件路径
-    public static final String PORPERTYPATH = "_0000_study\\_jdbc\\util\\jdbc.properties";
+    public static final String PORPERTYPATH = "_0000_study\\_jdbc\\util\\";
 
     // 获取数据库的连接
     public static Connection getConnection() throws Exception {
         // 1.读取配置文件中的4个基本信息
-        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream(PORPERTYPATH);
+        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream(PORPERTYPATH + "jdbc.properties");
 
         Properties pros = new Properties();
         pros.load(is);
@@ -398,7 +398,7 @@ public class JDBCUtils {
             // 5.资源的关闭
             JDBCUtils.closeResource(null, ps, rs);
         }
-        
+
         return null;
     }
 }
