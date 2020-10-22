@@ -373,4 +373,32 @@ public class JDBCUtils {
     public static void setTransactionIsolation(Connection conn, int level) throws SQLException {
         conn.setTransactionIsolation(level);  // mysql源码中有错误检查
     }
+
+    // 用于查询特殊值的通用方法 比如：SELECT COUNT(*) FROM user_table;
+    public static <E> E getValue(Connection conn, String sql, Object... args) {
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            // 1.获取数据库的连接 ---- 此时不需要这一步骤
+
+            // 2.预编译sql语句，返回PreparedStatement的实例
+            ps = conn.prepareStatement(sql);
+            // 3.填充占位符
+            for (int i = 0; i < args.length; i++) {
+                ps.setObject(i + 1, args[i]);
+            }
+            // 4.执行,并返回结果集
+            rs = ps.executeQuery();
+            if (rs.next()) {
+                return (E) rs.getObject(1);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            // 5.资源的关闭
+            JDBCUtils.closeResource(null, ps, rs);
+        }
+        
+        return null;
+    }
 }

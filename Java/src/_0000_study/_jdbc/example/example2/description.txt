@@ -1,0 +1,4 @@
+example2 是 example1 的升级版，升级的内容：
+    BaseDao中的函数 getInstanceWithTx 和 getForListWithTx 参数减少了 Class clazz
+
+
