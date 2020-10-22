@@ -47,7 +47,7 @@ public class StatementTest {
         ResultSet rs = null;
         try {
             // 1.加载配置文件
-            InputStream is = StatementTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH);
+            InputStream is = StatementTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH  + "jdbc.properties");
             Properties pros = new Properties();
             pros.load(is);
 

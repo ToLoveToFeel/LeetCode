@@ -106,7 +106,7 @@ public class ConnectionTest {
     public void getConnection() throws Exception {
 
         // 1.读取配置文件中的4个基本信息
-        InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH);
+        InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH  + "jdbc.properties");
 
         Properties pros = new Properties();
         pros.load(is);
