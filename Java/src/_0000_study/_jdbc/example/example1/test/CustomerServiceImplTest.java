@@ -99,7 +99,7 @@ public class CustomerServiceImplTest {
     public void testGetCount() {
         Connection conn = null;
         try {
-            conn = JDBCUtils.getConnectionUsingDruid();
+            conn = JDBCUtils.getConnection();
 
             Long count = dao.getCount(conn);
 

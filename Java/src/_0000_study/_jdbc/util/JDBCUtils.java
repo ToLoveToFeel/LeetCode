@@ -1,12 +1,5 @@
 package _0000_study._jdbc.util;
 
-import com.alibaba.druid.pool.DruidDataSourceFactory;
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-import org.apache.commons.dbcp.BasicDataSourceFactory;
-
-import javax.sql.DataSource;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.sql.*;
@@ -16,7 +9,7 @@ import java.util.Properties;
 
 /**
  * Date: 2020/10/20 20:20
- * Content:
+ * Content: 此 utils 自己实现 JDBC
  */
 public class JDBCUtils {
     // 配置文件路径, DBCP连接池需要 src\\
@@ -43,50 +36,6 @@ public class JDBCUtils {
         Connection conn = DriverManager.getConnection(url, user, password);
 
         return conn;
-    }
-
-//    // 使用数据库连接池 C3P0 获取数据库的连接
-//    // 这里被注释掉是因为每次加载该类时 C3P0 都会输出信息，不注释也没什么错误
-//    private static ComboPooledDataSource C3P0source = new ComboPooledDataSource("helloc3p0");
-//
-//    public static Connection getConnectionUsingC3P0() throws Exception {
-//        return C3P0source.getConnection();
-//    }
-
-    // 使用数据库连接池 DBCP 获取数据库的连接
-    private static DataSource DBCPsource;
-
-    static {
-        try {
-            Properties pros = new Properties();
-            FileInputStream is = new FileInputStream(new File(JDBCUtils.PORPERTYPATHSRC + "dbcp.properties"));
-            pros.load(is);
-            DBCPsource = BasicDataSourceFactory.createDataSource(pros);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static Connection getConnectionUsingDBCP() throws Exception {
-        return DBCPsource.getConnection();
-    }
-
-    // 使用数据库连接池 Druid 获取数据库的连接
-    private static DataSource Druidsource;
-
-    static {
-        try {
-            Properties pros = new Properties();
-            InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH + "druid.properties");
-            pros.load(is);
-            Druidsource = DruidDataSourceFactory.createDataSource(pros);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static Connection getConnectionUsingDruid() throws Exception {
-        return Druidsource.getConnection();
     }
 
     // 关闭 Connection 的操作
