@@ -5,7 +5,7 @@ package _0000_study.classicalproblems.designpattern.singleton;
  * Content:
  * 懒汉式：双重检查
  */
-public class Singleton {
+public class Singleton {  // 典型例子：ExtClassLoader 扩展类加载器
     private static volatile Singleton instance;
 
     private Singleton() {
