@@ -23,7 +23,7 @@ public class Solution2 {
         int curEnd = 0;  // 记录当前遍历到的 区间最大结束位置
         int res = 0;  // 记录结果
         for (int i = 0; i < T; i++) {
-            curEnd = Math.max(curEnd, maxEnd[i]);
+            curEnd = Math.max(curEnd, maxEnd[i]);  // [0...i]为起始所能到达的最远距离
             if (i == curEnd)  // 当前元素 == 本区间最大元素(无法到达后续位置)
                 return -1;
             if (i == preEnd) {  // 当前元素 == 上一个区间的最大元素
