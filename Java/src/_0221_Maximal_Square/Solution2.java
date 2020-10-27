@@ -4,7 +4,7 @@ package _0221_Maximal_Square;
  * Date: 2020/10/27 13:38
  * Content:
  * 动态规划
- * 状态：dp[i][j]: 表示以matrix[i][j]为右下角，且只包含 1 的正方形的变长最大值
+ * 状态：dp[i][j]: 表示以matrix[i][j]为右下角，且只包含 1 的正方形的边长最大值
  * 状态转移：
  * dp[i][j] = Math.min(dp[i-1][j-1], Math.min(dp[i-1][j], dp[i][j-1])) + 1，如果 matrix[i][j] == '1'
  * dp[i][j] = 0，如果 matrix[i][j] == '0'
