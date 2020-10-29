@@ -41,6 +41,8 @@ redis杂项:
     启动redis客户端: redis-cli.exe
     关闭redis: 在客户端输入shutdown，服务端就可以关闭
 
+    set k1 v1 : 设置键值对
+    get k1 : 获取键 k1 对应的值
     select命令用于切换数据库(一共16个数据库: 0-15, 默认0号库): select 1
     dbsize: 查看当前数据库的key的数量
     keys *: 查看当前库的键值对
@@ -50,6 +52,7 @@ redis杂项:
     统一密码管理，16个库都是同样密码，要么都OK，要么一个也连接不上
     默认端口是6379
 
+
 redis数据类型(五大数据类型):
     String: 字符串                 最基本的数据类型，一个字符串value最多可以使512M。
     List: 列表                     字符串列表，底层实际是一个链表。
@@ -58,6 +61,64 @@ redis数据类型(五大数据类型):
     Zset(sorted set): 有序集合      每个元素会关联一个double类型的分数(分数可重复)，根据分数排序，
 
     redis命令网址: https://redis.io/commands#
+
+redis键(key):
+    keys * : 查看库中的所有键
+    exists k1 : 判断以 k1 为键的键值对是否存在
+    move k1 2 : 将以 k1 为键的键值对移到2号库中
+    expire k1 10 : 设置以 k1 为键的键值对过期时间是10s
+    ttl k1 : 查看以 k1 为键的键值对还有多长时间过期(-1表示永不过期, -2表示已经过期)
+    type k1 : 查看键 k1 的类型
+
+redis字符串(string): 键值一一对应
+    set/get/del/append/strlen
+    incr/decr/incrby/decrby     一定要是数字才能进行加减
+    getrange/setrange
+    setex(set with expire) 键 秒 值 / setnx(set if not exist)
+    mset/mget/msetnx
+    getset(先get再set)
+
+redis列表(list): 一个键对应多个值
+    lpush/rpush/lrange
+    lpop/rpop
+    lindex : 按照索引下标获得元素(从上到下)
+    llen : 获取长度
+    lrem key 删N个value : lrem list01 2 3  (删除list01中的2个3)
+    ltrim key 开始index 结束index : 截取指定范围的值后再赋值给 key
+    rpoplpush 源列表 目的列表
+    lset key index value
+    linset key before/after 值1 值2
+
+redis集合(set): 一个键对应多个值
+    sadd/smembers/sismember
+    scard : 获取集合中的元素个数
+    srem key value : 删除集合中的元素
+    srandmember key 某个整数n : 在集合key中随机选择n个数字
+    spop key : 随机出栈
+    smove key1 key2 在key1里的某个值 : 作用是将key1里的某个值赋给key2
+    数学集合类:
+        sdiff
+        sinter
+        sunion
+
+redis哈希(hash): KV模式不变，但V是一个键值对
+    hset/hget/hmset/hmget/hgetall/hdel
+    hlen
+    hexists key 在key里面的某个值的key
+    hkeys/hvals
+    hincrby/hincrbyfloat
+    hsetnx
+
+redis有序集合(zset): 在set的基础上，加上一个score值。之前是set k1 v1 v2, 现在是zset k1 score1 v1 k2 score2 v2
+    zadd/zrange
+    zrangebyscore key 开始score 结束score
+    zrem key 某score下对应的value值 : 删除元素
+    zcard/zcount key score区间/zrank key values值 : 获取下标志/zscore key对应值，获得分数
+    zrevrank key values值 : 逆序获得下标值
+    zrevrange
+    zrevrangebyscore key 开始score 结束score
+
+
 
 
 
