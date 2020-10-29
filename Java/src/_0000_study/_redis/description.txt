@@ -1,8 +1,63 @@
-redis
-    非关系型数据库
 
-nosql: not only sql
-    特点：易扩展，大数据量高性能，多样灵活的数据模型
+redis(REmote DIcationary Server):
+    远程字典服务器，是一个高性能的key-value分布式内存数据库
+    特点：KV、Cache、Persistence
+redis在线命令行: https://try.redis.io/
+redis学习: https://www.runoob.com/redis/redis-install.html
+
+传统的ACID分别是什么？
+    A(Atomicity)    原子性
+    C(Consistency)  一致性
+    I(Isolation)    隔离性
+    D(Durability)   持久性
+
+NoSQL: not only sql
+    NoSQL特点：易扩展，大数据量高性能，多样灵活的数据模型
+    NoSQL数据模型简介：KV键值、Bson、列族、图形
+    NoSQL四大分类：KV键值(redis、memcache、tair)、文档型数据库(Bson格式较多,mongoDB)、
+                 列存储数据库(HBase)、图关系数据库(Neo4J、InfoGrid)
+    CAP原理(CAP的3进2)：
+        C(Consistency)          强一致性
+        A(Availability)         可用性
+        P(Partition tolerance)  分区容错性
+    BASE: 思想是通过让系统放松对某一时刻数据一致性的要求来换取 AP
+        基本可用(Basically Available)
+        软状态(Soft state)
+        最终一致性(Eventually consistent)
+
+CAP的3进2:
+    CAP理论的核心是：一个分布式系统不可能同时很好的满足 一致性、可用性 和 分区容错性这三个需求，最多只能较好的满足两个。
+    因此，根据CAP原理将 NoSQL 数据库分成满足 CA 原则、满足 CP 原则、满足 AP 原则三大类：
+        CA: 单点集群。满足一致性，可用性的系统，通常在可扩展性上不太强大。传统Oracle数据库，RDBMS
+        CP: 满足一致性，分区容错性的系统，通常性能不是特别高。Redis、Mongodb
+        AP: 满足可用性，分区容错性的系统，通常可能对一致性要求低一些。
+            大多数网站架构的选择：比如双十一，可以允许某些数据的不一致（比如浏览量、点赞量等，保证最终一致性即可）
+
+分布式：不同的多态服务器上面步数不同的服务模块（工程），他们之间通过RPC/RMI之间通信和调用，对外提供服务和组内协作。
+集群：不同的多态服务器上面部署相同的服务模块，通过分布式调度软件进行统一的调度，对外提供服务和访问。
+
+redis杂项:
+    启动redis服务器: redis-server.exe
+    启动redis客户端: redis-cli.exe
+    关闭redis: 在客户端输入shutdown，服务端就可以关闭
+
+    select命令用于切换数据库(一共16个数据库: 0-15, 默认0号库): select 1
+    dbsize: 查看当前数据库的key的数量
+    keys *: 查看当前库的键值对
+    flushdb: 清空当前库
+    flushall: 通杀全部库
+
+    统一密码管理，16个库都是同样密码，要么都OK，要么一个也连接不上
+    默认端口是6379
+
+redis数据类型(五大数据类型):
+    String: 字符串                 最基本的数据类型，一个字符串value最多可以使512M。
+    List: 列表                     字符串列表，底层实际是一个链表。
+    Set: 集合                      string类型的无序集合，通过HashTable实现的。
+    Hash: 哈希                     是一个String类型的field和value的映射表，特别适用于存储对象。
+    Zset(sorted set): 有序集合      每个元素会关联一个double类型的分数(分数可重复)，根据分数排序，
+
+    redis命令网址: https://redis.io/commands#
 
 
 
