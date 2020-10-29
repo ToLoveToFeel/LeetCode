@@ -26,6 +26,14 @@ DCL(Data Control Language 数据控制语句)的操作是数据库对象的权�
 
 basic --> senior --> example --> connectionpool --> dbutils
 
+jdbc相关jar包:
+    c3p0-0.9.1.2.jar
+    commons-dbcp-1.4.jar
+    commons-dbutils-1.3.jar
+    commons-pool-1.5.5.jar
+    druid-1.1.10.jar
+    mysql-connector-java-5.1.37-bin.jar
+
 面试题1：PreparedStatement vs. Statement 对比
     (1) 都是Oracle(Sun)公司jdbc接口中定义的规范，不是第三方的，都是接口，即面向接口编程，同时PreparedStatement是Statement的子接口;
     (2) 两者作用相当于信使，目的是将sql语句送到数据库;
