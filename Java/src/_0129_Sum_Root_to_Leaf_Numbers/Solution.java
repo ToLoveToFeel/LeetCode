@@ -8,13 +8,15 @@ import java.util.List;
  * Content:
  */
 public class Solution {
+    // 返回以 node 为根节点的所有数字的集合
     private List<String> searchNumbers(TreeNode node) {
         ArrayList<String> res = new ArrayList<>();
 
         if (node == null)
             return res;
-        if (node.left == null && node.right==null){
+        if (node.left == null && node.right == null) {
             res.add(Integer.toString(node.val));
+            return res;
         }
 
         List<String> leftPaths = searchNumbers(node.left);
@@ -52,8 +54,8 @@ public class Solution {
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
         int[] nums = new int[]{
                 4,
-                9,0,
-                5,1
+                9, 0,
+                5, 1
         };
 
         // 生成二叉树

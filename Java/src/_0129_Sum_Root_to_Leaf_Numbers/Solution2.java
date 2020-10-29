@@ -26,8 +26,8 @@ public class Solution2 {
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
         int[] nums = new int[]{
                 4,
-                9,0,
-                5,1
+                9, 0,
+                5, 1
         };
 
         // 生成二叉树
