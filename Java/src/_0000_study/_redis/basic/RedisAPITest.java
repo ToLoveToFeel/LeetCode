@@ -37,6 +37,8 @@ public class RedisAPITest {
         System.out.println(keys);  // [k3, k1, k2]
         // 获取当前库的大小(键值对的个数)
         System.out.println(jedis.dbSize());  // 3
+        // 将数据持久化到RDB，文件位置在redis服务端启动的位置
+        jedis.save();
     }
 
     @Test

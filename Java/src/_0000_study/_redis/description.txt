@@ -1,5 +1,5 @@
 
-redis(REmote DIcationary Server):
+redis(REmote DIctionary Server):
     远程字典服务器，是一个高性能的key-value分布式内存数据库
     特点：KV、Cache、Persistence
 redis在线命令行: https://try.redis.io/
@@ -119,10 +119,12 @@ redis有序集合(zset): 在set的基础上，加上一个score值。之前是se
     zrevrangebyscore key 开始score 结束score
 
 
+
+
 redis配置文件:
     位置 : redis安装目录下的redis.conf
     INCLUDES : 通过includes包含，redis.conf可以作为总闸，包含其他
-    GENERAL :
+    GENERAL* :
         daemonize no : 是否以守护进程方式开启，即开启后不显示内容
         pidfile /var/run/redis.pid : 进程管道id文件
         port 6379 : 端口
@@ -131,6 +133,138 @@ redis配置文件:
             在高并发环境下你需要一个backlog值来避免慢客户端连接问题。注意Linux内核会将这个值减小到/proc/sys/net/core/somaxconn的值，
             所以需要确认增大somaxconn和tcp_max_syn_backlog两个值来达到想要的效果。
         bind 127.0.0.1 : 端口的绑定
+        timeout : 超时断开连接时间设置(0代表不使用)
+        tcp-keepalive : 集群的时候为了确保其他的redis未断开连接，设置多少秒发送一次通知，一般设置为60
+        loglevel : 日志级别(一共四种日志级别: debug/verbose/notice/warning)
+        logfile : 日志名称
+        syslog-enabled : 系统日志(默认关闭), 是否把日志输出到syslog中
+        syslog-ident : 日志名称前缀, 指定syslog里的日志标志，值可以是USER或LOCAL0-LOCAL7
+        syslog-facility : 系统日志设备
+        databases : redis数据库的数量
+    SNAPSHOTTING :
+        save : save <seconds> <changes>, 如果想禁用RDB持久化的策略，只要不设置任何save指令，或者给save传入一个空字符串参数也可以
+               save 900 1 : 900s 之内至少发生了 1 次数据变更进行 RDB 持久化(15分钟1次)
+               save 300 10 : 300s 之内至少发生了 10 次数据变更进行 RDB 持久化(5分钟10次)
+               save 60 10000 : 60s 之内至少发生了 10000 次数据变更进行 RDB 持久化(1分钟1万次)
+               另外注意shutdown之后会立即进行持久化，然后进行关闭
+               直接输入save或者flushall，可以立即进行持久化RDB
+        stop-writes-on-bgsave-error : 后台持久化出错时是否停止前台客户端的写入(如set)
+               如果配置成no，表示你不在乎数据不一致或者有其他的手段发现和控制
+        rdbcompression : 对于存储到磁盘中的快照，可以设置是否进行压缩存储。如果是的话，redis会采用LZF算法进行压缩。
+               如果你不想消耗CPU来进行压缩的话，可以设置为关闭此功能。
+        rdbchecksum : 在存储快照后，还可以让redis使用CRC64算法来进行数据校验，但是这样做大约会增加10%的性能消耗，如果
+               希望获得最大的性能提升，可以关闭此功能。
+        dbfilename : 生成的RDB文件的名称，恢复的时候就是读取dir文件夹该文件
+        dir : 数据库文件快照存放的位置，默认是服务器启动的文件件(当前文件夹 ./)
+        两个命令：
+            save : 只管保存，其它不管，全部阻塞
+            bgsave : Redis会在后台异步进行快照操作，快照同时还可以响应客户端请求。可以通过lastsave命令获取最后一次成功执行快照的时间
+    SECURITY* :
+        默认关闭，可以通过客户端设置
+        设置密码 : config set requirepass "123456"
+        获取密码 : config get requirepass
+        设置密码后,输入命令前需要输入 : auth 123456
+    LIMITS* :
+        maxclients : 最多可以连接的客户端数目，默认10000
+        maxmemory : 达到该设定的最大内存，会选择指定策略移除缓存
+        maxmemory-policy : 缓存移除策略
+            # volatile-lru -> remove the key with an expire set using an LRU algorithm
+                使用LRU算法移除key，只对设置了过期时间的键
+            # allkeys-lru -> remove any key according to the LRU algorithm
+                使用LRU算法移除key
+            # volatile-random -> remove a random key with an expire set
+                随机移除key，只对设置了过期的key
+            # allkeys-random -> remove a random key, any key
+                随机移除key
+            # volatile-ttl -> remove the key with the nearest expire time (minor TTL)
+                移除那些TTL值最小的key，即那些最近要过期的key
+            # noeviction -> don't expire at all, just return an error on write operations
+                不进行移除。针对写操作，只是返回错误信息
+        maxmemory-samples : 设置样本数量，LRU算法和最小TTL算法都并非是精确的算法，而是估算值，所以你可以设置样本的大小，
+                            redis默认会检查这么多个key并选择其中LRU的那个
+    APPEND ONLY MODE :
+        appendonly : 是否开启aof，默认关闭
+        appendfilename : 生成的aof文件名称
+        appendfsync : 多久进行一次aof同步
+            always : 同步持久化 每次发生数据变更会被立即记录到磁盘  性能较差但数据完整性比较好
+            everysec : 出厂默认推荐，异步操作，每秒记录   如果一秒内宕机，有数据丢失
+            no : 不进行自动aof同步
+        no-appendfsync-on-rewrite : 重写时是否可以运用appendfsync，用默认no即可，保证数据安全性。
+        auto-aof-rewrite-min-size : 重写时基准值
+        auto-aof-rewrite-percentage : 触发重写的增量百分比(相对于上一次)
+
+
+
+
+redis持久化:
+    RDB(Redis DataBase):
+        是什么：在指定的时间间隔内将内存中的数据集快照写入磁盘,也就是行话讲的snapshot快照，它恢复时是将快照文件直接读到内存里
+            Redis会单独创建（fork）一个子进程来进行持久化，会先将数据写入到一个临时文件中，待持久化过程都结束了，再用这个临时
+            文件替换上次持久化好的文件。整个过程中，主进程是不进行任何IO操作的，这就确保了极高的性能如果需要进行大规模数据的恢
+            复，且对于数据恢复的完整性不是非常敏感，那RDB方式要比AOF方式更加的高效。RDB的缺点是最后一次持久化后的数据可能丢失。
+        RDB保存的是dump.rdb文件
+        三个命令：
+            save : 只管保存，其它不管，全部阻塞
+            bgsave : Redis会在后台异步进行快照操作，快照同时还可以响应客户端请求。可以通过lastsave命令获取最后一次成功执行快照的时间
+            执行flushall命令，也会产生dump.rdb文件，但里面是空的，无意义
+        如何恢复：将备份文件 (dump.rdb) 移动到 redis 安装目录并启动服务即可
+        优势：
+            适合大规模的数据恢复
+            对数据完整性和一致性要求不高
+        劣势：
+            在一定间隔时间做一次备份，所以如果redis意外down掉的话，就会丢失最后一次快照后的所有修改
+            Fork的时候，内存中的数据被克隆了一份，大致2倍的膨胀性需要考虑
+        如何停止：动态所有停止RDB保存规则的方法：redis-cli config set save ""
+    AOF(Append Only File):
+        是什么：以日志的形式来记录每个写操作(最佳)
+            将Redis执行过的所有写指令记录下来(读操作不记录)，只许追加文件但不可以改写文件，redis启动之初会读取该文件重新构建数据，
+            换言之，redis重启的话就根据日志文件的内容将写指令从前到后执行一次以完成数据的恢复工作。
+        Aof保存的是appendonly.aof文件
+        aof启动：appendonly yes
+        aof文件修复：redis-check-aof --fix appendonly.aof
+        如果aof和rdb持久化策略都开启，重启进行恢复的时候使用aof进行恢复，如果aof文件损坏，则无法启动服务，可用redis-check-aof恢复aof文件
+        rewrite:
+            是什么：AOF采用文件追加方式，文件会越来越大为避免出现此种情况，新增了重写机制,当AOF文件的大小超过所设定的阈值时，
+                Redis就会启动AOF文件的内容压缩，只保留可以恢复数据的最小指令集.可以使用命令bgrewriteaof。
+            重写原理：AOF文件持续增长而过大时，会fork出一条新进程来将文件重写(也是先写临时文件最后再rename)，遍历新进程的
+                内存中数据，每条记录有一条的Set语句。重写aof文件的操作，并没有读取旧的aof文件，而是将整个内存中的数据库内
+                容用命令的方式重写了一个新的aof文件，这点和快照有点类似。
+            触发机制：Redis会记录上次重写时的AOF大小，默认配置是当AOF文件大小是上次rewrite后大小的一倍
+                (通过auto-aof-rewrite-percentage配置)且文件大于64M(通过auto-aof-rewrite-min-size配置)时触发
+        优势：
+            数据完整性较好
+        劣势：
+            相同数据集的数据而言aof文件要远大于rdb文件，恢复速度慢于rdb
+            Aof运行效率(重启服务时读取文件的速度)要慢于rdb,每秒同步策略效率较好，不同步效率和rdb相同
+    如何选用？
+        RDB持久化方式能够在指定的时间间隔能对你的数据进行快照存储。
+        AOF持久化方式记录每次对服务器写的操作,当服务器重启的时候会重新执行这些命令来恢复原始的数据,AOF命令以redis协议追
+            加保存每次写的操作到文件末尾.Redis还能对AOF文件进行后台重写,使得AOF文件的体积不至于过大。
+
+        只做缓存：如果你只希望你的数据在服务器运行的时候存在,你也可以不使用任何持久化方式。
+        同时开启两种持久化方式
+            在这种情况下,当redis重启的时候会优先载入AOF文件来恢复原始的数据,因为在通常情况下AOF文件保存的数据集要比RDB文件保存的数据集要完整.
+            RDB的数据不实时，同时使用两者时服务器重启也只会找AOF文件。那要不要只使用AOF呢？作者建议不要，因为RDB更适合用于备份数据
+                库(AOF在不断变化不好备份)，快速重启，而且不会有AOF可能潜在的bug，留着作为一个万一的手段。
+    性能建议：
+         因为RDB文件只用作后备用途，建议只在Slave上持久化RDB文件，而且只要15分钟备份一次就够了，只保留save 900 1这条规则。
+
+         如果Enalbe AOF，好处是在最恶劣情况下也只会丢失不超过两秒数据，启动脚本较简单只load自己的AOF文件就可以了。
+            代价一是带来了持续的IO，二是AOF rewrite的最后将rewrite过程中产生的新数据写到新文件造成的阻塞几乎是不
+            可避免的。只要硬盘许可，应该尽量减少AOF rewrite的频率，AOF重写的基础大小默认值64M太小了，可以设到5G以
+            上。默认超过原大小100%大小时重写可以改到适当的数值。
+
+         如果不Enable AOF ，仅靠Master-Slave Replication 实现高可用性也可以。能省掉一大笔IO也减少了rewrite时
+            带来的系统波动。代价是如果Master/Slave同时倒掉，会丢失十几分钟的数据，启动脚本也要比较两个Master/Slave
+            中的RDB文件，载入较新的那个。新浪微博就选用了这种架构
+
+
+
+看一家公司redis用的好不好，可以去查看他的redis.conf文件，可以看以下几个参数：
+    maxmemory-policy noeviction
+    auto-aof-rewrite-percentage 100
+    auto-aof-rewrite-min-size 64mb
+
 
 
 
