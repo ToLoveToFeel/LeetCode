@@ -5,7 +5,7 @@ package _0000_study.classicalproblems.designpattern.singleton;
  * Content:
  * 饿汉式：静态常量
  */
-public class Singleton2 {
+public class Singleton2 {  // 典型例子：Runtime
     private static final Singleton2 INSTANCE = new Singleton2();
 
     private Singleton2() {
