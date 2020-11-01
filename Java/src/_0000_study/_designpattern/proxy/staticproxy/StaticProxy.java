@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.designpattern.proxy.staticproxy;
+package _0000_study._designpattern.proxy.staticproxy;
 
 /**
  * Date: 2020/10/12 20:29

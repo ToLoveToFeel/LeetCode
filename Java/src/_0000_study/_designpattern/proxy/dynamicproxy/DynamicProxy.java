@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.designpattern.proxy.dynamicproxy;
+package _0000_study._designpattern.proxy.dynamicproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

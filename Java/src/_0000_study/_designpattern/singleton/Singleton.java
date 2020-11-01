@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.designpattern.singleton;
+package _0000_study._designpattern.singleton;
 
 /**
  * Date: 2020/10/13 15:02
