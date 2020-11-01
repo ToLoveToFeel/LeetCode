@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.multithread.print_numbers_letters_alternately;
+package _0000_study._multithread.print_numbers_letters_alternately;
 
 import java.util.concurrent.CountDownLatch;
 

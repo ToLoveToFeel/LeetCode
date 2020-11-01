@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.multithread.threadlocal;
+package _0000_study._multithread.threadlocal;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

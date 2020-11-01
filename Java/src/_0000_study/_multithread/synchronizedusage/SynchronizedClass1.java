@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.multithread.synchronizedusage;
+package _0000_study._multithread.synchronizedusage;
 
 /**
  * Date: 2020/10/14 10:24

@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.multithread.deadlock;
+package _0000_study._multithread.deadlock;
 
 /**
  * Date: 2020/10/23 20:00

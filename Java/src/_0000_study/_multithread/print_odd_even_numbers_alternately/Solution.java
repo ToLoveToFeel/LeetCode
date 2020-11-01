@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.multithread.print_odd_even_numbers_alternately;
+package _0000_study._multithread.print_odd_even_numbers_alternately;
 
 /**
  * Date: 2020/10/2 19:23
