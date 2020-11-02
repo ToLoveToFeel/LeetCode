@@ -1,4 +1,4 @@
-package _0000_study._algorithm.treetraversal;
+package _0000_study._algorithm.binarytreetraversal;
 
 public class TreeNode {
     public int val;

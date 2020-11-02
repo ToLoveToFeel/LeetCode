@@ -1,7 +1,7 @@
-package _0000_study._algorithm.treetraversal.postorder;
+package _0000_study._algorithm.binarytreetraversal.preorder;
 
-import _0000_study._algorithm.treetraversal.MyTree;
-import _0000_study._algorithm.treetraversal.TreeNode;
+import _0000_study._algorithm.binarytreetraversal.MyTree;
+import _0000_study._algorithm.binarytreetraversal.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -13,33 +13,28 @@ import java.util.List;
  * Content:
  * 前序遍历：递归
  */
-public class Postorder {
-    /*
-        思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
-     */
-    public List<Integer> postorderTraversal(TreeNode root) {
+public class Preorder {
+    public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
+
         if (root == null)
             return res;
 
         Deque<TreeNode> stack = new ArrayDeque<>();
-        Deque<TreeNode> output = new ArrayDeque<>();
         TreeNode curNode = root;
-
-        while (curNode != null || !stack.isEmpty()) {
-            while (curNode != null) {
-                output.push(curNode);
+        while (curNode != null || !stack.isEmpty()) {  // 不能删除!stack.isEmpty()，因为当curNode==null时stack不一定为空
+            while (curNode != null) {  // 当前节点的左孩子，以及左孩子的左孩子......全部入栈
+                res.add(curNode.val);
                 stack.push(curNode);
-                curNode = curNode.right;
+                curNode = curNode.left;
             }
 
             curNode = stack.pop();
-            curNode = curNode.left;
+            curNode = curNode.right;
         }
-        while (!output.isEmpty())
-            res.add(output.pop().val);
         return res;
     }
+
 
     public static void main(String[] args) {
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
@@ -51,6 +46,6 @@ public class Postorder {
         };
 
         TreeNode root = (new MyTree(nums)).getRoot();
-        System.out.println((new Postorder()).postorderTraversal(root));
+        System.out.println((new Preorder()).preorderTraversal(root));
     }
 }

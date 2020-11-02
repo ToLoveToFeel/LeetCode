@@ -1,4 +1,4 @@
-package _0000_study._algorithm.treetraversal;
+package _0000_study._algorithm.binarytreetraversal;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

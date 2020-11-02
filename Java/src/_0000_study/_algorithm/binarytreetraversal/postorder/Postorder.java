@@ -1,7 +1,7 @@
-package _0000_study._algorithm.treetraversal.inorder;
+package _0000_study._algorithm.binarytreetraversal.postorder;
 
-import _0000_study._algorithm.treetraversal.MyTree;
-import _0000_study._algorithm.treetraversal.TreeNode;
+import _0000_study._algorithm.binarytreetraversal.MyTree;
+import _0000_study._algorithm.binarytreetraversal.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -11,27 +11,33 @@ import java.util.List;
 /**
  * Date: 2020/9/19 10:15
  * Content:
- * 中序遍历：递归
+ * 前序遍历：递归
  */
-public class Inorder {
-    public List<Integer> inorderTraversal(TreeNode root) {
+public class Postorder {
+    /*
+        思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
+     */
+    public List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
         if (root == null)
             return res;
 
         Deque<TreeNode> stack = new ArrayDeque<>();
+        Deque<TreeNode> output = new ArrayDeque<>();
         TreeNode curNode = root;
+
         while (curNode != null || !stack.isEmpty()) {
             while (curNode != null) {
+                output.push(curNode);
                 stack.push(curNode);
-                curNode = curNode.left;
+                curNode = curNode.right;
             }
 
             curNode = stack.pop();
-            res.add(curNode.val);
-            curNode = curNode.right;
+            curNode = curNode.left;
         }
-
+        while (!output.isEmpty())
+            res.add(output.pop().val);
         return res;
     }
 
@@ -45,6 +51,6 @@ public class Inorder {
         };
 
         TreeNode root = (new MyTree(nums)).getRoot();
-        System.out.println((new Inorder()).inorderTraversal(root));
+        System.out.println((new Postorder()).postorderTraversal(root));
     }
 }

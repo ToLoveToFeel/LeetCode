@@ -1,7 +1,7 @@
-package _0000_study._algorithm.treetraversal.postorder;
+package _0000_study._algorithm.binarytreetraversal.postorder;
 
-import _0000_study._algorithm.treetraversal.MyTree;
-import _0000_study._algorithm.treetraversal.TreeNode;
+import _0000_study._algorithm.binarytreetraversal.MyTree;
+import _0000_study._algorithm.binarytreetraversal.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
