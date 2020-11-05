@@ -28,7 +28,7 @@ public class Solution {
         }
     }
 
-    // 构建无向无权图：graph[i]存储的为节点 i 连接到的点，以及权重
+    // 构建无向有权图：graph[i]存储的为节点 i 连接到的点，以及权重
     private List<List<MyPair>> constructUndirectedWeightGraph(int n, int[][] edges, double[] weights) {
         List<List<MyPair>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++)
