@@ -13,20 +13,20 @@ public class Solution2 {
         Comparator cmp = new myComparator();
         Arrays.sort(arr, cmp);
 
-        return arr[k-1];
+        return arr[k - 1];
     }
 
     class myComparator implements Comparator<Integer> {
         @Override
-        public int compare(Integer o1, Integer o2){
-            //如果o1小于o2，我们就返回正值，如果o1大于o2我们就返回负值，
-            //这样颠倒一下，就可以实现反向排序了
+        public int compare(Integer o1, Integer o2) {
+            // 如果o1小于o2，我们就返回正值，如果o1大于o2我们就返回负值，
+            // 这样颠倒一下，就可以实现反向排序了
             return -(o1 - o2);
         }
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,2,3,1,2,4,5,5,6};
+        int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
 
         System.out.println((new Solution2()).findKthLargest(nums, k));
