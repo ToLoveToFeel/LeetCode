@@ -2,8 +2,8 @@ package _0000_study._datastructure.segmenttree;
 
 public class SegmentTree<E> {
 
-    private E[] tree;
     private E[] data;
+    private E[] tree;
     private Merger<E> merger;
 
     public SegmentTree(E[] arr, Merger<E> merger) {
