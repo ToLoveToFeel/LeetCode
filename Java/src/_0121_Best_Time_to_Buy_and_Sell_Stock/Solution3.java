@@ -23,7 +23,8 @@ public class Solution3 {
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < prices2.length; i++) {
             while (!stack.isEmpty() && prices2[i] <= stack.peek()) {  // 保证后加入的数据递增
-                res = Math.max(res, stack.peek() - stack.firstElement());
+                int profit = stack.peek() - stack.firstElement();  // 方便调试查看
+                res = Math.max(res, profit);
                 stack.pop();
             }
             stack.push(prices2[i]);

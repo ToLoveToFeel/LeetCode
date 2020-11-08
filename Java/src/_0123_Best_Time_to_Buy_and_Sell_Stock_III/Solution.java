@@ -4,6 +4,9 @@ package _0123_Best_Time_to_Buy_and_Sell_Stock_III;
  * Date: 2020/9/27 10:33
  * Content:
  * 将数组分为左右两部分，计算左右两部分的最大利润，计算方式和 Leetcode 121 一致
+ *
+ * 执行用时：9 ms, 在所有 Java 提交中击败了49%的用户
+ * 内存消耗：52.1 MB, 在所有 Java 提交中击败了58%的用户
  */
 public class Solution {
     public int maxProfit(int[] prices) {
@@ -37,7 +40,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] prices = new int[]{3, 3, 5, 0, 0, 3, 1, 4};
+        int[] prices = new int[]{3, 3, 5, 0, 0, 3, 1, 4};  // 6
         System.out.println((new Solution()).maxProfit(prices));
     }
 }
