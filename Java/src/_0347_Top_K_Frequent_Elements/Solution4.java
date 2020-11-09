@@ -18,7 +18,7 @@ class Solution4 {
 
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(
                 (a, b) -> hashMap.get(a) - hashMap.get(b)
-        );
+        );  // 最小堆
         for (int key : hashMap.keySet()) {
             if (priorityQueue.size() < k)
                 priorityQueue.add(key);
