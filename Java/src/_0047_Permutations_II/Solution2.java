@@ -10,11 +10,12 @@ import java.util.List;
  * Content:
  */
 public class Solution2 {
+
     private ArrayList<List<Integer>> res;
     private boolean[] used;
 
-    // p中保存了一个有index个元素的排列
-    // 向这个排列的末尾添加第 index+1 个元素，获得一个有 index+1 个元素的排列
+    // p中保存了一个有 p.size() 个元素的排列
+    // 向这个排列的末尾添加第 p.size()+1 个元素，获得一个有 p.size()+1 个元素的排列
     private void generatePermutation(int[] nums, LinkedList<Integer> p) {
         if (p.size() == nums.length) {
             res.add((List<Integer>) p.clone());
@@ -28,7 +29,7 @@ public class Solution2 {
 
                 p.add(nums[i]);
                 used[i] = true;
-                generatePermutation(nums,  p);
+                generatePermutation(nums, p);
                 used[i] = false;
                 p.removeLast();
             }

@@ -15,14 +15,19 @@ public class Solution {
         if (target == 0)
             res++;
 
+        // 注意与 Leetcode 0039 的区别
+        // 从0开始，而不是从start(参照Leetcode 0039)开始，目的是允许出现重复组合
         for (int i = 0; i < nums.length; i++)
             generataCombination(nums, target - nums[i]);
     }
 
     public int combinationSum4(int[] nums, int target) {
+
         if (nums.length == 0)
             return 0;
+
         generataCombination(nums, target);
+
         return res;
     }
 

@@ -40,13 +40,17 @@ public class Solution {
             if (i > start && candidates[i] == candidates[i - 1])
                 continue;
             c.add(candidates[i]);
+            // 不从 i 开始(Leetcode 0039是从 i开始的)，目的是不允许同一个索引对应的数字出现多次
             generateCombination(candidates, target - candidates[i], i + 1, c);
             c.removeLast();
         }
     }
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        // 不同于 Leetcode 39，该题需要先对数据排序
+        // 类似于 Leetcode 47，全排列II，本题和 Leetcode 47 都需要先进行排序，目的都是为了方便剪枝
         Arrays.sort(candidates);
+
         res = new ArrayList<>();
         LinkedList<Integer> c = new LinkedList<>();
 

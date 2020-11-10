@@ -7,6 +7,8 @@ import java.util.List;
 /**
  * Date: 2020/9/9 7:57
  * Content:
+ * 0039 需要求解出具体结果(顺序不同的序列被视作相同的组合)
+ * 0377 需要求解出结果个数(顺序不同的序列被视作不同的组合)
  */
 public class Solution {
     private ArrayList<List<Integer>> res;
@@ -20,14 +22,17 @@ public class Solution {
             return;
         }
 
+        // 从start开始，而不是从0开始，可以防止出现重复组合
         for (int i = start; i < candidates.length; i++) {
             c.add(candidates[i]);
-            generateCombination(candidates, target - candidates[i], i, c);  // 从i开始，可以防止出现重复组合
+            // 不从 i+1 开始(Leetcode 0040是从 i+1开始的)，目的是允许数字重复
+            generateCombination(candidates, target - candidates[i], i, c);
             c.removeLast();
         }
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
+
         res = new ArrayList<>();
         LinkedList<Integer> c = new LinkedList<>();
 

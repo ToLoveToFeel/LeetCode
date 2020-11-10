@@ -1,60 +1,52 @@
 package _0046_Permutations;
 
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ArrayList;
 
 
 public class Solution2 {
-    // 时间复杂度：O(n!)
+    // 时间复杂度：O(n^n)
     // 空间复杂度：O(n)
     private ArrayList<List<Integer>> res;
+    private boolean[] used;
 
-    private void generatePermutation(int[] nums, int index){
-
-        if(index == nums.length){
-            List<Integer> list = new ArrayList<Integer>();
-            for(int i : nums)
-                list.add(i);
-            res.add(list);
+    // p中保存了一个有 p.size() 个元素的排列
+    // 向这个排列的末尾添加第 p.size()+1 个元素，获得一个有 p.size()+1 个元素的排列
+    private void generatePermutation(int[] nums, LinkedList<Integer> p) {
+        if (p.size() == nums.length) {
+            res.add((LinkedList<Integer>) p.clone());
             return;
         }
 
-        for(int i = index ; i < nums.length ; i ++){
-            swap(nums, i, index);
-            generatePermutation(nums, index + 1);
-            swap(nums, i, index);
-        }
+        for (int i = 0; i < nums.length; i++)
+            if (!used[i]) {
+                p.addLast(nums[i]);
+                used[i] = true;
+                generatePermutation(nums, p);
+                p.removeLast();
+                used[i] = false;
+            }
     }
 
     public List<List<Integer>> permute(int[] nums) {
+        res = new ArrayList<>();
 
-        res = new ArrayList<List<Integer>>();
-        if(nums == null || nums.length == 0)
+        if (nums == null || nums.length == 0)
             return res;
 
-        generatePermutation(nums, 0);
+        used = new boolean[nums.length];
+        LinkedList<Integer> p = new LinkedList<>();
+        generatePermutation(nums, p);
 
         return res;
     }
 
-    private void swap(int[] nums, int i, int j){
-        int t = nums[i];
-        nums[i] = nums[j];
-        nums[j] = t;
-    }
-
-    private static void printList(List<Integer> list){
-        for(Integer e: list)
-            System.out.print(e + " ");
-        System.out.println();
-    }
-
     public static void main(String[] args) {
-
         int[] nums = {1, 2, 3};
         List<List<Integer>> res = (new Solution2()).permute(nums);
-        for(List<Integer> list: res)
-            printList(list);
+
+        for (List<Integer> list : res)
+            System.out.println(list);
     }
 }

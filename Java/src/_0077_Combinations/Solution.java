@@ -10,15 +10,15 @@ class Solution {
     private ArrayList<List<Integer>> res;
 
     // 求解C(n,k)，当前已经找到的组合存储在c中，需要从start开始搜索新的元素
-    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c){
-        if (c.size() == k){
-            res.add((LinkedList<Integer>)c.clone());
+    private void generateCombinations(int n, int k, int start, LinkedList<Integer> c) {
+        if (c.size() == k) {
+            res.add((LinkedList<Integer>) c.clone());
             return;
         }
 
-        for (int i = start; i <= n; i++){
+        for (int i = start; i <= n; i++) {
             c.addLast(i);
-            generateCombinations(n, k, i+1, c);
+            generateCombinations(n, k, i + 1, c);
             c.removeLast();
         }
     }
@@ -34,8 +34,8 @@ class Solution {
         return res;
     }
 
-    private static void printList(List<Integer> list){
-        for (Integer e:list)
+    private static void printList(List<Integer> list) {
+        for (Integer e : list)
             System.out.print(e + " ");
         System.out.println();
     }

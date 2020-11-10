@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 回溯算法
+ */
+
 public class Solution {
     // 时间复杂度：O(n^n)
     // 空间复杂度：O(n)
@@ -29,7 +33,7 @@ public class Solution {
     }
 
     public List<List<Integer>> permute(int[] nums) {
-        res = new ArrayList<List<Integer>>();
+        res = new ArrayList<>();
 
         if (nums == null || nums.length == 0)
             return res;
@@ -41,16 +45,11 @@ public class Solution {
         return res;
     }
 
-    private static void printList(List<Integer> list) {
-        for (Integer e : list)
-            System.out.print(e + " ");
-        System.out.println();
-    }
-
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
         List<List<Integer>> res = (new Solution()).permute(nums);
+
         for (List<Integer> list : res)
-            printList(list);
+            System.out.println(list);
     }
 }

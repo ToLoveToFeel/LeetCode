@@ -21,13 +21,13 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             if (!used[i]) {
-                used[i] = true;
                 res.append(nums[i]);
+                used[i] = true;
                 generatePermutation(nums, index + 1);
                 if (count == topK)
                     break;
-                res.deleteCharAt(res.length() - 1);
                 used[i] = false;
+                res.deleteCharAt(res.length() - 1);
             }
         }
     }

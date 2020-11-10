@@ -2,10 +2,15 @@ package _0377_Combination_Sum_IV;
 
 /**
  * Date: 2020/9/9 11:52
- * Content:
+ * Content: 类似于完全背包问题，但不一样
  * 动态规划
  * https://leetcode-cn.com/problems/combination-sum-iv/solution/xi-wang-yong-yi-chong-gui-lu-gao-ding-bei-bao-wen-/
  * 这个网址关于背包问题总结的很好
+ *
+ * 本题和 Leetcode 0039基本上一样，
+ * 0039 需要求解出具体结果(顺序不同的序列被视作相同的组合)
+ * 0377 需要求解出结果个数(顺序不同的序列被视作不同的组合)
+ * 如果本题改变一个条件：顺序不同的序列被视作相同的组合(和0039一样)。则该种解法不行!!!
  */
 public class Solution3 {
     /**
@@ -33,10 +38,14 @@ public class Solution3 {
         int[] dp = new int[C + 1];
         dp[0] = 1;
 
-        for (int i = 1; i <= C; i++)
-            for (int j = 0; j < n; j++)
+        for (int i = 1; i <= C; i++) {
+            for (int j = 0; j < n; j++) {
                 if (i >= nums[j])
-                    dp[i] += dp[i - nums[j]];
+                    dp[i] += dp[i - nums[j]];  // 减去nums[j]就代表可以在排列中加入nums[j]
+                System.out.print(dp[i] + " ");
+            }
+            System.out.println();
+        }
 
         return dp[C];
     }
@@ -47,3 +56,32 @@ public class Solution3 {
         System.out.println((new Solution3()).combinationSum4(nums, target));
     }
 }
+
+/*
+对于例子
+    int[] nums = {1, 2, 3};
+    int target = 4;
+            0   1   2   3   4   i       C
+    0(1)    1   1   1   2   4
+    1(2)    1   1   2   3   6
+    2(3)    1   1   2   4   7
+    j(num)
+
+     n
+
+在 j = 2 的情况下：
+    dp[1] : (1)
+    dp[2] : (1, 1)          dp[2] = dp[1]{(1,1)} + dp[0]{(2)}
+            (2)
+    dp[3] : (1, 1, 1)       dp[3] = dp[2]{(1,1,1),(2,1)} + dp[1]{(1,2)} + dp[0]{(3)}
+            (2, 1)
+            (1, 2)
+            (3)
+    dp[4] : (1, 1, 1, 1)    dp[4] = dp[3]{(1,1,1,1),(2,1,1),(1, 2, 1),(3, 1)} + dp[2]{(1,1,2),(2,2)} + dp[1]{(1,3)}
+            (2, 1, 1)
+            (1, 2, 1)
+            (3, 1)
+            (1, 1, 2)
+            (2, 2)
+            (1, 3)
+ */

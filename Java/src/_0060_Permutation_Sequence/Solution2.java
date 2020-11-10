@@ -62,6 +62,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution2()).getPermutation(3, 5));
         System.out.println((new Solution2()).getPermutation(4, 12));
     }

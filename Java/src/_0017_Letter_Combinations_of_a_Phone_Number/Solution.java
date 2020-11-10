@@ -3,10 +3,14 @@ package _0017_Letter_Combinations_of_a_Phone_Number;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 回溯算法
+ */
+
 public class Solution {
     // 时间复杂度：O(2^len(digits))
     // 空间复杂度：O(len(digits))
-    private String letterMap[] = {
+    private String[] letterMap = {
             " ",    //0
             "",     //1
             "abc",  //2
@@ -22,8 +26,8 @@ public class Solution {
 
     // s中保存了此时的digits[0...index-1]翻译得到的一个字母字符串
     // 寻找和digits[index]匹配的字母，获得digits[0...index]译得到的解
-    private void findCombination(String digits, int index, String s){
-        if (index == digits.length()){
+    private void findCombination(String digits, int index, String s) {
+        if (index == digits.length()) {
             res.add(s);
             return;
         }
@@ -48,9 +52,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         List<String> list = (new Solution()).letterCombinations("234");
 //        list = (new Trie()).letterCombinations("234");
-        for (String s:list)
+        for (String s : list)
             System.out.println(s);
     }
 }
