@@ -16,28 +16,27 @@ package _0122_Best_Time_to_Buy_and_Sell_Stock_II;
  */
 public class Solution3 {
 
+    public static final int CASH = 0;  // 持有现金
+    public static final int STOCK = 1;  // 持有股票
+
     public int maxProfit(int[] prices) {
         if (prices.length <= 1)
             return 0;
 
-        // cash：持有现金
-        // stock：持有股票
-        int cash = 0;
-        int stock = -prices[0];
+        int[] dp = new int[2];
+        dp[STOCK] = -prices[0];
+        dp[CASH] = 0;
 
-        int preCash = cash;
-        int preStock = stock;
         for (int i = 1; i < prices.length; i++) {
-            cash = Math.max(preCash, preStock + prices[i]);
-            stock = Math.max(preStock, preCash - prices[i]);
-
-            preCash = cash;
-            preStock = stock;
+            // 为什么可以这样做，不记录上一次的stock? 请参照Leetcode 0123 Solution3最后注释的说明
+            dp[STOCK] = Math.max(dp[STOCK], dp[CASH] - prices[i]);
+            dp[CASH] = Math.max(dp[CASH], dp[STOCK] + prices[i]);
         }
-        return cash;
+        return dp[CASH];
     }
 
     public static void main(String[] args) {
+
         int[] prices = {7, 1, 5, 3, 6, 4};  // 7
 //        int[] prices = {1, 2, 3, 4, 5};  // 4
 //        int[] prices = {7, 6, 4, 3, 1};  // 0

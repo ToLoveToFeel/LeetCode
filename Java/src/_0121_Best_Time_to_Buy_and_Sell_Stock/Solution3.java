@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 public class Solution3 {
     public int maxProfit(int[] prices) {
-        if (prices.length == 0)
+        if (prices.length <= 1)
             return 0;
 
         int[] prices2 = new int[prices.length + 1];
@@ -33,8 +33,9 @@ public class Solution3 {
     }
 
     public static void main(String[] args) {
-        int[] prices = {7, 1, 5, 3, 6, 4};
-//        int[] prices = {7, 6, 4, 3, 1};
+
+//        int[] prices = {7, 1, 5, 3, 6, 4};  // 5
+        int[] prices = {7, 6, 4, 3, 1};  // 0
         System.out.println((new Solution3()).maxProfit(prices));
     }
 }

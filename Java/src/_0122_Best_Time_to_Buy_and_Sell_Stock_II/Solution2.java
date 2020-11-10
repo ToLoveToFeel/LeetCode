@@ -31,13 +31,14 @@ public class Solution2 {
 
         for (int i = 1; i < prices.length; i++) {
             // 这两行调换顺序也是可以的
-            dp[i][CASH] = Math.max(dp[i - 1][CASH], dp[i - 1][STOCK] + prices[i]);  // 第 i 天持有现金的最大数目
             dp[i][STOCK] = Math.max(dp[i - 1][STOCK], dp[i - 1][CASH] - prices[i]);  // 第 i 天持有股票获得的最大利润
+            dp[i][CASH] = Math.max(dp[i - 1][CASH], dp[i - 1][STOCK] + prices[i]);  // 第 i 天持有现金的最大数目
         }
-        return dp[prices.length - 1][0];
+        return dp[prices.length - 1][CASH];
     }
 
     public static void main(String[] args) {
+
         int[] prices = {7, 1, 5, 3, 6, 4};  // 7
 //        int[] prices = {1, 2, 3, 4, 5};  // 4
 //        int[] prices = {7, 6, 4, 3, 1};  // 0

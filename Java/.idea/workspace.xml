@@ -3,28 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0017_Letter_Combinations_of_a_Phone_Number/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0039_Combination_Sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0039_Combination_Sum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0039_Combination_Sum/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0039_Combination_Sum/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0040_Combination_Sum_II/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0040_Combination_Sum_II/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0040_Combination_Sum_II/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0040_Combination_Sum_II/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0046_Permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0046_Permutations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0046_Permutations/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0046_Permutations/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0046_Permutations/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0046_Permutations/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0047_Permutations_II/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0047_Permutations_II/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0047_Permutations_II/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0047_Permutations_II/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0060_Permutation_Sequence/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0077_Combinations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0077_Combinations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0077_Combinations/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0077_Combinations/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0077_Combinations/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0077_Combinations/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/股票问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/股票问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0121_Best_Time_to_Buy_and_Sell_Stock/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0122_Best_Time_to_Buy_and_Sell_Stock_II/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0122_Best_Time_to_Buy_and_Sell_Stock_II/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0122_Best_Time_to_Buy_and_Sell_Stock_II/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0122_Best_Time_to_Buy_and_Sell_Stock_II/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0123_Best_Time_to_Buy_and_Sell_Stock_III/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0188_Best_Time_to_Buy_and_Sell_Stock_IV/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0188_Best_Time_to_Buy_and_Sell_Stock_IV/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +84,11 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\multithread\synchronized" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_0121_Best_Time_to_Buy_and_Sell_Stock" />
       <recent name="_0216_Combination_Sum_III" />
       <recent name="_0046_Permutations" />
       <recent name="_0239_Sliding_Window_Maximum" />
       <recent name="_0123_Best_Time_to_Buy_and_Sell_Stock_III" />
-      <recent name="_0122_Best_Time_to_Buy_and_Sell_Stock_II" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,7 +101,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\multitreetraversal\preorder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
+  <component name="RunManager" selected="Application.Solution5">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -121,13 +109,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0046_Permutations.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0121_Best_Time_to_Buy_and_Sell_Stock.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0046_Permutations.*" />
+          <option name="PATTERN" value="_0121_Best_Time_to_Buy_and_Sell_Stock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,41 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0031_Next_Permutation.Solution" />
+    <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0123_Best_Time_to_Buy_and_Sell_Stock_III.Solution2" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0031_Next_Permutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0060_Permutation_Sequence.Solution2" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0060_Permutation_Sequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0046_Permutations.Solution2" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0046_Permutations.*" />
+          <option name="PATTERN" value="_0123_Best_Time_to_Buy_and_Sell_Stock_III.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +138,40 @@
       </method>
     </configuration>
     <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0377_Combination_Sum_IV.Solution3" />
+      <option name="MAIN_CLASS_NAME" value="_0123_Best_Time_to_Buy_and_Sell_Stock_III.Solution3" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0377_Combination_Sum_IV.*" />
+          <option name="PATTERN" value="_0123_Best_Time_to_Buy_and_Sell_Stock_III.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0121_Best_Time_to_Buy_and_Sell_Stock.Solution4" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0121_Best_Time_to_Buy_and_Sell_Stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0121_Best_Time_to_Buy_and_Sell_Stock.Solution5" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0121_Best_Time_to_Buy_and_Sell_Stock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +211,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution2" />
-      <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution2 (2)" />
+      <item itemvalue="Application.Solution4" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.Solution5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution5" />
+        <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution2 (1)" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution2 (2)" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +534,7 @@
       <workItem from="1604842259943" duration="520000" />
       <workItem from="1604884799532" duration="2561000" />
       <workItem from="1604906743820" duration="3490000" />
-      <workItem from="1604969508928" duration="10654000" />
+      <workItem from="1604969508928" duration="19766000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -824,46 +812,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1604987748339">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1604997096416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604987748339" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1604987748338">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604997096416" />
+    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1604997096416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604987748338" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1604987748338">
+    <state width="1877" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604997096416" />
+    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1604997096416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604987748338" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1604987748339">
+    <state width="1877" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604997096416" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1604997096416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604987748339" />
-    <state width="1877" height="247" key="GridCell.Tab.1.bottom" timestamp="1604910267986">
+    <state width="1877" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604997096416" />
+    <state width="1877" height="298" key="GridCell.Tab.1.bottom" timestamp="1604996959230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604910267986" />
-    <state width="1877" height="247" key="GridCell.Tab.1.center" timestamp="1604910267986">
+    <state width="1877" height="298" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604996959230" />
+    <state width="1877" height="298" key="GridCell.Tab.1.center" timestamp="1604996959230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="247" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604910267986" />
-    <state width="1877" height="247" key="GridCell.Tab.1.left" timestamp="1604910267986">
+    <state width="1877" height="298" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604996959230" />
+    <state width="1877" height="298" key="GridCell.Tab.1.left" timestamp="1604996959230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="247" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604910267986" />
-    <state width="1877" height="247" key="GridCell.Tab.1.right" timestamp="1604910267986">
+    <state width="1877" height="298" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604996959230" />
+    <state width="1877" height="298" key="GridCell.Tab.1.right" timestamp="1604996959230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="247" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604910267986" />
+    <state width="1877" height="298" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604996959230" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1604546965316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

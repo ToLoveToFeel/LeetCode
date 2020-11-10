@@ -22,7 +22,7 @@ package _0123_Best_Time_to_Buy_and_Sell_Stock_III;
  * dp[i][1][STOCK] = max(dp[i-1][1][STOCK],dp[i-1][1][CASH]-prices[i])
  * 第二次卖出：从第二次买入转换而来，或者第二次卖出后保持不动
  * dp[i][2][CASH] = max(dp[i-1][2][CASH],dp[i-1][1][STOCK]+prices[i])
- *
+ * <p>
  * 执行用时：107 ms, 在所有 Java 提交中击败了26.66%的用户
  * 内存消耗：68.3 MB, 在所有 Java 提交中击败了5.01%的用户
  */
@@ -38,15 +38,15 @@ public class Solution2 {
         // 定义三维数组，第i天、交易了多少次、当前的买卖状态
         int[][][] dp = new int[n][3][2];
         // 初始化第一天，这里的dp[0][2][STOCK]可以不用管，后面也不会用到
-        dp[0][0][CASH] = 0;
         dp[0][0][STOCK] = -prices[0];
-        dp[0][1][CASH] = 0;
+        dp[0][0][CASH] = 0;
         dp[0][1][STOCK] = -prices[0];
-        dp[0][2][CASH] = 0;
+        dp[0][1][CASH] = 0;
         dp[0][2][STOCK] = -prices[0];
+        dp[0][2][CASH] = 0;  // 第0天，第二次卖出(即完成了两次交易)后，拥有的现金数目(为0，因为第0天不可能完成任何交易)
         for (int i = 1; i < n; i++) {
-            // dp[i][0][0]相当于初始状态，它只能从初始状态转换来
-            dp[i][0][CASH] = dp[i - 1][0][CASH];
+//            // dp[i][0][0]相当于初始状态，它只能从初始状态转换来，可以注释掉，因为都为0
+//            dp[i][0][CASH] = dp[i - 1][0][CASH];
             // 处理第一次买入、第一次卖出
             dp[i][0][STOCK] = Math.max(dp[i - 1][0][STOCK], dp[i - 1][0][CASH] - prices[i]);
             dp[i][1][CASH] = Math.max(dp[i - 1][1][CASH], dp[i - 1][0][STOCK] + prices[i]);
@@ -59,7 +59,8 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] prices = new int[]{3, 3, 5, 0, 0, 3, 1, 4};  // 6
+
+        int[] prices = {3, 3, 5, 0, 0, 3, 1, 4};  // 6
         System.out.println((new Solution2()).maxProfit(prices));
     }
 }
