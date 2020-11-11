@@ -38,7 +38,7 @@ public class Solution3 {
         }
 
         for (int i = 0; i < m; i++) {
-            Arrays.fill(dp[i], 0x3f3f3f);
+            Arrays.fill(dp[i], Integer.MAX_VALUE);
             dp[i][0] = Math.min(i, m - i);  // 最开始ring[0]对应12点钟，如果要使得ring[i]对应12点钟，需要旋转的最少次数
         }
         for (int j = 1; j < n; j++) {  // key[j]

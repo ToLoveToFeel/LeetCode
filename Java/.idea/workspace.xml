@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/BFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/最短路径问题.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0127_Word_Ladder/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0127_Word_Ladder/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0773_Sliding_Puzzle/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0773_Sliding_Puzzle/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1091_Shortest_Path_in_Binary_Matrix/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1091_Shortest_Path_in_Binary_Matrix/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1514_Path_with_Maximum_Probability/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1514_Path_with_Maximum_Probability/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0514_Freedom_Trail/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0514_Freedom_Trail/Solution3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -527,7 +522,7 @@
       <workItem from="1604969508928" duration="21098000" />
       <workItem from="1605013397350" duration="217000" />
       <workItem from="1605061240338" duration="6273000" />
-      <workItem from="1605079309234" duration="1510000" />
+      <workItem from="1605079309234" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -805,26 +800,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1605067626185">
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1605081444454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605067626185" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1605067626185">
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605081444454" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1605081444454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605067626185" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1605067626185">
+    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605081444454" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1605081444454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605067626185" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1605067626185">
+    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605081444454" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1605081444454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605067626185" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605081444454" />
     <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1605067626185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
