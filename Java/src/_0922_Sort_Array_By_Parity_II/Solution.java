@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
  * Content:
  * 时间复杂度：O(n)
  * 空间复杂度：O(n)
- *
+ * <p>
  * 执行用时：2 ms, 在所有 Java 提交中击败了100.00%的用户
- * 内存消耗：40.4 MB, 在所有 Java 提交中击败了48.98%的用户
+ * 内存消耗：41.5 MB, 在所有 Java 提交中击败了31.33%的用户
  */
 public class Solution {
 
@@ -19,24 +19,19 @@ public class Solution {
         int n = A.length;
         assert n >= 2;
 
-        int[] even = new int[n / 2];
-        int[] odd = new int[n / 2];
-        // 第一步：将数据按照奇偶存入不同数组中
-        int evenIndex = 0, oddIndex = 0;
+        int[] res = new int[n];
+        int i = 0, j = 1;  // i 指向偶数位置，j 指向奇数位置
         for (int value : A) {
-            if ((value & 1) == 0)  // 偶数
-                even[evenIndex++] = value;
-            else
-                odd[oddIndex++] = value;
+            if ((value & 1) == 0) {  // 偶数
+                res[i] = value;
+                i += 2;
+            } else {
+                res[j] = value;
+                j += 2;
+            }
         }
 
-        // 第二步：收集
-        for (int i = 0; i < n / 2; i++) {
-            A[2 * i] = even[i];
-            A[2 * i + 1] = odd[i];
-        }
-
-        return A;
+        return res;
     }
 
     public static void main(String[] args) {
