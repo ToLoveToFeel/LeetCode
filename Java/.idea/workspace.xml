@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\multithread\synchronized" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -100,13 +99,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0328_Odd_Even_Linked_List.Solution" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study._algorithm.sorting.insertionsort.simpleinsertionsort.InsertionSort" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0328_Odd_Even_Linked_List.*" />
+          <option name="PATTERN" value="_0000_study._algorithm.sorting.insertionsort.simpleinsertionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1122_Relative_Sort_Array.Solution" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study._algorithm.sorting.insertionsort.shellsort.ShellSort" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1122_Relative_Sort_Array.*" />
+          <option name="PATTERN" value="_0000_study._algorithm.sorting.insertionsort.shellsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="JUnit.Solution.OutputBasicArray2D1" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.Solution.OutputBasicArray2D1" />
+      <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.InsertionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.Solution.OutputBasicArray2D1" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +539,8 @@
       <workItem from="1605336513311" duration="1110000" />
       <workItem from="1605360740297" duration="40000" />
       <workItem from="1605410751057" duration="1220000" />
-      <workItem from="1605488239850" duration="1902000" />
+      <workItem from="1605488239850" duration="2207000" />
+      <workItem from="1605516201663" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -818,46 +818,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1605490178717">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1605517654000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605490178717" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1605490178717">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605517654000" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1605517653999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605490178717" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1605490178717">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605517653999" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1605517653999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605490178717" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1605490178717">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605517653999" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1605517653999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605490178717" />
-    <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1605148273408">
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605517653999" />
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1605517619708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605148273408" />
-    <state width="1877" height="260" key="GridCell.Tab.1.center" timestamp="1605148273408">
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605517619708" />
+    <state width="1877" height="260" key="GridCell.Tab.1.center" timestamp="1605517619708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605148273408" />
-    <state width="1877" height="260" key="GridCell.Tab.1.left" timestamp="1605148273408">
+    <state width="1877" height="260" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605517619708" />
+    <state width="1877" height="260" key="GridCell.Tab.1.left" timestamp="1605517619708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605148273408" />
-    <state width="1877" height="260" key="GridCell.Tab.1.right" timestamp="1605148273408">
+    <state width="1877" height="260" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605517619708" />
+    <state width="1877" height="260" key="GridCell.Tab.1.right" timestamp="1605517619708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="260" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605148273408" />
+    <state width="1877" height="260" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605517619708" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1604546965316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -924,6 +924,11 @@
           <url>file://$PROJECT_DIR$/src/_0240_Search_a_2D_Matrix_II/Solution2.java</url>
           <line>37</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/SortTestHelper.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
