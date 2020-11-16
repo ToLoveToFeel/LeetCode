@@ -8,7 +8,8 @@ public class SortTestHelper {
     public static final String packagePrefix = "_0000_study._algorithm.sorting";
 
     // SortTestHelper不允许产生任何实例
-    private SortTestHelper(){}
+    private SortTestHelper() {
+    }
 
     // 生成有n个元素的随机数组,每个元素的随机范围为[rangeL, rangeR]
     public static Integer[] generateRandomArray(int n, int rangeL, int rangeR) {
@@ -27,15 +28,15 @@ public class SortTestHelper {
     // swapTimes定义了数组的无序程度:
     // swapTimes == 0 时, 数组完全有序
     // swapTimes 越大, 数组越趋向于无序
-    public static Integer[] generateNearlyOrderedArray(int n, int swapTimes){
+    public static Integer[] generateNearlyOrderedArray(int n, int swapTimes) {
 
         Integer[] arr = new Integer[n];
-        for( int i = 0 ; i < n ; i ++ )
+        for (int i = 0; i < n; i++)
             arr[i] = i;
 
-        for( int i = 0 ; i < swapTimes ; i ++ ){
-            int a = (int)(Math.random() * n);
-            int b = (int)(Math.random() * n);
+        for (int i = 0; i < swapTimes; i++) {
+            int a = (int) (Math.random() * n);
+            int b = (int) (Math.random() * n);
             int t = arr[a];
             arr[a] = arr[b];
             arr[b] = t;
@@ -55,36 +56,35 @@ public class SortTestHelper {
     }
 
     // 判断arr数组是否有序
-    public static boolean isSorted(Comparable[] arr){
+    public static boolean isSorted(Comparable[] arr) {
 
-        for( int i = 0 ; i < arr.length - 1 ; i ++ )
-            if( arr[i].compareTo(arr[i+1]) > 0 )
+        for (int i = 0; i < arr.length - 1; i++)
+            if (arr[i].compareTo(arr[i + 1]) > 0)
                 return false;
         return true;
     }
 
     // 测试sortClassName所对应的排序算法排序arr数组所得到结果的正确性和算法运行时间
-    public static void testSort(String sortClassName, Comparable[] arr){
+    public static void testSort(String sortClassName, Comparable[] arr) {
 
         // 通过Java的反射机制，通过排序的类名，运行排序函数
-        try{
+        try {
             // 通过sortClassName获得排序函数的Class对象
             Class sortClass = Class.forName(sortClassName);
             // 通过排序函数的Class对象获得排序方法
-            Method sortMethod = sortClass.getMethod("sort",new Class[]{Comparable[].class});
+            Method sortMethod = sortClass.getMethod("sort", new Class[]{Comparable[].class});
             // 排序参数只有一个，是可比较数组arr
             Object[] params = new Object[]{arr};
 
             long startTime = System.currentTimeMillis();
             // 调用排序函数
-            sortMethod.invoke(null,params);
+            sortMethod.invoke(null, params);
             long endTime = System.currentTimeMillis();
 
-            assert isSorted( arr );
+            assert isSorted(arr);
 
-            System.out.println( sortClass.getSimpleName()+ " : " + (endTime-startTime) + "ms" );
-        }
-        catch(Exception e){
+            System.out.println(sortClass.getSimpleName() + " : " + (endTime - startTime) + "ms");
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
