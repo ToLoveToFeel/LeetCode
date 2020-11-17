@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/findmaxsecondmax/FindMaxSecondMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/findmaxsecondmax/FindMaxSecondMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0328_Odd_Even_Linked_List" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0000_study/classicalproblems/findtopKmax" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -90,12 +91,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\basic\preparedstatement\crud" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\util" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\multithread\synchronized" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\findtopKmax" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0328_Odd_Even_Linked_List" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_058_Reverse_Words_in_a_String_I" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0303_Range_Sum_Query_Immutable" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_027_Mirror_Binary_Tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_1030_Matrix_Cells_in_Distance_Order" />
@@ -104,24 +108,35 @@
       <recent name="_0514_Freedom_Trail" />
       <recent name="_0121_Best_Time_to_Buy_and_Sell_Stock" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0328_Odd_Even_Linked_List" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_058_Reverse_Words_in_a_String_I" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0303_Range_Sum_Query_Immutable" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_027_Mirror_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\multitreetraversal\postorder" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\basic\preparedstatement\crud" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\util" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\multithread\synchronized" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.FindTopKMax">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="FindTopKMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.findtopKmax.FindTopKMax" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study.classicalproblems.findtopKmax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1030_Matrix_Cells_in_Distance_Order.Solution" />
@@ -130,20 +145,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_1030_Matrix_Cells_in_Distance_Order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0406_Queue_Reconstruction_by_Height.Solution" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0406_Queue_Reconstruction_by_Height.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="JUnit.DataFormatConversion.listToArray1D" />
       <item itemvalue="JUnit.DataFormatConversion.conversion2D" />
+      <item itemvalue="Application.FindTopKMax" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTopKMax" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.DataFormatConversion.conversion2D" />
         <item itemvalue="JUnit.DataFormatConversion.listToArray1D" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +594,7 @@
       <workItem from="1605518360481" duration="2238000" />
       <workItem from="1605529906444" duration="2353000" />
       <workItem from="1605574152633" duration="3187000" />
-      <workItem from="1605615181307" duration="2318000" />
+      <workItem from="1605615181307" duration="5254000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -875,26 +876,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1605617204552">
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1605620506978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605617204552" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1605617204552">
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506978" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1605620506977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605617204552" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1605617204552">
+    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1605620506977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605617204552" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1605617204552">
+    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1605620506977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605617204552" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
     <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1605577378009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -955,11 +956,11 @@
     </state>
     <state x="2536" y="250" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599211109579" />
     <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604975535398" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605576885405">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605619417308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2543" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599724124046" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605576885405" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605619417308" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

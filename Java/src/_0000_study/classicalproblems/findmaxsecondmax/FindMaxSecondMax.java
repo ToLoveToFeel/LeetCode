@@ -26,7 +26,7 @@ public class FindMaxSecondMax {
         }
         int max = newNums[0];
 
-        // 第三步：自定向下，寻找次大值
+        // 第三步：自顶向下，寻找次大值
         int secondMax = Integer.MIN_VALUE;
         int maxIndex = 0;  // 最大值所在的索引位置
         int index;  // nums[maxIndex] 的左右孩子中不是最大值的孩子的索引
