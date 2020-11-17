@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 public class FindTopKMax {
 
     private int findMax(int[] newNums, int index) {  // 会改变newNums的内容，这是必要的
+
         // 完全二叉树，左孩子为奇数节点，右孩子为偶数节点
         while (index > 0) {
             int anotherIndex;  // 另一个孩子所在节点的位置
