@@ -13,12 +13,15 @@ class Solution3 {
                 hashMap.put(num, 1);
         }
 
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer a, Integer b) {
-                return hashMap.get(a) - hashMap.get(b);
-            }
-        });
+//        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer a, Integer b) {
+//                return hashMap.get(a) - hashMap.get(b);
+//            }
+//        });
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(
+                (a, b) -> hashMap.get(a) - hashMap.get(b)
+        );  // 最小堆
         for (int key : hashMap.keySet()) {
             if (priorityQueue.size() < k)
                 priorityQueue.add(key);
