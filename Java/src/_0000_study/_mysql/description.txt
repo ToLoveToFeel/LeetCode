@@ -1,0 +1,58 @@
+
+安装mysql服务：
+    mysqld --install
+关闭mysql服务:
+    net stop mysql
+启动mysql服务：
+    net start mysql
+初始化数据文件：
+    mysqld --initialize-insecure --user=mysql
+
+
+
+
+连接数据库：
+    mysql -u root -p123456
+修改密码：
+    set password for root@localhost = password('123456');
+创建数据库：
+    create database `school` character set utf8 collate utf8_general_ci;
+刷新权限：
+    flush privileges;
+查看所有的数据库：
+    show databases;
+使用数据库：
+    user school;
+显示数据库中的表：
+    show tables;
+查看school数据库中表的字段信息：
+    describe student;
+
+退出连接：
+    exit
+
+SQL的单行注释：
+    --
+SQL的多行注释：
+    /*  */
+
+
+
+
+
+数据库xxx语言：
+    DDL : 数据库定义语言
+    DML : 数据库操作语言
+    DQL : 数据库查询语言
+    DCL : 数据库控制语言
+
+
+mysql数据库语句不区分大小写
+
+之后的语句带[]表示可选，带{}表示必选
+
+
+
+
+
+

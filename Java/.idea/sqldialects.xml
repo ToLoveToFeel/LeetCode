@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/crud/PreparedStatementUpdateTest.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/_0000_study/_db/_jdbc/dbutils/QueryRunnerTest.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/jdbc_data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/_0000_study/_mysql/OperateDatabase.sql" dialect="GenericSQL" />
   </component>
 </project>
