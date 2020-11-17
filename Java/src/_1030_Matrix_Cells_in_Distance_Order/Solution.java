@@ -44,7 +44,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        // [[1, 2], [0, 2], [1, 1], [0, 1], [1, 0], [0, 0]]
         int R = 2, C = 3;
         int r0 = 1, c0 = 2;
         int[][] res = (new Solution()).allCellsDistOrder(R, C, r0, c0);

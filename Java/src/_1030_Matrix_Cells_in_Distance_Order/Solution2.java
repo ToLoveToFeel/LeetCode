@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 /**
  * Date: 2020/11/17 8:52
  * Content: 广度优先遍历
- * 执行用时：16 ms, 在所有 Java 提交中击败了63.50%的用户
- * 内存消耗：40.7 MB, 在所有 Java 提交中击败了68.05%的用户
+ * 执行用时：11 ms, 在所有 Java 提交中击败了86.80%的用户
+ * 内存消耗：40.2 MB, 在所有 Java 提交中击败了98.23%的用户
  */
 public class Solution2 {
 
@@ -16,10 +16,6 @@ public class Solution2 {
 
     private boolean inArea(int R, int C, int r, int c) {
         return r >= 0 && r < R && c >= 0 && c < C;
-    }
-
-    private int distance(int r, int c, int r0, int c0) {
-        return Math.abs(r - r0) + Math.abs(c - c0);
     }
 
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
@@ -34,25 +30,19 @@ public class Solution2 {
         res[index][0] = r0;
         res[index][1] = c0;
         index++;
-        int levelNum = 1;
         while (!queue.isEmpty()) {
-            int newLevelNum = 0;
-            for (int i = 0; i < levelNum; i++) {
-                int[] point = queue.remove();
-                for (int j = 0; j < d.length; j++) {
-                    int r = point[0] + d[j][0];
-                    int c = point[1] + d[j][1];
-                    if (inArea(R, C, r, c) && !visited[r][c]) {
-                        visited[r][c] = true;
-                        queue.add(new int[]{r, c});
-                        res[index][0] = r;
-                        res[index][1] = c;
-                        index++;
-                        newLevelNum++;
-                    }
+            int[] point = queue.remove();
+            for (int j = 0; j < d.length; j++) {
+                int r = point[0] + d[j][0];
+                int c = point[1] + d[j][1];
+                if (inArea(R, C, r, c) && !visited[r][c]) {
+                    visited[r][c] = true;
+                    queue.add(new int[]{r, c});
+                    res[index][0] = r;
+                    res[index][1] = c;
+                    index++;
                 }
             }
-            levelNum = newLevelNum;
         }
 
         return res;
