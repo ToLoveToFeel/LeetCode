@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/findmaxsecondmax/FindMaxSecondMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/findmaxsecondmax/FindMaxSecondMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\multithread\synchronized" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTopKMax">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -145,6 +145,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_1030_Matrix_Cells_in_Distance_Order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0134_Gas_Station.Solution" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0134_Gas_Station.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,23 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataFormatConversion.listToArray1D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0000_study._common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_0000_study._common" />
-      <option name="MAIN_CLASS_NAME" value="_0000_study._common.DataFormatConversion" />
-      <option name="METHOD_NAME" value="listToArray1D" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -234,17 +231,17 @@
     <list>
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
-      <item itemvalue="JUnit.DataFormatConversion.listToArray1D" />
-      <item itemvalue="JUnit.DataFormatConversion.conversion2D" />
       <item itemvalue="Application.FindTopKMax" />
+      <item itemvalue="JUnit.DataFormatConversion.conversion2D" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FindTopKMax" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.DataFormatConversion.conversion2D" />
-        <item itemvalue="JUnit.DataFormatConversion.listToArray1D" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +591,8 @@
       <workItem from="1605518360481" duration="2238000" />
       <workItem from="1605529906444" duration="2353000" />
       <workItem from="1605574152633" duration="3187000" />
-      <workItem from="1605615181307" duration="5254000" />
+      <workItem from="1605615181307" duration="5546000" />
+      <workItem from="1605683944105" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -876,46 +874,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1605620506978">
+    <state width="1877" height="397" key="GridCell.Tab.0.bottom" timestamp="1605685686910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506978" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1605620506977">
+    <state width="1877" height="397" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605685686910" />
+    <state width="1877" height="397" key="GridCell.Tab.0.center" timestamp="1605685686910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1605620506977">
+    <state width="1877" height="397" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605685686910" />
+    <state width="1877" height="397" key="GridCell.Tab.0.left" timestamp="1605685686910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1605620506977">
+    <state width="1877" height="397" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605685686910" />
+    <state width="1877" height="397" key="GridCell.Tab.0.right" timestamp="1605685686910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605620506977" />
-    <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1605577378009">
+    <state width="1877" height="397" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605685686910" />
+    <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1605685687171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="397" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605577378009" />
-    <state width="1877" height="397" key="GridCell.Tab.1.center" timestamp="1605577378009">
+    <state width="1877" height="397" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605685687171" />
+    <state width="1877" height="397" key="GridCell.Tab.1.center" timestamp="1605685687171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="397" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605577378009" />
-    <state width="1877" height="397" key="GridCell.Tab.1.left" timestamp="1605577378009">
+    <state width="1877" height="397" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605685687171" />
+    <state width="1877" height="397" key="GridCell.Tab.1.left" timestamp="1605685687171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="397" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605577378009" />
-    <state width="1877" height="397" key="GridCell.Tab.1.right" timestamp="1605577378009">
+    <state width="1877" height="397" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605685687171" />
+    <state width="1877" height="397" key="GridCell.Tab.1.right" timestamp="1605685687171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="397" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605577378009" />
+    <state width="1877" height="397" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605685687171" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1605615478262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
