@@ -11,7 +11,7 @@ import java.io.IOException;
 // 文件相关操作
 public class FileOperation {
 
-    public static final String utilsLocation = "./src/_0000_classicalProblems/_datastructure/utils";
+    public static final String utilsLocation = "./src/_0000_study/_datastructure/utils";
 
     // 读取文件名称为filename中的内容，并将其中包含的所有词语放进words中
     public static boolean readFile(String filename, ArrayList<String> words){

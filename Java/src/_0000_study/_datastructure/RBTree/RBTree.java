@@ -92,7 +92,7 @@ public class RBTree<K extends Comparable<K>, V> {
     // 向红黑树中添加新的元素(key, value)
     public void add(K key, V value) {
         root = add(root, key, value);
-        root.color = BLACK; // 最终根节点为黑色节点
+        root.color = BLACK;  // 最终根节点为黑色节点
     }
 
     // 向以node为根的红黑树中插入元素(key, value)，递归算法
@@ -101,14 +101,14 @@ public class RBTree<K extends Comparable<K>, V> {
 
         if (node == null) {
             size++;
-            return new Node(key, value); // 默认插入红色节点
+            return new Node(key, value);  // 默认插入红色节点
         }
 
         if (key.compareTo(node.key) < 0)
             node.left = add(node.left, key, value);
         else if (key.compareTo(node.key) > 0)
             node.right = add(node.right, key, value);
-        else // key.compareTo(node.key) == 0
+        else  // key.compareTo(node.key) == 0
             node.value = value;
 
         if (isRed(node.right) && !isRed(node.left))
@@ -133,7 +133,7 @@ public class RBTree<K extends Comparable<K>, V> {
             return node;
         else if (key.compareTo(node.key) < 0)
             return getNode(node.left, key);
-        else // if(key.compareTo(node.key) > 0)
+        else  // if(key.compareTo(node.key) > 0)
             return getNode(node.right, key);
     }
 
@@ -153,81 +153,5 @@ public class RBTree<K extends Comparable<K>, V> {
             throw new IllegalArgumentException(key + " doesn't exist!");
 
         node.value = newValue;
-    }
-
-    // 返回以node为根的二分搜索树的最小值所在的节点
-    private Node minimum(Node node) {
-        if (node.left == null)
-            return node;
-        return minimum(node.left);
-    }
-
-    // 删除掉以node为根的二分搜索树中的最小节点
-    // 返回删除节点后新的二分搜索树的根
-    private Node removeMin(Node node) {
-
-        if (node.left == null) {
-            Node rightNode = node.right;
-            node.right = null;
-            size--;
-            return rightNode;
-        }
-
-        node.left = removeMin(node.left);
-        return node;
-    }
-
-    // 从二分搜索树中删除键为key的节点
-    public V remove(K key) {
-
-        Node node = getNode(root, key);
-        if (node != null) {
-            root = remove(root, key);
-            return node.value;
-        }
-        return null;
-    }
-
-    private Node remove(Node node, K key) {
-
-        if (node == null)
-            return null;
-
-        if (key.compareTo(node.key) < 0) {
-            node.left = remove(node.left, key);
-            return node;
-        } else if (key.compareTo(node.key) > 0) {
-            node.right = remove(node.right, key);
-            return node;
-        } else {   // key.compareTo(node.key) == 0
-
-            // 待删除节点左子树为空的情况
-            if (node.left == null) {
-                Node rightNode = node.right;
-                node.right = null;
-                size--;
-                return rightNode;
-            }
-
-            // 待删除节点右子树为空的情况
-            if (node.right == null) {
-                Node leftNode = node.left;
-                node.left = null;
-                size--;
-                return leftNode;
-            }
-
-            // 待删除节点左右子树均不为空的情况
-
-            // 找到比待删除节点大的最小节点, 即待删除节点右子树的最小节点
-            // 用这个节点顶替待删除节点的位置
-            Node successor = minimum(node.right);
-            successor.right = removeMin(node.right);
-            successor.left = node.left;
-
-            node.left = node.right = null;
-
-            return successor;
-        }
     }
 }
