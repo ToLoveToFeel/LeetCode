@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_datastructure/RBTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_datastructure/RBTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_datastructure/RBTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_datastructure/RBTree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_datastructure/utils/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_datastructure/utils/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/description.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,19 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -257,7 +269,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="MySQL - @172.17.82.113: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@76f1b142" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@104896af" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -591,7 +603,7 @@
       <workItem from="1605529906444" duration="2353000" />
       <workItem from="1605574152633" duration="3187000" />
       <workItem from="1605615181307" duration="5546000" />
-      <workItem from="1605683944105" duration="2503000" />
+      <workItem from="1605683944105" duration="9288000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -826,10 +838,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="842" y="381" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600913560627" />
-    <state x="337" y="356" key="#SQL_Dialects" timestamp="1605616239910">
+    <state x="337" y="356" key="#SQL_Dialects" timestamp="1605689271285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="356" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605616239910" />
+    <state x="337" y="356" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605689271285" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605615438685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -873,26 +885,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1605686027763">
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1605702848384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605686027763" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1605686027763">
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605702848384" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1605702848384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605686027763" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1605686027763">
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605702848384" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1605702848384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605686027763" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1605686027763">
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605702848384" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1605702848384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605686027763" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605702848384" />
     <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1605685802778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
