@@ -1,5 +1,13 @@
 package _0283_Move_Zeroes;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
+/**
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：38.8 MB, 在所有 Java 提交中击败了74.10%的用户
+ */
+
 public class Solution2 {
     // 时间复杂度：O(n)
     // 空间复杂度：O(1)
@@ -17,9 +25,9 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {0, 1, 0, 3, 12};
         (new Solution2()).moveZeroes(nums);
-        for (int num : nums)
-            System.out.println(num);
+        System.out.println(Arrays.stream(nums).boxed().collect(Collectors.toList()));
     }
 }

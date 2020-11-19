@@ -1,5 +1,8 @@
 package _0283_Move_Zeroes;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class Solution3 {
     // 时间复杂度：O(n)
     // 空间复杂度：O(1)
@@ -16,16 +19,16 @@ public class Solution3 {
 
     }
 
-    private void swap(int[] arr, int i, int j){
+    private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
     public static void main(String[] args) {
+
         int[] nums = {0, 1, 0, 3, 12};
         (new Solution3()).moveZeroes(nums);
-        for (int num : nums)
-            System.out.println(num);
+        System.out.println(Arrays.stream(nums).boxed().collect(Collectors.toList()));
     }
 }
