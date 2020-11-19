@@ -27,6 +27,8 @@
     show tables;
 查看school数据库中表的字段信息：
     describe student;
+查看系统版本：
+    select version();
 
 退出连接：
     exit
