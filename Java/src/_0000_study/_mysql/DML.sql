@@ -1,5 +1,5 @@
 /*
-DML : 数据库操作语言
+DML : 数据操作语言
     insert / delete / update
 
 insert : insert into 表名[(字段1, 字段2, ...)] values ('值1', '值2', ...), ('值1', '值2', ...);

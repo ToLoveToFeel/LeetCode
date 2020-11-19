@@ -1,5 +1,5 @@
 /*
-DDL : 数据库定义语言
+DDL : 数据定义语言
     create\drop\alter
 
 create table:
