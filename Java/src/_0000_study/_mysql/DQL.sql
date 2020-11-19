@@ -413,3 +413,4 @@ select * from `testmd5` where `id`=2 and `pwd`=MD5('123456');
 
 
 
+
