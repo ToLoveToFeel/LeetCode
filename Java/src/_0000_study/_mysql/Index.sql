@@ -97,7 +97,8 @@ explain select * from `app_user` where `name`='用户9999';
 -- create index 索引名 on 表(字段)
 create index `id_app_user_name` on `app_user`(`name`);
 
-
+-- 删除 app_user 表
+drop table if exists `app_user`;
 
 
 

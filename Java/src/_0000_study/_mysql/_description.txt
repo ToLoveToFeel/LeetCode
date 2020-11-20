@@ -160,8 +160,35 @@ MySQL的默认编码是Latin1，不支持中文
     or
 
 
+=============================================================================
+ MySQL数据备份
 
+ 为什么需要备份？
+    (1) 保证重要数据不丢失
+    (2) 数据转移
 
+ MySQL数据库备份的方式：
+    (1) 直接拷贝物理文件
+    (2) 在SQLyog这类可视化数据中手动导出
+        在想要导出的表或者库中，右键，选择备份或导出
+    (3) 使用命令导出 mysqldump 命令行使用
+        格式：mysqldump -h主机 -u用户名 -p密码 数据库 表名 > 物理磁盘
+        例子：mysqldump -hlocalhost -uroot -p123456 school student > D:/a.sql
+
+        格式：mysqldump -h主机 -u用户名 -p密码 数据库 表1 表2 表3 > 物理磁盘
+        例子：mysqldump -hlocalhost -uroot -p123456 school student result > D:/b.sql
+
+        格式：mysqldump -h主机 -u用户名 -p密码 数据库 > 物理磁盘
+        例子：mysqldump -hlocalhost -uroot -p123456 school > D:/c.sql
+
+ 根据sql文件导入数据：
+    第一种方式：
+        (1) 登陆情况下，切换到指定数据库：
+            use school
+        (2) 格式：source 备份文件
+            例子：source d
+    第二种方式：
+        mysql -u用户名 -p密码 库名 < 备份文件
 
 
 

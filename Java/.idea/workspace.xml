@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/Index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/Index.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/_description.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +49,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="app_user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -618,7 +612,7 @@
       <workItem from="1605615181307" duration="5546000" />
       <workItem from="1605683944105" duration="14206000" />
       <workItem from="1605746893337" duration="15553000" />
-      <workItem from="1605838703537" duration="10534000" />
+      <workItem from="1605838703537" duration="11865000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -904,26 +898,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1293" height="299" key="GridCell.Tab.0.bottom" timestamp="1605868780932">
+    <state width="1293" height="299" key="GridCell.Tab.0.bottom" timestamp="1605869413795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605868780932" />
-    <state width="1293" height="299" key="GridCell.Tab.0.center" timestamp="1605868780931">
+    <state width="1293" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605869413795" />
+    <state width="1293" height="299" key="GridCell.Tab.0.center" timestamp="1605869413795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605868780931" />
-    <state width="1293" height="299" key="GridCell.Tab.0.left" timestamp="1605868780930">
+    <state width="1293" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605869413795" />
+    <state width="1293" height="299" key="GridCell.Tab.0.left" timestamp="1605869413795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605868780930" />
-    <state width="1293" height="299" key="GridCell.Tab.0.right" timestamp="1605868780931">
+    <state width="1293" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605869413795" />
+    <state width="1293" height="299" key="GridCell.Tab.0.right" timestamp="1605869413795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605868780931" />
+    <state width="1293" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605869413795" />
     <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1605708290575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -984,11 +978,11 @@
     </state>
     <state x="2536" y="250" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599211109579" />
     <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604975535398" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605619417308">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605870303146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2543" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599724124046" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605619417308" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605870303146" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
