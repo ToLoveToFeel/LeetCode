@@ -20,6 +20,12 @@ public class QuickSort {
 
         Comparable v = arr[l];
 
+        //          arr[l+1...j] > v     arr[j+1...i-1] < v
+        // \--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\
+        //   l     l+1            j     j+1            i-1     i
+        // if(nums[i] > nums[l])   (1) 交换nums[i]和nums[j+1];   (2) j++;   (3)i++;考察下一个元素
+        // 最后交换nums[l]和nums[j]
+
         int j = l; // arr[l+1...j] < v ; arr[j+1...i) > v
         for (int i = l + 1; i <= r; i++)
             if (arr[i].compareTo(v) < 0) {

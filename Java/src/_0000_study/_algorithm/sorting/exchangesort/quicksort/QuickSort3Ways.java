@@ -22,6 +22,12 @@ public class QuickSort3Ways {
 
         Comparable v = arr[l];
 
+        //          arr[l+1...lt] < v       arr[lt+1...i) == v          arr[gt...r] > v
+        // \--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\
+        //   l     l+1            lt    lt+1                i           gt                    r
+        // ......
+        // 最后交换nums[l]和nums[lt]
+
         int lt = l;     // arr[l+1...lt] < v
         int gt = r + 1; // arr[gt...r] > v
         int i = l + 1;    // arr[lt+1...i) == v

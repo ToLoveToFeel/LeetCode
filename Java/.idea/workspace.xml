@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/Index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/Index.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort2Ways.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort2Ways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort3Ways.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/exchangesort/quicksort/QuickSort3Ways.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -612,7 +613,7 @@
       <workItem from="1605615181307" duration="5546000" />
       <workItem from="1605683944105" duration="14206000" />
       <workItem from="1605746893337" duration="15553000" />
-      <workItem from="1605838703537" duration="11865000" />
+      <workItem from="1605838703537" duration="13615000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>

@@ -17,6 +17,12 @@ public class QuickSort2Ways {
 
         Comparable v = arr[l];
 
+        //          arr[l+1...i) <= v                             arr(j...r] >= v
+        // \--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\
+        //   l     l+1        i-1 i     i+1            j-1     j
+        // ......
+        // 最后交换nums[l]和nums[j]
+
         // arr[l+1...i) <= v; arr(j...r] >= v
         int i = l + 1, j = r;
         while (true) {
