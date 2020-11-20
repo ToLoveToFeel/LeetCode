@@ -333,7 +333,7 @@ where `StudentResult`>=80 and `SubjectNo`=(
 select abs(-8);  -- 绝对值
 select ceiling(9.4);  -- 向上取整
 select floor(9.4);  -- 向下取整
-select rand();  -- 返回一个在0~1之间的随机数
+select rand();  -- 返回一个在0~1之间的随机数[0~1)
 select sign(10.1);  -- 判断一个数的符号，0:0，负数返回-1，正数返回1
 -- 字符串函数
 select char_length('即使再小的帆也能远航');  -- 字符串长度
