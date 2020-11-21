@@ -35,4 +35,10 @@ select `class` from `courses`
 group by `class`
 having count(distinct `student`) >= 5;
 
+-- 解法二
+select `class`, count(distinct `student`) from `courses`
+group by `class`;
 
+select `class` from (
+    (select `class`, count(distinct `student`) as num from `courses` group by `class`) as `t`
+) where num >= 5;
