@@ -4,40 +4,6 @@
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/子序列问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/子序列问题.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +35,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="leetcode: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -309,7 +281,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="MySQL - @172.17.82.113: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@566797a0" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@378f877d" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -646,7 +618,7 @@
       <workItem from="1605683944105" duration="14206000" />
       <workItem from="1605746893337" duration="15553000" />
       <workItem from="1605838703537" duration="14629000" />
-      <workItem from="1605925696747" duration="13512000" />
+      <workItem from="1605925696747" duration="15018000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -932,46 +904,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1605948078766">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078766" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1605948078765">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1605948078765">
+    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1605948078765">
+    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
-    <state width="1877" height="251" key="GridCell.Tab.1.bottom" timestamp="1605944448765">
+    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.1.bottom" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
-    <state width="1877" height="251" key="GridCell.Tab.1.center" timestamp="1605944448765">
+    <state width="1877" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.1.center" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
-    <state width="1877" height="251" key="GridCell.Tab.1.left" timestamp="1605944448765">
+    <state width="1877" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.1.left" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
-    <state width="1877" height="251" key="GridCell.Tab.1.right" timestamp="1605944448765">
+    <state width="1877" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
+    <state width="1877" height="251" key="GridCell.Tab.1.right" timestamp="1605949145349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
+    <state width="1877" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605949145349" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1605615478262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
