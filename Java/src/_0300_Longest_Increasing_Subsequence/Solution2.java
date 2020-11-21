@@ -20,7 +20,7 @@ public class Solution2 {
         if (memo[index] != -1)
             return memo[index];
         int max = 1;
-        for (int i = index - 1; i >= 0; i--) {
+        for (int i = 0; i < index; i++) {
             memo[i] = lengthOfLIS(nums, i);
             if (nums[i] < nums[index])
                 max = Math.max(max, 1 + memo[i]);
@@ -44,9 +44,10 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-//        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
-        int[] nums = {-2, -1};
-//        int[] nums = {1,3,6,7,9,4,10,5,6};
+
+        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
+//        int[] nums = {-2, -1};
+//        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
         System.out.println((new Solution2()).lengthOfLIS(nums));
     }
 }

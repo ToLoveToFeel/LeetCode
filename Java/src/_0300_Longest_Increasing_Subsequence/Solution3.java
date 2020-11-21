@@ -10,6 +10,7 @@ import java.util.Arrays;
 // 时间复杂度：O(n^2)
 // 空间复杂度：O(n)
 public class Solution3 {
+
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0)
             return 0;
@@ -31,9 +32,10 @@ public class Solution3 {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
 //        int[] nums = {-2, -1};
-        int[] nums = {1,3,6,7,9,4,10,5,6};
+        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
         System.out.println((new Solution3()).lengthOfLIS(nums));
     }
 }

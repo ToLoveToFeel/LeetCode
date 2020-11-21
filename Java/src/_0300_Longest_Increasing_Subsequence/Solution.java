@@ -15,7 +15,7 @@ public class Solution {
             return 1;
 
         int max = 1;
-        for (int i = 0; i < index; i++){
+        for (int i = 0; i < index; i++) {
             int submax = lengthOfLIS(nums, i);
             if (nums[index] > nums[i])
                 max = Math.max(max, 1 + submax);
@@ -31,9 +31,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
-//        int[] nums = {-2,-1};
-        int[] nums = {1,3,6,7,9,4,10,5,6};
+//        int[] nums = {-2, -1};
+        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
         System.out.println((new Solution()).lengthOfLIS(nums));
     }
 }

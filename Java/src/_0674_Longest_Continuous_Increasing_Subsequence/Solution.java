@@ -8,6 +8,7 @@ package _0674_Longest_Continuous_Increasing_Subsequence;
  * Leetcode 674 --> Leetcode 300    Leetcode 128
  */
 public class Solution {
+
     public int findLengthOfLCIS(int[] nums) {
         int res = 0;
         int index = 0;
@@ -26,6 +27,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {1, 3, 5, 4, 7};
         int[] nums = {2, 2, 2, 2, 2};
         System.out.println((new Solution()).findLengthOfLCIS(nums));

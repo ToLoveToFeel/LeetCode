@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0206_Reverse_Linked_List/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/子序列问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/子序列问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0005_Longest_Palindromic_Substring/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0053_Maximum_Subarray/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0152_Maximum_Product_Subarray/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/Solution6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0209_Minimum_Size_Subarray_Sum/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0300_Longest_Increasing_Subsequence/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0674_Longest_Continuous_Increasing_Subsequence/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0696_Count_Binary_Substrings/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +153,11 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_1143_Longest_Common_Subsequence" />
       <recent name="_1030_Matrix_Cells_in_Distance_Order" />
       <recent name="_0922_Sort_Array_By_Parity_II" />
       <recent name="_0905_Sort_Array_By_Parity" />
       <recent name="_0514_Freedom_Trail" />
-      <recent name="_0121_Best_Time_to_Buy_and_Sell_Stock" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -137,7 +170,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\findtopKmax" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution2 (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -146,12 +179,12 @@
       <module />
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0147_Insertion_Sort_List.Solution" />
+      <option name="MAIN_CLASS_NAME" value="_0300_Longest_Increasing_Subsequence.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0147_Insertion_Sort_List.*" />
+          <option name="PATTERN" value="_0300_Longest_Increasing_Subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,26 +193,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0148_Sort_List.Solution" />
+      <option name="MAIN_CLASS_NAME" value="_1143_Longest_Common_Subsequence.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0148_Sort_List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.reverselinkedlist.Solution" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0000_study.classicalproblems.reverselinkedlist.*" />
+          <option name="PATTERN" value="_1143_Longest_Common_Subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +207,26 @@
       </method>
     </configuration>
     <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0283_Move_Zeroes.Solution2" />
+      <option name="MAIN_CLASS_NAME" value="_0300_Longest_Increasing_Subsequence.Solution2" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0283_Move_Zeroes.*" />
+          <option name="PATTERN" value="_0300_Longest_Increasing_Subsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0696_Count_Binary_Substrings.Solution2" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0696_Count_Binary_Substrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +235,12 @@
       </method>
     </configuration>
     <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.reverselinkedlist.Solution2" />
+      <option name="MAIN_CLASS_NAME" value="_1143_Longest_Common_Subsequence.Solution2" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study.classicalproblems.reverselinkedlist.*" />
+          <option name="PATTERN" value="_1143_Longest_Common_Subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,19 +280,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution2 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2 (1)" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +646,7 @@
       <workItem from="1605683944105" duration="14206000" />
       <workItem from="1605746893337" duration="15553000" />
       <workItem from="1605838703537" duration="14629000" />
-      <workItem from="1605925696747" duration="4116000" />
+      <workItem from="1605925696747" duration="13512000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -844,10 +877,10 @@
     </state>
     <state x="2506" y="218" key="#Inspections/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599378441967" />
     <state x="586" y="210" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602574324363" />
-    <state x="842" y="381" key="#Notifications" timestamp="1600913560627">
+    <state x="842" y="363" key="#Notifications" timestamp="1605943128295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="842" y="381" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600913560627" />
+    <state x="842" y="363" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605943128295" />
     <state x="337" y="356" key="#SQL_Dialects" timestamp="1605705192155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -899,46 +932,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1605930196798">
+    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1605948078766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605930196798" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1605930196798">
+    <state width="1877" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078766" />
+    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1605948078765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605930196798" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1605930196797">
+    <state width="1877" height="177" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
+    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1605948078765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605930196797" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1605930196798">
+    <state width="1877" height="177" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
+    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1605948078765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605930196798" />
-    <state width="1877" height="321" key="GridCell.Tab.1.bottom" timestamp="1605929429106">
+    <state width="1877" height="177" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605948078765" />
+    <state width="1877" height="251" key="GridCell.Tab.1.bottom" timestamp="1605944448765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605929429106" />
-    <state width="1877" height="321" key="GridCell.Tab.1.center" timestamp="1605929429106">
+    <state width="1877" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
+    <state width="1877" height="251" key="GridCell.Tab.1.center" timestamp="1605944448765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="321" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605929429106" />
-    <state width="1877" height="321" key="GridCell.Tab.1.left" timestamp="1605929429106">
+    <state width="1877" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
+    <state width="1877" height="251" key="GridCell.Tab.1.left" timestamp="1605944448765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="321" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605929429106" />
-    <state width="1877" height="321" key="GridCell.Tab.1.right" timestamp="1605929429106">
+    <state width="1877" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
+    <state width="1877" height="251" key="GridCell.Tab.1.right" timestamp="1605944448765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="321" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605929429106" />
+    <state width="1877" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605944448765" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1605615478262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -979,11 +1012,11 @@
     </state>
     <state x="2536" y="250" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599211109579" />
     <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604975535398" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605870303146">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605946565817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2543" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599724124046" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605870303146" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605946565817" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1015,6 +1048,11 @@
           <url>file://$PROJECT_DIR$/../../../JavaSourceLearn/src/com/company/source/java/util/ArrayList.java</url>
           <line>408</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

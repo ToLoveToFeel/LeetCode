@@ -11,6 +11,7 @@ import java.util.Arrays;
 // 时间复杂度：O(n^logn)
 // 空间复杂度：O(n)
 public class Solution4 {
+
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0)
             return 0;
@@ -39,9 +40,10 @@ public class Solution4 {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
 //        int[] nums = {-2, -1};
-//        int[] nums = {1,3,6,7,9,4,10,5,6};
+//        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
         int[] nums = {10, 9, 2, 5, 3, 4};
 //        int[] nums = {2, 3, 14, 20, 21, 18};  // 对应tail是2,3,18,20,21
         System.out.println((new Solution4()).lengthOfLIS(nums));

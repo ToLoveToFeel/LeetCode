@@ -7,6 +7,7 @@ package _0718_Maximum_Length_of_Repeated_Subarray;
  * 空间复杂度： O(N×M)
  */
 class Solution2 {
+
     private int maxLength(int[] A, int[] B, int startA, int startB, int length) {
         int res = 0;  // 记录最长子串
         int k = 0;  // 记录每段最长子串
@@ -23,6 +24,7 @@ class Solution2 {
 
     // 滑动窗口法
     public int findLength(int[] A, int[] B) {
+
         int m = A.length, n = B.length;
         int res = 0;
         for (int i = 0; i < m; i++) {
@@ -39,6 +41,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[] A = {1, 2, 3, 2, 1};
         int[] B = {3, 2, 1, 4, 7};
         System.out.println((new Solution2()).findLength(A, B));

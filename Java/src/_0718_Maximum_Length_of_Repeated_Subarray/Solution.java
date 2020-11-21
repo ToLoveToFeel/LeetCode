@@ -7,8 +7,10 @@ package _0718_Maximum_Length_of_Repeated_Subarray;
  * 空间复杂度： O(N×M)
  */
 class Solution {
+
     // 动态规划
     public int findLength(int[] A, int[] B) {
+
         int[][] dp = new int[A.length][B.length];
         int max = 0;
         // 填充第一行
@@ -35,6 +37,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         int[] A = {1, 2, 3, 2, 1};
         int[] B = {3, 2, 1, 4, 7};
         System.out.println((new Solution()).findLength(A, B));

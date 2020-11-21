@@ -2,12 +2,14 @@ package _0005_Longest_Palindromic_Substring;
 
 /**
  * Date: 2020/8/27 20:47
- * Content:
+ * Content: 暴力解法
  * 时间复杂度：O(n^3)
  * 空间复杂度：O(1)
  */
 class Solution {
+
     private boolean vaildPalindrome(String s, int left, int right) {
+
         while (left < right) {
             if (s.charAt(left) != s.charAt(right))
                 return false;
@@ -19,6 +21,7 @@ class Solution {
 
     // 暴力解法
     public String longestPalindrome(String s) {
+
         if (s.length() < 2)
             return s;
         int maxLen = 1;
@@ -35,6 +38,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         String s = "aacdefcaa";
         System.out.println((new Solution()).longestPalindrome(s));
     }
