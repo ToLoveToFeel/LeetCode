@@ -1,4 +1,4 @@
-package _0206_Reverse_Linked_List;
+package _0000_study.classicalproblems.reverselinkedlist;
 
 class Solution {
     // 时间复杂度：O(n)
