@@ -4,7 +4,6 @@
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/mysql.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0000_study/classicalproblems/reverselinkedlist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0176_MySQL_Second_Highest_Salary" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -102,11 +101,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0176_MySQL_Second_Highest_Salary" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\reverselinkedlist" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\slowfastpointer" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0148_Sort_List" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0147_Insertion_Sort_List" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\findtopKmax" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0628_Maximum_Product_of_Three_Numbers" />
@@ -601,7 +600,7 @@
       <workItem from="1605838703537" duration="14629000" />
       <workItem from="1605925696747" duration="15277000" />
       <workItem from="1605950632775" duration="1899000" />
-      <workItem from="1606009085964" duration="3904000" />
+      <workItem from="1606009085964" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -887,26 +886,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604842681387" />
-    <state width="1293" height="299" key="GridCell.Tab.0.bottom" timestamp="1606012965231">
+    <state width="1293" height="299" key="GridCell.Tab.0.bottom" timestamp="1606013434650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606012965231" />
-    <state width="1293" height="299" key="GridCell.Tab.0.center" timestamp="1606012965231">
+    <state width="1293" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606013434650" />
+    <state width="1293" height="299" key="GridCell.Tab.0.center" timestamp="1606013434650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606012965231" />
-    <state width="1293" height="299" key="GridCell.Tab.0.left" timestamp="1606012965230">
+    <state width="1293" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606013434650" />
+    <state width="1293" height="299" key="GridCell.Tab.0.left" timestamp="1606013434649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606012965230" />
-    <state width="1293" height="299" key="GridCell.Tab.0.right" timestamp="1606012965231">
+    <state width="1293" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606013434649" />
+    <state width="1293" height="299" key="GridCell.Tab.0.right" timestamp="1606013434650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1293" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606012965231" />
+    <state width="1293" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606013434650" />
     <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1606011577194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
