@@ -1,3 +1,18 @@
 
+Leetcode 0175 组合两个表
+Leetcode 0176 第二高的薪水
+Leetcode 0177 第N高的薪水
+Leetcode 0178 分数排名
+Leetcode 0180 连续出现的数字
+Leetcode 0181 超过经理收入的员工
+Leetcode 0182 查找重复的电子邮箱
+Leetcode 0183 从不订购的客户
+Leetcode 0184 部门工资最高的员工
+Leetcode 0185 部门工资前三高的所有员工
+Leetcode 0196 删除重复的电子邮箱
+Leetcode 0197 上升的温度
+
 Leetcode 0596 超过5名学生的课
+Leetcode 0626. 换座位
+Leetcode 0627. 变更性别
 
