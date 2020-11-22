@@ -1,9 +1,14 @@
 package _0242_Valid_Anagram;
 
-import _0076_Minimum_Window_Substring.Solution2;
+/**
+ * 执行用时：5 ms, 在所有 Java 提交中击败了48.42%的用户
+ * 内存消耗：39 MB, 在所有 Java 提交中击败了45.46%的用户
+ */
 
 public class Solution {
+
     public boolean isAnagram(String s, String t) {
+
         if (s.length() != t.length())
             return false;
 
@@ -23,6 +28,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution()).isAnagram("anagram", "nagaram"));
         System.out.println((new Solution()).isAnagram("rat", "car"));
     }
