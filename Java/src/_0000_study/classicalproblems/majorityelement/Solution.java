@@ -1,7 +1,4 @@
-package _0169_Majority_Element;
-
-import java.util.HashMap;
-import java.util.Map;
+package _0000_study.classicalproblems.majorityelement;
 
 /**
  * Date: 2020/8/24 14:54

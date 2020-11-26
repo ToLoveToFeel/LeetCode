@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,12 +119,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\basic\preparedstatement\crud" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\util" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\lcs" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\lis" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0222_Count_Complete_Tree_Nodes" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0176_MySQL_Second_Highest_Salary" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\reverselinkedlist" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0222_Count_Complete_Tree_Nodes" />
@@ -129,15 +136,12 @@
       <recent name="_1030_Matrix_Cells_in_Distance_Order" />
       <recent name="_0922_Sort_Array_By_Parity_II" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0222_Count_Complete_Tree_Nodes" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0176_MySQL_Second_Highest_Salary" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\reverselinkedlist" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\slowfastpointer" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0148_Sort_List" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\basic\preparedstatement\crud" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_jdbc\util" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
@@ -631,7 +635,7 @@
       <workItem from="1606208197512" duration="224000" />
       <workItem from="1606301754322" duration="1179000" />
       <workItem from="1606307127160" duration="47000" />
-      <workItem from="1606353021776" duration="286000" />
+      <workItem from="1606353021776" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>

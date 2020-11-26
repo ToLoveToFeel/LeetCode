@@ -1,4 +1,4 @@
-package _0169_Majority_Element;
+package _0000_study.classicalproblems.majorityelement;
 
 /**
  * Date: 2020/8/24 15:41
