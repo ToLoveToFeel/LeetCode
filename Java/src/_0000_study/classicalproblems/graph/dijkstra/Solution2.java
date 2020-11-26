@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.dijkstra;
+package _0000_study.classicalproblems.graph.dijkstra;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -95,6 +95,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int n = 3;  // 0.25
         int[][] edges = {{0, 1}, {1, 2}, {0, 2}};
         double[] succProb = {0.5, 0.5, 0.2};

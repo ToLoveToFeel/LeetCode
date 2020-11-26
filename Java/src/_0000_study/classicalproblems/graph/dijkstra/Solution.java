@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.dijkstra;
+package _0000_study.classicalproblems.graph.dijkstra;
 
 import java.util.ArrayList;
 import java.util.List;
