@@ -1,4 +1,4 @@
-package _0136_Single_Number;
+package _0000_study.classicalproblems.singlenumber;
 
 /**
  * Date: 2020/8/24 14:20
