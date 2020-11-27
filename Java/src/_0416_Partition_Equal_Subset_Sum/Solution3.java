@@ -16,6 +16,7 @@ class Solution3 {
     时间复杂度：O(n * sum/2) = O(n * sum)
      */
     public boolean canPartition(int[] nums) {
+
         int sum = 0;
         for (int i = 0; i < nums.length; i++)
             sum += nums[i];
@@ -37,6 +38,7 @@ class Solution3 {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 5, 11, 5};
         System.out.println((new Solution3()).canPartition(nums));
     }

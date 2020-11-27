@@ -1,6 +1,7 @@
 package _0112_Path_Sum;
 
 public class Solution {
+
     public boolean hasPathSum(TreeNode root, int sum) {
         if (null == root)  // 节点为空
             return false;
@@ -13,6 +14,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
         int[] nums = new int[]{
                 5,

@@ -27,6 +27,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {-2, 0, 3, -5, 2, -1};
 
         NumArray array = new NumArray(nums);

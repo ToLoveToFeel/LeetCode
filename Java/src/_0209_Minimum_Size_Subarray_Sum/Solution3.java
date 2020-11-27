@@ -1,15 +1,13 @@
 package _0209_Minimum_Size_Subarray_Sum;
 
 /**
- * 前缀和
- * <p>
+ * 前缀和：优化Solution的空间
  * 时间复杂度：O(n^2)
  * 空间复杂度：O(1)
  */
 
 public class Solution3 {
-    // 时间复杂度：O(n^2)
-    // 空间复杂度：O(1)
+
     public int minSubArrayLen(int s, int[] nums) {
 
         if (s <= 0 || nums == null)

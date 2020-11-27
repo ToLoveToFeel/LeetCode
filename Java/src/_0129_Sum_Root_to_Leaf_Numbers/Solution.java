@@ -8,8 +8,10 @@ import java.util.List;
  * Content:
  */
 public class Solution {
+
     // 返回以 node 为根节点的所有数字的集合
     private List<String> searchNumbers(TreeNode node) {
+
         ArrayList<String> res = new ArrayList<>();
 
         if (node == null)
@@ -37,6 +39,7 @@ public class Solution {
     }
 
     public int sumNumbers(TreeNode root) {
+
         ArrayList<String> list;
 
         if (root == null)

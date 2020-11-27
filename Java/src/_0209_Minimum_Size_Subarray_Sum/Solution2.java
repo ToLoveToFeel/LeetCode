@@ -2,7 +2,6 @@ package _0209_Minimum_Size_Subarray_Sum;
 
 /**
  * 前缀和
- * <p>
  * 时间复杂度：O(n^2)
  * 空间复杂度：O(n)
  */

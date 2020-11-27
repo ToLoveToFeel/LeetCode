@@ -9,12 +9,14 @@ import java.util.Arrays;
  * 使用记忆化搜索优化代码
  */
 class Solution2 {
+
     // memo[i][c] 表示使用索引[0...i]的这些元素，是否可以完全填充一个容量为c的背包
     // -1 表示未计算；0 表示不可以填充；1 表示可以填充
     int[][] memo;
 
     // 使用nums[0...index]，是否可以填满一个容量为sum的背包
     private boolean tryPartition(int[] nums, int index, int sum) {
+
         if (sum == 0)
             return true;
         if (sum < 0 || index < 0)
@@ -36,6 +38,7 @@ class Solution2 {
     时间复杂度：O(n * sum/2) = O(n * sum)
      */
     public boolean canPartition(int[] nums) {
+
         int sum = 0;
         for (int i = 0; i < nums.length; i++)
             sum += nums[i];
@@ -50,6 +53,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 5, 11, 5};
         System.out.println((new Solution2()).canPartition(nums));
     }

@@ -1,6 +1,7 @@
 package _0303_Range_Sum_Query_Immutable;
 
 public class Solution2 {
+
     static class NumArray {
 
         private int[] sum;  // sum[i]存储前i个元素和， sum[0] = 0

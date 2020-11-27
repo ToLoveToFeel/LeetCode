@@ -5,9 +5,11 @@ package _0404_Sum_of_Left_Leaves;
  * Content:
  */
 public class Solution2 {
+
     int res = 0;
     // 计算以 node 为根节点的二叉树的所有左叶子之和
     private void dfs(TreeNode node, boolean isLeft) {
+
         if (node == null)
             return;
         if (node.left == null && node.right == null && isLeft)

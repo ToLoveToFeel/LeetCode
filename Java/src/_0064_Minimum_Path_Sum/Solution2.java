@@ -15,35 +15,43 @@ public class Solution2 {
     private int m;
     private int[][] dp;
 
-    public int minPathSum(int[][] grid){
+    public int minPathSum(int[][] grid) {
+
         if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0)
             return 0;
+
         n = grid.length;
         m = grid[0].length;
+
         dp = new int[n][m];
         for (int i = 0; i < n; i++)
             Arrays.fill(dp[i], -1);
+
         return rec(grid, 0, 0);
     }
 
     // 返回从(i,j)出发到右下格的最短距离
-    private int rec(int[][] grid, int i, int j){
+    private int rec(int[][] grid, int i, int j) {
+
         if (i == n - 1 && j == m - 1)
             return grid[i][j];
-        if (dp[i][j] != -1)  //已经计算过，直接返回
+        if (dp[i][j] != -1)  // 已经计算过，直接返回
             return dp[i][j];
+
         int min;
         if (i == n - 1)  // 在最后一行
             min = grid[i][j] + rec(grid, i, j + 1);
-        else if (j == m - 1)  //最后一列
+        else if (j == m - 1)  // 最后一列
             min = grid[i][j] + rec(grid, i + 1, j);
         else
             min = grid[i][j] + Math.min(rec(grid, i + 1, j), rec(grid, i, j + 1));
+
         dp[i][j] = min;
         return min;
     }
 
     public static void main(String[] args) {
+
         int[][] grid = {
                 {1, 3, 1},
                 {1, 5, 1},

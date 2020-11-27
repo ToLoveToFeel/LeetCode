@@ -2,11 +2,15 @@ package _0001_Two_Sum;
 
 import java.util.HashMap;
 
+/**
+ * 哈希表
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+ */
 public class Solution2 {
-    // One-Pass Hash Table
-    // Time Complexity: O(n)
-    // Space Complexity: O(n)
+
     public int[] twoSum(int[] nums, int target) {
+
         HashMap<Integer, Integer> record = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
@@ -21,11 +25,12 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {2, 7, 11, 15};
+
+        int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        int[] res = (new Solution2()).twoSum(numbers, target);
-        for (int re : res)
-            System.out.println(re);
+        int[] res = (new Solution2()).twoSum(nums, target);
+        for (int num : res)
+            System.out.println(num);
     }
 }

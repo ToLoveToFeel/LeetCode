@@ -5,6 +5,7 @@ package _0371_Sum_of_Two_Integers;
  * Content:
  */
 public class Solution {
+
     public int getSum(int a, int b) {
         while (b != 0) {
             int x = a, y = b;

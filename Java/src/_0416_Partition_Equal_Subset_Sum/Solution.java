@@ -7,8 +7,10 @@ package _0416_Partition_Equal_Subset_Sum;
  * Timeout
  */
 class Solution {
+
     // 使用nums[0...index]，是否可以填满一个容量为sum的背包
     private boolean tryPartition(int[] nums, int index, int sum) {
+
         if (sum == 0)
             return true;
         if (sum < 0 || index < 0)
@@ -25,6 +27,7 @@ class Solution {
     时间复杂度：O(n * sum/2) = O(n * sum)
      */
     public boolean canPartition(int[] nums) {
+
         int sum = 0;
         for (int i = 0; i < nums.length; i++)
             sum += nums[i];
@@ -36,6 +39,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 5, 11, 5};
         System.out.println((new Solution()).canPartition(nums));
     }

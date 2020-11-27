@@ -8,10 +8,13 @@ import java.util.List;
  * Content:
  */
 public class Solution2 {
+
     // 返回node为根节点，num为数据最高位的所有数据之和。比如 num = 12，那么所有的以node为根节点形成的数据最高位都要加12
     private int dfs(TreeNode node, int num) {
+
         if (node == null)
             return 0;
+
         int res = num * 10 + node.val;  // 每深入一层，上一层的数就要乘10
         if (node.left == null && node.right == null)
             return res;
@@ -23,6 +26,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
         int[] nums = new int[]{
                 4,

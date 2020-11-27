@@ -1,10 +1,14 @@
 package _0209_Minimum_Size_Subarray_Sum;
 
+/**
+ * 二分搜索
+ * 时间复杂度：O(n*logn)
+ * 空间复杂度：O(n)
+ */
 public class Solution4 {
 
-    // 时间复杂度：O(n*logn)
-    // 空间复杂度：O(n)
     public int minSubArrayLen(int s, int[] nums) {
+
         if (s < 0 || null == nums)
             throw new IllegalArgumentException("Illigal Arguments");
 

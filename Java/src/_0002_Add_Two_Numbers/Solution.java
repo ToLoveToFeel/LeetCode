@@ -3,20 +3,14 @@ package _0002_Add_Two_Numbers;
 /**
  * Date: 2020/8/27 10:08
  * Content:
- * 时间复杂度：O(\max(m, n))O(max(m,n))，假设 mm 和 nn 分别表示 l1l1 和 l2l2 的长度，上面的算法最多重复 \max(m, n)max(m,n) 次。
- * 空间复杂度：O(\max(m, n))O(max(m,n))， 新列表的长度最多为 \max(m,n) + 1max(m,n)+1。
- */
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
- * }
+ * 时间复杂度：O(max(m, n))O(max(m,n))，假设 m 和 n 分别表示 l1 和 l2 的长度，
+ * 上面的算法最多重复 max(m, n)max(m,n) 次。
+ * 空间复杂度：O(max(m, n))O(max(m,n))， 新列表的长度最多为 max(m,n) + max(m,n)+1。
  */
 class Solution {
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         ListNode cur1 = l1;
         ListNode cur2 = l2;
         ListNode dummyHead = new ListNode(0);
@@ -41,6 +35,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         // 创建链表，获取链表头结点
         ListNode l1 = (new MyLinkedList(new int[]{2, 4, 3})).getHead();
         ListNode l2 = (new MyLinkedList(new int[]{5, 6, 4})).getHead();

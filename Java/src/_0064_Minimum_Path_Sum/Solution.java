@@ -12,26 +12,31 @@ public class Solution {
     private int n;
     private int m;
 
-    public int minPathSum(int[][] grid){
+    public int minPathSum(int[][] grid) {
+
         if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0)
             return 0;
         n = grid.length;
         m = grid[0].length;
+
         return rec(grid, 0, 0);
     }
 
     // 返回从(i,j)出发到右下格的最短距离
-    private int rec(int[][] grid, int i, int j){
+    private int rec(int[][] grid, int i, int j) {
+
         if (i == n - 1 && j == m - 1)
             return grid[i][j];
         if (i == n - 1)  // 在最后一行
             return grid[i][j] + rec(grid, i, j + 1);
         if (j == m - 1)  //最后一列
             return grid[i][j] + rec(grid, i + 1, j);
+
         return grid[i][j] + Math.min(rec(grid, i + 1, j), rec(grid, i, j + 1));
     }
 
     public static void main(String[] args) {
+
         // 四种错误
         // int[][] grid = null;  // grid == null
         // int[][] grid = {};  // grid.length == 0
