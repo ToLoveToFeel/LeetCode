@@ -1,7 +1,7 @@
-package _0000_study.classicalproblems.fenwick;
+package _0000_study._leetcode._swordoffer._051_reversePairs;
 
 /**
- * Date: 2020/11/28 14:48
+ * Date: 2020/11/29 10:25
  * Content: 暴力解法
  * 超出时间限制
  */
@@ -11,8 +11,8 @@ public class Solution {
 
         int res = 0;
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] > 2 * (long)nums[j])
+            for (int j = i; j < nums.length; j++) {
+                if (nums[i] > nums[j])
                     res++;
             }
         }
@@ -22,9 +22,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-//        int[] nums = {1, 3, 2, 3, 1};
-//        int[] nums = {-5, -5};
-        int[] nums = {2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647};
+        int[] nums = {7, 5, 6, 4};  // 5
         System.out.println((new Solution()).reversePairs(nums));
     }
 }

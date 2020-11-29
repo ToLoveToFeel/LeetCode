@@ -1,4 +1,4 @@
-package _0000_study.classicalproblems.fenwick;
+package _0000_study.classicalproblems.reversepairs;
 
 /**
  * Date: 2020/11/28 15:45

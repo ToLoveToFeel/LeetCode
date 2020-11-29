@@ -24,23 +24,23 @@ public class Solution2 {
             set.add((long) x);
             set.add((long) x * 2);
         }
-        // 2.排序
-        List<Long> list = new ArrayList<>(set.size());
-        list.addAll(set);
-        Collections.sort(list);
+        // 2.排序，TreeSet里面的数据本身就有序
+
         // 3.利用哈希表进行离散化
         Map<Long, Integer> map = new HashMap<>();
         int index = 1;
-        for (long x : list) {
+        for (long x : set) {
             map.put(x, index);
             index++;
         }
 
+        // 二.利用树状数组求解
         int res = 0;
         Fenwick fenwick = new Fenwick(map.size());
         for (int num : nums) {
             int leftIndex = map.get((long) num * 2);
             int rightIndex = map.size();
+            // A[i] : 代表数值为(key, i)中key的个数
             // A[0...rightIndex] - A[0...leftIndex] = A[leftIndex + 1 ... rightIndex]
             int count = fenwick.query(rightIndex) - fenwick.query(leftIndex);
             res += count;
@@ -54,8 +54,8 @@ public class Solution2 {
 
     public static void main(String[] args) {
 
-        int[] nums = {12, 34, 24, 34, 12};
-//        int[] nums = {-5, -5};
+        int[] nums = {12, 34, 24, 34, 12};  // 2
+//        int[] nums = {-5, -5};  // 0
 //        int[] nums = {2147483647, 2147483647, 2147483647, 2147483647, 2147483647, 2147483647};
         System.out.println((new Solution2()).reversePairs(nums));
     }
