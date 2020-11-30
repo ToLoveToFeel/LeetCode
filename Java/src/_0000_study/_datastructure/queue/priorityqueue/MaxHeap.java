@@ -10,6 +10,7 @@ public class MaxHeap<E extends Comparable<E>> {
         data = new Array<>(capacity);
     }
 
+    // data 从 data[0]开始存储数据
     public MaxHeap() {
         data = new Array<>();
     }
