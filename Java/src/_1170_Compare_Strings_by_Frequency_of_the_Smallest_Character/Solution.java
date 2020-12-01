@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
  * <p>
  * 执行用时：2 ms, 在所有 Java 提交中击败了98.98%的用户
  * 内存消耗：38.5 MB, 在所有 Java 提交中击败了91.87%的用户
+ * 第一次Leetcode提交自己的解答
  */
 public class Solution {
 
