@@ -3,11 +3,17 @@ package _0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 /**
  * Date: 2020/10/20 10:11
  * Content:
+ *
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：41.5 MB, 在所有 Java 提交中击败了90.59%的用户
  */
 public class Solution {
+
     public int[] searchRange(int[] nums, int target) {
+
         if (nums.length == 0)
             return new int[]{-1, -1};
+
         int p = -1;  // nums 中其中某个 target 所在的位置
         int l = 0, r = nums.length - 1;
         while (l <= r) {
@@ -36,6 +42,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {5, 7, 7, 8, 8, 10};
         int[] nums = {8, 8, 8, 8};
         int target = 8;
