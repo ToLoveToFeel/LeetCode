@@ -17,10 +17,12 @@ public class Solution {
         if (num.length() == k)
             return "0";
 
+        // 利用单调栈解决
         Deque<Character> stack = new ArrayDeque<>();
         int len = num.length() - k;  // 最终数据的长度
         for (char c : num.toCharArray()) {
-            while (k > 0 && !stack.isEmpty() && stack.peek() > c){
+            // 还要删除字符 && 栈非空 && 当前考察的元素<栈顶元素
+            while (k > 0 && !stack.isEmpty() && c < stack.peek()){
                 stack.pop();
                 k--;
             }
@@ -43,7 +45,7 @@ public class Solution {
 //        String num = "100200";  // 200
 //        int k = 1;
 //        System.out.println((new Solution()).removeKdigits(num, k));
-        String num = "10";  // 200
+        String num = "10";  // 0
         int k = 1;
         System.out.println((new Solution()).removeKdigits(num, k));
     }
