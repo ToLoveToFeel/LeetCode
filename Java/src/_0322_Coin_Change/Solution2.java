@@ -10,11 +10,13 @@ import java.util.Arrays;
  * Solution的优化
  */
 public class Solution2 {
+
     int[] memo;
     private int max_count;
 
     // 返回用coins填满amount需要硬币的最少数目，返回-1代表无解
     private int search(int[] coins, int amount) {
+
         if (amount == 0)
             return 0;
 
@@ -30,6 +32,7 @@ public class Solution2 {
     }
 
     public int coinChange(int[] coins, int amount) {
+
         max_count = amount + 1;
         memo = new int[amount + 1];
         Arrays.fill(memo, -1);
@@ -38,6 +41,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
 //        int[] coins = {1};
 //        int amount = 0;
         int[] coins = {1,5,4};
