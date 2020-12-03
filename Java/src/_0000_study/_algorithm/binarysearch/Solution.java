@@ -2,9 +2,10 @@ package _0000_study._algorithm.binarysearch;
 
 /**
  * Date: 2020/9/18 15:18
- * Content:
+ * Content: 经典的二分查找，以int数据为例
  */
 public class Solution {
+
     public int binarySearch(int[] nums, int target) {
 
         int l = 0, r = nums.length - 1;  // 在 [l...r] 的范围内寻找 target
@@ -23,6 +24,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 3, 5, 6};
         int target = 5;
         System.out.println((new Solution()).binarySearch(nums, target));
