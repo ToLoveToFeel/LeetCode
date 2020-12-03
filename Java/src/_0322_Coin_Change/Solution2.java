@@ -44,7 +44,7 @@ public class Solution2 {
 
 //        int[] coins = {1};
 //        int amount = 0;
-        int[] coins = {1,5,4};
+        int[] coins = {1, 5, 4};
         int amount = 12;
         System.out.println((new Solution2()).coinChange(coins, amount));
     }
