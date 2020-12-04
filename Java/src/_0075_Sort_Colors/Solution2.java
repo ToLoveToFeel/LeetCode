@@ -1,22 +1,40 @@
 package _0075_Sort_Colors;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ * 三路快排
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：37.1 MB, 在所有 Java 提交中击败了79.42%的用户
+ */
 public class Solution2 {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
-    // 三路快排
-    public void sortColors(int[] nums) {
-        int zero = -1;          // nums[0...zero] == 0
-        int two = nums.length;  // nums[two...n-1] == 2
 
-        for (int i = 0; i < two; ) {
+    public void sortColors(int[] nums) {
+
+        // nums[0...zero] == 0, nums[zero+1, i) == 1, nums[two...n-1] == 2
+        int zero = -1;
+        int two = nums.length;
+        int i = 0;
+
+        while (i < two) {
             if (nums[i] == 1)
                 i++;
             else if (nums[i] == 2)
                 swap(nums, --two, i);
-            else {  // nums[i] == 1
+            else {  // nums[i] == 0
                 swap(nums, ++zero, i++);
             }
         }
+
+//        for (int i = 0; i < two; ) {
+//            if (nums[i] == 1)
+//                i++;
+//            else if (nums[i] == 2)
+//                swap(nums, --two, i);
+//            else {
+//                swap(nums, ++zero, i++);
+//            }
+//        }
 
     }
 
@@ -27,9 +45,11 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 0};
+
+        int[] nums = {2, 0, 2, 1, 1, 0};
+
         (new Solution2()).sortColors(nums);
-        for (int i = 0; i < nums.length; i++)
-            System.out.println(nums[i]);
+        for (int num : nums)
+            System.out.println(num);
     }
 }
