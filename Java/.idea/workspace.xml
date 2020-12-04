@@ -110,7 +110,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -141,7 +141,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\classicalproblems\fenwick" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2 (1)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -163,13 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0321_Create_Maximum_Number.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0875_Koko_Eating_Bananas.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0321_Create_Maximum_Number.*" />
+          <option name="PATTERN" value="_0875_Koko_Eating_Bananas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -641,7 +641,8 @@
       <workItem from="1606895310060" duration="7748000" />
       <workItem from="1606958899069" duration="1205000" />
       <workItem from="1606980109518" duration="14969000" />
-      <workItem from="1607047667125" duration="3827000" />
+      <workItem from="1607047667125" duration="4613000" />
+      <workItem from="1607052697278" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -922,31 +923,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605772826716" />
-    <state x="817" y="284" key="FileChooserDialogImpl" timestamp="1606785763720">
+    <state x="817" y="284" key="FileChooserDialogImpl" timestamp="1607052747303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
-    <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606785763720" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607051818843">
+    <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607053808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607051818843" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607051818843">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607053808179" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607053808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607051818843" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607051818843">
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607053808179" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607053808178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607051818843" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607051818843">
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607053808178" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607053808179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607051818843" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607053808179" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1607004212111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -971,11 +972,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605615478262" />
-    <state x="437" y="250" width="1042" height="711" key="SettingsEditor" timestamp="1606618339303">
+    <state x="437" y="250" width="1042" height="711" key="SettingsEditor" timestamp="1607052672798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2383" y="145" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599655258009" />
-    <state x="437" y="250" width="1042" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606618339303" />
+    <state x="437" y="250" width="1042" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607052672798" />
     <state x="681" y="271" width="582" height="505" key="StructurePopup" timestamp="1604131776570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1002,6 +1003,10 @@
     </state>
     <state x="2254" y="200" key="new project wizard/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598950750188" />
     <state x="405" y="172" width="960" height="680" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606785765709" />
+    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607052789083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607052789083" />
     <state x="616" y="241" key="run.anything.popup" timestamp="1606010496670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
