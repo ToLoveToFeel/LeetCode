@@ -10,6 +10,7 @@ import java.util.Arrays;
  */
 public class Solution {
 
+    // 如果珂珂吃香蕉的速度为 k根/小时，返回吃完所有香蕉需要的时间
     private int eatingTime(int[] piles, int k) {
 
         int res = 0;
