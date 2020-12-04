@@ -3,9 +3,12 @@ package _0215_Kth_Largest_Element_in_an_Array;
 import java.util.PriorityQueue;  // 默认最小堆
 import java.util.Queue;
 
+/**
+ * 时间复杂度：O(nlogk)
+ * 空间复杂度：O(k)
+ */
 public class Solution3 {
-    // 时间复杂度：O(nlogk)
-    // 空间复杂度：O(k)
+
     public int findKthLargest(int[] nums, int k) {
 
         Queue<Integer> pq = new PriorityQueue<>();
@@ -22,6 +25,7 @@ public class Solution3 {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
 
