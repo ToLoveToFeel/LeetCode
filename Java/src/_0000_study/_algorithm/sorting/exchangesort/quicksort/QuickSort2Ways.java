@@ -28,19 +28,19 @@ public class QuickSort2Ways {
         while (true) {
             // 注意这里的边界, arr[i].compareTo(v) < 0, 不能是arr[i].compareTo(v) <= 0
             // 思考一下为什么?
-            while (i <= r && arr[i].compareTo(v) < 0)
+            while (i <= j && arr[i].compareTo(v) < 0)
                 i++;
 
             // 注意这里的边界, arr[j].compareTo(v) > 0, 不能是arr[j].compareTo(v) >= 0
             // 思考一下为什么?
-            while (j >= l + 1 && arr[j].compareTo(v) > 0)
+            while (j >= i && arr[j].compareTo(v) > 0)
                 j--;
 
             // 对于上面的两个边界的设定, 有的同学在课程的问答区有很好的回答:)
             // 大家可以参考: http://coding.imooc.com/learn/questiondetail/4920.html
             // 例如数组全0，如果是 >= 和 <= ，会导致每次分的两部分极度不平衡
 
-            if (i > j)
+            if (i >= j)
                 break;
 
             swap(arr, i, j);
