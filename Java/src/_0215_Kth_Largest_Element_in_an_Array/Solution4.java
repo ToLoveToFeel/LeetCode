@@ -7,7 +7,7 @@ package _0215_Kth_Largest_Element_in_an_Array;
  */
 public class Solution4 {
 
-    public int selectK(int[] nums, int k) {
+    public int findKthLargest(int[] nums, int k) {
 
         return selectK(nums, 0, nums.length - 1, k - 1);
     }
@@ -30,8 +30,8 @@ public class Solution4 {
     // 返回p，使得nums[l...p-1]>=nums[p]，nums[p+1...r]<=p
     private int partion(int[] nums, int l, int r) {
 
-        swap(nums, l, (int) (Math.random() * (r - l + 1) + l));
-        int v = nums[l];  // 标定点
+        int p = (int) (Math.random() * (r - l + 1) + l);
+        swap(nums, l, p);
         //          arr[l+1...j] > v     arr[j+1...i-1] < v
         // \--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\   \--\--\--\--\--\--\--\--\
         //   l     l+1            j     j+1            i-1     i
@@ -39,7 +39,7 @@ public class Solution4 {
         // 最后交换nums[l]和nums[j]
         int j = l;
         for (int i = l + 1; i <= r; i++) {
-            if (nums[i] > v) {
+            if (nums[i] > nums[l]) {
                 swap(nums, j + 1, i);
                 j++;
             }
@@ -60,6 +60,6 @@ public class Solution4 {
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
 
-        System.out.println((new Solution4()).selectK(nums, k));
+        System.out.println((new Solution4()).findKthLargest(nums, k));
     }
 }
