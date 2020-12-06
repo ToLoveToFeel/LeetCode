@@ -6,10 +6,16 @@ import java.util.List;
 /**
  * Date: 2020/9/21 18:48
  * Content:
+ * <p>
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36 MB, 在所有 Java 提交中击败了88.26%的用户
  */
 public class Solution {
+
     public List<Integer> getRow(int rowIndex) {
+
         List<Integer> res = new ArrayList<>();
+
         if (rowIndex < 0)
             return res;
 
@@ -22,6 +28,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution()).getRow(0));
         System.out.println((new Solution()).getRow(3));
     }

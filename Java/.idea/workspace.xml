@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0215_Kth_Largest_Element_in_an_Array/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0215_Kth_Largest_Element_in_an_Array/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +144,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution4">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -178,13 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0621_Task_Scheduler.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0118_Pascal_s_Triangle.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0621_Task_Scheduler.*" />
+          <option name="PATTERN" value="_0118_Pascal_s_Triangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,18 +255,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution4" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.QuickSort2Ways" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.QuickSort2Ways" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +647,8 @@
       <workItem from="1607047667125" duration="4613000" />
       <workItem from="1607052697278" duration="2806000" />
       <workItem from="1607080469195" duration="2890000" />
-      <workItem from="1607139521087" duration="6089000" />
+      <workItem from="1607139521087" duration="6957000" />
+      <workItem from="1607220317967" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -931,26 +934,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607155611878">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607160619308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607155611878" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607155611878">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607160619308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607155611878" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607155611878">
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607160619308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607155611878" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607155611878">
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607160619308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607155611878" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1607083382069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1006,10 +1009,10 @@
     </state>
     <state x="2254" y="200" key="new project wizard/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598950750188" />
     <state x="405" y="172" width="960" height="680" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606785765709" />
-    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607052789083">
+    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607156030731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607052789083" />
+    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607156030731" />
     <state x="616" y="241" key="run.anything.popup" timestamp="1606010496670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
