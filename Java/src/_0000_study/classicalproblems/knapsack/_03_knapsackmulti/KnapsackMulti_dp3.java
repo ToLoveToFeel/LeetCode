@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
  * Content: 时间复杂度：O(n * C * log(t))  其中 t = max(nums)
  * 采用二进制优化方法
  * 最下面的说明
+ *
+ * 进一步优化：KnapsackMulti_dp4(还未写)
+ * https://www.acwing.com/solution/content/26583/
  */
 public class KnapsackMulti_dp3 {
 
