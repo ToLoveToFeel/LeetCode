@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0118_Pascal_s_Triangle/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0119_Pascal_s_Triangle_II/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/Knapsack01_dp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/Knapsack01_dp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/Knapsack01_dp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/Knapsack01_dp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/Knapsack01_dp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/Knapsack01_dp3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/Knapsack01_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/Knapsack01_memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/knapsack01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/knapsack01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsack01/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_01_knapsack01/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackcomplete/KnapsackComplete_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_02_knapsackcomplete/KnapsackComplete_dp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackcomplete/KnapsackComplete_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_02_knapsackcomplete/KnapsackComplete_memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackcomplete/knapsackComplete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_02_knapsackcomplete/knapsackComplete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackcomplete/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_02_knapsackcomplete/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackmulti/KnapsackMulti_dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/KnapsackMulti_dp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackmulti/KnapsackMulti_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/KnapsackMulti_memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackmulti/knapsackMulti.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/knapsackMulti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/knapsackmulti/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +154,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.KnapsackMulti_memo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -152,13 +162,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="QuickSort2Ways" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._algorithm.sorting.exchangesort.quicksort.QuickSort2Ways" />
+    <configuration name="Knapsack01_dp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.knapsack._01_knapsack01.Knapsack01_dp1" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._algorithm.sorting.exchangesort.quicksort.*" />
+          <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._01_knapsack01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,13 +176,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._leetcode._swordoffer._040_getLeastNumbers.Solution" />
+    <configuration name="KnapsackMulti_dp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.knapsack._03_knapsackmulti.KnapsackMulti_dp" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._leetcode._swordoffer._040_getLeastNumbers.*" />
+          <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._03_knapsackmulti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnapsackMulti_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.knapsack._03_knapsackmulti.KnapsackMulti_memo" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._03_knapsackmulti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,20 +211,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0118_Pascal_s_Triangle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._leetcode._swordoffer._040_getLeastNumbers.Solution2" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0000_study._leetcode._swordoffer._040_getLeastNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,18 +265,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution4" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.QuickSort2Ways" />
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Knapsack01_dp1" />
+      <item itemvalue="Application.KnapsackMulti_dp" />
+      <item itemvalue="Application.KnapsackMulti_memo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapsackMulti_memo" />
+        <item itemvalue="Application.KnapsackMulti_dp" />
+        <item itemvalue="Application.Knapsack01_dp1" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.QuickSort2Ways" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +658,8 @@
       <workItem from="1607052697278" duration="2806000" />
       <workItem from="1607080469195" duration="2890000" />
       <workItem from="1607139521087" duration="6957000" />
-      <workItem from="1607220317967" duration="243000" />
+      <workItem from="1607220317967" duration="536000" />
+      <workItem from="1607233081384" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -934,26 +945,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607160619308">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607235487359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607160619308">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607235487359" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607235487359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607160619308">
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607235487359" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607235487359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607160619308">
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607235487359" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607235487359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607160619308" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607235487359" />
     <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1607083382069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
