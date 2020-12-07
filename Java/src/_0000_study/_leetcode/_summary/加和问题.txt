@@ -13,6 +13,8 @@ Leetcode 0377  组合总和IV                   ---- 解法：背包问题
 
 Leetcode 0064 最小路径和                     ---- 解法：动态规划
 
+Leetcode 0067 二进制加和                     ---- 解法：类似于Leetcode 0002 两数相加
+
 Leetcode 0112 路径总和                       ---- 解法：递归
 Leetcode 0113 路径总和II                     ---- 解法：递归
 Leetcode 0437 路径总和III                    ---- 解法：递归
