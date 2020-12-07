@@ -1,5 +1,6 @@
 背包问题九讲
 https://www.bilibili.com/video/BV1qt411Z7nE?from=search&seid=18276773716211627237
+https://www.cnblogs.com/jbelial/articles/2116074.html
 
 1. 01背包问题
 2. 完全背包问题

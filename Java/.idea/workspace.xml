@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/加和问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_leetcode/_summary/加和问题.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0067_Add_Binary/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0067_Add_Binary/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0067_Add_Binary/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0067_Add_Binary/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/description.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.KnapsackSolutionNum">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -152,13 +149,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1678_Goal_Parser_Interpretation.Solution" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.kmp.KMP" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1678_Goal_Parser_Interpretation.*" />
+          <option name="PATTERN" value="_0000_study.classicalproblems.kmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,13 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1679_Max_Number_of_K_Sum_Pairs.Solution" />
+    <configuration name="Knapsack01_dp4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.knapsack._01_knapsack01.Knapsack01_dp4" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1679_Max_Number_of_K_Sum_Pairs.*" />
+          <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._01_knapsack01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0861_Score_After_Flipping_Matrix.Solution" />
+    <configuration name="KnapsackSolutionNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study.classicalproblems.knapsack._07_knapsacksolutionnum.KnapsackSolutionNum" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0861_Score_After_Flipping_Matrix.*" />
+          <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._07_knapsacksolutionnum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.KMP" />
+      <item itemvalue="Application.KnapsackSolutionNum" />
+      <item itemvalue="Application.Knapsack01_dp4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapsackSolutionNum" />
+        <item itemvalue="Application.Knapsack01_dp4" />
+        <item itemvalue="Application.KMP" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +648,8 @@
       <workItem from="1607220317967" duration="536000" />
       <workItem from="1607233081384" duration="12892000" />
       <workItem from="1607257962518" duration="6647000" />
-      <workItem from="1607303880993" duration="7110000" />
+      <workItem from="1607303880993" duration="7305000" />
+      <workItem from="1607345274585" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -937,26 +935,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1607312112477">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607349069754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607312112477" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1607312112476">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607349069754" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607349069754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607312112476" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1607312112476">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607349069754" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607349069754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607312112476" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1607312112477">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607349069754" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607349069754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607312112477" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607349069754" />
     <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1607250431214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
