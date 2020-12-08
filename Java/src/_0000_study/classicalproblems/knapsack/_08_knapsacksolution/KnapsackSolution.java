@@ -18,8 +18,8 @@ public class KnapsackSolution {
 //        for (int j = 0; j <= C; j++)
 //            dp[n - 1][j] = (j >= weights[n - 1] ? values[n - 1] : 0);
 
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = 0; j <= C; j++) {
+        for (int i = n - 1; i >= 0; i--) {  // 物品编号从后向前遍历
+            for (int j = 0; j <= C; j++) {  // 因为是二维dp，遍历顺序无所谓
                 dp[i][j] = dp[i + 1][j];
                 if (j >= weights[i])
                     dp[i][j] = Math.max(dp[i][j], dp[i + 1][j - weights[i]] + values[i]);
@@ -29,6 +29,8 @@ public class KnapsackSolution {
         List<Integer> res = new ArrayList<>();
         int c = C;
         for (int i = 0; i <= n - 1; i++) {
+            // 满足下述条件说明：编号为 i 的物品加入后价值才能到达最大
+            // 因为编号是从小到大的遍历，所以一定要加入
             if (c >= weights[i] && dp[i][c] == dp[i + 1][c - weights[i]] + values[i]) {
                 res.add(i);
                 c -= weights[i];
