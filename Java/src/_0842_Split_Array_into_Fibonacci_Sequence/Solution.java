@@ -7,8 +7,11 @@ import java.util.List;
  * Date: 2020/9/16 16:18
  * Content:
  * 回溯算法
+ * 执行用时：3 ms, 在所有 Java 提交中击败了89.50%的用户
+ * 内存消耗：38.3 MB, 在所有 Java 提交中击败了84.17%的用户
  */
 public class Solution {
+
     List<Integer> res;
     public static final int maxIntLength = 10;  // int最长为10位
 
@@ -16,11 +19,13 @@ public class Solution {
     // 从 index 开始寻找满足 num = pre1 + pre2 的第 count 个数据
     // 必须有返回值，这样才能保证 res.remove(res.size() - 1); 不是每次都运行
     private boolean dfs(String S, int index, int pre1, int pre2, int count) {
+
         if (index == S.length())
             return count >= 3;  // 两个数据不能称之为 Fibonacci 数列
 
         // 截取当前字符串，因为数据不大于 int 的最大值，i 代表当前数据的长度
         for (int i = 1; i <= maxIntLength; i++) {
+
             // 如果超出 S 的最大长度，或者以 0 开头并且位数大于 1，可以直接结束循环
             if (index + i > S.length() || (i > 1 && S.charAt(index) == '0'))
                 break;
@@ -36,11 +41,12 @@ public class Solution {
             // 如果是前 2 个数，或者满足 Fibonacci 数列，递归进入下一层
             if (count < 2 || num == pre1 + pre2) {
                 res.add(num);
-                if(dfs(S, index + i, pre2, num, count + 1))
+                if (dfs(S, index + i, pre2, num, count + 1))
                     return true;
                 res.remove(res.size() - 1);
             }
         }
+
         return false;
     }
 
