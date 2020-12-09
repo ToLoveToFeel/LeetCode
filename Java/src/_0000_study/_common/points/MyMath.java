@@ -20,4 +20,23 @@ public class MyMath {
         }
 
     }
+
+    // 求解组合 C(a, b) 保证结果小于 Integer.MAX_VALUE
+    // C(a, b) = a! / (b! * (a-b)!) = ((b+1)*...*a) / (a-b)!
+    @Test
+    public void test02() {
+
+        int a = 5;
+        int b = 2;
+
+        long res = 1;
+        int len = Math.min(a - b, b);
+        for (int i = 0; i < len; i++) {
+            res *= (a - i);
+            res /= (i + 1);
+        }
+
+        System.out.println(res);
+    }
+
 }
