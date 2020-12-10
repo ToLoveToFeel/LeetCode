@@ -116,20 +116,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_0062_Unique_Paths" />
-      <recent name="_0000_study.classicalproblems.knapsack._03_knapsackmulti" />
-      <recent name="_0000_study.classicalproblems.knapsack._01_knapsack01" />
-      <recent name="_0000_study._leetcode._swordoffer._040_getLeastNumbers" />
-      <recent name="_0659_Split_Array_into_Consecutive_Subsequences" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -140,8 +126,22 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0493_Reverse_Pairs" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_051_reversePairs" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_0860_Lemonade_Change" />
+      <recent name="_0062_Unique_Paths" />
+      <recent name="_0000_study.classicalproblems.knapsack._03_knapsackmulti" />
+      <recent name="_0000_study.classicalproblems.knapsack._01_knapsack01" />
+      <recent name="_0000_study._leetcode._swordoffer._040_getLeastNumbers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -149,27 +149,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0063_Unique_Paths_II.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0860_Lemonade_Change.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0063_Unique_Paths_II.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0064_Minimum_Path_Sum.Solution" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0064_Minimum_Path_Sum.*" />
+          <option name="PATTERN" value="_0860_Lemonade_Change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,6 +184,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0064_Minimum_Path_Sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0860_Lemonade_Change.Solution2" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0860_Lemonade_Change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution3 (1)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution3 (1)" />
         <item itemvalue="Application.Solution2 (1)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -654,7 +654,8 @@
       <workItem from="1607435067824" duration="2148000" />
       <workItem from="1607499975904" duration="823000" />
       <workItem from="1607500991893" duration="4336000" />
-      <workItem from="1607515991391" duration="1719000" />
+      <workItem from="1607515991391" duration="2571000" />
+      <workItem from="1607563512681" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -940,26 +941,26 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1607505448907">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1607565708706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607505448907" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1607505448907">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607565708706" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1607565708706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607505448907" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1607505448907">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607565708706" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1607565708706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607505448907" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1607505448907">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607565708706" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1607565708706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607505448907" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607565708706" />
     <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1607415036428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
