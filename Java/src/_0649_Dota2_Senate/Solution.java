@@ -1,6 +1,5 @@
 package _0649_Dota2_Senate;
 
-
 import java.util.LinkedList;
 import java.util.Queue;
 
