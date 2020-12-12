@@ -141,7 +141,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -156,6 +156,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0649_Dota2_Senate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0376_Wiggle_Subsequence.Solution" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0376_Wiggle_Subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,20 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0064_Minimum_Path_Sum.Solution3" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0064_Minimum_Path_Sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -251,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution3 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +656,9 @@
       <workItem from="1607500991893" duration="4336000" />
       <workItem from="1607515991391" duration="2571000" />
       <workItem from="1607563512681" duration="2313000" />
-      <workItem from="1607652118627" duration="3747000" />
+      <workItem from="1607652118627" duration="3884000" />
+      <workItem from="1607678657328" duration="543000" />
+      <workItem from="1607756359500" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -942,46 +944,46 @@
     </state>
     <state x="2737" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599225241848" />
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1607655850888">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1607757448017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607655850888" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1607655850887">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607757448017" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1607757448016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607655850887" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1607655850887">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607757448016" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1607757448016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607655850887" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1607655850888">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607757448016" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1607757448016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607655850888" />
-    <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1607655851011">
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607757448016" />
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1607656055194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607655851011" />
-    <state width="1877" height="218" key="GridCell.Tab.1.center" timestamp="1607655851011">
+    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607656055194" />
+    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1607656055194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607655851011" />
-    <state width="1877" height="218" key="GridCell.Tab.1.left" timestamp="1607655851011">
+    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607656055194" />
+    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1607656055194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607655851011" />
-    <state width="1877" height="218" key="GridCell.Tab.1.right" timestamp="1607655851011">
+    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607656055194" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1607656055194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599725378562" />
-    <state width="1877" height="218" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607655851011" />
+    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607656055194" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1605615478262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1068,7 +1070,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/_0649_Dota2_Senate/Solution.java</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
