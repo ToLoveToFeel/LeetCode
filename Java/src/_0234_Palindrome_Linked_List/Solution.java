@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class Solution {
     public boolean isPalindrome(ListNode head) {
+
         if (head == null || head.next == null)
             return true;
 
@@ -22,9 +23,9 @@ public class Solution {
         // 第二步：判断 list 是否回文
         int l = 0, r = list.size() - 1;
         while (l < r) {
+
             if (!list.get(l).equals(list.get(r)))  // 不能用 != ，例子[-129, -129]
                 return false;
-
             l++;
             r--;
         }
@@ -33,6 +34,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         // 创建链表，获取链表头结点
 //        ListNode head = (new MyLinkedList(new int[]{1, 2})).getHead();  // false
         ListNode head = (new MyLinkedList(new int[]{1, 2, 2, 1})).getHead();  // true

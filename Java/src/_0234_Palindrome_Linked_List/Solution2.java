@@ -9,7 +9,9 @@ import java.util.List;
  * 将后一半链表翻转，然后对比
  */
 public class Solution2 {
+
     private ListNode reverseList(ListNode node) {
+
         if (node == null || node.next == null)
             return node;
 
@@ -21,6 +23,7 @@ public class Solution2 {
     }
 
     public boolean isPalindrome(ListNode head) {
+
         if (head == null || head.next == null)
             return true;
 
@@ -50,6 +53,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         // 创建链表，获取链表头结点
 //        ListNode head = (new MyLinkedList(new int[]{1, 2})).getHead();  // false
         ListNode head = (new MyLinkedList(new int[]{1, 2, 2, 1})).getHead();  // true
