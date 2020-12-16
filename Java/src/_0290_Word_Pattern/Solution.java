@@ -15,18 +15,18 @@ public class Solution {
         if (pattern.length() != strArray.length)
             return false;
 
-        HashMap<Character, String> hashMap1 = new HashMap<>();  // (pattern[i], strArray[i])
-        HashMap<String, Character> hashMap2 = new HashMap<>();  // (strArray[i], pattern[i])
+        HashMap<Character, String> map1 = new HashMap<>();  // (pattern[i], strArray[i])
+        HashMap<String, Character> map2 = new HashMap<>();  // (strArray[i], pattern[i])
 
         for (int i = 0; i < pattern.length(); i++) {
-            if (!hashMap1.containsKey(pattern.charAt(i)))  // 不包含键值对(pattern[i], strArray[i])
-                hashMap1.put(pattern.charAt(i), strArray[i]);
-            else if (!hashMap1.get(pattern.charAt(i)).equals(strArray[i]))   // 包含键值对(pattern[i], strArray[i])，但不匹配
+            if (!map1.containsKey(pattern.charAt(i)))  // 不包含键值对(pattern[i], strArray[i])
+                map1.put(pattern.charAt(i), strArray[i]);
+            else if (!map1.get(pattern.charAt(i)).equals(strArray[i]))   // 包含键值对(pattern[i], strArray[i])，但不匹配
                 return false;
 
-            if (!hashMap2.containsKey(strArray[i]))
-                hashMap2.put(strArray[i], pattern.charAt(i));
-            else if (!hashMap2.get(strArray[i]).equals(pattern.charAt(i)))
+            if (!map2.containsKey(strArray[i]))
+                map2.put(strArray[i], pattern.charAt(i));
+            else if (!map2.get(strArray[i]).equals(pattern.charAt(i)))
                 return false;
         }
 
