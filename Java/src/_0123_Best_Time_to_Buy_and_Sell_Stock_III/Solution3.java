@@ -32,10 +32,12 @@ package _0123_Best_Time_to_Buy_and_Sell_Stock_III;
  * Solution2 的空间优化
  */
 public class Solution3 {
+
     public static final int CASH = 0;  // 持有现金
     public static final int STOCK = 1;  // 持有股票
 
     public int maxProfit(int[] prices) {
+
         int n = prices.length;
         if (n <= 1)
             return 0;
@@ -51,6 +53,7 @@ public class Solution3 {
         for (int i = 1; i < n; i++) {
             for (int kt = 0; kt < k; kt++) {
                 // 处理第 kt + 1 次买入、第 kt + 1 次卖出, kt=0代表第一次买入，卖出
+                // 交换下面两行也能得到正确结果
                 dp[kt][STOCK] = Math.max(dp[kt][STOCK], dp[kt][CASH] - prices[i]);
                 dp[kt + 1][CASH] = Math.max(dp[kt + 1][CASH], dp[kt][STOCK] + prices[i]);
             }
@@ -99,15 +102,15 @@ public class Solution3 {
         原始状态转移方程：
             dp[i][kt][STOCK]    = Math.max(dp[i-1][kt][STOCK],    dp[i-1][kt][CASH] - prices[i]);           (1-1)
             dp[i][kt + 1][CASH] = Math.max(dp[i-1][kt + 1][CASH], **dp[i-1][kt][STOCK]** + prices[i]);      (1-2)
-        原始状态转移方程：
+        状态压缩后对应的原始状态转移方程：
             dp[i][kt][STOCK]    = Math.max(dp[i-1][kt][STOCK],    dp[i-1][kt][CASH] - prices[i]);           (1-3)
             dp[i][kt + 1][CASH] = Math.max(dp[i-1][kt + 1][CASH], **dp[i][kt][STOCK]** + prices[i]);        (1-4)
         只需要证明 (1-2) 和 (1-4)等价即可，进一步，证明如下等式即可
-        max(dp[i-1][kt + 1][CASH], **dp[i-1][kt][STOCK]** + prices[i]) == max(dp[i-1][kt][CASH], **dp[i][kt - 1][STOCK]** + prices[i])
-        左边  = max(dp[i-1][kt+1][CASH], **dp[i][kt][STOCK]** + prices[i])
+        max(dp[i-1][kt + 1][CASH], **dp[i-1][kt][STOCK]** + prices[i]) == max(dp[i-1][kt+1][CASH], **dp[i][kt][STOCK]** + prices[i])
+        右边  = max(dp[i-1][kt+1][CASH], **dp[i][kt][STOCK]** + prices[i])
              = max(dp[i-1][kt+1][CASH], max(dp[i-1][kt][STOCK], dp[i-1][kt][CASH]-price[i]) + price[i])
              = max(dp[i-1][kt+1][CASH]，dp[i-1][kt][STOCK] + price[i], dp[i-1][kt][CASH]-price[i] + price[i])
              = max(dp[i-1][kt+1][CASH]，dp[i-1][kt][STOCK] + price[i], dp[i-1][kt][CASH])
              = max(dp[i-1][kt+1][CASH]，dp[i-1][kt][STOCK] + price[i]) （因为dp[i-1][kt][CASH] <= dp[i-1][kt+1][CASH]恒成立）
-             =右边
+             =左边
  */
