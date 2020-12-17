@@ -29,8 +29,9 @@ public class Solution3 {
 
         for (int i = 1; i < prices.length; i++) {
             // 为什么可以这样做，不记录上一次的stock? 请参照Leetcode 0123 Solution3最后注释的说明
-            dp[STOCK] = Math.max(dp[STOCK], dp[CASH] - prices[i]);
+            // 交换这两行代码也是可以的
             dp[CASH] = Math.max(dp[CASH], dp[STOCK] + prices[i]);
+            dp[STOCK] = Math.max(dp[STOCK], dp[CASH] - prices[i]);
         }
         return dp[CASH];
     }
