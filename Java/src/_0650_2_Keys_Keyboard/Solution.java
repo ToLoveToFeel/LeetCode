@@ -12,6 +12,9 @@ package _0650_2_Keys_Keyboard;
  * 考虑什么情况下: x1+x2+...+xi+...+xn > x1+x2+...+p+q+...+xn
  * 即：pq>p+q    考虑 (p-1)(q-1) = pq -(p+q) + 1 >= 1, 所以在p>1, q>1的情况下pq>p+q
  * 因此，最小的结果一定是质因数分解
+ * <p>
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：35.2 MB, 在所有 Java 提交中击败了81.36%的用户
  */
 public class Solution {
 
@@ -19,10 +22,9 @@ public class Solution {
 
         int res = 0;
         for (int i = 2; i <= n / i; i++) {
-            if (n % i == 0) {
+            while (n % i == 0) {
                 res += i;
                 n /= i;
-                System.out.println(i);
             }
         }
         if (n > 1)  // 可能还有大于sqrt(n)的素因子
@@ -33,6 +35,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        System.out.println((new Solution()).minSteps(14));
+        System.out.println((new Solution()).minSteps(14));  // 9
+        System.out.println((new Solution()).minSteps(12));  // 7
     }
 }
