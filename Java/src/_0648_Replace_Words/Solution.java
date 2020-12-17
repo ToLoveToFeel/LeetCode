@@ -27,7 +27,7 @@ public class Solution {
             set.add(h);
         }
 
-        String[] words = sentence.split("\\s");  // 根据空格(可以有多个)拆分为多个单词
+        String[] words = sentence.split("\\s+");  // 根据空格(可以有多个)拆分为多个单词
         StringBuilder res = new StringBuilder();
         for (String word : words) {
             StringBuilder sb = new StringBuilder();
