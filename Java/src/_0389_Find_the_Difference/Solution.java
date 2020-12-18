@@ -9,7 +9,9 @@ import java.util.Set;
  * Content:
  */
 public class Solution {
+
     public char findTheDifference(String s, String t) {
+
         Map<Character, Integer> map = new HashMap<>();
 
         for (int i = 0; i < t.length(); i++) {
@@ -35,6 +37,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        String s = "abcd";
 //        String t = "abcde";
         String s = "";
