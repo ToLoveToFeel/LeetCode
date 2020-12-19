@@ -11,7 +11,7 @@ public class Output {
 
     public static void OutputBasicArray1D(int[] nums) {
 
-        System.out.println(Arrays.stream(nums).boxed().collect(Collectors.toList()));
+        System.out.println(Arrays.toString(nums));
     }
 
 
@@ -20,11 +20,11 @@ public class Output {
         System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
             if (i == 0)
-                System.out.println(Arrays.stream(nums[i]).boxed().collect(Collectors.toList()) + ",");
+                System.out.println(Arrays.toString(nums[i]) + ",");
             else if (i < nums.length - 1)
-                System.out.println(" " + Arrays.stream(nums[i]).boxed().collect(Collectors.toList()) + ",");
+                System.out.println(" " + Arrays.toString(nums[i]) + ",");
             else
-                System.out.print(" " + Arrays.stream(nums[i]).boxed().collect(Collectors.toList()));
+                System.out.print(" " + Arrays.toString(nums[i]));
         }
         System.out.print("]");
     }
@@ -35,9 +35,9 @@ public class Output {
         System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
             if (i != nums.length - 1)
-                System.out.print(Arrays.stream(nums[i]).boxed().collect(Collectors.toList()) + ", ");
+                System.out.print(Arrays.toString(nums[i]) + ", ");
             else
-                System.out.print(Arrays.stream(nums[i]).boxed().collect(Collectors.toList()));
+                System.out.print(Arrays.toString(nums[i]));
         }
         System.out.print("]");
     }
