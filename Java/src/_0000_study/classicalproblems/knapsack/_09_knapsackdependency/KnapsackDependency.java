@@ -89,10 +89,10 @@ public class KnapsackDependency {
         int[] parents = {-1, 0, 0, 0, 0, 1, 1, 1, 1};  // 每件物品所依赖的物品编号
         int weightCapacity = 7;  // 最大能承载的重量
         System.out.println((new KnapsackDependency()).knapsackDependency(
-                    weights,
-                    values,
-                    parents,
-                    weightCapacity
+                weights,
+                values,
+                parents,
+                weightCapacity
                 )
         );
     }
