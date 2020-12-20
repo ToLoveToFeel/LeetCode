@@ -3,14 +3,14 @@ package _1662_Check_If_Two_String_Arrays_are_Equivalent;
 /**
  * Date: 2020/12/20 19:40
  * Content:
- * 执行用时：1 ms, 在所有 Java 提交中击败了57.66%的用户
- * 内存消耗：36.6 MB, 在所有 Java 提交中击败了53.27%的用户
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36.5 MB, 在所有 Java 提交中击败了59.40%的用户
  */
 public class Solution {
 
     private String concat(String[] words) {
 
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (String word : words) {
             sb.append(word);
         }
