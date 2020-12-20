@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0530_Minimum_Absolute_Difference_in_BST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0530_Minimum_Absolute_Difference_in_BST/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0000_study/classicalproblems/subsequence" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0783_Minimum_Distance_Between_BST_Nodes" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -672,7 +671,7 @@
       <workItem from="1608360260154" duration="6046000" />
       <workItem from="1608378077147" duration="8931000" />
       <workItem from="1608426927407" duration="1949000" />
-      <workItem from="1608459833811" duration="1650000" />
+      <workItem from="1608459833811" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -950,22 +949,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1608428895614">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608461877852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608428895614" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1608428895614">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608461877852" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608461877852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608428895614" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1608428895614">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608461877852" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608461877851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608428895614" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1608428895614">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608461877851" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608461877852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608428895614" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608461877852" />
     <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1608428895615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
