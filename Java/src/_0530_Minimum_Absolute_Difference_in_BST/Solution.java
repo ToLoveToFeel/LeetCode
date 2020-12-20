@@ -9,6 +9,7 @@ import java.util.List;
  * 中序遍历后得到排序后的数组，然后计算最小绝对差
  */
 public class Solution {
+
     private List<TreeNode> list;
 
     private void inorder(TreeNode node) {
