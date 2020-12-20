@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_09_knapsackdependency/KnapsackDependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_09_knapsackdependency/KnapsackDependency.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -668,6 +671,7 @@
       <workItem from="1608299314845" duration="760000" />
       <workItem from="1608360260154" duration="6046000" />
       <workItem from="1608378077147" duration="8931000" />
+      <workItem from="1608426927407" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -945,22 +949,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608387898418">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608427881434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608387898418" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608387898417">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608427881434" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608427881433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608387898417" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608387898416">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608427881433" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608427881433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608387898416" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608387898418">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608427881433" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608427881434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608387898418" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608427881434" />
     <state width="1877" height="227" key="GridCell.Tab.1.bottom" timestamp="1608387898412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,7 +8,8 @@ import java.util.Arrays;
  */
 public class KnapsackDependency {
 
-    // 如果**编号为i的物品**(这里是编号，不是id)不在叶子节点，则head[i]!=-1,否则head[i]=-1,这里的head其实是最右侧的孩子节点对应的唯一标识(id)
+    // 如果**编号为i的物品**(这里是编号，不是id)不在叶子节点，则head[i]!=-1,否则head[i]=-1
+    // 这里的head其实是**编号为i的物品**最右侧的孩子节点对应的唯一标识(id)
     private int[] head;
     // good[id] : 唯一标识 id 对应的物品是 good[id], 注意：根节点没有唯一标识id
     private int[] good;
@@ -26,7 +27,7 @@ public class KnapsackDependency {
         head[parent] = id++;
     }
 
-    // 当前考察 编号为u的物品，所能得到的最大价值
+    // 当前考察添加 编号为u的物品，所能得到的最大价值
     private void dfs(int u, int[] weights, int[] values, int C) {
 
         for (int i = head[u]; i != -1; i = next[i]) {  // 遍历 编号为u的物品 的孩子节点，从最右侧的孩子物品开始遍历
@@ -48,7 +49,7 @@ public class KnapsackDependency {
             dp[u][i] = dp[u][i - weights[u]] + values[u];
         }
         // 背包容量不足，因此 编号为u的物品 的物品无法放入背包，因此也无法放入依赖于此物品的物品
-        for (int i = 0; i < weights[u]; i++) {
+        for (int i = 0; i < weights[u] && i <= C; i++) {
             dp[u][i] = 0;
         }
     }
@@ -59,12 +60,14 @@ public class KnapsackDependency {
 
         // 初始化数据
         id = 0;
+        // head 下标是物品的编号，head[0] = 3 说明 标号为0的物品 的最右侧孩子的id=3
         head = new int[n];
-        good = new int[n];
-        next = new int[n];
-        dp = new int[n][C + 1];
-
         Arrays.fill(head, -1);
+        // good 和 next 下标是物品对应 id,存储的是物品的编号, 且根节点不需要id, 因此有n-1个物品需要分配id, id范围是0~n-2
+        good = new int[n - 1];
+        next = new int[n - 1];
+
+        dp = new int[n][C + 1];
 
         int root = 0;  // 存储根节点物品编号
         for (int i = 0; i < n; i++) {
@@ -89,10 +92,10 @@ public class KnapsackDependency {
         int[] parents = {-1, 0, 0, 0, 0, 1, 1, 1, 1};  // 每件物品所依赖的物品编号
         int weightCapacity = 7;  // 最大能承载的重量
         System.out.println((new KnapsackDependency()).knapsackDependency(
-                weights,
-                values,
-                parents,
-                weightCapacity
+                    weights,
+                    values,
+                    parents,
+                    weightCapacity
                 )
         );
     }
