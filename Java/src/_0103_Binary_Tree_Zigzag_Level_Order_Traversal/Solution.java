@@ -8,9 +8,13 @@ import java.util.Queue;
 /**
  * Date: 2020/9/30 10:42
  * Content:
+ * 执行用时：1 ms, 在所有 Java 提交中击败了98.42%的用户
+ * 内存消耗：38.6 MB, 在所有 Java 提交中击败了60.77%的用户
  */
 public class Solution {
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
             return res;
@@ -24,11 +28,14 @@ public class Solution {
             int newLevelNum = 0;
             List<Integer> level = new LinkedList<>();
             for (int i = 0; i < levelNum; i++) {
+
                 TreeNode node = queue.remove();
+
                 if ((deepth & 1) == 0)
                     level.add(node.val);
                 else
                     level.add(0, node.val);
+
                 if (node.left != null) {
                     queue.add(node.left);
                     newLevelNum++;
