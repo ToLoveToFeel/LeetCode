@@ -141,7 +141,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_interviewquestions\_17_14_smallestK" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -156,20 +156,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._01_knapsack01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1662_Check_If_Two_String_Arrays_are_Equivalent.Solution" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1662_Check_If_Two_String_Arrays_are_Equivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,6 +205,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0455_Assign_Cookies.Solution" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0455_Assign_Cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -251,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Knapsack01_dp1" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Knapsack01_dp1" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -677,7 +677,14 @@
       <workItem from="1608550283651" duration="769000" />
       <workItem from="1608600581461" duration="343000" />
       <workItem from="1608687412032" duration="3323000" />
-      <workItem from="1608772214286" duration="844000" />
+      <workItem from="1608772214286" duration="1837000" />
+      <workItem from="1608774999250" duration="1192000" />
+      <workItem from="1608792109309" duration="4000" />
+      <workItem from="1608793347371" duration="1027000" />
+      <workItem from="1608795138399" duration="1534000" />
+      <workItem from="1608797655670" duration="1247000" />
+      <workItem from="1608802238761" duration="1073000" />
+      <workItem from="1608860322073" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -907,10 +914,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="210" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602574324363" />
-    <state x="842" y="363" key="#Notifications" timestamp="1605943128295">
+    <state x="842" y="357" key="#Notifications" timestamp="1608773425202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="842" y="363" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605943128295" />
+    <state x="842" y="357" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1608773425202" />
     <state x="337" y="356" key="#SQL_Dialects" timestamp="1605705192155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -955,22 +962,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608773185859">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608861080005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773185859" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608773185859">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608861080005" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608861080005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773185859" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608773185858">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608861080005" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608861080004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773185858" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608773185859">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608861080004" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608861080005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773185859" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608861080005" />
     <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1608428895615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1031,10 +1038,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607156030731" />
-    <state x="616" y="241" key="run.anything.popup" timestamp="1608387554433">
+    <state x="616" y="241" key="run.anything.popup" timestamp="1608793384329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608387554433" />
+    <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608793384329" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608463267867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
