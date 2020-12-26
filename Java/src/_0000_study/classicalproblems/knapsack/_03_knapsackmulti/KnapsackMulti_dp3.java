@@ -62,10 +62,14 @@ public class KnapsackMulti_dp3 {
 
     public static void main(String[] args) {
 
-        int[] weights = {1, 3, 2};  // 每件物品的重量
-        int[] values = {4, 7, 6};  // 每件物品的价值
-        int[] nums = {2, 2, 3};  // 每类物品的数量
-        int weightCapacity = 5;  // 最大能承载的重量
+//        int[] weights = {1, 3, 2};  // 每件物品的重量
+//        int[] values = {4, 7, 6};  // 每件物品的价值
+//        int[] nums = {2, 2, 3};  // 每类物品的数量
+//        int weightCapacity = 5;  // 最大能承载的重量
+        int[] weights = {8 ,6 ,4 ,6 ,4 ,6 ,4 ,10 ,4 ,5 ,6 ,6 ,10 ,7 ,9 ,7 ,6 ,7 ,1 ,10};  // 每件物品的重量
+        int[] values = {5 ,4 ,2 ,3 ,4 ,6 ,3 ,9 ,4 ,2 ,3 ,6 ,6 ,4 ,8 ,4 ,5 ,7 ,1 ,8};  // 每件物品的价值
+        int[] nums = {250 ,333 ,500 ,333 ,2 ,4 ,500 ,2 ,5 ,400 ,333 ,2 ,200 ,285 ,4 ,285 ,5 ,3 ,4 ,2};  // 每类物品的数量
+        int weightCapacity = 100;  // 最大能承载的重量
         System.out.println(
                 (new KnapsackMulti_dp3()).knapsackMulti(
                         weights,
