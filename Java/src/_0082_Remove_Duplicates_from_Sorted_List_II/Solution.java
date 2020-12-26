@@ -6,9 +6,10 @@ package _0082_Remove_Duplicates_from_Sorted_List_II;
  * 画个图就明白了
  */
 public class Solution {
+
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null)
-            return head;
+
+        if (head == null) return null;
 
         ListNode dummyHead = new ListNode(-1);
         dummyHead.next = head;
@@ -34,6 +35,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        ListNode head = (new MyLinkedList(new int[]{1, 1, 2, 3, 3, 4})).getHead();
 //        ListNode head = (new MyLinkedList(new int[]{1, 1, 1})).getHead();
 //        ListNode head = (new MyLinkedList(new int[]{1, 1, 1, 2, 3})).getHead();
