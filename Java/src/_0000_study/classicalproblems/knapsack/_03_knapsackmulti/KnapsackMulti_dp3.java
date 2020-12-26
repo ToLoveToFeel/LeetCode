@@ -6,12 +6,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Date: 2020/9/8 22:45
+ * Date: 2020/12/6 20:00
  * Content: 时间复杂度：O(n * C * log(t))  其中 t = max(nums)
  * 采用二进制优化方法
  * 最下面的说明
- *
+ * <p>
  * 进一步优化：KnapsackMulti_dp4(还未写)
+ * https://www.acwing.com/solution/content/6500/
  * https://www.acwing.com/solution/content/26583/
  */
 public class KnapsackMulti_dp3 {
@@ -62,14 +63,10 @@ public class KnapsackMulti_dp3 {
 
     public static void main(String[] args) {
 
-//        int[] weights = {1, 3, 2};  // 每件物品的重量
-//        int[] values = {4, 7, 6};  // 每件物品的价值
-//        int[] nums = {2, 2, 3};  // 每类物品的数量
-//        int weightCapacity = 5;  // 最大能承载的重量
-        int[] weights = {8 ,6 ,4 ,6 ,4 ,6 ,4 ,10 ,4 ,5 ,6 ,6 ,10 ,7 ,9 ,7 ,6 ,7 ,1 ,10};  // 每件物品的重量
-        int[] values = {5 ,4 ,2 ,3 ,4 ,6 ,3 ,9 ,4 ,2 ,3 ,6 ,6 ,4 ,8 ,4 ,5 ,7 ,1 ,8};  // 每件物品的价值
-        int[] nums = {250 ,333 ,500 ,333 ,2 ,4 ,500 ,2 ,5 ,400 ,333 ,2 ,200 ,285 ,4 ,285 ,5 ,3 ,4 ,2};  // 每类物品的数量
-        int weightCapacity = 100;  // 最大能承载的重量
+        int[] weights = {1, 3, 2};  // 每件物品的重量
+        int[] values = {4, 7, 6};  // 每件物品的价值
+        int[] nums = {2, 2, 3};  // 每类物品的数量
+        int weightCapacity = 5;  // 最大能承载的重量
         System.out.println(
                 (new KnapsackMulti_dp3()).knapsackMulti(
                         weights,
