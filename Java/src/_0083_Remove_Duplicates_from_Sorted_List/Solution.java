@@ -5,9 +5,10 @@ package _0083_Remove_Duplicates_from_Sorted_List;
  * Content:
  */
 public class Solution {
+
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null)
-            return head;
+
+        if (head == null) return null;
 
         ListNode curNode = head;
         ListNode nextNode = head.next;
@@ -25,6 +26,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         ListNode head = (new MyLinkedList(new int[]{1, 1, 2, 3, 3})).getHead();
         head = (new Solution()).deleteDuplicates(head);
         MyLinkedList.printLinkedList(head);
