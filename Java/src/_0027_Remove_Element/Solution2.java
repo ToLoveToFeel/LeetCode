@@ -1,9 +1,13 @@
 package _0027_Remove_Element;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution2 {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
+
     public int removeElement(int[] nums, int val) {
+
         int newLength = nums.length;
         int i = 0;
         while (i < newLength)
@@ -12,10 +16,11 @@ public class Solution2 {
             else
                 i++;
 
-            return newLength;
+        return newLength;
     }
 
     public static void main(String[] args) {
+
         int[] nums = {3, 2, 2, 3};
         int val = 3;
 
