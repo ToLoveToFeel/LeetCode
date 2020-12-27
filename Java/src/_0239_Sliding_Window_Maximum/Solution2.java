@@ -23,7 +23,7 @@ public class Solution2 {
         // 队首保存着当前滑动窗口最大值对应的索引
         Deque<Integer> q = new ArrayDeque<>();
         for (int i = 0; i < nums.length; i++) {
-            if (q.size() != 0 && q.getFirst() <= i - k) q.removeFirst();  // 剔除过时的元素
+            if (q.size() != 0 && i - k + 1 > q.getFirst()) q.removeFirst();  // 剔除过时的元素
             while (q.size() != 0 && nums[q.getLast()] <= nums[i]) q.removeLast();  // 删除队列中小于等于 当前元素 的元素的索引
             q.addLast(i);  // 添加新元素
             if (i >= k - 1) res[index++] = nums[q.getFirst()];
