@@ -1,7 +1,6 @@
 package _0000_study.classicalproblems.knapsack._07_knapsacksolutionnum;
 
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 /**
  * Date: 2020/12/7 21:21
@@ -9,7 +8,7 @@ import java.util.stream.Collectors;
  */
 public class KnapsackSolutionNum {
 
-    public static final int MOD = 1000000009;
+    public static final int MOD = 1000000007;
 
     public int knapsackSolutionNum(int[] weights, int[] values, int C) {
 
@@ -33,29 +32,24 @@ public class KnapsackSolutionNum {
                 // 考虑这两种决策是从哪种决策转移过来的
                 // 如果 dp[j], dp[j - weight] == value，说明两种决策都符合要求，都要计算
                 int s = 0;
-                if (t == dp[j])
-                    s += g[j];
-                if (t == dp[j - weight] + value)
-                    s += g[j - weight];
-                if (s >= MOD)
-                    s -= MOD;
+                if (t == dp[j]) s += g[j];
+                if (t == dp[j - weight] + value) s += g[j - weight];
+                if (s >= MOD) s -= MOD;
+
                 dp[j] = t;
                 g[j] = s;
             }
-//            System.out.println(Arrays.stream(g).boxed().collect(Collectors.toList()));
+//            System.out.println(Arrays.toString(g));
         }
 
-        int maxValue = 0;  // 寻找最大价值数，因为不一定是所有空间用完才能得到最优解，所以要遍历
-        for (int i = 0; i <= C; i++) {
-            maxValue = Math.max(maxValue, dp[i]);
-        }
+        int max = 0;  // 寻找最大价值数，因为不一定是所有空间用完才能得到最优解，所以要遍历
+        for (int i = 0; i <= C; i++) max = Math.max(max, dp[i]);
 
         int res = 0;
         for (int i = 0; i <= C; i++) {
-            if (maxValue == dp[i]) {
+            if (max == dp[i]) {
                 res += g[i];
-                if (res >= MOD)
-                    res -= MOD;
+                if (res >= MOD) res -= MOD;
             }
         }
 
@@ -71,7 +65,8 @@ public class KnapsackSolutionNum {
         int[] weights = {1, 2, 3, 4};  // 每件物品的重量
         int[] values = {2, 4, 4, 6};  // 每件物品的价值
         int weightCapacity = 4;  // 最大能承载的重量
-        System.out.println((new KnapsackSolutionNum()).knapsackSolutionNum(
+        System.out.println(
+                (new KnapsackSolutionNum()).knapsackSolutionNum(
                         weights,
                         values,
                         weightCapacity
