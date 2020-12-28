@@ -12,13 +12,15 @@ package _0188_Best_Time_to_Buy_and_Sell_Stock_IV;
  * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/zhuang-tai-ya-suo-shi-guan-yu-kshi-fou-dao-xu-yao-/
  */
 public class Solution {
+
     public static final int CASH = 0;  // 持有现金
     public static final int STOCK = 1;  // 持有股票
 
     public int maxProfit(int k, int[] prices) {
+
         int n = prices.length;
-        if (n <= 1)
-            return 0;
+        if (n <= 1) return 0;
+
         if (k >= n / 2) {  // 当k非常大时转为无限次交易，参照 Leetcode 0122
             int[] dp = new int[2];
             dp[STOCK] = -prices[0];
