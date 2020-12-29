@@ -140,7 +140,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_interviewquestions\_17_14_smallestK" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KnapsackSolutionNum">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -155,6 +155,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0000_study.classicalproblems.knapsack._07_knapsacksolutionnum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0330_Patching_Array.Solution" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0330_Patching_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,20 +197,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0056_Merge_Intervals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0026_Remove_Duplicates_from_Sorted_Array.Solution" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0026_Remove_Duplicates_from_Sorted_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +250,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.KnapsackSolutionNum" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.KnapsackSolutionNum" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -688,6 +688,9 @@
       <workItem from="1608964845706" duration="11325000" />
       <workItem from="1608984752293" duration="5283000" />
       <workItem from="1609034542290" duration="11945000" />
+      <workItem from="1609118913520" duration="2313000" />
+      <workItem from="1609137134576" duration="1591000" />
+      <workItem from="1609207690594" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
