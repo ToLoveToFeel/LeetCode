@@ -4,6 +4,8 @@ package _0330_Patching_Array;
  * Date: 2020/12/29 10:13
  * Content:
  * https://leetcode-cn.com/problems/patching-array/solution/an-yao-qiu-bu-qi-shu-zu-by-leetcode-solu-klp1/
+ * 执行用时：1 ms, 在所有 Java 提交中击败了10.42%的用户
+ * 内存消耗：38.1 MB, 在所有 Java 提交中击败了65.26%的用户
  */
 public class Solution {
 
