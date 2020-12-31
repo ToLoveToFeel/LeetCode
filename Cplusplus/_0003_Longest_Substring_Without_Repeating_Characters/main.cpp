@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
-#include <cassert>
 
 using namespace std;
 
-// Sliding Window
-// Time Complexity: O(len(s))
-// Space Complexity: O(len(charset))
+// 滑动窗口
+// 时间复杂度: O(len(s))
+// 空间复杂度: O(len(charset))
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -32,11 +31,10 @@ public:
 
 int main() {
 
-    cout << Solution().lengthOfLongestSubstring( "abcabcbb" )<<endl; //3
-    cout << Solution().lengthOfLongestSubstring( "bbbbb" )<<endl;    //1
-    cout << Solution().lengthOfLongestSubstring( "pwwkew" )<<endl;   //3
-    cout << Solution().lengthOfLongestSubstring( "c" )<<endl;        //1
-    cout << Solution().lengthOfLongestSubstring( "" )<<endl;         //0
+    cout << Solution().lengthOfLongestSubstring( "abcabcbb" )<<endl; // 1
+    cout << Solution().lengthOfLongestSubstring( "pwwkew" )<<endl;   // 3
+    cout << Solution().lengthOfLongestSubstring( "c" )<<endl;        // 1
+    cout << Solution().lengthOfLongestSubstring( "" )<<endl;         // 0
 
     return 0;
 }
