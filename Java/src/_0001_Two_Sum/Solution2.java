@@ -1,5 +1,7 @@
 package _0001_Two_Sum;
 
+import _0000_study._common.Output;
+
 import java.util.HashMap;
 
 /**
@@ -28,9 +30,8 @@ public class Solution2 {
 
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-
         int[] res = (new Solution2()).twoSum(nums, target);
-        for (int num : res)
-            System.out.println(num);
+
+        Output.OutputBasicArray1D(res);
     }
 }
