@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Date: 2020/12/31 9:34
- * Content:
+ * Content: 对区间右端点排序
  * 执行用时：4 ms, 在所有 Java 提交中击败了51.09%的用户
  * 内存消耗：38.7 MB, 在所有 Java 提交中击败了21.08%的用户
  */
