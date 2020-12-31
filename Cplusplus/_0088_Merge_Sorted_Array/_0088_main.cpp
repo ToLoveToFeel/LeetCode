@@ -31,7 +31,7 @@ int main() {
     vector<int> nums1 = {0};
     vector<int> nums2 = {1};
     Solution().merge(nums1, 0, nums2, 1);
-    for (int i = 0; i < nums1.size(); ++i) cout << nums1[i] << " ";
+    for (int num : nums1) cout << num << " ";
 
     return 0;
 }

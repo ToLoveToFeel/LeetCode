@@ -34,7 +34,7 @@ int main() {
     vector<int> nums = {1};
     int k = 1;
     vector<int> res = Solution().maxSlidingWindow(nums, k);
-    for (int i = 0; i < res.size(); i++) cout << res[i] << " ";
+    for (int num : res) cout << num << " ";
 
     return 0;
 }

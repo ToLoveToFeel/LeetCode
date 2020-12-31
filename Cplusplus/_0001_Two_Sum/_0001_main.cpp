@@ -27,7 +27,7 @@ int main() {
     vector<int> nums = {2, 7, 11, 15};
     int target = 9;
     vector<int> res = Solution().twoSum(nums, target);
-    for (int i = 0; i < res.size(); i++) cout << res[i] << " ";
+    for (int index : res) cout << index << " ";
 
     return 0;
 }
