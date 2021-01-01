@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +81,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/MyPrograms/apache-maven-3.5.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../MyPrograms/apache-maven-3.5.2" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -103,13 +105,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0783_Minimum_Distance_Between_BST_Nodes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -140,7 +142,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -163,12 +165,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0435_Non_overlapping_Intervals.Solution" />
+      <option name="MAIN_CLASS_NAME" value="_0605_Can_Place_Flowers.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0435_Non_overlapping_Intervals.*" />
+          <option name="PATTERN" value="_0605_Can_Place_Flowers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,13 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0435_Non_overlapping_Intervals.Solution2" />
+    <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0001_Two_Sum.Solution2" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0435_Non_overlapping_Intervals.*" />
+          <option name="PATTERN" value="_0001_Two_Sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +252,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2 (2)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +290,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -700,6 +703,8 @@
       <workItem from="1609378277140" duration="7147000" />
       <workItem from="1609398801332" duration="1155000" />
       <workItem from="1609400420298" duration="1711000" />
+      <workItem from="1609404029093" duration="2428000" />
+      <workItem from="1609465108159" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -896,6 +901,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeetCode 242 查找表相关问题 判断两个字符串是否为anagram" />
     <MESSAGE value="LeetCode 202 查找表相关问题 happy number" />
@@ -923,144 +939,6 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="586" y="210" key="#Inspections" timestamp="1602574324363">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="586" y="210" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602574324363" />
-    <state x="842" y="357" key="#Notifications" timestamp="1608773425202">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="842" y="357" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1608773425202" />
-    <state x="337" y="356" key="#SQL_Dialects" timestamp="1605705192155">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="337" y="356" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605705192155" />
-    <state x="825" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609330090519">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="825" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609330090519" />
-    <state x="700" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607055428200">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="700" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607055428200" />
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1607259972037">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607259972037" />
-    <state x="1160" y="300" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1603337252139">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1160" y="300" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603337252139" />
-    <state x="735" y="272" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1603191182785">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="735" y="272" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603191182785" />
-    <state x="534" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607083096117">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="534" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607083096117" />
-    <state x="1036" y="93" key="CommitChangelistDialog2" timestamp="1604196363878">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1036" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604196363878" />
-    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1605615467219">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1605615467219" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605772826716">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605772826716" />
-    <state x="817" y="284" key="FileChooserDialogImpl" timestamp="1607052747303">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="817" y="284" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607052747303" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1609402195094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609402195094" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1609402195094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609402195094" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1609402195094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609402195094" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1609402195094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609402195094" />
-    <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1609390763546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609390763546" />
-    <state width="1877" height="260" key="GridCell.Tab.1.center" timestamp="1609390763546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609390763546" />
-    <state width="1877" height="260" key="GridCell.Tab.1.left" timestamp="1609390763546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609390763546" />
-    <state width="1877" height="260" key="GridCell.Tab.1.right" timestamp="1609390763546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="260" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609390763546" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1605615478262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605615478262" />
-    <state x="763" y="244" key="RollbackChangesDialog" timestamp="1607245564306">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607245564306" />
-    <state x="437" y="250" width="1042" height="711" key="SettingsEditor" timestamp="1609388551869">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="437" y="250" width="1042" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609388551869" />
-    <state x="681" y="271" width="582" height="505" key="StructurePopup" timestamp="1604131776570">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="681" y="271" width="582" height="505" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604131776570" />
-    <state x="1128" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603337272949">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1128" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1603337272949" />
-    <state x="590" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604152997892">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="590" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604152997892" />
-    <state x="1162" y="254" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603337259029">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1162" y="254" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603337259029" />
-    <state x="690" y="290" key="extract.method.dialog" timestamp="1607908111447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="290" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607908111447" />
-    <state x="662" y="252" width="742" height="598" key="find.popup" timestamp="1603677655166">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="252" width="742" height="598" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603677655166" />
-    <state x="405" y="172" width="960" height="680" key="new project wizard" timestamp="1606785765709">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="405" y="172" width="960" height="680" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606785765709" />
-    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607156030731">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="377" width="672" height="638" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607156030731" />
-    <state x="616" y="241" key="run.anything.popup" timestamp="1608793384329">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608793384329" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608463267867">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608463267866" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1100,5 +978,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
