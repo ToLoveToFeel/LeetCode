@@ -3,10 +3,9 @@ project(Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
-
 add_executable(_0003_main _0003_Longest_Substring_Without_Repeating_Characters/_0003_main.cpp)
 add_executable(_0088_main _0088_Merge_Sorted_Array/_0088_main.cpp)
 add_executable(_0239_main _0239_Sliding_Window_Maximum/_0239_main.cpp)
 add_executable(_0239_main2 _0239_Sliding_Window_Maximum/_0239_main2.cpp)
 add_executable(_0001_main _0001_Two_Sum/_0001_main.cpp)
+add_executable(_0605_main _0605_Can_Place_Flowers/_0605_main.cpp)
