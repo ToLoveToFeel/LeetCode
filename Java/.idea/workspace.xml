@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0605_Can_Place_Flowers/_0605_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0605_Can_Place_Flowers/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AcWing" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -253,10 +251,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution2 (1)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution2 (2)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution2 (2)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
@@ -911,6 +909,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeetCode 242 查找表相关问题 判断两个字符串是否为anagram" />
