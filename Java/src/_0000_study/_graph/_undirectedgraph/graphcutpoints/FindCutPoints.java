@@ -49,7 +49,7 @@ public class FindCutPoints {
                 child++;
                 if (v == parent && child > 1)
                     res.add(v);
-            } else if (w != parent)  // // w已经访问过，并且w不是v的父节点
+            } else if (w != parent)  // w已经访问过，并且w不是v的父节点
                 low[v] = Math.min(low[v], low[w]);
     }
 

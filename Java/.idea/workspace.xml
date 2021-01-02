@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../MyPrograms/apache-maven-3.5.2" />
+        <option name="mavenHome" value="D:/MyPrograms/apache-maven-3.5.2" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -109,7 +110,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -150,7 +151,7 @@
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0088_Merge_Sorted_Array.Solution" />
-      <module name="LeetCode" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +165,7 @@
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0605_Can_Place_Flowers.Solution" />
-      <module name="LeetCode" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +179,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0001_Two_Sum.Solution" />
-      <module name="LeetCode" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -192,7 +193,7 @@
     </configuration>
     <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0239_Sliding_Window_Maximum.Solution2" />
-      <module name="LeetCode" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -206,7 +207,7 @@
     </configuration>
     <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0001_Two_Sum.Solution2" />
-      <module name="LeetCode" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -251,10 +252,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution2 (1)" />
-      <item itemvalue="Application.Solution2 (2)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2 (2)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
@@ -288,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -703,6 +704,7 @@
       <workItem from="1609400420298" duration="1711000" />
       <workItem from="1609404029093" duration="2428000" />
       <workItem from="1609465108159" duration="18000" />
+      <workItem from="1609557337640" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -904,12 +906,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeetCode 242 查找表相关问题 判断两个字符串是否为anagram" />
@@ -938,6 +941,20 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="864" y="348" key="#Custom_Plugin_Repositories" timestamp="1609557577637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="864" y="348" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1609557577637" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609557772325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609557772325" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1609557807202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609557807202" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
