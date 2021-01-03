@@ -1,9 +1,11 @@
 package _0003_Longest_Substring_Without_Repeating_Characters;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution {
 
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
     public int lengthOfLongestSubstring(String s) {
 
         int[] freq = new int[256];
@@ -11,10 +13,8 @@ public class Solution {
         int res = 0;
 
         while (l < s.length()) {
-            if (r + 1 < s.length() && freq[s.charAt(r + 1)] == 0)
-                freq[s.charAt(++r)]++;
-            else
-                freq[s.charAt(l++)]--;
+            if (r + 1 < s.length() && freq[s.charAt(r + 1)] == 0) freq[s.charAt(++r)]++;
+            else freq[s.charAt(l++)]--;
 
             res = Math.max(res, r - l + 1);
         }
