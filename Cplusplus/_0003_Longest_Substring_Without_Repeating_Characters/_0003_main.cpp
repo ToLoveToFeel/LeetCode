@@ -3,9 +3,11 @@
 
 using namespace std;
 
-// 滑动窗口
-// 时间复杂度: O(len(s))
-// 空间复杂度: O(len(charset))
+/**
+ * 滑动窗口
+ * 时间复杂度: O(len(s))
+ * 空间复杂度: O(len(charset))
+ */
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -16,11 +18,8 @@ public:
         int res = 0;
 
         while(r + 1 < s.size()){
-
-            if( freq[s[r + 1]] == 0 )
-                freq[s[++r]] ++;
-            else    //freq[s[r+1]] == 1
-                freq[s[l++]] --;
+            if( freq[s[r + 1]] == 0 )freq[s[++r]] ++;
+            else freq[s[l++]] --;  // freq[s[r+1]] == 1
 
             res = max(res, r - l + 1);
         }
