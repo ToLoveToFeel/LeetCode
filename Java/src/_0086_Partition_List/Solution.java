@@ -6,7 +6,7 @@ package _0086_Partition_List;
  * 用两个链表记录：小于 x 的节点，大于或等于 x 的节点
  * <p>
  * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
- * 内存消耗：37.9 MB, 在所有 Java 提交中击败了38.16%的用户
+ * 内存消耗：37.6 MB, 在所有 Java 提交中击败了85.20%的用户
  */
 public class Solution {
 
@@ -18,22 +18,19 @@ public class Solution {
         ListNode dummyHead1 = new ListNode(0);  // 记录 小于 x 的节点
         ListNode dummyHead2 = new ListNode(0);  // 记录 大于或等于 x 的节点
 
-        ListNode curNode = head;
         ListNode node1 = dummyHead1;
         ListNode node2 = dummyHead2;
-        while (curNode != null) {
-            if (curNode.val < x) {
-                node1.next = curNode;
-                node1 = curNode;
-                curNode = curNode.next;
-                node1.next = null;
+        while (head != null) {
+            if (head.val < x) {
+                node1.next = head;
+                node1 = node1.next;
             } else {
-                node2.next = curNode;
-                node2 = curNode;
-                curNode = curNode.next;
-                node2.next = null;
+                node2.next = head;
+                node2 = node2.next;
             }
+            head = head.next;
         }
+        node2.next = null;
         node1.next = dummyHead2.next;
 
         return dummyHead1.next;

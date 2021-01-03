@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0000_study/_auxiliary/mylinkedlist/MyLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0086_Partition_List/MyLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0086_Partition_List/_0086_main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cplusplus/_0086_Partition_List/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_0086_Partition_List/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0086_Partition_List/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0086_Partition_List/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0086_Partition_List/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -685,7 +689,7 @@
       <workItem from="1609465108159" duration="18000" />
       <workItem from="1609557337640" duration="459000" />
       <workItem from="1609594529440" duration="1450000" />
-      <workItem from="1609640214448" duration="322000" />
+      <workItem from="1609640214448" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -931,6 +935,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609557772325" />
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1609644024302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609644024302" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1609644024302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609644024302" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1609644024302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609644024302" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1609644024302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609644024302" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1609557807202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
