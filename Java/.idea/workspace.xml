@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0008_String_to_Integer_atoi/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0008_String_to_Integer_atoi/question.txt" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -687,7 +685,7 @@
       <workItem from="1609662300128" duration="499000" />
       <workItem from="1609683040791" duration="1510000" />
       <workItem from="1609724360981" duration="5989000" />
-      <workItem from="1609747692194" duration="2679000" />
+      <workItem from="1609747692194" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
