@@ -15,7 +15,6 @@ private:
             if (s[l] == s[r]) l--, r++;
             else break;
         }
-
         return r - l - 1;
     }
 

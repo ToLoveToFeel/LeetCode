@@ -14,11 +14,12 @@ public:
 
         unordered_map<int, int> hash;  // (元素，元素对应下标)
         for (int i = 0; i < nums.size(); ++i) {
-            if (hash.count(target - nums[i]) > 0) return {hash[target - nums[i]], i};
-            hash.insert({nums[i], i});
+            int r = target - nums[i];
+            if (hash.count(r)) return {hash[r], i};
+            hash[nums[i]] = i;
         }
 
-        return {-1, -1};
+        return {};
     }
 };
 

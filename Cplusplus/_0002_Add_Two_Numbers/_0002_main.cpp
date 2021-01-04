@@ -8,22 +8,16 @@ class Solution {
 public:
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
 
-        ListNode *dummyHead = new ListNode(0);
-        ListNode *p = dummyHead;
+        auto dummy = new ListNode(0), cur = dummy;
 
         int t = 0;
-        while (l1 || l2) {
-            int num1 = (l1 ? l1->val : 0);
-            int num2 = (l2 ? l2->val : 0);
-            p->next = new ListNode((num1 + num2 + t) % 10);
-            t = (num1 + num2 + t) / 10;
-            l1 = (l1 ? l1->next : NULL);
-            l2 = (l2 ? l2->next : NULL);
-            p = p->next;
+        while (l1 || l2 || t) {
+            if (l1) t += l1->val, l1 = l1->next;
+            if (l2) t += l2->val, l2 = l2->next;
+            cur = (cur->next = new ListNode(t % 10));
+            t /= 10;
         }
-        if (t != 0) p->next = new ListNode(t);
-
-        return dummyHead->next;
+        return dummy->next;
     }
 };
 

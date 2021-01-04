@@ -1,39 +1,35 @@
 #include <iostream>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
 /**
  * 滑动窗口
- * 时间复杂度: O(len(s))
- * 空间复杂度: O(len(charset))
+ * 执行用时：36 ms, 在所有 C++ 提交中击败了67.13%的用户
+ * 内存消耗：8.6 MB, 在所有 C++ 提交中击败了55.16%的用户
  */
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
 
-        int freq[256] = {0};
-
-        int l = 0, r = -1; // sliding window: s[l...r]
+        unordered_map<char, int> map;
         int res = 0;
-
-        while(r + 1 < s.size()){
-            if( freq[s[r + 1]] == 0 )freq[s[++r]] ++;
-            else freq[s[l++]] --;  // freq[s[r+1]] == 1
-
-            res = max(res, r - l + 1);
+        for (int i = 0, j = 0; i < s.size(); i++) {
+            map[s[i]]++;
+            while (map[s[i]] > 1) map[s[j++]]--;
+            res = max(res, i - j + 1);
         }
-
         return res;
     }
 };
 
 int main() {
 
-    cout << Solution().lengthOfLongestSubstring( "abcabcbb" )<<endl; // 1
-    cout << Solution().lengthOfLongestSubstring( "pwwkew" )<<endl;   // 3
-    cout << Solution().lengthOfLongestSubstring( "c" )<<endl;        // 1
-    cout << Solution().lengthOfLongestSubstring( "" )<<endl;         // 0
+    cout << Solution().lengthOfLongestSubstring("abcabcbb") << endl; // 3
+    cout << Solution().lengthOfLongestSubstring("pwwkew") << endl;   // 3
+    cout << Solution().lengthOfLongestSubstring("c") << endl;        // 1
+    cout << Solution().lengthOfLongestSubstring("") << endl;         // 0
 
     return 0;
 }
