@@ -5,25 +5,23 @@ package _0008_String_to_Integer_atoi;
  * Content:
  */
 public class Solution {
+
     private boolean isDigit(char c) {
-        if (c >= '0' && c <= '9')
-            return true;
+
+        if (c >= '0' && c <= '9') return true;
         return false;
     }
 
     public int myAtoi(String str) {
-        if (str.trim().equals(""))
-            return 0;
+
+        if (str.trim().equals("")) return 0;
         int i = 0;
         // 过滤掉空格
-        while (str.charAt(i) == ' ') {
-            i++;
-        }
+        while (str.charAt(i) == ' ') i++;
 
         int sign = (str.charAt(i) == '-' ? -1 : 1);
         int res = 0;
-        if (str.charAt(i) == '+' || str.charAt(i) == '-')
-            i++;
+        if (str.charAt(i) == '+' || str.charAt(i) == '-') i++;
         while (i < str.length() && isDigit(str.charAt(i))) {
             int r = str.charAt(i) - '0';
             int temp = sign * res;
@@ -34,10 +32,12 @@ public class Solution {
             res = res * 10 + r;
             i++;
         }
+
         return sign == 1 ? res : -res;
     }
 
     public static void main(String[] args) {
+
         String str = "2147483648";
         System.out.println((new Solution()).myAtoi(str));
     }
