@@ -7,21 +7,23 @@ package _0010_Regular_Expression_Matching;
  * 动态规划：
  * 状态：dp[i][j] 表示 s 的前 i 个字符能否被 p 的前 j 个字符匹配. 例如 dp[1][1] 就代表s.charAt(0)能否与p.charAt(0)匹配
  * 初始状态：
- *      dp[0][0] = true (代表空匹配空).
- *      dp[i][0] = false (代表某些字符不能匹配空, i >= 1).
- *      dp[0][1] = true (如果 p.charAt(0) == '*'), 否则 dp[0][1] = false.
- *      dp[0][j] = dp[0][j - 2] (如果 p.charAt(j-1) == '*', j >= 2), 否则 dp[0][j] = false.
+ * dp[0][0] = true (代表空匹配空).
+ * dp[i][0] = false (代表某些字符不能匹配空, i >= 1).
+ * dp[0][1] = true (如果 p.charAt(0) == '*'), 否则 dp[0][1] = false.
+ * dp[0][j] = dp[0][j - 2] (如果 p.charAt(j-1) == '*', j >= 2), 否则 dp[0][j] = false.
  * 状态转移：(从 i=1, j=1 开始填表)
- *      如果 s.charAt(i-1) == p.charAt(j-1), 或者 p.charAt(j-1) == '.':
- *          dp[i][j] = dp[i-1][j-1]
- *      如果 p.charAt(j-1) == '*' :
- *          如果 j = 1, 则 dp[i][1] = false
- *          否则 j > 1:
- *              如果 dp[i][j-2] == true, 则 dp[i][j] = true
- *              否则 dp[i][j-2] == false, 如果p中当前考察字符'*'的前一个字符 p.charAt(j-2) == s.charAt(i-1) 或者 p.charAt(j-2) == ‘.', dp[i][j] = dp[i-1][j]
+ * 如果 s.charAt(i-1) == p.charAt(j-1), 或者 p.charAt(j-1) == '.':
+ * dp[i][j] = dp[i-1][j-1]
+ * 如果 p.charAt(j-1) == '*' :
+ * 如果 j = 1, 则 dp[i][1] = false
+ * 否则 j > 1:
+ * 如果 dp[i][j-2] == true, 则 dp[i][j] = true
+ * 否则 dp[i][j-2] == false, 如果p中当前考察字符'*'的前一个字符 p.charAt(j-2) == s.charAt(i-1) 或者 p.charAt(j-2) == ‘.', dp[i][j] = dp[i-1][j]
  */
 public class Solution {
+
     public boolean isMatch(String s, String p) {
+
         boolean dp[][] = new boolean[s.length() + 1][p.length() + 1];
 
         dp[0][0] = true;
@@ -68,6 +70,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         String s = "aab";
         String p = "c*a*b";
         System.out.println((new Solution()).isMatch(s, p));
