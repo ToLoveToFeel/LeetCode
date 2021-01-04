@@ -8,10 +8,10 @@ package _0005_Longest_Palindromic_Substring;
  */
 class Solution2 {
 
-    private int expandAroundCenter(String s, int left, int right) {
+    private int expand(String s, int left, int right) {
 
         // left == right，回文中心是一个字符
-        // left == right + 1，回文中心是两个字符
+        // left + 1 == right，回文中心是两个字符
         int i = left;
         int j = right;
         while (i >= 0 && j < s.length()) {
@@ -28,16 +28,12 @@ class Solution2 {
     // 中心扩散法
     public String longestPalindrome(String s) {
 
-        if (s.length() < 2)
-            return s;
+        if (s.length() < 2) return s;
 
-        int maxLen = 1;
-        int begin = 0;
+        int begin = 0, maxLen = 1;
 
         for (int i = 0; i < s.length() - 1; i++) {
-            int oddLen = expandAroundCenter(s, i, i);
-            int evenLen = expandAroundCenter(s, i, i + 1);
-            int curMaxLen = Math.max(oddLen, evenLen);
+            int curMaxLen = Math.max(expand(s, i, i), expand(s, i, i + 1));
             if (curMaxLen > maxLen) {
                 maxLen = curMaxLen;
                 begin = i - (maxLen - 1) / 2;

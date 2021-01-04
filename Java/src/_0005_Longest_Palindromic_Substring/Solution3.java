@@ -13,11 +13,10 @@ package _0005_Longest_Palindromic_Substring;
 class Solution3 {
 
     public String longestPalindrome(String s) {
-        if (s.length() < 2)
-            return s;
 
-        int maxLen = 1;
-        int begin = 0;
+        if (s.length() < 2) return s;
+
+        int begin = 0, maxLen = 1;
         boolean[][] dp = new boolean[s.length()][s.length()];
 
         for (int i = 0; i < s.length(); i++) {

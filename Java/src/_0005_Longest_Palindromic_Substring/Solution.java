@@ -22,10 +22,9 @@ class Solution {
     // 暴力解法
     public String longestPalindrome(String s) {
 
-        if (s.length() < 2)
-            return s;
-        int maxLen = 1;
-        int begin = 0;
+        if (s.length() < 2) return s;
+
+        int begin = 0, maxLen = 1;
         for (int i = 0; i < s.length() - 1; i++) {
             for (int j = i + 1; j < s.length(); j++) {
                 if (j - i + 1 > maxLen && vaildPalindrome(s, i, j)) {
@@ -34,6 +33,7 @@ class Solution {
                 }
             }
         }
+
         return s.substring(begin, begin + maxLen);
     }
 
