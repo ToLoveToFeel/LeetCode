@@ -1,6 +1,5 @@
 package _0007_Reverse_Integer;
 
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,7 +10,9 @@ import java.util.Queue;
  * 空间复杂度：O(length(x))
  */
 public class Solution {
+
     public int reverse(int x) {
+
         long res = 0L;
         Queue<Integer> queue = new LinkedList<>();
         boolean flag = (x >= 0);
@@ -32,6 +33,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int x = -123;
         System.out.println((new Solution()).reverse(x));
     }

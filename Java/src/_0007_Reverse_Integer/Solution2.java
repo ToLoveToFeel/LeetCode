@@ -8,11 +8,14 @@ package _0007_Reverse_Integer;
  * 空间复杂度：O(1)
  */
 public class Solution2 {
+
     public int reverse(int x) {
+
         int onetenthMax = Integer.MAX_VALUE / 10;
         int remainderOfMax = Integer.MAX_VALUE % 10;
         int onetenthMin = Integer.MIN_VALUE / 10;
         int remainderOfMin = Integer.MIN_VALUE % 10;
+
         int res = 0;
         while (x != 0) {
             int temp = x % 10;
@@ -27,6 +30,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int x = Integer.MAX_VALUE;
         System.out.println((new Solution2()).reverse(x));
     }
