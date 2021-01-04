@@ -10,7 +10,7 @@ package _0004_Median_of_Two_Sorted_Arrays;
  */
 public class Solution3 {
 
-    // 在两个有序数组nums1和nums2中获取第k小的数据
+    // 在两个有序数组nums1和nums2中获取第k小(从1开始)的数据
     private int getKthElement(int[] nums1, int[] nums2, int k) {
 
         int i = 0, j = 0;  // i指向nums1正在考察的元素，j指向nums2正在考察的元素, nums1[0...i-1]是已经被排除的元素
