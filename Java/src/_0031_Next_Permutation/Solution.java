@@ -19,10 +19,10 @@ public class Solution {
     }
 
     public void nextPermutation(int[] nums) {
+
         // 特殊情况判断
         int n = nums.length;
-        if (n <= 1)
-            return;
+        if (n <= 1) return;
         // 寻找 nums[i] < num[j] 的位置, 则num[j...n-1]为降序(非严格)
         int i = n - 2, j = n - 1;
         for (; i >= 0; i--, j--) {
@@ -32,9 +32,7 @@ public class Solution {
         // 在[j...n-1]从右向左寻找索引k，找到第一个nums[k] > nums[i]的位置，并交换位置
         if (i >= 0) {  // 说明不是最后一个排列
             int k = n - 1;
-            while (nums[k] <= nums[i]) {
-                k--;
-            }
+            while (nums[k] <= nums[i]) k--;
             swap(nums, i, k);
         }
 
@@ -50,6 +48,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {1, 2, 3};  // [1, 3, 2]
 //        int[] nums = {3, 2, 1};  // [1, 2, 3]
         int[] nums = {1, 1, 5};  // [1, 5, 1]
