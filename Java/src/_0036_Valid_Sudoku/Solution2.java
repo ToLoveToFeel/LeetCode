@@ -7,22 +7,24 @@ import java.util.HashSet;
  * Content:
  */
 public class Solution2 {
+
     public boolean isValidSudoku(char[][] board) {
+
         boolean[][] row = new boolean[9][10];
         boolean[][] col = new boolean[9][10];
         boolean[][] box = new boolean[9][10];
 
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                if (board[i][j] == '.')
-                    continue;
+                if (board[i][j] == '.') continue;
                 int curNumber = board[i][j] - '0';
-                if (row[i][curNumber] || col[j][curNumber] || box[i / 3 * 3 + j / 3][curNumber])
+                int index = i / 3 * 3 + j / 3;
+                if (row[i][curNumber] || col[j][curNumber] || box[index][curNumber])
                     return false;
 
                 row[i][curNumber] = true;
                 col[j][curNumber] = true;
-                box[i / 3 * 3 + j / 3][curNumber] = true;
+                box[index][curNumber] = true;
             }
         }
         return true;

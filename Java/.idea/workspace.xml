@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0036_Valid_Sudoku/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0653_Two_Sum_IV_Input_is_a_BST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -191,13 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0005_Longest_Palindromic_Substring.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0036_Valid_Sudoku.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0005_Longest_Palindromic_Substring.*" />
+          <option name="PATTERN" value="_0036_Valid_Sudoku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,13 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0005_Longest_Palindromic_Substring.Solution3" />
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0036_Valid_Sudoku.Solution2" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0005_Longest_Palindromic_Substring.*" />
+          <option name="PATTERN" value="_0036_Valid_Sudoku.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +252,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2" />
-      <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -690,7 +691,7 @@
       <workItem from="1609724360981" duration="5989000" />
       <workItem from="1609747692194" duration="5528000" />
       <workItem from="1609810200581" duration="3702000" />
-      <workItem from="1609834698659" duration="3443000" />
+      <workItem from="1609834698659" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -936,22 +937,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609557772325" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1609840001252">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1609845616772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609840001252" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1609840001251">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609845616772" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1609845616772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609840001251" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1609840001251">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609845616772" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1609845616771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609840001251" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1609840001251">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609845616771" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1609845616772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609840001251" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609845616772" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1609657331883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

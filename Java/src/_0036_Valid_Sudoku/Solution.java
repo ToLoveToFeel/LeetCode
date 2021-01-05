@@ -7,7 +7,9 @@ import java.util.HashSet;
  * Content:
  */
 public class Solution {
+
     public boolean isValidSudoku(char[][] board) {
+
         HashSet<Character> hashSet = new HashSet<>();
         // 判断行
         for (int i = 0; i < board.length; i++) {
@@ -43,10 +45,8 @@ public class Solution {
                     int indexJ = (i % 3) * 3 + k;
                     char c = board[indexI][indexJ];
                     if (c != '.') {
-                        if (!hashSet.contains(c))
-                            hashSet.add(c);
-                        else
-                            return false;
+                        if (!hashSet.contains(c)) hashSet.add(c);
+                        else return false;
                     }
                 }
             }
