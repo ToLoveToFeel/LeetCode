@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void OutputBasicArray2D1(vector<vector<int>> nums) {
+void OutputBasicArray2D1(vector<vector<int>> &nums) {
 
     cout << "[";
     for (int i = 0; i < nums.size(); i++) {
