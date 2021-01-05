@@ -29,6 +29,19 @@ public class Output {
         System.out.print("]");
     }
 
+    public static void OutputBasicArray2D(char[][] nums) {
+
+        System.out.print("[");
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0)
+                System.out.println(Arrays.toString(nums[i]) + ",");
+            else if (i < nums.length - 1)
+                System.out.println(" " + Arrays.toString(nums[i]) + ",");
+            else
+                System.out.print(" " + Arrays.toString(nums[i]));
+        }
+        System.out.print("]");
+    }
 
     public static void OutputBasicArray2D1(int[][] nums) {
 
