@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * Date: 2021/1/5 9:44
  * Content:
+ * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：38.7 MB, 在所有 Java 提交中击败了43.77%的用户
  */
 public class Solution {
 
