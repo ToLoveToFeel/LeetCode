@@ -22,7 +22,7 @@ void OutputBasicArray2D1(vector<vector<int>> &nums) {
             cout << nums[i][j];
             if (j != nums[i].size() - 1) cout << ", ";
         }
-        cout << "]" ;
+        cout << "]";
         if (i != nums.size() - 1) cout << ", ";
     }
     cout << "]" << endl;
@@ -38,7 +38,7 @@ void OutputBasicArray2D(vector<vector<int>> &nums) {
             cout << nums[i][j];
             if (j != nums[i].size() - 1) cout << ", ";
         }
-        cout << "]" ;
+        cout << "]";
         if (i != nums.size() - 1) cout << ", " << endl;
     }
     cout << "]" << endl;
