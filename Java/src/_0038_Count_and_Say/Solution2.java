@@ -4,13 +4,11 @@ import java.util.HashMap;
 
 /**
  * Date: 2020/10/11 10:02
- * Content:
- * 全部列举出来
+ * Content: 全部列举出来
  */
 public class Solution2 {
+
     public String countAndSay(int n) {
-        if (!(n > 0 && n <= 30))
-            throw new IllegalArgumentException("PInput Error!");
 
         HashMap<Integer, String> map = new HashMap<Integer, String>() {{
             put(1, "1");
@@ -49,6 +47,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution2()).countAndSay(30));
     }
 }
