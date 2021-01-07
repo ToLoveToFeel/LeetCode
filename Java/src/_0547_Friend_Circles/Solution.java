@@ -8,6 +8,7 @@ package _0547_Friend_Circles;
  * 空间复杂度：O(n)，visited数组的大小
  */
 class Solution {
+
     // 从i开始深度优先遍历
     private void dfs(int[][] M, boolean[] visited, int i) {
         visited[i] = true;
@@ -17,8 +18,8 @@ class Solution {
     }
 
     public int findCircleNum(int[][] M) {
-        if (M.length == 0)
-            return 0;
+
+        if (M.length == 0) return 0;
 
         boolean[] visited = new boolean[M.length];
         int count = 0;
