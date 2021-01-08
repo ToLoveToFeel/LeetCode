@@ -1,16 +1,20 @@
 package _0189_Rotate_Array;
 
+import _0000_study._common.Output;
+
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution3 {
-    // 时间复杂度：O(n)
-    // 时间复杂度：O(1)
+
     public void rotate(int[] nums, int k) {
 
-        if (k % nums.length == 0)
-            return;
+        if (k % nums.length == 0) return;
 
         k = k % nums.length;
         int count = 0;
-        for (int start = 0; count < nums.length; start++){
+        for (int start = 0; count < nums.length; start++) {
             int current = start;
             int prev = nums[start];
             do {
@@ -20,15 +24,15 @@ public class Solution3 {
                 prev = temp;
                 current = next;
                 count++;
-            }while (start != current);
+            } while (start != current);
         }
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 2, 3, 4, 5, 6};
         int k = 2;
         (new Solution3()).rotate(nums, k);
-        for (int i = 0; i < nums.length; i++)
-            System.out.print(nums[i] + " ");
+        Output.OutputBasicArray1D(nums);
     }
 }
