@@ -13,7 +13,7 @@ int f[101], g[101];  // f存储最后持有现金的结果，g存储最后持有
 class Solution {
 public:
     int maxProfit(int k, vector<int> &prices) {
-        int INF = 1e8;
+
         int n = prices.size();
         if (k >= n / 2) {  // Leetcode 0112
             int res = 0;
