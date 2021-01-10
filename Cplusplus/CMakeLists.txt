@@ -40,3 +40,4 @@ add_executable(_0122_main _0122_Best_Time_to_Buy_and_Sell_Stock_II/_0122_main.cp
 add_executable(_0123_main _0123_Best_Time_to_Buy_and_Sell_Stock_III/_0123_main.cpp)
 add_executable(_0188_main _0188_Best_Time_to_Buy_and_Sell_Stock_IV/_0188_main.cpp)
 add_executable(_0309_main _0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown/_0309_main.cpp)
+add_executable(_0228_main _0228_Summary_Ranges/_0228_main.cpp)

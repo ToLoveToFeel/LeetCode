@@ -21,13 +21,9 @@ class Solution {
             int end = start + 1;
             while (end < nums.length && nums[end] == nums[start] + end - start) end++;
 
-            if (end != start + 1) {
-                sb.append("->");
-                sb.append(nums[end - 1]);
-                start = end;
-            } else {
-                start++;
-            }
+            if (end != start + 1) sb.append("->").append(nums[end - 1]);
+
+            start = end;
             list.add(sb.toString());
         }
         return list;
