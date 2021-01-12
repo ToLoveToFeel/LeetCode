@@ -42,3 +42,4 @@ add_executable(_0188_main _0188_Best_Time_to_Buy_and_Sell_Stock_IV/_0188_main.cp
 add_executable(_0309_main _0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown/_0309_main.cpp)
 add_executable(_0228_main _0228_Summary_Ranges/_0228_main.cpp)
 add_executable(_1202_main _1202_Smallest_String_With_Swaps/_1202_main.cpp)
+add_executable(_1203_main _1203_Sort_Items_by_Groups_Respecting_Dependencies/_1203_main.cpp)
