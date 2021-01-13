@@ -21,12 +21,12 @@ public class Solution2 {
 
     public int[] findRedundantConnection(int[][] edges) {
 
-        for (int i = 1; i <= edges.length; i++) p[i] = i;
+        for (int i = 1; i <= edges.length; i++) p[i] = i;  // 并查集初始化
 
         for (int[] edge : edges) {
             int a = find(edge[0]), b = find(edge[1]);
-            if (a != b) p[a] = b;
-            else return edge;
+            if (a != b) p[a] = b;  // 如果顶点edge[0]和edge[1]不在一个连通分量中，则合并
+            else return edge;  // 如果顶点edge[0]和edge[1]在一个连通分量中，则说明出现环，返回即可
         }
 
         return new int[0];
