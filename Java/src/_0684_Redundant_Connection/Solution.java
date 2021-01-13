@@ -1,31 +1,35 @@
 package _0684_Redundant_Connection;
 
+import _0000_study._common.Output;
+
 /**
  * Date: 2020/9/17 18:44
  * Content:
  */
 public class Solution {
+
     public int[] findRedundantConnection(int[][] edges) {
+
         UnionFind uf = new UnionFind(edges.length + 1);  // 节点数 == 边数
         for (int[] edge : edges) {
             int node1 = edge[0], node2 = edge[1];
-            if (!uf.isConnected(node1, node2))
-                uf.unionElements(node1, node2);
-            else
-                return edge;
+            if (!uf.isConnected(node1, node2)) uf.unionElements(node1, node2);
+            else return edge;
         }
         throw new IllegalArgumentException("Input Error");
     }
 
     public static void main(String[] args) {
-//        int[][] edges = {{1, 2}, {1, 3}, {2, 3}};
-        int[][] edges = {{4, 2}, {2, 3}, {3, 4}, {1, 2}, {3, 5}, {1, 6}, {6, 7}};
+
+        int[][] edges = {{1, 2}, {1, 3}, {2, 3}};
+//        int[][] edges = {{4, 2}, {2, 3}, {3, 4}, {1, 2}, {3, 5}, {1, 6}, {6, 7}};
         int[] res = (new Solution()).findRedundantConnection(edges);
-        System.out.println(res[0] + " - " + res[1]);
+        Output.OutputBasicArray1D(res);
     }
 }
 
 class UnionFind {
+
     private int[] parent;
     private int[] rank;
 
