@@ -7,8 +7,8 @@ import java.util.Arrays;
  * Date: 2020/11/23 9:07
  * Content:
  * <p>
- * 执行用时：25 ms, 在所有 Java 提交中击败了26.85%的用户
- * 内存消耗：45.9 MB, 在所有 Java 提交中击败了86.53%的用户
+ * 执行用时：21 ms, 在所有 Java 提交中击败了50.58%的用户
+ * 内存消耗：46.4 MB, 在所有 Java 提交中击败了5.05%的用户
  */
 public class Solution {
 
@@ -21,20 +21,19 @@ public class Solution {
         Arrays.sort(points, (o1, o2) -> Integer.compare(o1[0], o2[0]));
 
         // 第二步：合并区间(不同于Leetcode 0056寻找并集,这里找的区间是交集)，根据剩余区间的个数，得到结果
-        ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
+        int res = 0;
         for (int i = 0; i < n; i++) {
-            int left = points[i][0];
+
             int right = points[i][1];
 
             while (i + 1 < points.length && points[i + 1][0] <= right) {
-                left = points[i + 1][0];
                 right = Math.min(right, points[i + 1][1]);
                 i++;
             }
-            lists.add(new ArrayList<>(Arrays.asList(left, right)));
+            res++;
         }
 
-        return lists.size();
+        return res;
     }
 
     public static void main(String[] args) {

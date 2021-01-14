@@ -1,16 +1,21 @@
 package _0057_Insert_Interval;
 
+import _0000_study._common.Output;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 /**
  * 执行用时：3 ms, 在所有 Java 提交中击败了46.07%的用户
  * 内存消耗：40.7 MB, 在所有 Java 提交中击败了86.97%的用户
  */
 
 public class Solution2 {
+
     // [[1,2],[3,5],[6,7],[8,10],[12,16]]
     //         [4,         8]
     public int[][] insert(int[][] intervals, int[] newInterval) {
+
         ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
 
         int cur = 0;  // 找到第一处newInterval区间左边的值 小于或等于 intervals区间右边的值的位置
@@ -41,24 +46,11 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[][] intervals = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}};
         int[] newInterval = {4, 8};
-
         int[][] res = (new Solution2()).insert(intervals, newInterval);
 
-        System.out.print("[");
-        for (int i = 0; i < res.length; i++) {
-            System.out.print("[");
-            for (int j = 0; j < res[0].length; j++) {
-                System.out.print(res[i][j]);
-                if (j == 0)
-                    System.out.print(" ");
-            }
-            if (i != res.length - 1)
-                System.out.print("], ");
-            else
-                System.out.print("]");
-        }
-        System.out.println("]");
+        Output.OutputBasicArray2D1(res);
     }
 }

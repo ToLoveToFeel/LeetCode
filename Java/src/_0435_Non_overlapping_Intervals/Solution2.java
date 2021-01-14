@@ -19,7 +19,7 @@ public class Solution2 {
         // 第一步：排序
         Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
 
-        // 统计存在重叠的区间求并集后剩余的区间
+        // 统计存在重叠的区间求交集后剩余的区间
         int cnt = 0;
         for (int i = 0; i < n; i++) {
 

@@ -9,31 +9,31 @@ public class Solution {
 
     public int[][] merge(int[][] intervals) {
 
-        if (intervals.length <= 1) return intervals;
+        int n = intervals.length;
+        if (n <= 1) return intervals;
 
         // 1、首先对列表中的元素基于第一个元素从小到大排序；
         Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
 
-        // 2、遍历列表，如果其中的元素对的右节点比下一个元素对的左节点大，则代表上下两个元素对是重叠的，
-        //    递归的执行这个过程，找到所有的重叠部分
+        // 2、区间求并集
         ArrayList<ArrayList<Integer>> l = new ArrayList<>();
-        for (int i = 0; i < intervals.length; i++) {
+        for (int i = 0; i < n; i++) {
             int left = intervals[i][0];
             int right = intervals[i][1];
 
-            while (i + 1 < intervals.length && intervals[i + 1][0] <= right) {
+            while (i + 1 < n && intervals[i + 1][0] <= right) {
                 right = Math.max(right, intervals[i + 1][1]);
                 i++;
             }
             l.add(new ArrayList<>(Arrays.asList(left, right)));
         }
+
         // 整理结果
-        int[][] res = new int[l.size()][l.get(0).size()];
+        int[][] res = new int[l.size()][2];
         for (int i = 0; i < l.size(); i++) {
             for (int j = 0; j < l.get(0).size(); j++)
                 res[i][j] = l.get(i).get(j);
         }
-
         return res;
     }
 
