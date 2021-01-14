@@ -15,15 +15,14 @@ public class Solution {
     public int findMinArrowShots(int[][] points) {
 
         int n = points.length;
-        if (n == 0)
-            return 0;
+        if (n == 0) return 0;
 
         // 第一步：根据point[i][0]从小到大进行排序
         Arrays.sort(points, (o1, o2) -> Integer.compare(o1[0], o2[0]));
 
         // 第二步：合并区间(不同于Leetcode 0056寻找并集,这里找的区间是交集)，根据剩余区间的个数，得到结果
         ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
-        for (int i = 0; i < points.length; i++) {
+        for (int i = 0; i < n; i++) {
             int left = points[i][0];
             int right = points[i][1];
 
