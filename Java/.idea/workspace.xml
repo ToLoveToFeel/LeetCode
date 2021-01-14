@@ -79,7 +79,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../MyPrograms/apache-maven-3.5.2" />
+        <option name="mavenHome" value="$USER_HOME$/MyPrograms/apache-maven-3.5.2" />
       </MavenGeneralSettings>
     </option>
   </component>
