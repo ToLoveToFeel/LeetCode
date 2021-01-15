@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0057_Insert_Interval/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0057_Insert_Interval/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0057_Insert_Interval/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0057_Insert_Interval/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0435_Non_overlapping_Intervals/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0435_Non_overlapping_Intervals/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0452_Minimum_Number_of_Arrows_to_Burst_Balloons/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0452_Minimum_Number_of_Arrows_to_Burst_Balloons/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,17 +220,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
