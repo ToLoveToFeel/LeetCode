@@ -46,3 +46,4 @@ add_executable(_1203_main _1203_Sort_Items_by_Groups_Respecting_Dependencies/_12
 add_executable(_684_main _0684_Redundant_Connection/_684_main.cpp)
 add_executable(_1018_main _1018_Binary_Prefix_Divisible_By_5/_1018_main.cpp)
 add_executable(_0947_main _0947_Most_Stones_Removed_with_Same_Row_or_Column/_0947_main.cpp)
+add_executable(_0803_main _0803_Bricks_Falling_When_Hit/_0803_main.cpp)

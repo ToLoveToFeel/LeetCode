@@ -702,6 +702,7 @@
       <workItem from="1610500708816" duration="2635000" />
       <workItem from="1610506771716" duration="611000" />
       <workItem from="1610586394312" duration="953000" />
+      <workItem from="1610759654365" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -937,6 +938,24 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1610699860485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610699860485" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1610699860485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610699860485" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1610699860484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610699860484" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1610699860485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610699860485" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
