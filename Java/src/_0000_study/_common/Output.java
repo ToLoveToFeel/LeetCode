@@ -26,7 +26,7 @@ public class Output {
             else
                 System.out.print(" " + Arrays.toString(nums[i]));
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 
     public static void OutputBasicArray2D(char[][] nums) {
@@ -40,7 +40,7 @@ public class Output {
             else
                 System.out.print(" " + Arrays.toString(nums[i]));
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 
     public static void OutputBasicArray2D1(int[][] nums) {
@@ -52,6 +52,6 @@ public class Output {
             else
                 System.out.print(Arrays.toString(nums[i]));
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 }
