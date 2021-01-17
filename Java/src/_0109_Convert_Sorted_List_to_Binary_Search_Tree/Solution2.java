@@ -1,8 +1,5 @@
 package _0109_Convert_Sorted_List_to_Binary_Search_Tree;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Date: 2020/10/2 9:39
  * Content:
@@ -11,12 +8,13 @@ import java.util.List;
  * 方法3
  */
 public class Solution2 {
+
     ListNode head;
     int size;  // 链表元素个数
 
     private TreeNode sortedListToBST(int start, int end) {
-        if (start > end)
-            return null;
+
+        if (start > end) return null;
 
         int mid = (end - start) / 2 + start;
 
@@ -43,6 +41,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         ListNode head = (new MyLinkedList(new int[]{-10, -3, 0, 5, 9})).getHead();
         TreeNode root = (new Solution2()).sortedListToBST(head);
         System.out.println(MyTree.levelOrder(root));

@@ -8,20 +8,18 @@ import java.util.List;
  * Content:
  */
 public class Solution {
-    private TreeNode sortedListToBST(List<Integer> list, int left, int right) {
-        if (left > right)
-            return null;
+    private TreeNode sortedListToBST(List<Integer> list, int l, int r) {
+        if (l > r) return null;
 
-        int mid = (right - left) / 2 + left;
-
-        TreeNode node = new TreeNode(list.get(mid));
-        node.left = sortedListToBST(list, left, mid - 1);
-        node.right = sortedListToBST(list, mid + 1, right);
-
-        return node;
+        int mid = (r - l) / 2 + l;
+        TreeNode root = new TreeNode(list.get(mid));
+        root.left = sortedListToBST(list, l, mid - 1);
+        root.right = sortedListToBST(list, mid + 1, r);
+        return root;
     }
 
     public TreeNode sortedListToBST(ListNode head) {
+
         List<Integer> list = new ArrayList<>();
         ListNode curNode = head;
         while (curNode != null) {
@@ -33,6 +31,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         ListNode head = (new MyLinkedList(new int[]{-10, -3, 0, 5, 9})).getHead();
         TreeNode root = (new Solution()).sortedListToBST(head);
         System.out.println(MyTree.levelOrder(root));
