@@ -57,32 +57,25 @@ public:
     }
 
     static vector<vector<int>> levelOrder(TreeNode *root) {
-        vector<vector<int>> res;
-        if (root == NULL) return res;
 
+        vector<vector<int>> res;
         queue<TreeNode *> q;
-        q.push(root);
-        int levelNum = 1;  // 当前层的节点数
+        if (root) q.push(root);
 
         while (q.size()) {
-            int newLevelNum = 0;
             vector<int> level;
-            for (int i = 0; i < levelNum; i++) {  // 遍历当前层的所有节点
-                TreeNode *node = q.front();
+            int len = q.size();
+
+            while (len--) {
+                auto t = q.front();
                 q.pop();
-                level.push_back(node->val);
-                if (node->left != NULL) {
-                    q.push(node->left);
-                    newLevelNum++;
-                }
-                if (node->right != NULL) {
-                    q.push(node->right);
-                    newLevelNum++;
-                }
+                level.push_back(t->val);
+                if (t->left) q.push(t->left);
+                if (t->right) q.push(t->right);
             }
             res.push_back(level);
-            levelNum = newLevelNum;
         }
+
         return res;
     }
 
@@ -90,23 +83,23 @@ public:
     // 时间复杂度：O(n)，n为节点数目
     // 空间复杂度：O(h)，h为二叉树高度
     // 前序遍历：递归算法
-    vector<int> preorderTraversal() {
+    vector<int> preorder() {
         vector<int> res;
-        preorderTraversal(root, res);
+        preorder(root, res);
         return res;
     }
 
     // 中序遍历：递归算法
-    vector<int> inorderTraversal() {
+    vector<int> inorder() {
         vector<int> res;
-        inorderTraversal(root, res);
+        inorder(root, res);
         return res;
     }
 
     // 后序遍历：递归算法
-    vector<int> postorderTraversal() {
+    vector<int> postorder() {
         vector<int> res;
-        postorderTraversal(root, res);
+        postorder(root, res);
         return res;
     }
 
@@ -138,30 +131,29 @@ private:
         }
     }
 
-    void preorderTraversal(TreeNode *node, vector<int> list) {
+    void preorder(TreeNode *node, vector<int> &list) {
         if (node != NULL) {
             list.push_back(node->val);
-            postorderTraversal(node->left, list);
-            postorderTraversal(node->right, list);
+            preorder(node->left, list);
+            preorder(node->right, list);
         }
     }
 
-    void inorderTraversal(TreeNode *node, vector<int> list) {
+    void inorder(TreeNode *node, vector<int> &list) {
         if (node != NULL) {
-            postorderTraversal(node->left, list);
+            inorder(node->left, list);
             list.push_back(node->val);
-            postorderTraversal(node->right, list);
+            inorder(node->right, list);
         }
     }
 
-    void postorderTraversal(TreeNode *node, vector<int> list) {
+    void postorder(TreeNode *node, vector<int> &list) {
         if (node != NULL) {
-            postorderTraversal(node->left, list);
-            postorderTraversal(node->right, list);
+            postorder(node->left, list);
+            postorder(node->right, list);
             list.push_back(node->val);
         }
     }
 };
-
 
 #endif //CPLUSPLUS_MYTREE_H
