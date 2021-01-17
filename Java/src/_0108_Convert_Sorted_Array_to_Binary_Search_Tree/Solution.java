@@ -5,25 +5,27 @@ package _0108_Convert_Sorted_Array_to_Binary_Search_Tree;
  * Content:
  */
 public class Solution {
-    // 根据数组 nums[left...right] 创建 BST, 并返回 BST 的根
-    private TreeNode sortedArrayToBST(int[] nums, int left, int right) {
-        if (right < left)
-            return null;
 
-        int mid = (right - left) / 2 + left;
+    // 根据数组 nums[l...r] 创建 BST, 并返回 BST 的根
+    private TreeNode sortedArrayToBST(int[] nums, int l, int r) {
 
-        TreeNode node = new TreeNode(nums[mid]);
-        node.left = sortedArrayToBST(nums, left, mid - 1);
-        node.right = sortedArrayToBST(nums, mid + 1, right);
+        if (l > r) return null;
 
-        return node;
+        int mid = (r - l) / 2 + l;
+        TreeNode root = new TreeNode(nums[mid]);
+        root.left = sortedArrayToBST(nums, l, mid - 1);
+        root.right = sortedArrayToBST(nums, mid + 1, r);
+
+        return root;
     }
 
     public TreeNode sortedArrayToBST(int[] nums) {
+
         return sortedArrayToBST(nums, 0, nums.length - 1);
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {};
 //        int[] nums = {-10};
         int[] nums = {-10, -3, 0, 5, 9};
