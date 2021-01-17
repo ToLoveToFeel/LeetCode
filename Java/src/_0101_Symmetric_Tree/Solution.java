@@ -24,7 +24,11 @@ public class Solution {
     public static void main(String[] args) {
 
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
-        int[] nums = new int[]ns
+        int[] nums = new int[]{
+                1,
+                2, 2,
+                3, 4, 4, 3
+        };
 
         TreeNode root = (new MyTree(nums)).getRoot();
         System.out.println((new Solution()).isSymmetric(root));
