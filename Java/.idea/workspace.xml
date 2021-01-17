@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <recent name="_0435_Non_overlapping_Intervals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2 (1)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -157,13 +156,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0101_Symmetric_Tree.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0101_Symmetric_Tree.*" />
+          <option name="PATTERN" value="_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +724,7 @@
       <workItem from="1610506771716" duration="611000" />
       <workItem from="1610586394312" duration="953000" />
       <workItem from="1610759654365" duration="1525000" />
-      <workItem from="1610873429825" duration="7016000" />
+      <workItem from="1610873429825" duration="7730000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
