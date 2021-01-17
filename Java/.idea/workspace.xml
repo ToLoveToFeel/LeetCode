@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0101_Symmetric_Tree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0101_Symmetric_Tree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +123,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="_0000_study._jdbc.example.test" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0803_Bricks_Falling_When_Hit" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0947_Most_Stones_Removed_with_Same_Row_or_Column" />
@@ -133,12 +130,8 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0684_Redundant_Connection" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1202_Smallest_String_With_Swaps" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_0000_study._common" />
-      <recent name="_0199_Binary_Tree_Right_Side_View" />
-      <recent name="_0435_Non_overlapping_Intervals" />
-      <recent name="_0530_Minimum_Absolute_Difference_in_BST" />
-      <recent name="_0860_Lemonade_Change" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -147,8 +140,18 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="_0000_study._jdbc.example.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
+      <recent name="_0000_study._common" />
+      <recent name="_0199_Binary_Tree_Right_Side_View" />
+      <recent name="_0435_Non_overlapping_Intervals" />
+      <recent name="_0530_Minimum_Absolute_Difference_in_BST" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -184,20 +187,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0947_Most_Stones_Removed_with_Same_Row_or_Column.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0947_Most_Stones_Removed_with_Same_Row_or_Column.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0803_Bricks_Falling_When_Hit.Solution" />
       <module name="Java" />
@@ -212,13 +201,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0057_Insert_Interval.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0102_Binary_Tree_Level_Order_Traversal.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0057_Insert_Interval.*" />
+          <option name="PATTERN" value="_0102_Binary_Tree_Level_Order_Traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0102_Binary_Tree_Level_Order_Traversal.Solution2" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0102_Binary_Tree_Level_Order_Traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,19 +274,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +727,7 @@
       <workItem from="1610506771716" duration="611000" />
       <workItem from="1610586394312" duration="953000" />
       <workItem from="1610759654365" duration="1525000" />
-      <workItem from="1610873429825" duration="3533000" />
+      <workItem from="1610873429825" duration="4312000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
