@@ -7,10 +7,11 @@ import java.util.*;
  * Content:
  */
 public class Solution {
+
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
+
         ArrayList<List<Integer>> res = new ArrayList<>();
-        if (root == null)
-            return res;
+        if (root == null) return res;
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
@@ -40,6 +41,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
         int[] nums = new int[]{
                 3,
