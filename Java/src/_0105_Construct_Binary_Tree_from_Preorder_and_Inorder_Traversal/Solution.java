@@ -9,14 +9,15 @@ import java.util.Map;
  * Content:
  */
 public class Solution {
+
     private int[] preorder;
-    private Map<Integer, Integer> map = new HashMap<>();  // 存储中序遍历对应数字的索引:(数字， 数字对应的索引)
-    int rootIndex;  // 当前根节点的位置，在前续遍历中寻找根节点，因为前续遍历：根左右 --> 创建根，创建左子树，创建右子树
+    private Map<Integer, Integer> map = new HashMap<>();  // 存储中序遍历对应数字的索引:(数字， 数字对应的下标)
+    int rootIndex;  // 当前根节点的位置，在前序遍历中寻找根节点，因为前序遍历：根左右 --> 创建根，创建左子树，创建右子树
 
 	// 根据 inorder[left...right] 构建二叉树
     private TreeNode buildTree(int left, int right) {
-        if (left > right)
-            return null;
+
+        if (left > right) return null;
 
         // 构建根节点
         int rootVal = preorder[rootIndex];
@@ -34,11 +35,11 @@ public class Solution {
     }
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
+
         this.preorder = preorder;
         this.rootIndex = 0;  // 最开始根节点为前续遍历的第一个元素
-        for (int i = 0; i < preorder.length; i++) {
-            map.put(inorder[i], i);
-        }
+
+        for (int i = 0; i < preorder.length; i++) map.put(inorder[i], i);
 
         return buildTree(rootIndex, inorder.length - 1);
     }
