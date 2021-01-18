@@ -1,7 +1,5 @@
 package _0322_Coin_Change;
 
-import java.util.Arrays;
-
 /**
  * Date: 2020/9/5 15:06
  * Content:
@@ -15,8 +13,7 @@ public class Solution {
     // 返回用coins填满amount需要硬币的最少数目，返回-1代表无解
     private int search(int[] coins, int amount) {
 
-        if (amount == 0)
-            return 0;
+        if (amount == 0) return 0;
 
         int res = max_count;
         for (int coin : coins)

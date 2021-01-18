@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 /**
  * Date: 2020/9/5 15:06
- * Content:
- * 动态规划：完全背包问题
+ * Content: 完全背包问题
  * 状态：dp[n]：用coins中的面值装满价值为 n 的总金额所需硬币的最少数目
  * 状态转移：dp[i] = min(dp[i], dp[i-coin] + 1)，其中i>=coin,且coin为coins里的元素
  */

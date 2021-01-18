@@ -17,11 +17,8 @@ public class Solution2 {
     // 返回用coins填满amount需要硬币的最少数目，返回-1代表无解
     private int search(int[] coins, int amount) {
 
-        if (amount == 0)
-            return 0;
-
-        if (memo[amount] != -1)
-            return memo[amount];
+        if (amount == 0) return 0;
+        if (memo[amount] != -1) return memo[amount];
 
         int res = max_count;
         for (int coin : coins)
