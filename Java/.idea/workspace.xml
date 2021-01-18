@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0039_Combination_Sum/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0039_Combination_Sum/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0377_Combination_Sum_IV/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +156,7 @@
       <recent name="_0435_Non_overlapping_Intervals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -188,20 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0104_Maximum_Depth_of_Binary_Tree.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0104_Maximum_Depth_of_Binary_Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0721_Accounts_Merge.Solution" />
       <module name="Java" />
@@ -216,13 +206,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0104_Maximum_Depth_of_Binary_Tree.Solution2" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0377_Combination_Sum_IV.Solution2" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0104_Maximum_Depth_of_Binary_Tree.*" />
+          <option name="PATTERN" value="_0377_Combination_Sum_IV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0377_Combination_Sum_IV.Solution3" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0377_Combination_Sum_IV.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,13 +240,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution2 (1)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -727,7 +733,8 @@
       <workItem from="1610586394312" duration="953000" />
       <workItem from="1610759654365" duration="1525000" />
       <workItem from="1610873429825" duration="14166000" />
-      <workItem from="1610967688969" duration="2184000" />
+      <workItem from="1610967688969" duration="2303000" />
+      <workItem from="1610970396614" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
