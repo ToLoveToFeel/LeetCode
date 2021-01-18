@@ -58,3 +58,4 @@ add_executable(_0107_main _0107_Binary_Tree_Level_Order_Traversal_II/_0107_main.
 add_executable(_0108_main _0108_Convert_Sorted_Array_to_Binary_Search_Tree/_0108_main.cpp)
 add_executable(_0109_main _0109_Convert_Sorted_List_to_Binary_Search_Tree/_0109_main.cpp)
 add_executable(_0110_main _0110_Balanced_Binary_Tree/_0110_main.cpp)
+add_executable(_0721_main _0721_Accounts_Merge/_0721_main.cpp)
