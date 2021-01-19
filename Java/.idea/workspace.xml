@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0721_Accounts_Merge" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1584_Min_Cost_to_Connect_All_Points" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -124,11 +125,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_1584_Min_Cost_to_Connect_All_Points" />
       <recent name="$PROJECT_DIR$/src/_0721_Accounts_Merge" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0803_Bricks_Falling_When_Hit" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0947_Most_Stones_Removed_with_Same_Row_or_Column" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1018_Binary_Prefix_Divisible_By_5" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0684_Redundant_Connection" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -151,27 +152,13 @@
       <recent name="_0435_Non_overlapping_Intervals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.Solution" />
@@ -180,6 +167,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1584_Min_Cost_to_Connect_All_Points.Solution" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1584_Min_Cost_to_Connect_All_Points.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,15 +236,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,19 +273,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -730,6 +729,7 @@
       <workItem from="1610873429825" duration="14166000" />
       <workItem from="1610967688969" duration="2303000" />
       <workItem from="1610970396614" duration="3875000" />
+      <workItem from="1611043197326" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
