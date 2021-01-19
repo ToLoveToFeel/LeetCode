@@ -59,3 +59,4 @@ add_executable(_0108_main _0108_Convert_Sorted_Array_to_Binary_Search_Tree/_0108
 add_executable(_0109_main _0109_Convert_Sorted_List_to_Binary_Search_Tree/_0109_main.cpp)
 add_executable(_0110_main _0110_Balanced_Binary_Tree/_0110_main.cpp)
 add_executable(_0721_main _0721_Accounts_Merge/_0721_main.cpp)
+add_executable(_1584_main _1584_Min_Cost_to_Connect_All_Points/_1584_main.cpp)
