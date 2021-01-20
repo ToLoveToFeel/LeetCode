@@ -12,8 +12,7 @@ public class Solution {
 
     public int maximumProduct(int[] nums) {
 
-        if (nums.length < 3)
-            throw new IllegalArgumentException("Input error!");
+        if (nums.length < 3) throw new IllegalArgumentException("Input error!");
 
         int res = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
