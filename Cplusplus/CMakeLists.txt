@@ -60,3 +60,4 @@ add_executable(_0109_main _0109_Convert_Sorted_List_to_Binary_Search_Tree/_0109_
 add_executable(_0110_main _0110_Balanced_Binary_Tree/_0110_main.cpp)
 add_executable(_0721_main _0721_Accounts_Merge/_0721_main.cpp)
 add_executable(_1584_main _1584_Min_Cost_to_Connect_All_Points/_1584_main.cpp)
+add_executable(_0628_main _0628_Maximum_Product_of_Three_Numbers/_0628_main.cpp)
