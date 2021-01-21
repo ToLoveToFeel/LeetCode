@@ -3,6 +3,22 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[1584]连接所有点的最小费用.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[1584]连接所有点的最小费用.cpp" />
+              <option name="questionId" value="1706" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[721]账户合并.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[721]账户合并.cpp" />
+              <option name="questionId" value="721" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1018]可被 5 整除的二进制前缀.cpp">
           <value>
             <LeetcodeEditor>
@@ -16,6 +32,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1202]交换字符串中的元素.cpp" />
               <option name="questionId" value="1308" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1489]找到最小生成树里的关键边和伪关键边.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1489]找到最小生成树里的关键边和伪关键边.cpp" />
+              <option name="questionId" value="1613" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -56,22 +80,6 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[947]移除最多的同行或同列石头.cpp" />
               <option name="questionId" value="984" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[1584]连接所有点的最小费用.cpp">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[1584]连接所有点的最小费用.cpp" />
-              <option name="questionId" value="1706" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[721]账户合并.cpp">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="/var/folders/f5/sz2h_zhd5pqfg4397tf825mw0000gn/T/leetcode/editor/cn/[721]账户合并.cpp" />
-              <option name="questionId" value="721" />
             </LeetcodeEditor>
           </value>
         </entry>

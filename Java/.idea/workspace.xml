@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0628_Maximum_Product_of_Three_Numbers/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -721,7 +718,7 @@
       <workItem from="1610967688969" duration="2303000" />
       <workItem from="1610970396614" duration="3875000" />
       <workItem from="1611043197326" duration="626000" />
-      <workItem from="1611143708211" duration="1114000" />
+      <workItem from="1611143708211" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -957,6 +954,24 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1611195754452">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611195754452" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1611195754452">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611195754452" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1611195754451">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611195754451" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1611195754452">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611195754452" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
