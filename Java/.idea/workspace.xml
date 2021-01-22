@@ -114,7 +114,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minimum_Spanning_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0989_Add_to_Array_Form_of_Integer" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -151,7 +151,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0947_Most_Stones_Removed_with_Same_Row_or_Column" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.statistics">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -159,13 +159,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1584_Min_Cost_to_Connect_All_Points.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0989_Add_to_Array_Form_of_Integer.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1584_Min_Cost_to_Connect_All_Points.*" />
+          <option name="PATTERN" value="_0989_Add_to_Array_Form_of_Integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution3 (1)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.statistics" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.statistics" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution3 (1)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -714,6 +714,7 @@
       <workItem from="1611043197326" duration="626000" />
       <workItem from="1611143708211" duration="2444000" />
       <workItem from="1611207737057" duration="2051000" />
+      <workItem from="1611279889716" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
