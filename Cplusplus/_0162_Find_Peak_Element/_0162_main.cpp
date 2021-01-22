@@ -27,7 +27,7 @@ public:
 int main() {
 
     vector<int> nums = {1, 2, 1, 3, 5, 6, 4};
-    cout << Solution().findPeakElement(nums) << endl;
+    cout << Solution().findPeakElement(nums) << endl;  // 5
 
     return 0;
 }
