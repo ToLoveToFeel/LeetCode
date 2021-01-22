@@ -65,3 +65,4 @@ add_executable(_1489_main _1489_Find_Critical_and_Pseudo_Critical_Edges_in_Minim
 add_executable(_0989_main _0989_Add_to_Array_Form_of_Integer/_0989_main.cpp)
 add_executable(_0151_main _0151_Reverse_Words_in_a_String/_0151_main.cpp)
 add_executable(_0152_main _0152_Maximum_Product_Subarray/_0152_main.cpp)
+add_executable(_0153_main _0153_Find_Minimum_in_Rotated_Sorted_Array/_0153_main.cpp)
