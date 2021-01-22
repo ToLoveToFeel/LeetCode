@@ -7,9 +7,10 @@ package _0160_Intersection_of_Two_Linked_Lists;
  * 空间复杂度：O(1)
  */
 public class Solution {
+
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null)
-            return null;
+
+        if (headA == null || headB == null) return null;
 
         int numA = 0, numB = 0;
         ListNode curA = headA, curB = headB;
@@ -28,8 +29,7 @@ public class Solution {
             curL = curL.next;
 
         while (curL != null) {
-            if (curL == curS)
-                break;
+            if (curL == curS) break;
             curL = curL.next;
             curS = curS.next;
         }
@@ -37,6 +37,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         // 创建公共头结点
         ListNode commonHead = (new MyLinkedList(new int[]{8, 4, 5})).getHead();
         // 创建非公共链表
@@ -52,6 +53,6 @@ public class Solution {
         tailB.next = commonHead;
 
         // 测试
-        System.out.println((new Solution()).getIntersectionNode(headA, headB).val);
+        System.out.println((new Solution()).getIntersectionNode(headA, headB).val);  // 8
     }
 }
