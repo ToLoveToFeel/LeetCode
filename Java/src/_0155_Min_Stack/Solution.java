@@ -23,33 +23,34 @@ public class Solution {
 }
 
 class MinStack {
-    Deque<Integer> stack;  // 存储对应的元素
-    Deque<Integer> minStack;  // 存储当前stack对应元素中的最小值
+
+    Deque<Integer> stk;  // 存储对应的元素
+    Deque<Integer> f;  // 存储当前stack对应元素中的最小值
 
     /**
      * initialize your data structure here.
      */
     public MinStack() {
-        stack = new ArrayDeque<>();
-        minStack = new ArrayDeque<>();
-        minStack.push(Integer.MAX_VALUE);  // 加入这个元素是为了：在第一次向栈中添加元素，方便比较，相当于哨兵
+        stk = new ArrayDeque<>();
+        f = new ArrayDeque<>();
+        f.push(Integer.MAX_VALUE);  // 加入这个元素是为了：在第一次向栈中添加元素，方便比较，相当于哨兵
     }
 
     public void push(int x) {
-        stack.push(x);
-        minStack.push(Math.min(minStack.peek(), x));
+        stk.push(x);
+        f.push(Math.min(f.peek(), x));
     }
 
     public void pop() {
-        stack.pop();
-        minStack.pop();
+        stk.pop();
+        f.pop();
     }
 
     public int top() {
-        return stack.peek();
+        return stk.peek();
     }
 
     public int getMin() {
-        return minStack.peek();
+        return f.peek();
     }
 }
