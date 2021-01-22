@@ -8,7 +8,9 @@ import java.util.Deque;
  * Content:
  */
 public class Solution {
+
     public static void main(String[] args) {
+
         MinStack minStack = new MinStack();
         minStack.push(-2);
         minStack.push(0);
@@ -24,7 +26,9 @@ class MinStack {
     Deque<Integer> stack;  // 存储对应的元素
     Deque<Integer> minStack;  // 存储当前stack对应元素中的最小值
 
-    /** initialize your data structure here. */
+    /**
+     * initialize your data structure here.
+     */
     public MinStack() {
         stack = new ArrayDeque<>();
         minStack = new ArrayDeque<>();
