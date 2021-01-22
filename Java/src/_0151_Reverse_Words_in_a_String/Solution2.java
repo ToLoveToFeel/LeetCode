@@ -14,6 +14,7 @@ import java.util.List;
 public class Solution2 {
 
     public String reverseWords(String s) {
+
         s = s.trim();
         List<String> words = Arrays.asList(s.split("\\s+"));
         Collections.reverse(words);
@@ -21,6 +22,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         String s = "the sky is blue";
 //        String s = "  hello world!  ";
 //        String s = "a good   example";

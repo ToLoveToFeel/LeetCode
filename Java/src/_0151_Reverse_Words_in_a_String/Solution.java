@@ -27,13 +27,13 @@ public class Solution {
             }
         }
 
-        if (sb.length() > 0)
-            sb.delete(sb.length() - 1, sb.length());  // 删除最后的空格
+        if (sb.length() > 0) sb.delete(sb.length() - 1, sb.length());  // 删除最后的空格
 
         return sb.toString();
     }
 
     public static void main(String[] args) {
+
 //        String s = "the sky is blue";
 //        String s = "  hello world!  ";
 //        String s = "a good   example";
