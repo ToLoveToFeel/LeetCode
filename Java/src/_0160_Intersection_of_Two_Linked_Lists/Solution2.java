@@ -28,13 +28,11 @@ public class Solution2 {
         ListNode headA = (new MyLinkedList(new int[]{4, 1})).getHead();
         ListNode headB = (new MyLinkedList(new int[]{5, 0, 1})).getHead();
         // 将headA和HeadB接上公共部分
-        ListNode tailA = headA, tailB = headB;
-        while (tailA.next != null)
-            tailA = tailA.next;
-        while (tailB.next != null)
-            tailB = tailB.next;
-        tailA.next = commonHead;
-        tailB.next = commonHead;
+        ListNode p = headA, q = headB;
+        while (p.next != null) p = p.next;
+        while (q.next != null) q = q.next;
+        p.next = commonHead;
+        q.next = commonHead;
 
         // 测试
         System.out.println((new Solution2()).getIntersectionNode(headA, headB).val);  // 8
