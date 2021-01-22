@@ -6,7 +6,9 @@ package _0153_Find_Minimum_in_Rotated_Sorted_Array;
  * https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-lie-shu-zu-zhong-de-zui-xi/
  */
 public class Solution2 {
+
     public int findMin(int[] nums) {
+
         if (nums.length == 1 || nums[nums.length - 1] > nums[0])  // 数组长度为1 或者 未旋转
             return nums[0];
 
@@ -30,6 +32,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {3, 4, 5, 1, 2};
 //        int[] nums = {3, 1, 2};
 //        int[] nums = {3, 1};
