@@ -17,21 +17,17 @@ public class Solution2 {
     public int maximumGap(int[] nums) {
 
         int n = nums.length;
-        if (n < 2) {
-            return 0;
-        }
+        if (n < 2) return 0;
 
         int max = Arrays.stream(nums).max().getAsInt();
-        ;
         int min = Arrays.stream(nums).min().getAsInt();
-        ;
         int d = Math.max(1, (max - min) / (n - 1));  // 桶内放置元素的范围是多少？
         int bucketNum = (max - min) / d + 1;  // 一共多少个桶？
 
         int[][] bucket = new int[bucketNum][2];
-        for (int i = 0; i < bucketNum; ++i) {
+        for (int i = 0; i < bucketNum; ++i)
             Arrays.fill(bucket[i], -1);  // 存储 (桶内最小值，桶内最大值) 对， (-1, -1) 表示该桶是空的
-        }
+
 
         for (int i = 0; i < n; i++) {
             int idx = (nums[i] - min) / d;
@@ -46,12 +42,8 @@ public class Solution2 {
         int res = 0;
         int prev = -1;  // 前一个非空桶的索引
         for (int i = 0; i < bucketNum; i++) {
-            if (bucket[i][0] == -1) {
-                continue;
-            }
-            if (prev != -1) {
-                res = Math.max(res, bucket[i][0] - bucket[prev][1]);
-            }
+            if (bucket[i][0] == -1) continue;
+            if (prev != -1) res = Math.max(res, bucket[i][0] - bucket[prev][1]);
             prev = i;
         }
         return res;

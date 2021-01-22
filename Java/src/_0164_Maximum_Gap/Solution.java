@@ -13,17 +13,15 @@ public class Solution {
 
     public int maximumGap(int[] nums) {
 
-        if (nums.length < 2)
-            return 0;
+        if (nums.length < 2) return 0;
 
         // 第一步：排序
         Arrays.sort(nums);
 
         // 第二步：寻找最小间距
         int res = 0;
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++)
             res = Math.max(res, nums[i] - nums[i - 1]);
-        }
 
         return res;
     }
