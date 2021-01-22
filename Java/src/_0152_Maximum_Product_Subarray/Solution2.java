@@ -17,8 +17,8 @@ package _0152_Maximum_Product_Subarray;
 public class Solution2 {
 
     public int maxProduct(int[] nums) {
-        if (nums.length == 0)
-            return 0;
+
+        if (nums.length == 0) return 0;
 
         int dpMax = nums[0];
         int dpMin = nums[0];
