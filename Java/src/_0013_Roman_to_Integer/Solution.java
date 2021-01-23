@@ -5,7 +5,9 @@ package _0013_Roman_to_Integer;
  * Content:
  */
 class Solution {
+
     public int romanToInt(String s) {
+
         int num = 0;
         int index = 0;
         int length = s.length();
@@ -72,6 +74,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         String s = "III";
         System.out.println((new Solution()).romanToInt(s));
     }
