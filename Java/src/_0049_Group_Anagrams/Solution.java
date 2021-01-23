@@ -20,8 +20,7 @@ public class Solution {
 
         List<List<String>> res = new ArrayList<>();
 
-        if (strs.length == 0)
-            return res;
+        if (strs.length == 0) return res;
 
         // 初始化
         isAdd = new boolean[strs.length];
@@ -70,18 +69,6 @@ public class Solution {
     public static void main(String[] args) {
 
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> res = (new Solution()).groupAnagrams(strs);
-
-        for (int i = 0; i < res.size(); i++) {
-            System.out.print("[");
-            int count = 0;
-            for (int j = 0; j < res.get(i).size(); j++) {
-                count++;
-                System.out.print(res.get(i).get(j));
-                if (count != res.get(i).size())
-                    System.out.print(", ");
-            }
-            System.out.println("]");
-        }
+        System.out.println((new Solution()).groupAnagrams(strs));
     }
 }

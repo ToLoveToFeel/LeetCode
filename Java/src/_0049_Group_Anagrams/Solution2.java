@@ -1,9 +1,6 @@
 package _0049_Group_Anagrams;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * 时间复杂度：O(n*s*log(s))，s是strs中字符串最大的长度
@@ -15,21 +12,17 @@ public class Solution2 {
 
     public List<List<String>> groupAnagrams(String[] strs) {
 
-        if (strs.length == 0)
-            return new ArrayList<>();
+        if (strs.length == 0) return new ArrayList<>();
 
         // <K，V>：<排好序的字符串，对应原来的字符串链表>
-        HashMap<String, List<String>> hashMap = new HashMap<>();
+        HashMap<String, List<String>> hash = new HashMap<>();
         for (String word : strs) {
-
-            String sortedWord = stringSort(word);
-
-            if (!hashMap.containsKey(sortedWord))
-                hashMap.put(sortedWord, new ArrayList<>());
-            hashMap.get(sortedWord).add(word);
+            String t = stringSort(word);
+            if (!hash.containsKey(t)) hash.put(t, new ArrayList<>());
+            hash.get(t).add(word);
         }
 
-        return new ArrayList<>(hashMap.values());
+        return new ArrayList<>(hash.values());
     }
 
     private String stringSort(String s) {
@@ -42,18 +35,6 @@ public class Solution2 {
     public static void main(String[] args) {
 
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> res = (new Solution2()).groupAnagrams(strs);
-
-        for (int i = 0; i < res.size(); i++) {
-            System.out.print("[");
-            int count = 0;
-            for (int j = 0; j < res.get(i).size(); j++) {
-                count++;
-                System.out.print(res.get(i).get(j));
-                if (count != res.get(i).size())
-                    System.out.print(", ");
-            }
-            System.out.println("]");
-        }
+        System.out.println((new Solution2()).groupAnagrams(strs));
     }
 }
