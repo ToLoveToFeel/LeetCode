@@ -19,7 +19,6 @@ public class Solution {
         }
 
         delNum = count - n + 1;
-
         ListNode dummyHead = new ListNode(0);
         dummyHead.next = head;
         ListNode p = dummyHead;
