@@ -7,6 +7,7 @@ import java.util.List;
  * Content:
  */
 public class Solution {
+
     int totalNum;
     boolean[] col;
     boolean[] dia1;
@@ -31,6 +32,7 @@ public class Solution {
     }
 
     public int totalNQueens(int n) {
+
         col = new boolean[n];
         dia1 = new boolean[2 * n - 1];
         dia2 = new boolean[2 * n - 1];
@@ -41,6 +43,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int n = 4;
         System.out.println((new Solution()).totalNQueens(n));
     }
