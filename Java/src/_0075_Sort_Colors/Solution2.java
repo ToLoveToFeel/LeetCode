@@ -1,5 +1,7 @@
 package _0075_Sort_Colors;
 
+import _0000_study._common.Output;
+
 /**
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
@@ -12,30 +14,12 @@ public class Solution2 {
     public void sortColors(int[] nums) {
 
         // nums[0...zero] == 0, nums[zero+1, i) == 1, nums[two...n-1] == 2
-        int zero = -1;
-        int two = nums.length;
-        int i = 0;
-
+        int zero = -1, two = nums.length, i = 0;
         while (i < two) {
-            if (nums[i] == 1)
-                i++;
-            else if (nums[i] == 2)
-                swap(nums, --two, i);
-            else {  // nums[i] == 0
-                swap(nums, ++zero, i++);
-            }
+            if (nums[i] == 1) i++;
+            else if (nums[i] == 2) swap(nums, --two, i);
+            else swap(nums, ++zero, i++);
         }
-
-//        for (int i = 0; i < two; ) {
-//            if (nums[i] == 1)
-//                i++;
-//            else if (nums[i] == 2)
-//                swap(nums, --two, i);
-//            else {
-//                swap(nums, ++zero, i++);
-//            }
-//        }
-
     }
 
     private void swap(int[] arr, int i, int j) {
@@ -47,9 +31,7 @@ public class Solution2 {
     public static void main(String[] args) {
 
         int[] nums = {2, 0, 2, 1, 1, 0};
-
         (new Solution2()).sortColors(nums);
-        for (int num : nums)
-            System.out.println(num);
+        Output.OutputBasicArray1D(nums);
     }
 }

@@ -1,5 +1,7 @@
 package _0075_Sort_Colors;
 
+import _0000_study._common.Output;
+
 /**
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
@@ -9,15 +11,13 @@ class Solution {
 
     public void sortColors(int[] nums) {
 
-        int[] count = new int[3];  // 统计0,1,2的次数
+        int[] cnt = new int[3];  // 统计0,1,2的次数
 
-        for (int num : nums) {
-            count[num]++;
-        }
+        for (int num : nums) cnt[num]++;
 
         int index = 0;
-        for (int i = 0; i < count.length; i++)
-            for (int j = 0; j < count[i]; j++)
+        for (int i = 0; i < cnt.length; i++)
+            for (int j = 0; j < cnt[i]; j++)
                 nums[index++] = i;
 
     }
@@ -26,8 +26,6 @@ class Solution {
 
         int[] nums = {2, 0, 2, 1, 1, 0};
         (new Solution()).sortColors(nums);
-
-        for (int num : nums)
-            System.out.println(num);
+        Output.OutputBasicArray1D(nums);
     }
 }
