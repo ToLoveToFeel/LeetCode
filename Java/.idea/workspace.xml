@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0023_Merge_k_Sorted_Lists/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0023_Merge_k_Sorted_Lists/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0023_Merge_k_Sorted_Lists/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0023_Merge_k_Sorted_Lists/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0026_Remove_Duplicates_from_Sorted_Array/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0026_Remove_Duplicates_from_Sorted_Array/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0026_Remove_Duplicates_from_Sorted_Array/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0026_Remove_Duplicates_from_Sorted_Array/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -202,13 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0020_Valid_Parentheses.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0026_Remove_Duplicates_from_Sorted_Array.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0020_Valid_Parentheses.*" />
+          <option name="PATTERN" value="_0026_Remove_Duplicates_from_Sorted_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,19 +262,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +723,7 @@
       <workItem from="1611207737057" duration="2051000" />
       <workItem from="1611279889716" duration="1258000" />
       <workItem from="1611294977290" duration="10049000" />
-      <workItem from="1611363711967" duration="7522000" />
+      <workItem from="1611363711967" duration="7837000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -965,25 +965,25 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611208220569" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1611373772228">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1611374145348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611373772228" />
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611374145348" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611366694007" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1611373772228">
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1611374145348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611373772228" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611374145348" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611366694007" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1611373772228">
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1611374145348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611373772228" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611374145348" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611366694007" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1611373772228">
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1611374145348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611373772228" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611374145348" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611366694007" />
     <state x="461" y="177" key="SettingsEditor" timestamp="1611368235928">
       <screen x="0" y="0" width="1920" height="1040" />

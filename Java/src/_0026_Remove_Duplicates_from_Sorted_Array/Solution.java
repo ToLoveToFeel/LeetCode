@@ -10,14 +10,13 @@ public class Solution {
 
     public int removeDuplicates(int[] nums) {
 
-        if (nums.length == 0)
-            return 0;
+        if (nums.length == 0) return 0;
 
         int j = 0;
         for (int i = 0; i < nums.length; i++)
             if (i == 0 || nums[i] != nums[i - 1])
                 nums[j++] = nums[i];
-        // nums[0] ~ num[j - 1] 所有a中不重复的数
+        // nums[0] ~ num[j - 1] 所有 nums 中不重复的数
         return j;
     }
 
