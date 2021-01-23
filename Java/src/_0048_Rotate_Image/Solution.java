@@ -15,7 +15,6 @@ public class Solution {
 
         // 上下翻转
         for (int i = 0; i < matrix.length / 2; i++) {
-
             int[] temp = matrix[i];
             matrix[i] = matrix[matrix.length - 1 - i];
             matrix[matrix.length - 1 - i] = temp;
@@ -39,8 +38,6 @@ public class Solution {
                 {7, 8, 9}
         };
         (new Solution()).rotate(matrix);
-
-        // 输出结果
         Output.OutputBasicArray2D(matrix);
     }
 }
