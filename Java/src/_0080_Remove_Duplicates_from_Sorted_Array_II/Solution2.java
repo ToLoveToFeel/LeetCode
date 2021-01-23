@@ -1,12 +1,14 @@
 package _0080_Remove_Duplicates_from_Sorted_Array_II;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution2 {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
-    public int removeDuplicates(int[] nums) {
-        int i = 0;
-        int j = 0;
 
+    public int removeDuplicates(int[] nums) {
+
+        int i = 0, j = 0;
         while (j < nums.length) {
             int k = nextIndex(nums, j);
             int len = Math.min(2, k - j);
@@ -28,8 +30,8 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 2, 2, 3};
 
+        int[] nums = {1, 1, 1, 2, 2, 3};
         System.out.println((new Solution2()).removeDuplicates(nums));
     }
 }
