@@ -14,8 +14,7 @@ public class Solution {
 
         ArrayList<String> res = new ArrayList<>();
 
-        if (node == null)
-            return res;
+        if (node == null) return res;
         if (node.left == null && node.right == null) {
             res.add(Integer.toString(node.val));
             return res;
@@ -42,14 +41,12 @@ public class Solution {
 
         ArrayList<String> list;
 
-        if (root == null)
-            return 0;
+        if (root == null) return 0;
 
         list = (ArrayList<String>) searchNumbers(root);
         int sum = 0;
-        for (String s : list) {
-            sum += Integer.parseInt(s);
-        }
+        for (String s : list) sum += Integer.parseInt(s);
+
         return sum;
     }
 
