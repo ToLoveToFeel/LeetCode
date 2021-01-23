@@ -10,6 +10,7 @@ import java.util.*;
  * 空间复杂度：O(n)
  */
 class Solution {
+
     List<List<String>> res;
     // 为false代表还未被占用
     boolean[] col;
@@ -28,21 +29,15 @@ class Solution {
             // 尝试将第index行的皇后摆放到第j列
             if (!col[j] && !dia1[index + j] && !dia2[index - j + n - 1]) {
                 row.add(j);
-                col[j] = true;
-                dia1[index + j] = true;
-                dia2[index - j + n - 1] = true;
+                col[j] = dia1[index + j] = dia2[index - j + n - 1] = true;
                 putQueue(n, index + 1, row);
-                col[j] = false;
-                dia1[index + j] = false;
-                dia2[index - j + n - 1] = false;
+                col[j] = dia1[index + j] = dia2[index - j + n - 1] = false;
                 row.removeLast();
             }
     }
 
     // 生成一个n皇后的解
     private List<String> generateBoard(int n, LinkedList<Integer> row) {
-        if (row.size() != n)
-            throw new IllegalArgumentException("row的长度必须为n!");
 
         List<String> board = new LinkedList<>();
         for (int i = 0; i < n; i++) {
@@ -55,6 +50,7 @@ class Solution {
     }
 
     public List<List<String>> solveNQueens(int n) {
+
         res = new LinkedList<>();
         col = new boolean[n];
         dia1 = new boolean[2 * n - 1];

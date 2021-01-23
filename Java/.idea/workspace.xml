@@ -154,7 +154,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -190,13 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0046_Permutations.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0051_N_Queens.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0046_Permutations.*" />
+          <option name="PATTERN" value="_0051_N_Queens.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,13 +204,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0043_Multiply_Strings.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0046_Permutations.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0043_Multiply_Strings.*" />
+          <option name="PATTERN" value="_0046_Permutations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution2 (1)" />
       </list>
     </recent_temporary>
   </component>
