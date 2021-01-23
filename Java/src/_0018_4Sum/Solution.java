@@ -16,8 +16,7 @@ public class Solution {
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
 
-        if (n <= 3)
-            return res;
+        if (n <= 3) return res;
 
         // 数组排序，默认升序排列
         Arrays.sort(nums);
@@ -26,13 +25,9 @@ public class Solution {
             for (int j = i + 1; j <= n - 3; j = next_num_index(nums, j)) {
                 // 待查找的目标t
                 int t = target - nums[i] - nums[j];
+                if (nums[j + 1] + nums[j + 2] > t || nums[n - 1] + nums[n - 2] < t) continue;
 
-                if (nums[j + 1] + nums[j + 2] > t || nums[n - 1] + nums[n - 2] < t)
-                    continue;
-
-                int p1 = j + 1;
-                int p2 = n - 1;
-
+                int p1 = j + 1, p2 = n - 1;
                 while (p1 < p2) {
                     if (nums[p1] + nums[p2] == t) {
                         res.add(generateList(nums[i], nums[j], nums[p1], nums[p2]));
@@ -76,9 +71,7 @@ public class Solution {
 
         int[] nums = {1, 0, -1, 0, -2, 2};
         List<List<Integer>> res = (new Solution()).fourSum(nums, 0);
-
-        for (List item : res) {
+        for (List item : res)
             System.out.println("[" + item.get(0) + " " + item.get(1) + " " + item.get(2) + " " + item.get(3) + "]");
-        }
     }
 }
