@@ -11,9 +11,10 @@ import java.util.List;
  * 状态转移：dp[i] = "(" + dp[j] + ")" + dp[(i-1) - j], 其中 j = 0,1,...,n-1
  */
 public class Solution2 {
+
     public List<String> generateParenthesis(int n) {
-        if (n <= 0)
-            return new ArrayList<>();
+
+        if (n <= 0) return new ArrayList<>();
 
         List<List<String>> dp = new ArrayList<>();  // dp[i] = dp.get(i)
         List<String> dp0 = new ArrayList<String>() {{
