@@ -1,8 +1,11 @@
 package _0092_Reverse_Linked_List_II;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
+
     public ListNode left = new ListNode(0);  // 第 n+1 个结点
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
