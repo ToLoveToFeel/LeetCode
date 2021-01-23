@@ -3,11 +3,13 @@ package _0046_Permutations;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * 时间复杂度：O(n!)
+ * 空间复杂度：O(n)
+ */
 public class Solution3 {
-    // 时间复杂度：O(n!)
-    // 空间复杂度：O(n)
-    private ArrayList<List<Integer>> res;
+
+    private ArrayList<List<Integer>> res = new ArrayList<>();
 
     private void generatePermutation(int[] nums, int index) {
 
@@ -28,9 +30,7 @@ public class Solution3 {
 
     public List<List<Integer>> permute(int[] nums) {
 
-        res = new ArrayList<>();
-        if (nums == null || nums.length == 0)
-            return res;
+        if (nums == null || nums.length == 0) return res;
 
         generatePermutation(nums, 0);
 
@@ -47,7 +47,6 @@ public class Solution3 {
 
         int[] nums = {1, 2, 3};
         List<List<Integer>> res = (new Solution3()).permute(nums);
-
         for (List<Integer> list : res)
             System.out.println(list);
     }

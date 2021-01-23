@@ -6,12 +6,13 @@ import java.util.List;
 
 /**
  * 回溯算法
+ * 时间复杂度：O(n^n)
+ * 空间复杂度：O(n)
  */
 
 public class Solution {
-    // 时间复杂度：O(n^n)
-    // 空间复杂度：O(n)
-    private ArrayList<List<Integer>> res;
+
+    private ArrayList<List<Integer>> res = new ArrayList<>();
     private boolean[] used;
 
     // p中保存了一个有index个元素的排列
@@ -33,22 +34,19 @@ public class Solution {
     }
 
     public List<List<Integer>> permute(int[] nums) {
-        res = new ArrayList<>();
 
-        if (nums == null || nums.length == 0)
-            return res;
-
+        if (nums == null || nums.length == 0) return res;
         used = new boolean[nums.length];
         LinkedList<Integer> p = new LinkedList<>();
-        generatePermutation(nums, 0, p);
 
+        generatePermutation(nums, 0, p);
         return res;
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 2, 3};
         List<List<Integer>> res = (new Solution()).permute(nums);
-
         for (List<Integer> list : res)
             System.out.println(list);
     }
