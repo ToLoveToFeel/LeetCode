@@ -18,7 +18,7 @@ public class Solution {
                 // 关键点：左子树的最下最右的节点，是右子树的父节点.
                 pre.right = node.right;
 
-                node.right = node.left;  // 统一规划到右子树
+                node.right = node.left;  // 统一指向到右子树
                 node.left = null;
             }
             node = node.right;  // 考虑下一个节点
