@@ -41,6 +41,7 @@ class Solution2 {
      **/
 
     public String getPermutation(int n, int k) {
+
         k--;  // 注意：相当于在 n 个数字的全排列中找到下标为 k - 1 的那个数，因此 k 先减 1
 
         int[] factorial = new int[n];  // factorial[i] = i!

@@ -7,6 +7,7 @@ import java.util.LinkedList;
  * Content:
  */
 class Solution {
+
     private StringBuilder res;
     private int topK;
     private int count;
@@ -24,8 +25,7 @@ class Solution {
                 res.append(nums[i]);
                 used[i] = true;
                 generatePermutation(nums, index + 1);
-                if (count == topK)
-                    break;
+                if (count == topK) break;
                 used[i] = false;
                 res.deleteCharAt(res.length() - 1);
             }
@@ -33,9 +33,9 @@ class Solution {
     }
 
     public String getPermutation(int n, int k) {
+
         int[] nums = new int[n];
-        for (int i = 0; i < n; i++)
-            nums[i] = i + 1;
+        for (int i = 0; i < n; i++) nums[i] = i + 1;
 
         res = new StringBuilder();
         topK = k;
@@ -46,6 +46,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution()).getPermutation(3, 5));
         System.out.println((new Solution()).getPermutation(4, 9));
     }
