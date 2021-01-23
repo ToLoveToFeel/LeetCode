@@ -5,11 +5,11 @@ import java.util.List;
 
 /**
  * Date: 2020/9/13 19:48
- * Content:
- * 回溯法
+ * Content: 回溯法
  */
 public class Solution {
-    List<String> res;
+
+    List<String> res = new ArrayList<>();
 
     private String getString(ArrayList<Integer> ips) {
         StringBuilder sb = new StringBuilder();
@@ -23,8 +23,7 @@ public class Solution {
 
     private void dfs(String s, int index, ArrayList<Integer> ips) {
         if (index == s.length()) {
-            if (ips.size() == 4)
-                res.add(getString(ips));
+            if (ips.size() == 4) res.add(getString(ips));
             return;
         }
 
@@ -47,9 +46,8 @@ public class Solution {
     }
 
     public List<String> restoreIpAddresses(String s) {
-        res = new ArrayList<>();
-        if (s.length() < 4 || s.length() > 12)
-            return res;
+
+        if (s.length() < 4 || s.length() > 12) return res;
 
         ArrayList<Integer> ips = new ArrayList<>();
         dfs(s, 0, ips);
