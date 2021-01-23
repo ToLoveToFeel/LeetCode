@@ -2,11 +2,13 @@ package _0069_Sqrt_x;
 
 /**
  * Date: 2020/9/10 15:16
- * Content:
- * 二分查找
+ * Content: 二分查找
  * 时间复杂度：O(n)
+ * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：35.6 MB, 在所有 Java 提交中击败了40.87%的用户
  */
 public class Solution2 {
+
     public int mySqrt(int x) {
         int left = 0, right = x;  // 在[left...right]的范围内寻找平方根
         int res = -1;

@@ -7,14 +7,15 @@ package _0069_Sqrt_x;
  * 时间复杂度：O(n)
  */
 public class Solution {
+
     public int mySqrt(int x) {
-        if (x <= 1)  // x是非负的
-            return x;
+        if (x <= 1) return x;  // x是非负的
 
         for (int i = 1; i < x; i++)
-            if (i * i <= x && x < (long)(i + 1) * (i + 1))
+            if (i * i <= x && x < (long) (i + 1) * (i + 1))
                 return i;
-        throw new IllegalArgumentException("Error");
+
+        return -1;
     }
 
     public static void main(String[] args) {
