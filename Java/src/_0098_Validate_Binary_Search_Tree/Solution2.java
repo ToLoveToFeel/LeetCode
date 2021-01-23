@@ -11,9 +11,10 @@ import java.util.List;
  * 思路：中序遍历后（非递归），判断是否是递增的数组
  */
 public class Solution2 {
+
     public boolean isValidBST(TreeNode root) {
-        if (root == null)
-            return true;
+
+        if (root == null) return true;
 
         double preValue = -Double.MAX_VALUE;
 
@@ -36,6 +37,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
 //        int[] nums = new int[]{
 //                2,

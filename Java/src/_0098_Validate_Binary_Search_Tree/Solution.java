@@ -20,8 +20,8 @@ public class Solution {
     }
 
     public boolean isValidBST(TreeNode root) {
-        if (root == null)
-            return true;
+
+        if (root == null) return true;
 
         // 第一步：中序遍历，将结果存入 list 中
         list = new ArrayList<>();
