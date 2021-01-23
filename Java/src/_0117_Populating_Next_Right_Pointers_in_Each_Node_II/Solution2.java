@@ -6,12 +6,12 @@ import java.util.Queue;
 /**
  * Date: 2020/9/28 8:36
  * Content:
- * 层次遍历
  */
 public class Solution2 {
+
     public Node connect(Node root) {
-        if (root == null)
-            return root;
+
+        if (root == null) return root;
 
         Node cur = root;
         while (cur != null) {
