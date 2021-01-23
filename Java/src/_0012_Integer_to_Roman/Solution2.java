@@ -5,8 +5,10 @@ package _0012_Integer_to_Roman;
  * Content:
  */
 class Solution2 {
+
     // 数字硬编码
     public String intToRoman(int num) {
+
         String[] thousands = {"", "M", "MM", "MMM"};
         String[] hundreds = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
         String[] tens = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
@@ -16,6 +18,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int num = 1994;
         System.out.println((new Solution2()).intToRoman(num));
     }
