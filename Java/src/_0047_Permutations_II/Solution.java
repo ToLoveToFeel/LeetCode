@@ -10,7 +10,8 @@ import java.util.List;
  * Content:
  */
 public class Solution {
-    private ArrayList<List<Integer>> res;
+
+    private ArrayList<List<Integer>> res = new ArrayList<>();
     private boolean[] used;
 
     // p中保存了一个有index个元素的排列
@@ -25,7 +26,6 @@ public class Solution {
             if (!used[i]) {
                 if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])  // 剪枝，去重
                     continue;
-
                 p.add(nums[i]);
                 used[i] = true;
                 generatePermutation(nums, index + 1, p);
@@ -36,19 +36,19 @@ public class Solution {
     }
 
     public List<List<Integer>> permuteUnique(int[] nums) {
-        res = new ArrayList<>();
-        if (nums == null || nums.length == 0)
-            return res;
 
+        if (nums == null || nums.length == 0) return res;
         Arrays.sort(nums);
         used = new boolean[nums.length];
         LinkedList<Integer> p = new LinkedList<>();
+
         generatePermutation(nums, 0, p);
 
         return res;
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {1, 1, 2};
         int[] nums = {3, 3, 0, 3};
         System.out.println((new Solution()).permuteUnique(nums));

@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Solution2 {
 
-    private ArrayList<List<Integer>> res;
+    private ArrayList<List<Integer>> res = new ArrayList<>();
     private boolean[] used;
 
     // p中保存了一个有 p.size() 个元素的排列
@@ -37,9 +37,8 @@ public class Solution2 {
     }
 
     public List<List<Integer>> permuteUnique(int[] nums) {
-        res = new ArrayList<>();
-        if (nums == null || nums.length == 0)
-            return res;
+
+        if (nums == null || nums.length == 0) return res;
 
         Arrays.sort(nums);
         used = new boolean[nums.length];
@@ -50,6 +49,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {1, 1, 2};
         int[] nums = {3, 3, 0, 3};
         System.out.println((new Solution2()).permuteUnique(nums));
