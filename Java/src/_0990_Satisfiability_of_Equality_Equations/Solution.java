@@ -8,21 +8,20 @@ import java.util.List;
  * Content:
  */
 public class Solution {
-    public boolean equationsPossible(String[] equations) {
-        // 第一步：统计字母的个数，并将 equations 根据相等与否分为两个集合
+
+    public boolean equationsPossible(String[] eq) {
+
+        // 第一步：统计字母的个数，并将 eq 根据相等与否分为两个集合
         List<String> equalList = new ArrayList<>();
         List<String> unequalList = new ArrayList<>();
-        for (String equation : equations) {
-            if (equation.substring(1, 3).equals("=="))
-                equalList.add(equation);
-            else
-                unequalList.add(equation);
+        for (String e : eq) {
+            if (e.substring(1, 3).equals("==")) equalList.add(e);
+            else unequalList.add(e);
         }
         // 第二步：使用并查集将所有相等的数据放在一起
         UnionFind uf = new UnionFind(26);
-        for (String s : equalList) {
+        for (String s : equalList)
             uf.unionElements(s.charAt(0) - 'a', s.charAt(3) - 'a');
-        }
 
         // 第三步：根据不相等的集合判断等式方程的可满足性：如果两个数据不相等但却在同一个集合中，则不合法
         for (String s : unequalList) {
@@ -33,6 +32,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        String[] equations = {"c==c", "b==d", "x!=z"};  // true
 //        String[] equations = {"a==b", "b!=c", "c==a"};  // false
         String[] equations = {"a==b", "b!=a"};  // false
