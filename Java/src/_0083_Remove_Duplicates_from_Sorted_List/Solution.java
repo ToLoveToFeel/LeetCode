@@ -10,16 +10,11 @@ public class Solution {
 
         if (head == null) return null;
 
-        ListNode curNode = head;
-        ListNode nextNode = head.next;
-
-        while (nextNode != null) {
-            if (curNode.val == nextNode.val) {
-                curNode.next = nextNode.next;
-            } else {
-                curNode = nextNode;
-            }
-            nextNode = nextNode.next;
+        ListNode p = head, q = head.next;
+        while (q != null) {
+            if (p.val == q.val) p.next = q.next;
+            else p = q;
+            q = q.next;
         }
 
         return head;
