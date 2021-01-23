@@ -1,5 +1,7 @@
 package _0073_Set_Matrix_Zeroes;
 
+import _0000_study._common.Output;
+
 import java.util.HashSet;
 
 /**
@@ -7,10 +9,11 @@ import java.util.HashSet;
  * Content:
  */
 public class Solution {
+
     public void setZeroes(int[][] matrix) {
+
         int m = matrix.length;
-        if (m == 0)
-            return;
+        if (m == 0) return;
         int n = matrix[0].length;
         // 第一步：记录数值为 0 的行号 和 列号
         HashSet<Integer> rowSet = new HashSet<>();
@@ -36,16 +39,13 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int[][] matrix = {
                 {0, 1, 2, 0},
                 {3, 4, 5, 2},
                 {1, 3, 1, 5}
         };
         (new Solution()).setZeroes(matrix);
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++)
-                System.out.print(matrix[i][j] + " ");
-            System.out.println();
-        }
+        Output.OutputBasicArray2D(matrix);
     }
 }
