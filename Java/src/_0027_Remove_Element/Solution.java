@@ -4,7 +4,7 @@ package _0027_Remove_Element;
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
-class Solution {
+public class Solution {
 
     public int removeElement(int[] nums, int val) {
 
@@ -21,7 +21,6 @@ class Solution {
 
         int[] nums = {3, 2, 2, 3};
         int val = 3;
-
         System.out.println((new Solution()).removeElement(nums, val));
     }
 }
