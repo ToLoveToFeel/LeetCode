@@ -12,16 +12,14 @@ import java.util.List;
  */
 public class Solution {
 
-    public List<Integer> getRow(int rowIndex) {
+    public List<Integer> getRow(int n) {
 
         List<Integer> res = new ArrayList<>();
-
-        if (rowIndex < 0)
-            return res;
+        if (n < 0) return res;
 
         res.add(1);
-        for (int i = 1; i <= rowIndex; i++) {
-            long temp = ((long) res.get(i - 1)) * (rowIndex - i + 1) / i;
+        for (int i = 1; i <= n; i++) {
+            long temp = ((long) res.get(i - 1)) * (n - i + 1) / i;
             res.add((int) temp);
         }
         return res;
