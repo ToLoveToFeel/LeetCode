@@ -5,13 +5,14 @@ package _0685_Redundant_Connection_II;
  * Content:
  */
 public class Solution {
+
     public int[] findRedundantDirectedConnection(int[][] edges) {
+
         int nodesCount = edges.length;
         UnionFind uf = new UnionFind(nodesCount + 1);
         int[] parent = new int[nodesCount + 1];  // 记录每个节点的父节点
-        for (int i = 1; i <= nodesCount; i++) {
-            parent[i] = i;
-        }
+        for (int i = 1; i <= nodesCount; i++) parent[i] = i;
+
         // 以下两种情况可能出现一种，也可能同时出现（子节点指向其非根父节点）
         int conflict = -1;  // 导致冲突的边
         int cycle = -1;  // 导致形成环的边
@@ -48,6 +49,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int[][] edges = {{4, 2}, {2, 3}, {3, 4}, {1, 2}, {3, 5}, {1, 6}, {6, 7}};
         int[] res = (new Solution()).findRedundantDirectedConnection(edges);
         System.out.println(res[0] + " -> " + res[1]);
