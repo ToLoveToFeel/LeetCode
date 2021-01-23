@@ -9,8 +9,6 @@ public class Solution {
 
     public int threeSumClosest(int[] nums, int target) {
 
-        assert nums.length >= 3;
-
         // 数组首先排序
         Arrays.sort(nums);
 
