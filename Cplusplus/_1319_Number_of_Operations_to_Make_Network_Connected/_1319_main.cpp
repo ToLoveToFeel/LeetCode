@@ -20,20 +20,16 @@ int find(int x) {
  */
 class Solution {
 public:
-    int makeConnected(int n, vector<vector<int>>& connections) {
+    int makeConnected(int n, vector<vector<int>> &connections) {
 
-        for (int i = 0; i < n; i++) p[i] = i;  // 初始化并查集
         int m = connections.size();
         if (m < n - 1) return -1;
 
+        for (int i = 0; i < n; i++) p[i] = i;  // 初始化并查集
         int cnt = n;  // 记录连通分量的个数
-        for (int i = 0; i < m; i++) {
-            int a = connections[i][0], b = connections[i][1];
-            a = find(a), b = find(b);
-            if (a != b) {
-                p[a] = b;
-                cnt--;
-            }
+        for (auto edge : connections) {
+            int a = find(edge[0]), b = find(edge[1]);
+            if (a != b) p[a] = b, cnt--;
         }
         return cnt == 1 ? 0 : cnt - 1;
     }
@@ -48,7 +44,11 @@ int main() {
 
     // 2
     int n = 6;
-    vector<vector<int>> connections = {{0, 1}, {0, 2}, {0, 3},{1, 2},  {1, 3}};
+    vector<vector<int>> connections = {{0, 1},
+                                       {0, 2},
+                                       {0, 3},
+                                       {1, 2},
+                                       {1, 3}};
     cout << Solution().makeConnected(n, connections) << endl;
 
     return 0;
