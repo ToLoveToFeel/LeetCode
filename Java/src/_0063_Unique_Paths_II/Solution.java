@@ -18,21 +18,18 @@ public class Solution {
 
         // 初始化
         for (int i = 0; i < m; i++) {  // 初始化第一列
-            if (obstacleGrid[i][0] == 1)
-                break;
+            if (obstacleGrid[i][0] == 1) break;
             dp[i][0] = 1;
         }
         for (int j = 0; j < n; j++) {  // 初始化第一行
-            if (obstacleGrid[0][j] == 1)
-                break;
+            if (obstacleGrid[0][j] == 1) break;
             dp[0][j] = 1;
         }
 
         // 计算
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                if (obstacleGrid[i][j] == 1)
-                    continue;
+                if (obstacleGrid[i][j] == 1) continue;
                 dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
             }
         }
@@ -43,7 +40,6 @@ public class Solution {
     public static void main(String[] args) {
 
         int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
-
         System.out.println((new Solution()).uniquePathsWithObstacles(obstacleGrid));  // 2
     }
 }
