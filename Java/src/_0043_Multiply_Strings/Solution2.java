@@ -5,10 +5,11 @@ package _0043_Multiply_Strings;
  * Content:
  */
 class Solution2 {
+
     // 两个字符串相乘
     public String multiply(String num1, String num2) {
-        if (num1.equals("0") || num2.equals("0"))
-            return "0";
+
+        if (num1.equals("0") || num2.equals("0")) return "0";
 
         int m = num1.length();
         int n = num2.length();
@@ -28,13 +29,13 @@ class Solution2 {
         }
         int index = (arr[0] == 0 ? 1 : 0);
         StringBuilder res = new StringBuilder();
-        while (index < m + n) {
-            res.append(arr[index ++]);
-        }
+        while (index < m + n) res.append(arr[index ++]);
+
         return res.toString();
     }
 
     public static void main(String[] args) {
-        System.out.println((new Solution2()).multiply("123", "456"));
+
+        System.out.println((new Solution2()).multiply("123", "456"));  // 56088
     }
 }
