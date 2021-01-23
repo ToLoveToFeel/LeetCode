@@ -9,22 +9,22 @@ import java.util.*;
  * 内存消耗：38.9 MB, 在所有 Java 提交中击败了89.11%的用户
  */
 class Solution2 {
+
     private boolean isConnected(String word1, String word2) {  // 判断两个单词是否仅一个字母不同
-        if (word1.length() != word2.length())
-            return false;
+
+        if (word1.length() != word2.length()) return false;
 
         int count = 0;  // 不同字母的数量
         for (int i = 0; i < word1.length(); i++) {
-            if (word1.charAt(i) != word2.charAt(i))
-                count++;
-            if (count > 1)
-                return false;
+            if (word1.charAt(i) != word2.charAt(i)) count++;
+            if (count > 1) return false;
         }
         return count == 1;
     }
 
     // 构建无向无权图：graph[i] 存储的为节点 wordList[i] 连接到的单词的索引
     private List<List<Integer>> constructUndirectedGraph(String beginWord, List<String> wordList) {
+
         wordList.add(beginWord);
         List<List<Integer>> graph = new ArrayList<>();
 
@@ -96,6 +96,7 @@ class Solution2 {
     }
 
     public static void main(String[] args) {
+
         String beginWord = "hit";
         String endWord = "cog";
         List<String> wordList = new ArrayList<String>() {{

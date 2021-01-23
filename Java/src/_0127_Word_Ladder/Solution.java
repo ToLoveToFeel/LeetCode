@@ -9,22 +9,22 @@ import java.util.*;
  * 内存消耗：39.5 MB, 在所有 Java 提交中击败了73.34%的用户
  */
 class Solution {
+
     private boolean isConnected(String word1, String word2) {  // 判断两个单词是否仅一个字母不同
-        if (word1.length() != word2.length())
-            return false;
+
+        if (word1.length() != word2.length()) return false;
 
         int count = 0;  // 不同字母的数量
         for (int i = 0; i < word1.length(); i++) {
-            if (word1.charAt(i) != word2.charAt(i))
-                count++;
-            if (count > 1)
-                return false;
+            if (word1.charAt(i) != word2.charAt(i)) count++;
+            if (count > 1) return false;
         }
         return count == 1;
     }
 
     // 构建无向无权图：graph[i] 存储的为节点 wordList[i] 连接到的单词的索引
     private List<List<Integer>> constructUndirectedGraph(String beginWord, List<String> wordList) {
+
         wordList.add(beginWord);
         List<List<Integer>> graph = new ArrayList<>();
 
@@ -44,23 +44,24 @@ class Solution {
     }
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+
         int n = wordList.size();
         boolean[] visited = new boolean[n + 1];
 
         // 构建图
         List<List<Integer>> graph = constructUndirectedGraph(beginWord, wordList);
 
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(n);  // beginWord会放在wordList最后的位置用于建图
+        Queue<Integer> q = new LinkedList<>();
+        q.add(n);  // beginWord会放在wordList最后的位置用于建图
         visited[n] = true;
         int res = 1;
-        while (!queue.isEmpty()) {
-            int size = queue.size();  // 当前层的节点个数
+        while (!q.isEmpty()) {
+            int size = q.size();  // 当前层的节点个数
             for (int i = 0; i < size; i++) {  // 代表当前层
-                int v = queue.remove();
+                int v = q.remove();
                 for (Integer w : graph.get(v)) {
                     if (!visited[w]) {
-                        queue.add(w);
+                        q.add(w);
                         visited[w] = true;
                         if (wordList.get(w).equals(endWord))
                             return res + 1;
@@ -74,6 +75,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
+
 //        String beginWord = "hit";
 //        String endWord = "cog";
 //        List<String> wordList = new ArrayList<String>() {{
