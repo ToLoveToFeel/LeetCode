@@ -5,9 +5,11 @@ package _0021_Merge_Two_Sorted_Lists;
  * Content:
  */
 public class Solution {
+
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null || l2 == null)
-            return l1 == null ? l2 : l1;
+
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
 
         // 将l2插入到l1中
         ListNode dummyHead = new ListNode(-1, l1);
@@ -26,14 +28,13 @@ public class Solution {
                 pre = pre.next;
             }
         }
-        if (q != null) {
-            pre.next = q;
-        }
+        if (q != null) pre.next = q;
 
         return dummyHead.next;
     }
 
     public static void main(String[] args) {
+
         // 创建链表，获取链表头结点
         ListNode l1 = (new MyLinkedList(new int[]{1, 2, 4})).getHead();
         // 创建链表，获取链表头结点
