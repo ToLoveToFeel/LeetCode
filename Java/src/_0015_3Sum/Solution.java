@@ -15,8 +15,7 @@ public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> res = new ArrayList<>();
-        if (nums.length < 3)
-            return res;
+        if (nums.length < 3) return res;
 
         HashMap<Integer, Integer> counter = new HashMap<>();  // 统计各元素出现次数，查找表
         for (int i = 0; i < nums.length; i++) {
@@ -45,7 +44,7 @@ public class Solution {
                 if (nums[i] + nums[j] * 2 == 0 && counter.get(nums[j]) >= 2)
                     res.add(generateList(nums[i], nums[j], nums[j]));
 
-                int c = - nums[i] - nums[j];  // 另一个需要寻找的元素
+                int c = -nums[i] - nums[j];  // 另一个需要寻找的元素
                 if (c > nums[j] && counter.containsKey(c))
                     res.add(generateList(nums[i], nums[j], c));
             }

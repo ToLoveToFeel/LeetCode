@@ -14,8 +14,7 @@ public class Solution2 {
     public List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> res = new ArrayList<>();
-        if (nums.length < 3)
-            return res;
+        if (nums.length < 3) return res;
 
         // 数组排序，默认升序排列
         Arrays.sort(nums);
