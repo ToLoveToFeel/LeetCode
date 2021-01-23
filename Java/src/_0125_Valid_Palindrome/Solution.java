@@ -14,16 +14,10 @@ public class Solution {
 
         while (i < j) {
 
-            while (i < s.length() && !isValidCharacter(s.charAt(i)))
-                i++;
-            if (i == s.length())  // 全部为非字母
-                return true;
-
-            while (j > 0 && !isValidCharacter(s.charAt(j)))
-                j--;
-
-            if (s.charAt(i) != s.charAt(j))
-                return false;
+            while (i < s.length() && !isValidCharacter(s.charAt(i))) i++;
+            if (i == s.length()) return true;  // 全部为非字母
+            while (j > 0 && !isValidCharacter(s.charAt(j))) j--;
+            if (s.charAt(i) != s.charAt(j)) return false;
             i++;
             j--;
         }
@@ -37,9 +31,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-//        String s = "A man, a plan, a canal: Panama";
-        String s = ".,";
 
+//        String s = "A man, a plan, a canal: Panama";  // true
+        String s = ".,";  // true
         System.out.println((new Solution()).isPalindrome(s));
     }
 }

@@ -13,12 +13,10 @@ public class Solution2 {
         int i = next_alpha_numeric(s, 0);
         int j = prev_alpha_numeric(s, s.length() - 1);
         while (i <= j) {
-            if (s.charAt(i) != s.charAt(j))
-                return false;
+            if (s.charAt(i) != s.charAt(j)) return false;
             i = next_alpha_numeric(s, i + 1);
             j = prev_alpha_numeric(s, j - 1);
         }
-
         return true;
     }
 

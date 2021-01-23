@@ -8,9 +8,7 @@ public class Solution3 {
 
     public boolean isPalindrome(String s) {
 
-        if (s.isEmpty())
-            return true;
-
+        if (s.isEmpty()) return true;
         StringBuilder sb = new StringBuilder(s.replaceAll("[^a-zA-Z0-9]", ""));
         return sb.toString().equalsIgnoreCase(sb.reverse().toString());
     }
