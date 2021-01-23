@@ -40,6 +40,7 @@ public class Solution {
     }
 
     public List<String> wordBreak(String s, List<String> wordDict) {
+
         // 为了快速判断一个单词是否在单词集合中，需要将它们加入哈希表
         Set<String> wordSet = new HashSet<>(wordDict);
         int length = s.length();
@@ -69,6 +70,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        String s = "catsanddog";
 //        List<String> wordDict = new ArrayList<String>() {{
 //            add("cat");
