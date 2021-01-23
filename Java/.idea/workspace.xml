@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0075_Sort_Colors/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0075_Sort_Colors/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0075_Sort_Colors/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0075_Sort_Colors/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -723,7 +724,7 @@
       <workItem from="1611207737057" duration="2051000" />
       <workItem from="1611279889716" duration="1258000" />
       <workItem from="1611294977290" duration="10049000" />
-      <workItem from="1611363711967" duration="18133000" />
+      <workItem from="1611363711967" duration="18449000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -965,25 +966,25 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611208220569" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1611390244255">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1611390513611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390244255" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390513611" />
     <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611386910348" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1611390244255">
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1611390513611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390244255" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390513611" />
     <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611386910348" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1611390244255">
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1611390513611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390244255" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390513611" />
     <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611386910348" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1611390244255">
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1611390513611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390244255" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611390513611" />
     <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611386910348" />
     <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1611387063778">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1032,11 +1033,6 @@
           <url>file://$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/SortTestHelper.java</url>
           <line>81</line>
           <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0076_Minimum_Window_Substring/Solution2.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/_0649_Dota2_Senate/Solution.java</url>

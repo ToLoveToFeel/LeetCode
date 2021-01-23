@@ -3,13 +3,16 @@ package _0076_Minimum_Window_Substring;
 import java.util.ArrayList;
 import java.util.HashSet;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+ * 使用一个字符串filtered_s，其中只包含s中那些t中含有的字符
+ * 当t的长度远远小于s的长度时，效果比较好
+ */
 public class Solution2 {
 
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(n)
-    // 使用一个字符串filtered_s，其中只包含s中那些t中含有的字符
-    // 当t的长度远远小于s的长度时，效果比较好
     public String minWindow(String s, String t) {
+
         HashSet<Character> t_set = new HashSet<>();
         int[] tFreq = new int[256];
         for (int i = 0; i < t.length(); i++) {

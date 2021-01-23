@@ -3,7 +3,6 @@ package _0076_Minimum_Window_Substring;
 /**
  * 解法：滑动窗口
  * (1) 统计 t 中所有字符出现的次数，存入 tFreq 中
- *
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
@@ -13,8 +12,7 @@ public class Solution {
     // 滑动窗口
     public String minWindow(String s, String t) {
 
-        if (s.length() < t.length())
-            return "";
+        if (s.length() < t.length()) return "";
 
         int[] tFreq = new int[256];  // 初始化默认为0
         // 统计t中字符个数
@@ -52,9 +50,7 @@ public class Solution {
                 l++;
             }
         }
-
-        if (startIndex != -1)
-            return s.substring(startIndex, startIndex + minLength);
+        if (startIndex != -1) return s.substring(startIndex, startIndex + minLength);
 
         return "";
     }
