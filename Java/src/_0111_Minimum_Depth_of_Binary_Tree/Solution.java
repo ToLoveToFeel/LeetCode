@@ -5,31 +5,31 @@ import java.util.Queue;
 
 /**
  * Date: 2020/10/20 9:34
- * Content:
- * 层次遍历
+ * Content: 层次遍历
  */
 public class Solution {
-    public int minDepth(TreeNode root) {
-        if (root == null)
-            return 0;
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+    public int minDepth(TreeNode root) {
+
+        if (root == null) return 0;
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
         int minDepth = 1;  // 最小深度
         int levelNum = 1;
 
         while (true) {  // 一定可以返回
             int newLevelNum = 0;
             for (int i = 0; i < levelNum; i++) {
-                TreeNode node = queue.remove();
+                TreeNode node = q.remove();
                 if (node.left == null && node.right == null)
                     return minDepth;
                 if (node.left != null) {
-                    queue.add(node.left);
+                    q.add(node.left);
                     newLevelNum++;
                 }
                 if (node.right != null) {
-                    queue.add(node.right);
+                    q.add(node.right);
                     newLevelNum++;
                 }
             }
