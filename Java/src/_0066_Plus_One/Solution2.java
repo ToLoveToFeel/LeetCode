@@ -1,15 +1,13 @@
 package _0066_Plus_One;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * Date: 2020/10/27 14:46
  * Content:
  */
 public class Solution2 {
+
     public int[] plusOne(int[] digits) {
+
         for (int i = digits.length - 1; i >= 0; i--) {
             digits[i]++;
             digits[i] = digits[i] % 10;
@@ -21,6 +19,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[] digits = {9, 9};
         int[] res = (new Solution2()).plusOne(digits);
         for (int num : res) {

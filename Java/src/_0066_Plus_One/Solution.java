@@ -9,7 +9,9 @@ import java.util.List;
  * Content:
  */
 public class Solution {
+
     public int[] plusOne(int[] digits) {
+
         List<Integer> list = new ArrayList<>();
 
         int carry = 1;
@@ -19,18 +21,17 @@ public class Solution {
             carry = (digit + carry) / 10;
             list.add(num);
         }
-        if (carry == 1)
-            list.add(carry);
+        if (carry == 1) list.add(carry);
 
         Collections.reverse(list);
         int[] res = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            res[i] = list.get(i);
-        }
+        for (int i = 0; i < list.size(); i++) res[i] = list.get(i);
+
         return res;
     }
 
     public static void main(String[] args) {
+
         int[] digits = {9, 9};
         int[] res = (new Solution()).plusOne(digits);
         for (int num : res) {
