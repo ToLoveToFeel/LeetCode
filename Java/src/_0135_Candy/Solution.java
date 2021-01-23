@@ -5,7 +5,6 @@ import java.util.Arrays;
 /**
  * Date: 2020/12/24 9:13
  * Content: https://leetcode-cn.com/problems/candy/solution/candy-cong-zuo-zhi-you-cong-you-zhi-zuo-qu-zui-da-/
- *
  * 执行用时：3 ms, 在所有 Java 提交中击败了66.08%的用户
  * 内存消耗：40.1 MB, 在所有 Java 提交中击败了13.12%的用户
  */
