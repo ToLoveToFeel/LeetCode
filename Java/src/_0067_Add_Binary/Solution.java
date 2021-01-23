@@ -1,6 +1,7 @@
 package _0067_Add_Binary;
 
 public class Solution {
+
     // 这个解法是错误的，因为会越界
     public String addBinary(String a, String b) {
         // 将a,b转为十进制

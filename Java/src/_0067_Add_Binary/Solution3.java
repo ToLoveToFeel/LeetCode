@@ -26,8 +26,7 @@ public class Solution3 {
             sum %= 2;
             sb.append(sum);
         }
-        if (t != 0)
-            sb.append(t);
+        if (t != 0) sb.append(t);
 
         return sb.reverse().toString();
     }

@@ -32,7 +32,6 @@ public class Solution2 {
             sb.append('1');
         }
         sb.append(res);
-
         return sb.toString();
     }
 
