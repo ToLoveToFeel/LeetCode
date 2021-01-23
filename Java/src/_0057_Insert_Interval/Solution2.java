@@ -9,30 +9,29 @@ import java.util.Arrays;
  * 执行用时：3 ms, 在所有 Java 提交中击败了46.07%的用户
  * 内存消耗：40.7 MB, 在所有 Java 提交中击败了86.97%的用户
  */
-
 public class Solution2 {
 
     // [[1,2],[3,5],[6,7],[8,10],[12,16]]
     //         [4,         8]
-    public int[][] insert(int[][] intervals, int[] newInterval) {
+    public int[][] insert(int[][] t1, int[] t2) {
 
         ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
 
         int cur = 0;  // 找到第一处newInterval区间左边的值 小于或等于 intervals区间右边的值的位置
-        while (cur < intervals.length && intervals[cur][1] < newInterval[0]) {
-            lists.add(new ArrayList<>(Arrays.asList(intervals[cur][0], intervals[cur][1])));
+        while (cur < t1.length && t1[cur][1] < t2[0]) {
+            lists.add(new ArrayList<>(Arrays.asList(t1[cur][0], t1[cur][1])));
             cur++;
         }
 
-        while (cur < intervals.length && intervals[cur][0] <= newInterval[1]) {
-            newInterval[0] = Math.min(intervals[cur][0], newInterval[0]);
-            newInterval[1] = Math.max(intervals[cur][1], newInterval[1]);
+        while (cur < t1.length && t1[cur][0] <= t2[1]) {
+            t2[0] = Math.min(t1[cur][0], t2[0]);
+            t2[1] = Math.max(t1[cur][1], t2[1]);
             cur++;
         }
-        lists.add(new ArrayList<>(Arrays.asList(newInterval[0], newInterval[1])));
+        lists.add(new ArrayList<>(Arrays.asList(t2[0], t2[1])));
 
-        while (cur < intervals.length) {
-            lists.add(new ArrayList<>(Arrays.asList(intervals[cur][0], intervals[cur][1])));
+        while (cur < t1.length) {
+            lists.add(new ArrayList<>(Arrays.asList(t1[cur][0], t1[cur][1])));
             cur++;
         }
 

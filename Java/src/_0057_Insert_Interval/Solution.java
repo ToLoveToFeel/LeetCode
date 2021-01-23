@@ -13,15 +13,17 @@ import java.util.Arrays;
 public class Solution {
 
     // 这道题和上一道类似，不过需要在最开始把新插入的区间放到列表中即可
-    public int[][] insert(int[][] intervals, int[] interval) {
-        // 1、将新元素插入数组，然后对列表中的元素基于第一个元素排序；
-        int[][] t = new int[intervals.length + 1][2];
+    public int[][] insert(int[][] t1, int[] t2) {
 
-        for (int i = 0; i < intervals.length; i++)
-            for (int j = 0; j < intervals[0].length; j++)
-                t[i][j] = intervals[i][j];
-        t[intervals.length][0] = interval[0];
-        t[intervals.length][1] = interval[1];
+        int n  = t1.length;
+        // 1、将新元素插入数组，然后对列表中的元素基于第一个元素排序；
+        int[][] t = new int[n + 1][2];
+
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < t1[0].length; j++)
+                t[i][j] = t1[i][j];
+        t[n][0] = t2[0];
+        t[n][1] = t2[1];
 
         Arrays.sort(t, (o1, o2) -> o1[0] - o2[0]);
 
