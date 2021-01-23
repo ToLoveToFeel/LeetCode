@@ -9,20 +9,21 @@ import java.util.HashSet;
  * 空间复杂度：O(n)
  */
 public class Solution {
+
     public ListNode detectCycle(ListNode head) {
+
         HashSet<ListNode> set = new HashSet<>();
         ListNode curNode = head;
         while (curNode != null) {
-            if (set.contains(curNode))
-                return curNode;
-            else
-                set.add(curNode);
+            if (set.contains(curNode)) return curNode;
+            else set.add(curNode);
             curNode = curNode.next;
         }
         return null;
     }
 
     public static void main(String[] args) {
+
         ListNode head = (new MyLinkedList(new int[]{1, 2})).getHead();
         head.next.next = head;
         ListNode res = (new Solution()).detectCycle(head);
