@@ -9,11 +9,13 @@ import java.util.List;
  * 位运算
  */
 public class Solution2 {
+
     public List<List<Integer>> subsets(int[] nums) {
+
         ArrayList<List<Integer>> res = new ArrayList<>();
         ArrayList<Integer> p = new ArrayList<>();
 
-        int n  = nums.length;
+        int n = nums.length;
         for (int mask = 0; mask < (1 << n); mask++) {
             p.clear();
             for (int i = 0; i < n; i++) {
@@ -27,6 +29,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {};
 //        int[] nums = {1};
         int[] nums = {1, 2, 3};
