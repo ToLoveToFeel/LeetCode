@@ -7,9 +7,7 @@ package _0008_String_to_Integer_atoi;
 public class Solution {
 
     private boolean isDigit(char c) {
-
-        if (c >= '0' && c <= '9') return true;
-        return false;
+        return c >= '0' && c <= '9';
     }
 
     public int myAtoi(String str) {
