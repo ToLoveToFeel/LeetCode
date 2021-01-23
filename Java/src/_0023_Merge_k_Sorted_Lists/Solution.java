@@ -5,8 +5,10 @@ package _0023_Merge_k_Sorted_Lists;
  * Content:
  */
 public class Solution {
+
     // 返回l1和l2合并后链表的头结点
     private ListNode mergeTwoList(ListNode l1, ListNode l2) {
+
         if (l1 == null || l2 == null)
             return l1 == null ? l2 : l1;
         else if (l1.val < l2.val) {
@@ -19,6 +21,7 @@ public class Solution {
     }
 
     public ListNode mergeKLists(ListNode[] lists) {
+
         if (lists == null || lists.length == 0)
             return null;
 
@@ -32,6 +35,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        // 创建链表，获取链表头结点
 //        ListNode l1 = (new MyLinkedList(new int[]{1, 4, 5})).getHead();
 //        ListNode l2 = (new MyLinkedList(new int[]{1, 3, 4})).getHead();
