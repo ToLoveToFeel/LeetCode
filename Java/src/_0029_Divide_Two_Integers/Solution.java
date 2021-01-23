@@ -6,6 +6,7 @@ package _0029_Divide_Two_Integers;
  * 超出时间限制
  */
 public class Solution {
+
     // 返回正整数除法 a / b , 并且 a 和 b 均不为 0
     private int positiveDivide(int a, int b) {
         int count = -1;
@@ -18,25 +19,23 @@ public class Solution {
         return count;
     }
 
-    public int divide(int dividend, int divisor) {
-        // 特殊情况处理
-        if (dividend == Integer.MIN_VALUE && divisor == -1)
-            return Integer.MAX_VALUE;
-        if (divisor == 1)
-            return dividend;
-        if (divisor == -1)
-            return -dividend;
-        if (dividend == 0)
-            return 0;
+    public int divide(int a, int b) {
 
-        int sign = ((dividend ^ divisor) >>> 31);  // 结果为 1 的话，说明异号；结果为 0 的话，说明同号；
+        // 特殊情况处理
+        if (a == Integer.MIN_VALUE && b == -1) return Integer.MAX_VALUE;
+        if (b == 1) return a;
+        if (b == -1) return -a;
+        if (a == 0) return 0;
+
+        int sign = ((a ^ b) >>> 31);  // 结果为 1 的话，说明异号；结果为 0 的话，说明同号；
 
         return sign == 1 ?
-                -positiveDivide(Math.abs(dividend), Math.abs(divisor)) :
-                positiveDivide(Math.abs(dividend), Math.abs(divisor));
+                -positiveDivide(Math.abs(a), Math.abs(b)) :
+                positiveDivide(Math.abs(a), Math.abs(b));
     }
 
     public static void main(String[] args) {
+
         System.out.println((new Solution()).divide(10, 3));
         System.out.println((new Solution()).divide(7, -3));
     }
