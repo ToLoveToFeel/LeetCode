@@ -10,12 +10,10 @@ public class Solution {
 
     public ListNode insertionSortList(ListNode head) {
 
-        if (head == null || head.next == null)  // 链表没有或者只有一个节点
-            return head;
+        if (head == null || head.next == null) return head;
 
         ListNode dummyHead = new ListNode(-1);
         dummyHead.next = head;
-
         // 初始化
         ListNode curNode = head.next;
         ListNode preNode = head;
@@ -28,9 +26,8 @@ public class Solution {
             // 需要找到要插入的位置
             preNode.next = curNode.next;
             ListNode p = dummyHead;
-            while (p.next.val < curNode.val) {
-                p = p.next;
-            }
+            while (p.next.val < curNode.val) p = p.next;
+
             // 将数据插入到p的后面
             curNode.next = p.next;
             p.next = curNode;
