@@ -14,16 +14,11 @@ public class Solution4 {
 
     private int selectK(int[] nums, int l, int r, int k) {
 
-        if (l == r)
-            return nums[l];
-
+        if (l == r) return nums[l];
         int p = partion(nums, l, r);
-        if (p == k)
-            return nums[p];
-        else if (p > k)
-            return selectK(nums, l, p - 1, k);
-        else
-            return selectK(nums, p + 1, r, k);
+        if (p == k) return nums[p];
+        else if (p > k) return selectK(nums, l, p - 1, k);
+        else return selectK(nums, p + 1, r, k);
     }
 
     // 对nums[l...r]进行partition操作
@@ -59,7 +54,6 @@ public class Solution4 {
 
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
-
         System.out.println((new Solution4()).findKthLargest(nums, k));
     }
 }

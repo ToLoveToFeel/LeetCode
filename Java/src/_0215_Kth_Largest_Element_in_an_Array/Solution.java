@@ -6,14 +6,11 @@ public class Solution {
 
         k = k - 1;
         int p = -1;
-        int l = 0;
-        int r = nums.length - 1;
+        int l = 0,  r = nums.length - 1;
         while (k != p) {
             p = partition(nums, l, r);
-            if (p > k)
-                r = p;
-            else
-                l = p;
+            if (p > k) r = p;
+            else l = p;
         }
         return nums[p];
     }
@@ -46,7 +43,6 @@ public class Solution {
 
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
-
         System.out.println((new Solution()).findKthLargest(nums, k));
     }
 }

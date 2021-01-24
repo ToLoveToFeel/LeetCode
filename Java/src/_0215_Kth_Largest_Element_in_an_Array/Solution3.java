@@ -13,10 +13,9 @@ public class Solution3 {
 
         Queue<Integer> pq = new PriorityQueue<>();
         for (int e : nums) {
-            if (pq.size() != k)
-                pq.add(e);
+            if (pq.size() != k) pq.add(e);
             else if (e > pq.peek()) {
-                pq.poll();
+                pq.remove();
                 pq.add(e);
             }
         }
@@ -28,7 +27,6 @@ public class Solution3 {
 
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         int k = 4;
-
         System.out.println((new Solution3()).findKthLargest(nums, k));
     }
 }
