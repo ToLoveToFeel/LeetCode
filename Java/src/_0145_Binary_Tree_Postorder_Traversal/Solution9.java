@@ -3,11 +3,14 @@ package _0145_Binary_Tree_Postorder_Traversal;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * PostOrder Morris Traversal
+ * 参考网址：https://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html
+ * 时间复杂度：O(n)，n为节点数目
+ * 空间复杂度：O(1)
+ */
 public class Solution9 {
-    // PostOrder Morris Traversal
-    // 参考网址：https://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html
-    // 时间复杂度：O(n)，n为节点数目
-    // 空间复杂度：O(1)
+
     /*
         1. 如果当前节点的左孩子为空，则将其右孩子作为当前节点。
         2. 如果当前节点的左孩子不为空，在当前节点的左子树中找到当前节点在中序遍历下的前驱节点。
@@ -19,26 +22,24 @@ public class Solution9 {
     public List<Integer> postorderTraversal(TreeNode root) {
 
         ArrayList<Integer> res = new ArrayList<Integer>();
-        if(root == null)
-            return res;
+        if (root == null) return res;
 
         TreeNode dummyRoot = new TreeNode(-1);
         dummyRoot.left = root;
 
         TreeNode cur = dummyRoot;
-        while(cur != null){
-            if(cur.left == null)
+        while (cur != null) {
+            if (cur.left == null)
                 cur = cur.right;
-            else{
+            else {
                 TreeNode pre = cur.left;
-                while(pre.right != null && pre.right != cur)
+                while (pre.right != null && pre.right != cur)
                     pre = pre.right;
 
-                if(pre.right == null){
+                if (pre.right == null) {
                     pre.right = cur;
                     cur = cur.left;
-                }
-                else{
+                } else {
                     pre.right = null;
                     reverseTraversal(cur.left, res);
                     cur = cur.right;
@@ -48,21 +49,21 @@ public class Solution9 {
         return res;
     }
 
-    private void reverseTraversal(TreeNode node, ArrayList<Integer> res){
+    private void reverseTraversal(TreeNode node, ArrayList<Integer> res) {
         int start = res.size();
-        while(node != null){
+        while (node != null) {
             res.add(node.val);
             node = node.right;
         }
 
         int i = start, j = res.size() - 1;
-        while(i < j){
+        while (i < j) {
             Integer t = res.get(i);
             res.set(i, res.get(j));
             res.set(j, t);
 
-            i ++;
-            j --;
+            i++;
+            j--;
         }
     }
 }

@@ -4,22 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * 非递归算法
+ * 时间复杂度：O(n)，n为节点数目
+ * 空间复杂度：O(n)
+ */
 public class Solution4 {
-    // 非递归算法
-    // 时间复杂度：O(n)，n为节点数目
-    // 空间复杂度：O(n)
-    /*
-        思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
-     */
-    public List<Integer> postorderTraversal(TreeNode root){
+
+    // 思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
+    public List<Integer> postorderTraversal(TreeNode root) {
+
         ArrayList<Integer> res = new ArrayList<>();
-        if (null == root)
-            return res;
+        if (root == null) return res;
 
         Stack<TreeNode> stack = new Stack<>();
         Stack<Integer> output = new Stack<>();
         stack.push(root);
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             TreeNode curNode = stack.pop();  // （根）
             output.push(curNode.val);
 
