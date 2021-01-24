@@ -28,9 +28,6 @@ public class Solution {
 
     public String convertToTitle(int n) {
 
-        if (n <= 0)
-            throw new IllegalArgumentException("参数不正确");
-
         StringBuilder sb = new StringBuilder();
         while (n != 0) {
             // 因为 Excel 取值范围为 1~26，故可将 26 进制 逻辑上的 个位、十位、百位…均减 1 映射到 0~25 即可，最后转换为字符
