@@ -6,6 +6,7 @@ package _0200_Number_of_Islands;
  * 经典的floodfill算法
  */
 class Solution {
+
     int[][] d = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 上右下左
     int m, n;  // 行数，列数
     boolean[][] visited;
@@ -26,9 +27,9 @@ class Solution {
     }
 
     public int numIslands(char[][] grid) {
+
         m = grid.length;
-        if (m == 0)
-            return 0;
+        if (m == 0) return 0;
         n = grid[0].length;
         visited = new boolean[m][n];
 
