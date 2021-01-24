@@ -11,6 +11,7 @@ import java.util.Map;
  * 空间复杂度:O(n)
  */
 public class LRUCache2 {
+
     class DLinkedNode {
         int key;
         int value;
@@ -29,7 +30,7 @@ public class LRUCache2 {
     private Map<Integer, DLinkedNode> cache = new HashMap<>();
     private int size;
     public final int capacity;
-    private DLinkedNode dummyHead, dummyTail;  // 虚拟头结点、虚拟尾节点，头部节点为最新使用过的数据
+    private static DLinkedNode dummyHead, dummyTail;  // 虚拟头结点、虚拟尾节点，头部节点为最新使用过的数据
 
     public LRUCache2(int capacity) {
         this.size = 0;
@@ -42,8 +43,7 @@ public class LRUCache2 {
 
     public int get(int key) {
         DLinkedNode node = cache.get(key);
-        if (node == null)
-            return -1;
+        if (node == null) return -1;
         // 如果key存在，将该数据更新到头部
         moveToHead(node);
         return node.value;

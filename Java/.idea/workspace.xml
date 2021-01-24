@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0144_Binary_Tree_Preorder_Traversal/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/Solution9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -726,7 +732,7 @@
       <workItem from="1611279889716" duration="1258000" />
       <workItem from="1611294977290" duration="10049000" />
       <workItem from="1611363711967" duration="30177000" />
-      <workItem from="1611449863818" duration="2826000" />
+      <workItem from="1611449863818" duration="3440000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
