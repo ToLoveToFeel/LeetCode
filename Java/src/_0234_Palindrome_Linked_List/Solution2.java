@@ -12,8 +12,7 @@ public class Solution2 {
 
     private ListNode reverseList(ListNode node) {
 
-        if (node == null || node.next == null)
-            return node;
+        if (node == null || node.next == null) return node;
 
         ListNode rhead = reverseList(node.next);
         node.next.next = node;
@@ -24,18 +23,17 @@ public class Solution2 {
 
     public boolean isPalindrome(ListNode head) {
 
-        if (head == null || head.next == null)
-            return true;
+        if (head == null || head.next == null) return true;
 
         // 第一步：将链表一分为二：利用快慢指针，如果偶数个节点，则前后均分；如果奇数个节点，前面的会多一个 Leetcode 143
-        ListNode slow = head;
-        ListNode fast = head;
-        while (fast.next != null && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        ListNode s = head;
+        ListNode f = head;
+        while (f.next != null && f.next.next != null) {
+            s = s.next;
+            f = f.next.next;
         }
-        ListNode newHead = slow.next;
-        slow.next = null;
+        ListNode newHead = s.next;
+        s.next = null;
 
         // 第二步：将后一个链表翻转，后一个链表的头结点为 newHead，链表翻转可以参考 Leetcode 0206
         newHead = reverseList(newHead);
@@ -43,8 +41,7 @@ public class Solution2 {
         // 第三步：对比两个链表
         ListNode p1 = head, p2 = newHead;
         while (p1 != null && p2 != null) {
-            if (p1.val != p2.val)
-                return false;
+            if (p1.val != p2.val) return false;
             p1 = p1.next;
             p2 = p2.next;
         }

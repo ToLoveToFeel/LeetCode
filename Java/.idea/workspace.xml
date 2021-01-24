@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0226_Invert_Binary_Tree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0226_Invert_Binary_Tree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0226_Invert_Binary_Tree/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0226_Invert_Binary_Tree/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0154_Find_Minimum_in_Rotated_Sorted_Array_II" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -160,13 +159,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0202_Happy_Number.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0234_Palindrome_Linked_List.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0202_Happy_Number.*" />
+          <option name="PATTERN" value="_0234_Palindrome_Linked_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,21 +215,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0203_Remove_Linked_List_Elements.Solution4" />
-      <module name="Java" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0203_Remove_Linked_List_Elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="statistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statistics" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution4" />
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution4 (1)" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.statistics" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.statistics" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution4 (1)" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +717,7 @@
       <workItem from="1611279889716" duration="1258000" />
       <workItem from="1611294977290" duration="10049000" />
       <workItem from="1611363711967" duration="30177000" />
-      <workItem from="1611449863818" duration="14241000" />
+      <workItem from="1611449863818" duration="14572000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -970,25 +963,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611470168498" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1611472201968">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1611473461480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611472201968" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611473461480" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611458947734" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1611472201967">
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1611473461480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611472201967" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611473461480" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611458947734" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1611472201967">
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1611473461480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611472201967" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611473461480" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611458947734" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1611472201967">
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1611473461480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611472201967" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611473461480" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611458947734" />
     <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1611418533188">
       <screen x="0" y="0" width="1920" height="1040" />
