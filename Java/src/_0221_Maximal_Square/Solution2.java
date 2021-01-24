@@ -17,20 +17,18 @@ package _0221_Maximal_Square;
  * 对比 Leetcode 1277. 统计全为 1 的正方形子矩阵
  */
 public class Solution2 {
+
     public int maximalSquare(char[][] matrix) {
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
-            return 0;
+
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
         int maxEdge = 0;
-        int M = matrix.length;
-        int N = matrix[0].length;
+        int M = matrix.length, N = matrix[0].length;
         int[][] dp = new int[M][N];
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
                 if (matrix[i][j] == '1') {
-                    if (i == 0 || j == 0)
-                        dp[i][j] = 1;
-                    else
-                        dp[i][j] =Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1])) + 1;
+                    if (i == 0 || j == 0) dp[i][j] = 1;
+                    else dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1])) + 1;
                     maxEdge = Math.max(maxEdge, dp[i][j]);
                 }
             }
@@ -40,6 +38,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         char[][] matrix = {
                 {'1', '0', '1', '0', '0'},
                 {'1', '0', '1', '1', '1'},
