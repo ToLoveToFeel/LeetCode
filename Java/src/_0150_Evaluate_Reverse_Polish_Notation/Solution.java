@@ -5,47 +5,47 @@ import java.util.Deque;
 
 /**
  * Date: 2020/9/27 19:26
- * Content:
- * 栈
+ * Content: 栈
+ * 执行用时：6 ms, 在所有 Java 提交中击败了88.34%的用户
+ * 内存消耗：38.2 MB, 在所有 Java 提交中击败了48.23%的用户
  */
 public class Solution {
+
     private boolean isOperator(String s) {
+
         return s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/");
     }
 
-    private int calculate(int num1, int num2, String operator) {
+    private int calculate(int x, int y, String operator) {
         int res = 0;
-        if (operator.equals("+"))
-            res = num2 + num1;
-        else if (operator.equals("-"))
-            res = num2 - num1;
-        else if (operator.equals("*"))
-            res = num2 * num1;
-        else
-            res = num2 / num1;
+
+        if (operator.equals("+")) res = y + x;
+        else if (operator.equals("-")) res = y - x;
+        else if (operator.equals("*")) res = y * x;
+        else res = y / x;
+
         return res;
     }
 
     public int evalRPN(String[] tokens) {
-        int index = 0;  // 记录考察到的 token 中数据的索引
-        Deque<Integer> stack = new ArrayDeque<>();
 
-        stack.push(Integer.valueOf(tokens[index++]));
-        while (index < tokens.length) {
-            if (isOperator(tokens[index])) {
-                int num1 = stack.pop();
-                int num2 = stack.pop();
-                stack.push(calculate(num1, num2, tokens[index]));
-            } else {
-                stack.push(Integer.valueOf(tokens[index]));
-            }
-            index++;
+        int i = 0;  // 记录考察到的 token 中数据的索引
+        Deque<Integer> stk = new ArrayDeque<>();
+
+        stk.push(Integer.valueOf(tokens[i++]));
+        while (i < tokens.length) {
+            if (isOperator(tokens[i])) {
+                int x = stk.pop(), y = stk.pop();
+                stk.push(calculate(x, y, tokens[i]));
+            } else stk.push(Integer.valueOf(tokens[i]));
+            i++;
         }
 
-        return stack.pop();
+        return stk.pop();
     }
 
     public static void main(String[] args) {
+
 //        String[] tokens = {"2", "1", "+", "3", "*"};  // 9
 //        String[] tokens = {"4", "13", "5", "/", "+"};  // 6
         String[] tokens = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};  // 22
