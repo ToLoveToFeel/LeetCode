@@ -10,17 +10,17 @@ public class Solution {
 
     public int addDigits(int num) {
 
-        int newNum = num;
-        while (newNum >= 10) {  // 新生成的数据不是一位数
-            newNum = 0;
+        int res = num;
+        while (res >= 10) {  // 新生成的数据不是一位数
+            res = 0;
             while (num > 0) {
-                newNum += (num % 10);
+                res += (num % 10);
                 num /= 10;
             }
-            num = newNum;
+            num = res;
         }
 
-        return newNum;
+        return res;
     }
 
     public static void main(String[] args) {
