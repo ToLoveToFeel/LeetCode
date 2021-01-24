@@ -10,21 +10,15 @@ class Solution {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (t < 0)
-            return false;
+        if (t < 0) return false;
 
         TreeSet<Long> record = new TreeSet<>();
-
         for (int i = 0; i < nums.length; i++) {
             long num1 = (long) nums[i] - (long) t;
             long num2 = (long) nums[i] + (long) t;
-
             // record.ceiling(num1) : 返回大于或等于 num1 的最小键
-            if (record.ceiling(num1) != null && record.ceiling(num1) <= num2)
-                return true;
-
+            if (record.ceiling(num1) != null && record.ceiling(num1) <= num2) return true;
             record.add((long) nums[i]);
-
             if (record.size() == k + 1)  // 保证滑动窗口长度始终为k，有k+1个元素
                 record.remove((long) nums[i - k]);
         }

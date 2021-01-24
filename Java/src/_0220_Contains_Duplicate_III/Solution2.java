@@ -17,8 +17,7 @@ public class Solution2 {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (t < 0)
-            return false;
+        if (t < 0) return false;
 
         HashMap<Long, Long> buckets = new HashMap<>();
         long w = (long) t + (long) 1;  // 一个桶里边数字范围的个数是 t + 1
@@ -30,25 +29,15 @@ public class Solution2 {
 
             long num = nums[i];
             long id = getID(num, w);
-
             // 检查编号为id的桶是否为空，每个桶最多有一个元素，如果存在两个元素的话，直接返回 true
-            if (buckets.containsKey(id))
-                return true;
-
+            if (buckets.containsKey(id)) return true;
             // 检查相邻的两个桶
-            if (buckets.containsKey(id - 1) &&
-                    buckets.get(id - 1) >= num - (long) t)
-                return true;
-            if (buckets.containsKey(id + 1) &&
-                    buckets.get(id + 1) <= num + (long) t)
-                return true;
-
+            if (buckets.containsKey(id - 1) && buckets.get(id - 1) >= num - (long) t) return true;
+            if (buckets.containsKey(id + 1) && buckets.get(id + 1) <= num + (long) t) return true;
             // 此时说明，编号为id的桶为空，并且相邻的两个桶也满足条件
             buckets.put(id, num);
-            if (buckets.size() == k + 1)
-                buckets.remove(getID(nums[i - k], w));
+            if (buckets.size() == k + 1) buckets.remove(getID(nums[i - k], w));
         }
-
         return false;
     }
 
