@@ -6,6 +6,8 @@ import java.util.Arrays;
  * 时间复杂度：O(n)
  * 空间复杂度：O(n)
  * 完全背包问题
+ * 执行用时：44 ms, 在所有 Java 提交中击败了47.00%的用户
+ * 内存消耗：37.6 MB, 在所有 Java 提交中击败了58.43%的用户
  */
 public class Solution3 {
 
