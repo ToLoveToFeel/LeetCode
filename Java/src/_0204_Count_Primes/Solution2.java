@@ -34,7 +34,6 @@ public class Solution2 {
             if (isPrime[i])
                 res++;
         }
-
         return res;
     }
 

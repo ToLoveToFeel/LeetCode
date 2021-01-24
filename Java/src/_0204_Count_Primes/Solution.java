@@ -12,8 +12,8 @@ public class Solution {
     // 判断 num 是否为素数
     private boolean isPrime(int num) {
 
-        int maxDivisor = (int) Math.sqrt(num);
-        for (int i = 2; i <= maxDivisor; i++) {
+        int t = (int) Math.sqrt(num);
+        for (int i = 2; i <= t; i++) {
             if (num % i == 0)
                 return false;
         }
@@ -21,8 +21,8 @@ public class Solution {
     }
 
     public int countPrimes(int n) {
-        if (n == 0 || n == 1)
-            return 0;
+
+        if (n == 0 || n == 1) return 0;
 
         int res = 0;
         for (int num = 2; num < n; num++) {
