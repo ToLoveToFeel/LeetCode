@@ -5,21 +5,19 @@ package _0191_Number_of_1_Bits;
  * Content:
  */
 public class Solution {
-    private static final int MASK = 1;
 
-    // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
+
         int res = 0;
         for (int i = 0; i < 32; i++) {
-            if ((n & MASK) == 1)
+            if ((n >> i & 1) == 1)
                 res++;
-            n >>= 1;
         }
         return res;
     }
 
     public static void main(String[] args) {
-        System.out.println((new Solution()).hammingWeight(13));
-        System.out.println((new Solution()).hammingWeight(-3));
+        System.out.println((new Solution()).hammingWeight(13));  // 3
+        System.out.println((new Solution()).hammingWeight(-3));  // 31
     }
 }

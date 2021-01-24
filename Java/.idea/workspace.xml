@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +151,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0154_Find_Minimum_in_Rotated_Sorted_Array_II" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -175,13 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0674_Longest_Continuous_Increasing_Subsequence.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0191_Number_of_1_Bits.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0674_Longest_Continuous_Increasing_Subsequence.*" />
+          <option name="PATTERN" value="_0191_Number_of_1_Bits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,19 +261,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +723,7 @@
       <workItem from="1611279889716" duration="1258000" />
       <workItem from="1611294977290" duration="10049000" />
       <workItem from="1611363711967" duration="30177000" />
-      <workItem from="1611449863818" duration="7910000" />
+      <workItem from="1611449863818" duration="8748000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
