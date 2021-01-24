@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Date: 2020/10/4 8:55
  * Content: 埃拉托色尼筛选法
+ * 时间复杂度：O(n*log(log(n)))
  * 执行用时：19 ms, 在所有 Java 提交中击败了71.05%的用户
  * 内存消耗：36.8 MB, 在所有 Java 提交中击败了71.80%的用户
  */
@@ -15,14 +16,14 @@ public class Solution2 {
         n--;
         boolean[] st = new boolean[n + 5];
         Arrays.fill(st, false);
-        int res = 0;
+        int cnt = 0;
         for (int i = 2; i <= n; i++) {
             if (!st[i]) {
-                res++;
+                cnt++;
                 for (int j = i + i; j <= n; j += i) st[j] = true;
             }
         }
-        return res;
+        return cnt;
     }
 
     public static void main(String[] args) {
