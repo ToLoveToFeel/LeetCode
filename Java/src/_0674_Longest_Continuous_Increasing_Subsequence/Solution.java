@@ -13,12 +13,12 @@ public class Solution {
 
     public int findLengthOfLCIS(int[] nums) {
 
-        int res = 0, i = 0;
-        while (i < nums.length) {
-            int j = i;
+        int res = 0;
+        for (int i = 0, j = 0; i < nums.length; i++) {
+            j = i;
             while (j + 1 < nums.length && nums[j] < nums[j + 1]) j++;
             res = Math.max(res, j - i + 1);
-            i = j + 1;
+            i = j;
         }
         return res;
     }
