@@ -1,36 +1,37 @@
 package _0202_Happy_Number;
 
-import _0076_Minimum_Window_Substring.Solution2;
-
 import java.util.HashSet;
 
+/**
+ * 时间复杂度：O(n * depth)
+ * 空间复杂度：O(depth)
+ */
 public class Solution {
-    // 时间复杂度：O(n * depth)
-    // 空间复杂度：O(depth)
+
     public boolean isHappy(int n) {
-        HashSet<Integer> hashSet = new HashSet<>();
+
+        HashSet<Integer> hash = new HashSet<>();
         int num = nextNumber(n);
-        while (!hashSet.contains(num)){
-            hashSet.add(num);
+        while (!hash.contains(num)) {
+            hash.add(num);
             num = nextNumber(num);
         }
-//        for (Integer e:hashSet)
-//            System.out.println(e);
-        return hashSet.contains(1);
+        return hash.contains(1);
     }
 
-    private int nextNumber(int n){
-        int ret = 0;
-        while (n != 0){
-            int temp = n % 10;
+    private int nextNumber(int n) {
+        int res = 0;
+        while (n != 0) {
+            int t = n % 10;
             n = n / 10;
-            ret += temp * temp;
+            res += t * t;
         }
-        return ret;
+        return res;
     }
 
     public static void main(String[] args) {
-        System.out.println((new Solution()).isHappy(19));
-        System.out.println((new Solution()).isHappy(2));
+
+        System.out.println((new Solution()).isHappy(19));  // true
+        System.out.println((new Solution()).isHappy(2));  // false
     }
 }
