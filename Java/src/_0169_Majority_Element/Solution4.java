@@ -20,15 +20,13 @@ public class Solution4 {
 
     private int majorityElementRec(int[] nums, int left, int right) {
 
-        if (left == right)
-            return nums[left];
+        if (left == right) return nums[left];
 
         int mid = (right - left) / 2 + left;
         int leftMajorityNum = majorityElementRec(nums, left, mid);
         int rightMajorityNum = majorityElementRec(nums, mid + 1, right);
 
-        if (leftMajorityNum == rightMajorityNum)
-            return leftMajorityNum;
+        if (leftMajorityNum == rightMajorityNum) return leftMajorityNum;
 
         int leftCount = countInRange(nums, leftMajorityNum, left, mid);
         int rightCount = countInRange(nums, rightMajorityNum, mid + 1, right);

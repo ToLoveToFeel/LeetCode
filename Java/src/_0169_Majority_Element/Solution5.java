@@ -15,15 +15,11 @@ public class Solution5 {
 
         int res = nums[0];
         int count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (count == 0) {
-                res = nums[i];
-            }
+        for (int num : nums) {
+            if (count == 0) res = num;
 
-            if (res == nums[i])
-                count++;
-            else
-                count--;
+            if (res == num) count++;
+            else count--;
         }
 
         return res;
