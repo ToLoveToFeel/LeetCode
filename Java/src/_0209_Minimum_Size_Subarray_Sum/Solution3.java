@@ -1,7 +1,7 @@
 package _0209_Minimum_Size_Subarray_Sum;
 
 /**
- * 前缀和：优化Solution的空间
+ * 前缀和：优化Solution2的空间
  * 时间复杂度：O(n^2)
  * 空间复杂度：O(1)
  */
@@ -9,9 +9,6 @@ package _0209_Minimum_Size_Subarray_Sum;
 public class Solution3 {
 
     public int minSubArrayLen(int s, int[] nums) {
-
-        if (s <= 0 || nums == null)
-            throw new IllegalArgumentException("Illigal Arguments");
 
         int length = nums.length + 1;
         for (int l = 0; l < nums.length; l++) {
@@ -24,7 +21,6 @@ public class Solution3 {
                 }
             }
         }
-
         return length == nums.length + 1 ? 0 : length;
     }
 

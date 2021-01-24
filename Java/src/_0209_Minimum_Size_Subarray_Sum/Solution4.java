@@ -9,9 +9,6 @@ public class Solution4 {
 
     public int minSubArrayLen(int s, int[] nums) {
 
-        if (s < 0 || null == nums)
-            throw new IllegalArgumentException("Illigal Arguments");
-
         int[] sums = new int[nums.length + 1];  // sums[i]代表nums[0...i)的和
         sums[0] = 0;
         for (int i = 1; i <= nums.length; i++)
@@ -51,7 +48,6 @@ public class Solution4 {
         int[] numbers = {2, 3, 1, 2, 4, 3};
 //        int[] numbers = {5, 1, 3, 5, 10, 7, 4, 9, 2, 8};
         int s = 7;
-
         System.out.println((new Solution4()).minSubArrayLen(s, numbers));
     }
 
