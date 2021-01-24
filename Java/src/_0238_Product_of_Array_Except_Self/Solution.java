@@ -8,12 +8,14 @@ package _0238_Product_of_Array_Except_Self;
  * 前缀之积：    1,  2,  6,  24
  * 后缀之积：    60, 20, 5,  1
  * 结果：       60, 40, 30, 24
- *
+ * <p>
  * 时间复杂度：O(3n) = O(n)
  * 空间复杂度：O(3n) = O(n)
  */
 public class Solution {
+
     public int[] productExceptSelf(int[] nums) {
+
         int[] prefix = new int[nums.length];  // 存储前缀之积
         int[] suffix = new int[nums.length];  // 存储后缀之积
 
