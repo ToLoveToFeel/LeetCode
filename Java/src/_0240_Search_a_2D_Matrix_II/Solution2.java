@@ -2,15 +2,14 @@ package _0240_Search_a_2D_Matrix_II;
 
 /**
  * Date: 2020/10/13 10:03
- * Content:
- * 二分法
+ * Content: 二分法
  */
 public class Solution2 {
+
     public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix.length == 0)
-            return false;
-        if (matrix[0].length == 0)
-            return false;
+
+        if (matrix.length == 0) return false;
+        if (matrix[0].length == 0) return false;
 
         // 寻找第一行中最后一个小于 target 的数据的索引
         int indexJ = Integer.MIN_VALUE;
@@ -20,8 +19,7 @@ public class Solution2 {
                 break;
             }
         }
-        if (indexJ == Integer.MIN_VALUE)
-            indexJ = matrix[0].length - 1;
+        if (indexJ == Integer.MIN_VALUE) indexJ = matrix[0].length - 1;
 
         // 寻找第一列中最后一个小于 target 的数据的索引
         int indexI = Integer.MIN_VALUE;
@@ -31,8 +29,7 @@ public class Solution2 {
                 break;
             }
         }
-        if (indexI == Integer.MIN_VALUE)
-            indexI = matrix.length - 1;
+        if (indexI == Integer.MIN_VALUE) indexI = matrix.length - 1;
 
         // 在 matrix[indexI][indexJ] 中寻找 target
         if (indexI < indexJ) {  // 按照行对每一行进行二分查找
@@ -40,13 +37,10 @@ public class Solution2 {
                 int l = 0, r = indexJ;  // 在 matrix[i][l...r] 中搜索 target
                 while (l <= r) {
                     int mid = (r - l) / 2 + l;
-                    if (target == matrix[i][mid])
-                        return true;
+                    if (target == matrix[i][mid]) return true;
 
-                    if (target > matrix[i][mid])
-                        l = mid + 1;
-                    else
-                        r = mid - 1;
+                    if (target > matrix[i][mid]) l = mid + 1;
+                    else r = mid - 1;
                 }
             }
         } else {  // 按照列对每一行进行二分查找
@@ -54,13 +48,10 @@ public class Solution2 {
                 int l = 0, r = indexI;  // 在 matrix[l...r][j] 中搜索 target
                 while (l <= r) {
                     int mid = (r - l) / 2 + l;
-                    if (target == matrix[mid][j])
-                        return true;
+                    if (target == matrix[mid][j]) return true;
 
-                    if (target > matrix[mid][j])
-                        l = mid + 1;
-                    else
-                        r = mid - 1;
+                    if (target > matrix[mid][j]) l = mid + 1;
+                    else r = mid - 1;
                 }
             }
         }
