@@ -9,19 +9,15 @@ import java.util.HashSet;
  */
 public class Solution2 {
 
+    // k = 2，滑动窗口中最多3个元素
     public boolean containsNearbyDuplicate(int[] nums, int k) {
 
         HashSet<Integer> record = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
-            if (record.contains(nums[i]))
-                return true;
-
+            if (record.contains(nums[i])) return true;
             record.add(nums[i]);
-
-            if (record.size() == k + 1)  // 保证滑动窗口长度始终为k，有k+1个元素
-                record.remove(nums[i - k]);
+            if (record.size() == k + 1) record.remove(nums[i - k]);
         }
-
         return false;
     }
 
