@@ -3,6 +3,8 @@ package _0191_Number_of_1_Bits;
 /**
  * Date: 2020/10/4 9:45
  * Content:
+ * 执行用时：1 ms, 在所有 Java 提交中击败了95.44%的用户
+ * 内存消耗：35.4 MB, 在所有 Java 提交中击败了44.14%的用户
  */
 public class Solution {
 
