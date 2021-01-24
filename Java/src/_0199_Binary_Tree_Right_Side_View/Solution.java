@@ -10,22 +10,22 @@ public class Solution {
     public List<Integer> rightSideView(TreeNode root) {
 
         ArrayList<Integer> res = new ArrayList<>();
-        if (null == root) return res;
+        if (root == null) return res;
 
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
         int levelNum = 1;  // 当前层节点数
-        while (!queue.isEmpty()) {
+        while (!q.isEmpty()) {
             int newLevelNum = 0;
             for (int i = 0; i < levelNum; i++) {  // 遍历当前层所有节点
-                TreeNode node = queue.remove();
+                TreeNode node = q.remove();
 
                 if (null != node.left) {
-                    queue.add(node.left);
+                    q.add(node.left);
                     newLevelNum++;
                 }
                 if (null != node.right) {
-                    queue.add(node.right);
+                    q.add(node.right);
                     newLevelNum++;
                 }
                 if (levelNum - 1 == i)  // 遍历到最后一个节点
@@ -45,7 +45,6 @@ public class Solution {
                 2, 3,
                 nu, 5, nu, 4,
         };
-
         TreeNode root = (new MyTree(nums)).getRoot();
         System.out.println((new Solution()).rightSideView(root));
     }
