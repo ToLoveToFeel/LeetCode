@@ -23,13 +23,12 @@ public class Solution2 {
     }
 
     private int countNodes(TreeNode root, int leftDepth) {
-        if (root == null)
-            return 0;
 
+        if (root == null) return 0;
         int rightDepth = countLevel(root.right);
         if (leftDepth == rightDepth) {
             // 左子树深度等于右子树深度, 则左子树是满二叉树
-            // 满二叉树如果深度为 h(从0开始), 则节点个数为 2^h-1
+            // 满二叉树如果深度为 h(从1开始), 则节点个数为 2^h-1
             // 再加上根节点，一共 2^h-1+1=2^h 个节点
             return countNodes(root.right, rightDepth - 1) + (1 << leftDepth);
         } else {
@@ -40,9 +39,7 @@ public class Solution2 {
 
     public int countNodes(TreeNode root) {
 
-        if (root == null)
-            return 0;
-
+        if (root == null) return 0;
         int leftDepth = countLevel(root.left);
         return countNodes(root, leftDepth);
     }
@@ -55,9 +52,7 @@ public class Solution2 {
                 2, 3,
                 4, 5, 6, nu
         };
-
         TreeNode root = (new MyTree(nums)).getRoot();
-
         System.out.println((new Solution2()).countNodes(root));
     }
 }

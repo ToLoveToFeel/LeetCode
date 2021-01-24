@@ -34,9 +34,7 @@ public class Solution {
                 2, 3,
                 4, 5, 6, nu
         };
-
         TreeNode root = (new MyTree(nums)).getRoot();
-
         System.out.println((new Solution()).countNodes(root));
     }
 }
