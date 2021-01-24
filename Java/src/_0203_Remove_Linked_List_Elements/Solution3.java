@@ -23,8 +23,8 @@ public class Solution3 {
         ListNode head = myLinkedList.getHead();
         System.out.println(myLinkedList);
         // 删除元素
-        (new Solution3()).removeElements(head, 6);
+        head = (new Solution3()).removeElements(head, 6);
         // 输出链表
-        System.out.println(myLinkedList);
+        MyLinkedList.printLinkedList(head);
     }
 }

@@ -10,14 +10,14 @@ public class Solution4 {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 2, 6, 3, 4, 5, 6};
+        int[] nums = {6, 2, 6, 3, 4, 5, 6};
         // 创建链表
         MyLinkedList myLinkedList = new MyLinkedList(nums);
         ListNode head = myLinkedList.getHead();
         System.out.println(myLinkedList);
         // 删除元素
-        (new Solution4()).removeElements(head, 6);
+        head = (new Solution4()).removeElements(head, 6);
         // 输出链表
-        System.out.println(myLinkedList);
+        MyLinkedList.printLinkedList(head);
     }
 }

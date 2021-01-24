@@ -22,7 +22,7 @@ public class MyLinkedList {
 
     // 创建链表
     public ListNode createLinkedList(int[] nums) {
-        if (0 == nums.length)
+        if (nums.length == 0)
             return null;
 
         ListNode head = new ListNode(nums[0]);
@@ -41,7 +41,7 @@ public class MyLinkedList {
     }
 
     // 打印链表
-    public void printLinkedList(ListNode head) {
+    public static void printLinkedList(ListNode head) {
         ListNode curNode = head;
         while (null != curNode) {
             System.out.print(curNode.val);
