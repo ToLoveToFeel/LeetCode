@@ -78,3 +78,4 @@ add_executable(_0674_main _0674_Longest_Continuous_Increasing_Subsequence/_0674_
 add_executable(_0959_main _0959_Regions_Cut_By_Slashes/_0959_main.cpp)
 add_executable(_0091_main _0091_Decode_Ways/_0091_main.cpp)
 add_executable(_0092_main _0092_Reverse_Linked_List_II/_0092_main.cpp)
+add_executable(_0093_main _0093_Restore_IP_Addresses/_0093_main.cpp)
