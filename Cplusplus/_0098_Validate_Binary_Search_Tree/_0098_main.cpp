@@ -1,6 +1,10 @@
 // Created by WXX on 2021/1/25 16:48
 #include "MyTree.h"
 
+/**
+ * 执行用时：16 ms, 在所有 C++ 提交中击败了70.01%的用户
+ * 内存消耗：25.8 MB, 在所有 C++ 提交中击败了5.12%的用户
+ */
 class Solution {
 public:
     bool isValidBST(TreeNode *root) {
