@@ -3,44 +3,35 @@ package _0092_Reverse_Linked_List_II;
 /**
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36.1 MB, 在所有 Java 提交中击败了33.86%的用户
  */
 public class Solution {
 
-    public ListNode left = new ListNode(0);  // 第 n+1 个结点
-
     public ListNode reverseBetween(ListNode head, int m, int n) {
-        ListNode dummyHead = new ListNode(0);
-        dummyHead.next = head;
 
-        ListNode pre = dummyHead;
-        for (int i = 0; i < m - 1; i++, pre = pre.next) ;
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
 
-        ListNode tail = pre.next;  // 翻转后链表的结尾
-
-        // 将反转后的链表接入原本链表中
-        pre.next = reverse(pre.next, n - m);
-        tail.next = left;
-
-        return dummyHead.next;
-    }
-
-    // 返回反转后链表头指针
-    private ListNode reverse(ListNode head, int index) {
-        if (index == 0) {
-            left = head.next;
-            return head;
+        ListNode a = dummy;
+        for (int i = 0; i < m - 1; i++) a = a.next;
+        ListNode b = a.next, c = b.next;
+        for (int i = 0; i < n - m; i++) {
+            ListNode t = c.next;
+            c.next = b;
+            b = c;
+            c = t;
         }
+        a.next.next = c;
+        a.next = b;
 
-        ListNode ret = reverse(head.next, index - 1);
-        head.next.next = head;
-
-        return ret;
+        return dummy.next;
     }
 
     public static void main(String[] args) {
+
         int[] arr = {1, 2, 3, 4, 5};
         Solution solution = new Solution();
-
         // 创建链表，获取链表头结点
         ListNode head = (new MyLinkedList(new int[]{1, 2, 3, 4, 5})).getHead();
         // 翻转链表
