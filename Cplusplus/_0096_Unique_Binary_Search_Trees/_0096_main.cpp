@@ -12,7 +12,7 @@ class Solution {
 public:
     int numTrees(int n) {
 
-        // f[i]: 表示一共i个不同的节点可以组成的数的个数
+        // f[i]: 表示一共i个不同的节点可以组成的二叉搜索树的个数
         vector<int> f(n + 1);
         f[0] = 1;
         for (int i = 1; i <= n; i++)
