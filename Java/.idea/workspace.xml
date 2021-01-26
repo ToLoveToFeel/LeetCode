@@ -112,7 +112,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0959_Regions_Cut_By_Slashes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1128_Number_of_Equivalent_Domino_Pairs" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -124,15 +124,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0959_Regions_Cut_By_Slashes" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0257_Binary_Tree_Paths" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0237_Delete_Node_in_a_Linked_List" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0166_Fraction_to_Recurring_Decimal" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0165_Compare_Version_Numbers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -141,12 +138,15 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1128_Number_of_Equivalent_Domino_Pairs" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0959_Regions_Cut_By_Slashes" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0257_Binary_Tree_Paths" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0237_Delete_Node_in_a_Linked_List" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0166_Fraction_to_Recurring_Decimal" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (4)">
@@ -725,7 +725,7 @@
       <workItem from="1611539227175" duration="2973000" />
       <workItem from="1611551298483" duration="6138000" />
       <workItem from="1611560345070" duration="6161000" />
-      <workItem from="1611626665014" duration="1187000" />
+      <workItem from="1611626665014" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
