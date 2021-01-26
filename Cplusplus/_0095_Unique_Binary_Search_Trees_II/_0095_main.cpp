@@ -20,10 +20,10 @@ public:
 
         for (int i = l; i <= r; i++) {
             auto left = dfs(l, i - 1), right = dfs(i + 1, r);
-            for (auto l : left)
-                for (auto r : right) {
+            for (auto a : left)
+                for (auto b : right) {
                     auto root = new TreeNode(i);
-                    root->left = l, root->right = r;
+                    root->left = a, root->right = b;
                     res.push_back(root);
                 }
         }
