@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了46.88%的用户
+ * 内存消耗：6.5 MB, 在所有 C++ 提交中击败了82.73%的用户
+ */
 class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
