@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cplusplus/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -728,7 +727,7 @@
       <workItem from="1611539227175" duration="2973000" />
       <workItem from="1611551298483" duration="6138000" />
       <workItem from="1611560345070" duration="6161000" />
-      <workItem from="1611626665014" duration="8894000" />
+      <workItem from="1611626665014" duration="9464000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
