@@ -14,26 +14,15 @@ public class Solution {
 
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        int levelNum = 1;  // 当前层节点数
         while (!q.isEmpty()) {
-            int newLevelNum = 0;
-            for (int i = 0; i < levelNum; i++) {  // 遍历当前层所有节点
+            int len = q.size();
+            for (int i = 0; i < len; i++) {  // 遍历当前层所有节点
                 TreeNode node = q.remove();
-
-                if (null != node.left) {
-                    q.add(node.left);
-                    newLevelNum++;
-                }
-                if (null != node.right) {
-                    q.add(node.right);
-                    newLevelNum++;
-                }
-                if (levelNum - 1 == i)  // 遍历到最后一个节点
-                    res.add(node.val);
+                if (node.left != null) q.add(node.left);
+                if (node.right != null) q.add(node.right);
+                if (i == len - 1) res.add(node.val);
             }
-            levelNum = newLevelNum;
         }
-
         return res;
     }
 
