@@ -4,20 +4,6 @@
 
 using namespace std;
 
-int find(int p[], int x) {
-    if (p[x] != x) p[x] = find(p, p[x]);
-    return p[x];
-}
-
-bool merge(int p[], int a, int b) {
-    a = find(p, a), b = find(p, b);
-    if (a != b) {
-        p[a] = b;
-        return true;
-    }
-    return false;
-}
-
 // 优先保留第三种类型的边，可以让删除的边最多
 /**
  * 执行用时：820 ms, 在所有 C++ 提交中击败了75.00%的用户
@@ -41,7 +27,7 @@ public:
             }
         }
 
-        // 考虑第一、二种的边
+        // 考虑第一、二种类型的边
         for (auto e : edges) {
             if (e[0] == 1) {
                 if (merge(p1, e[1], e[2])) cnt1--;
@@ -54,6 +40,20 @@ public:
 
         if (cnt1 != 1 || cnt2 != 1) return -1;  // 说明Alice或者Bob不连通
         return res;
+    }
+
+    int find(int p[], int x) {
+        if (p[x] != x) p[x] = find(p, p[x]);
+        return p[x];
+    }
+
+    bool merge(int p[], int a, int b) {
+        a = find(p, a), b = find(p, b);
+        if (a != b) {
+            p[a] = b;
+            return true;
+        }
+        return false;
     }
 };
 
