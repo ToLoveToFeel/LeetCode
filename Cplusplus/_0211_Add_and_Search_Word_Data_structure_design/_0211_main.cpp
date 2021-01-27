@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：156 ms, 在所有 C++ 提交中击败了48.30%的用户
+ * 内存消耗：103.1 MB, 在所有 C++ 提交中击败了13.41%的用户
+ */
 class WordDictionary {
 public:
     struct Node {
@@ -38,7 +42,7 @@ public:
 
     // 返回以p为根的trie树中是否存在字符串word[i...)
     bool dfs(Node *p, string word, int i) {
-        if (i == word.size()) return true;
+        if (i == word.size()) return p->is_end;
         if (word[i] != '.') {
             int u = word[i] - 'a';
             if (!p->son[u]) return false;
