@@ -109,3 +109,4 @@ add_executable(_1579_main _1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully_T
 add_executable(_0205_main _0205_Isomorphic_Strings/_0205_main.cpp)
 add_executable(_0206_main _0206_Reverse_Linked_List/_0206_main.cpp)
 add_executable(_0206_main2 _0206_Reverse_Linked_List/_0206_main2.cpp)
+add_executable(_0207_main _0207_Course_Schedule/_0207_main.cpp)
