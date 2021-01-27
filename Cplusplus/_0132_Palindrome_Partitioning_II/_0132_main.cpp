@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：28 ms, 在所有 C++ 提交中击败了85.90%的用户
+ * 内存消耗：7.1 MB, 在所有 C++ 提交中击败了82.55%的用户
+ */
 class Solution {
 public:
     int minCut(string s) {
