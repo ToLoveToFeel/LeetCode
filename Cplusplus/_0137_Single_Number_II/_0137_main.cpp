@@ -5,6 +5,10 @@
 using namespace std;
 
 // 该类题目套路：真值表化简(数字电路)，了解即可
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了99.51%的用户
+ * 内存消耗：9.2 MB, 在所有 C++ 提交中击败了97.59%的用户
+ */
 class Solution {
 public:
     int singleNumber(vector<int> &nums) {
