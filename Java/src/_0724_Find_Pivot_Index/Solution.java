@@ -2,19 +2,21 @@ package _0724_Find_Pivot_Index;
 
 /**
  * Date: 2020/9/18 10:39
- * Content:
+ * Content: 暴力解法
  */
 public class Solution {
+
     private int[] sum;  // sum[i]存储前i个元素和， sum[0] = 0，sum[i] = sum( [0...i) )
 
     // nums[i...j]之和
     private int sumRange(int i, int j) {
-        if (i > j)
-            return 0;
+
+        if (i > j) return 0;
         return sum[j + 1] - sum[i];
     }
 
     public int pivotIndex(int[] nums) {
+
         sum = new int[nums.length + 1];
         sum[0] = 0;
         for (int i = 1; i <= nums.length; i++)
@@ -28,6 +30,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {1, 7, 3, 6, 5, 6};  // 3
 //        int[] nums = {};  // -1
 //        int[] nums = {1};  // -1

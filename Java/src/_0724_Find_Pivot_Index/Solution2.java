@@ -8,22 +8,20 @@ package _0724_Find_Pivot_Index;
 public class Solution2 {
 
     public int pivotIndex(int[] nums) {
-        int sum = 0;
-        int leftsum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-        }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (leftsum == sum - leftsum - nums[i])
-                return i;
-            leftsum += nums[i];
+        int s = 0;
+        for (int i = 0; i < nums.length; i++) s += nums[i];
+
+        for (int i = 0, ls = 0; i < nums.length; i++) {
+            if (ls == s - ls - nums[i]) return i;
+            ls += nums[i];
         }
         return -1;
     }
 
     public static void main(String[] args) {
+
         int[] nums = {-1, -1, -1, 0, 1, 1};
-        System.out.println((new Solution2()).pivotIndex(nums));
+        System.out.println((new Solution2()).pivotIndex(nums));  // 0
     }
 }
