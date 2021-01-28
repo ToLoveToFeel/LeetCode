@@ -26,6 +26,10 @@ public:
     }
 };
 
+/**
+ * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+ * 内存消耗：8.8 MB, 在所有 C++ 提交中击败了83.25%的用户
+ */
 class Solution {
 public:
 
@@ -37,10 +41,12 @@ public:
         dfs(node);
 
         // 复制所有边
-        for (auto [s, d] : hash) {  // (s, ver) --> (d, hash[ver])
+        for (auto[s, d] : hash) {  // (s, ver) --> (d, hash[ver])
             for (auto ver : s->neighbors)
                 d->neighbors.push_back(hash[ver]);
         }
+
+        return hash[node];
     }
 
     void dfs(Node *node) {
