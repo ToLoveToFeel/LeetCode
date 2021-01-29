@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +151,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully_Traversable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.statistics">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -164,20 +166,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0137_Single_Number_II.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully_Traversable.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1579_Remove_Max_Number_of_Edges_to_Keep_Graph_Fully_Traversable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,6 +221,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="statistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statistics" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -259,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.statistics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.statistics" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -727,7 +723,7 @@
       <workItem from="1611560345070" duration="6161000" />
       <workItem from="1611626665014" duration="12548000" />
       <workItem from="1611711238847" duration="9097000" />
-      <workItem from="1611801219405" duration="2664000" />
+      <workItem from="1611801219405" duration="3923000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -974,26 +970,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611492278956" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1611803969055">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1611837349522">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611801915709" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611803969055" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1611803969055">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611837349522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1611837349522">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611801915709" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611803969055" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1611803969055">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611837349522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1611837349522">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611801915709" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611803969055" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1611803969055">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611837349522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1611837349522">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611801915709" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611803969055" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611837349522" />
     <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1611418533188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

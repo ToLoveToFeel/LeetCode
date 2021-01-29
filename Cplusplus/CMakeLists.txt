@@ -117,3 +117,4 @@ add_executable(_0211_main _0211_Add_and_Search_Word_Data_structure_design/_0211_
 add_executable(_0212_main _0212_Word_Search_II/_0212_main.cpp)
 add_executable(_0213_main _0213_House_Robber_II/_0213_main.cpp)
 add_executable(_0724_main _0724_Find_Pivot_Index/_0724_main.cpp)
+add_executable(_1631_main _1631_Path_With_Minimum_Effort/_1631_main.cpp)
