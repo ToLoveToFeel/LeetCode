@@ -16,6 +16,10 @@ public:
     }
 };
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了99.87%的用户
+ * 内存消耗：10.9 MB, 在所有 C++ 提交中击败了99.24%的用户
+ */
 class Solution {
 public:
     Node *copyRandomList(Node *head) {
