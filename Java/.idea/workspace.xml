@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +114,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0138_Copy_List_with_Random_Pointer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0139_Word_Break" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -124,15 +126,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0138_Copy_List_with_Random_Pointer" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0137_Single_Number_II" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0133_Clone_Graph" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0132_Palindrome_Partitioning_II" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0131_Palindrome_Partitioning" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -141,15 +140,18 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0139_Word_Break" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0138_Copy_List_with_Random_Pointer" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0137_Single_Number_II" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0133_Clone_Graph" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0132_Palindrome_Partitioning_II" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.statistics">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -171,13 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0132_Palindrome_Partitioning_II.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0139_Word_Break.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0132_Palindrome_Partitioning_II.*" />
+          <option name="PATTERN" value="_0139_Word_Break.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0131_Palindrome_Partitioning.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0132_Palindrome_Partitioning_II.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0131_Palindrome_Partitioning.*" />
+          <option name="PATTERN" value="_0132_Palindrome_Partitioning_II.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.statistics" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.statistics" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -723,6 +725,7 @@
       <workItem from="1611711238847" duration="9097000" />
       <workItem from="1611801219405" duration="3923000" />
       <workItem from="1611908853985" duration="515000" />
+      <workItem from="1611909396012" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1010,6 +1013,10 @@
     </state>
     <state x="461" y="177" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611539686928" />
     <state x="2381" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611298474479" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611910196869">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1611910196869" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
