@@ -6,6 +6,10 @@
 using namespace std;
 
 // 字符串哈希，动态规划
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了97.14%的用户
+ * 内存消耗：7.5 MB, 在所有 C++ 提交中击败了97.60%的用户
+ */
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
