@@ -13,7 +13,7 @@ public class Solution3 {
 
     public int numSquares(int n) {
 
-        int[] f = new int[n + 1];  // f[i] 代表 i可以由几个完全平方数表示
+        int[] f = new int[n + 1];  // f[i] 代表 i 最少可以由几个完全平方数表示
         Arrays.fill(f, Integer.MAX_VALUE);
         f[0] = 0;
         for (int i = 1; i <= n; i++)
@@ -26,7 +26,7 @@ public class Solution3 {
 
     public static void main(String[] args) {
 
-        System.out.println((new Solution3()).numSquares(12));  // 2
-        System.out.println((new Solution3()).numSquares(13));  // 3
+        System.out.println((new Solution3()).numSquares(12));  // 3
+        System.out.println((new Solution3()).numSquares(13));  // 2
     }
 }
