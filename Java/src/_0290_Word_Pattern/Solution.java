@@ -8,26 +8,22 @@ import java.util.HashMap;
  */
 public class Solution {
 
-    public boolean wordPattern(String pattern, String str) {
+    public boolean wordPattern(String p, String s) {
 
-        String[] strArray = str.split(" ");  // 分割字符串
+        String[] words = s.split(" ");  // 分割字符串
 
-        if (pattern.length() != strArray.length)
-            return false;
+        if (p.length() != words.length) return false;
 
-        HashMap<Character, String> map1 = new HashMap<>();  // (pattern[i], strArray[i])
-        HashMap<String, Character> map2 = new HashMap<>();  // (strArray[i], pattern[i])
+        HashMap<Character, String> pw = new HashMap<>();  // (p[i], words[i])
+        HashMap<String, Character> wp = new HashMap<>();  // (words[i], p[i])
 
-        for (int i = 0; i < pattern.length(); i++) {
-            if (!map1.containsKey(pattern.charAt(i)))  // 不包含键值对(pattern[i], strArray[i])
-                map1.put(pattern.charAt(i), strArray[i]);
-            else if (!map1.get(pattern.charAt(i)).equals(strArray[i]))   // 包含键值对(pattern[i], strArray[i])，但不匹配
-                return false;
-
-            if (!map2.containsKey(strArray[i]))
-                map2.put(strArray[i], pattern.charAt(i));
-            else if (!map2.get(strArray[i]).equals(pattern.charAt(i)))
-                return false;
+        for (int i = 0; i < p.length(); i++) {
+            char a = p.charAt(i);
+            String b = words[i];
+            if (pw.containsKey(a) && !pw.get(a).equals(b)) return false;
+            pw.put(a, b);
+            if (wp.containsKey(b) && wp.get(b) != a) return false;
+            wp.put(b, a);
         }
 
         return true;
@@ -35,9 +31,9 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        System.out.println((new Solution()).wordPattern("abba", "dog cat cat dog"));
-        System.out.println((new Solution()).wordPattern("abba", "dog cat cat fish"));
-        System.out.println((new Solution()).wordPattern("aaaa", "dog cat cat dog"));
-        System.out.println((new Solution()).wordPattern("abba", "dog dog dog dog"));
+        System.out.println((new Solution()).wordPattern("abba", "dog cat cat dog"));  // true
+        System.out.println((new Solution()).wordPattern("abba", "dog cat cat fish"));  // false
+        System.out.println((new Solution()).wordPattern("aaaa", "dog cat cat dog"));  // false
+        System.out.println((new Solution()).wordPattern("abba", "dog dog dog dog"));  // false
     }
 }
