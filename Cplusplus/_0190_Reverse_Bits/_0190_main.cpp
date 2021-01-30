@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+ * 内存消耗：5.6 MB, 在所有 C++ 提交中击败了99.57%的用户
+ */
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
