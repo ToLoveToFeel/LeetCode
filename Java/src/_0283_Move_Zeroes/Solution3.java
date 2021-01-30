@@ -3,20 +3,20 @@ package _0283_Move_Zeroes;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
+ */
 public class Solution3 {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(1)
+
     public void moveZeroes(int[] nums) {
 
         int k = 0;  // nums中，[0...k)的元素均为非零元素
 
         for (int i = 0; i < nums.length; i++)
             if (nums[i] != 0)
-                if (i != k)
-                    swap(nums, k++, i);
-                else
-                    k++;
-
+                if (i != k) swap(nums, k++, i);
+                else k++;
     }
 
     private void swap(int[] arr, int i, int j) {

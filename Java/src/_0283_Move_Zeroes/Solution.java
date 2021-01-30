@@ -4,23 +4,21 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+ */
 class Solution {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(n)
+
     public void moveZeroes(int[] nums) {
 
-        ArrayList<Integer> nonZerosElements = new ArrayList<>();
+        ArrayList<Integer> t = new ArrayList<>();
+        for (int num : nums)
+            if (num != 0)
+                t.add(num);
 
-        for (int i = 0; i < nums.length; i++)
-            if (0 != nums[i])
-                nonZerosElements.add(nums[i]);
-
-        for (int i = 0; i < nonZerosElements.size(); i++)
-            nums[i] = nonZerosElements.get(i);
-
-        for (int i = nonZerosElements.size(); i < nums.length; i++)
-            nums[i] = 0;
-
+        for (int i = 0; i < t.size(); i++) nums[i] = t.get(i);
+        for (int i = t.size(); i < nums.length; i++) nums[i] = 0;
     }
 
     public static void main(String[] args) {
