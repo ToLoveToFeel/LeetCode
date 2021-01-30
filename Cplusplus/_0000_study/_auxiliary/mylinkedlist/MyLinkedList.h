@@ -67,7 +67,7 @@ public:
 };
 
 // 输出函数
-void OutputBasicArray1D(vector<int> &nums) {
+void OutputBasicArray1D(vector<int> nums) {
     cout << "[";
     for (int i = 0; i < nums.size(); i++) {
         cout << nums[i];
@@ -76,7 +76,7 @@ void OutputBasicArray1D(vector<int> &nums) {
     cout << "]" << endl;
 }
 
-void OutputBasicArray2D1(vector<vector<int>> &nums) {
+void OutputBasicArray2D1(vector<vector<int>> nums) {
 
     cout << "[";
     for (int i = 0; i < nums.size(); i++) {
@@ -92,7 +92,7 @@ void OutputBasicArray2D1(vector<vector<int>> &nums) {
     cout << "]" << endl;
 }
 
-void OutputBasicArray2D(vector<vector<int>> &nums) {
+void OutputBasicArray2D(vector<vector<int>> nums) {
 
     cout << "[";
     for (int i = 0; i < nums.size(); i++) {
