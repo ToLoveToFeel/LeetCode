@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：20 ms, 在所有 C++ 提交中击败了98.80%的用户
+ * 内存消耗：13 MB, 在所有 C++ 提交中击败了96.10%的用户
+ */
 class Solution {
 public:
     vector<int> findOrder(int n, vector<vector<int>> &edges) {
