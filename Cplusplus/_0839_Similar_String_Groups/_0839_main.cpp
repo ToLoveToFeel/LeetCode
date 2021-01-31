@@ -22,7 +22,6 @@ public:
     int numSimilarGroups(vector<string> &strs) {
 
         int n = strs.size();
-        cout << n << endl;
         for (int i = 0; i < n; i++) p[i] = i;  // 并查集初始化
         int res = n;
         for (int i = 0; i < n; i++)
