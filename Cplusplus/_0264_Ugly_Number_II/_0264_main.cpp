@@ -5,9 +5,11 @@
 using namespace std;
 
 // 实质：三路归并
+// 设丑数的集合为S，则有 S = 2 * S, S = 3 * S, S = 5 * S
 class Solution {
 public:
     int nthUglyNumber(int n) {
+
         vector<int> q(1, 1);
         for (int i = 0, j = 0, k = 0; q.size() < n;) {
             int t = min(q[i] * 2, min(q[j] * 3, q[k] * 5));
