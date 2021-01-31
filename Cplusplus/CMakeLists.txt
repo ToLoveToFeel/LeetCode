@@ -143,3 +143,4 @@ add_executable(_0297_main _0297_Serialize_and_Deserialize_Binary_Tree/_0297_main
 add_executable(_0299_main _0299_Bulls_and_Cows/_0299_main.cpp)
 add_executable(_0839_main _0839_Similar_String_Groups/_0839_main.cpp)
 add_executable(_0301_main _0301_Remove_Invalid_Parentheses/_0301_main.cpp)
+add_executable(_0303_main _0303_Range_Sum_Query_Immutable/_0303_main.cpp)
