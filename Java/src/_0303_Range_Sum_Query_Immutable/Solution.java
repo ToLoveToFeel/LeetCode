@@ -7,17 +7,15 @@ public class Solution {
         private SegmentTree<Integer> segmentTree;
 
         public NumArray(int[] nums) {
+
             if (nums.length > 0) {
                 Integer[] data = new Integer[nums.length];
-                for (int i = 0; i < nums.length; i++)
-                    data[i] = nums[i];
+                for (int i = 0; i < nums.length; i++) data[i] = nums[i];
                 segmentTree = new SegmentTree<>(data, (a, b) -> a + b);
             }
         }
 
         public int sumRange(int i, int j) {
-            if (segmentTree == null)
-                throw new IllegalArgumentException("Segment Tree is null");
 
             return segmentTree.query(i, j);
         }
@@ -26,7 +24,6 @@ public class Solution {
     public static void main(String[] args) {
 
         int[] nums = {-2, 0, 3, -5, 2, -1};
-
         NumArray array = new NumArray(nums);
         System.out.println(array.sumRange(2, 3));  // -2
     }
