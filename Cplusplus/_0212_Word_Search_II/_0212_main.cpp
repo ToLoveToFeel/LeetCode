@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：420 ms, 在所有 C++ 提交中击败了33.44%的用户
+ * 内存消耗：8.5 MB, 在所有 C++ 提交中击败了81.73%的用户
+ */
 class Solution {
 public:
     struct Node {
@@ -51,7 +55,7 @@ public:
         return res;
     }
 
-    // 从board[i][j]开始搜索以p为根的trie树中的单词
+    // 从board[x][y]开始搜索以p为根的trie树中的单词
     void dfs(int x, int y, Node *p) {
         if (p->id != -1) ids.insert(p->id);
         char t = g[x][y];
