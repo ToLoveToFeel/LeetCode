@@ -125,12 +125,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0260_Single_Number_III" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0212_Word_Search_II" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0210_Course_Schedule_II" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0207_Course_Schedule" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0201_Bitwise_AND_of_Numbers_Range" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -139,15 +142,12 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0212_Word_Search_II" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0210_Course_Schedule_II" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0207_Course_Schedule" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0201_Bitwise_AND_of_Numbers_Range" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0190_Reverse_Bits" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution">
