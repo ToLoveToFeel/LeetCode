@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了96.95%的用户
+ * 内存消耗：9.8 MB, 在所有 C++ 提交中击败了89.78%的用户
+ */
 class Solution {
 public:
     int get(vector<int> &nums, int k, int t) {
