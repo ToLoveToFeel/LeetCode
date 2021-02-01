@@ -12,15 +12,14 @@ public class Solution3 {
 
     public int coinChange(int[] coins, int amount) {
 
-        int n = coins.length;  // 物品的数量，但是每一个物品不限量，可以使用多个
         int C = amount;  // 总价值
         int[] dp = new int[C + 1];
         Arrays.fill(dp, C + 1);
 
         dp[0] = 0;
-        for (int i = 0; i < n; i++)
-            for (int j = coins[i]; j <= C; j++)
-                dp[j] = Math.min(dp[j], dp[j - coins[i]] + 1);
+        for (int v : coins)
+            for (int j = v; j <= C; j++)
+                dp[j] = Math.min(dp[j], dp[j - v] + 1);
 
         return dp[C] == C + 1 ? -1 : dp[C];
     }
