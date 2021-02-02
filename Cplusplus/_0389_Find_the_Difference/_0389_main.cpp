@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了62.97%的用户
+ * 内存消耗：6.4 MB, 在所有 C++ 提交中击败了99.74%的用户
+ */
 class Solution {
 public:
     char findTheDifference(string s, string t) {
