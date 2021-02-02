@@ -6,6 +6,10 @@ using namespace std;
 
 // 实质：三路归并
 // 设丑数的集合为S，则有 S = 2 * S, S = 3 * S, S = 5 * S
+/**
+ * 执行用时：20 ms, 在所有 C++ 提交中击败了49.56%的用户
+ * 内存消耗：9.4 MB, 在所有 C++ 提交中击败了45.12%的用户
+ */
 class Solution {
 public:
     int nthUglyNumber(int n) {
