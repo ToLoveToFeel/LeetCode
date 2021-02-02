@@ -154,3 +154,4 @@ add_executable(_0315_main _0315_Count_of_Smaller_Numbers_After_Self/_0315_main.c
 add_executable(_0888_main _0888_Fair_Candy_Swap/_0888_main.cpp)
 add_executable(_0424_main _0424_Longest_Repeating_Character_Replacement/_0424_main.cpp)
 add_executable(_388_main _0388_Longest_Absolute_File_Path/_388_main.cpp)
+add_executable(_0389_main _0389_Find_the_Difference/_0389_main.cpp)
