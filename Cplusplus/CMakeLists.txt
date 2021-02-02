@@ -156,3 +156,4 @@ add_executable(_0424_main _0424_Longest_Repeating_Character_Replacement/_0424_ma
 add_executable(_388_main _0388_Longest_Absolute_File_Path/_388_main.cpp)
 add_executable(_0389_main _0389_Find_the_Difference/_0389_main.cpp)
 add_executable(0390_main _0390_Elimination_Game/0390_main.cpp)
+add_executable(_0392_main _0392_Is_Subsequence/_0392_main.cpp)
