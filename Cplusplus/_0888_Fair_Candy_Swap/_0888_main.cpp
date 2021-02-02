@@ -45,7 +45,7 @@ void OutputBasicArray1D(vector<int> nums) {
 int main() {
 
     vector<int> A = {1, 1}, B = {2, 2};
-    OutputBasicArray1D(Solution().fairCandySwap(A, B));
+    OutputBasicArray1D(Solution().fairCandySwap(A, B));  // [1, 2]
 
     return 0;
 }
