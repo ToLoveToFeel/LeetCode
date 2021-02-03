@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+ * 内存消耗：6 MB, 在所有 C++ 提交中击败了99.10%的用户
+ */
 class Solution {
 public:
     string num0_19[20] = {
@@ -27,7 +31,7 @@ public:
             x %= 100;
         }
         if (x >= 20) {
-            res += num20_90[x / 20 - 2] + " ";
+            res += num20_90[x / 10 - 2] + " ";
             x %= 10;
             if (x) res += num0_19[x] + ' ';
         } else if (x) res += num0_19[x] + ' ';
@@ -51,6 +55,7 @@ public:
 
 int main() {
 
+    cout << Solution().numberToWords(123) << endl;
     cout << Solution().numberToWords(1000) << endl;
     cout << Solution().numberToWords(1101) << endl;
 
