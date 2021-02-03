@@ -33,8 +33,8 @@ public:
         if (x >= 20) {
             res += num20_90[x / 10 - 2] + " ";
             x %= 10;
-            if (x) res += num0_19[x] + ' ';
-        } else if (x) res += num0_19[x] + ' ';
+        }
+        if (x) res += num0_19[x] + ' ';
         return res;
     }
 
@@ -55,9 +55,9 @@ public:
 
 int main() {
 
-    cout << Solution().numberToWords(123) << endl;
-    cout << Solution().numberToWords(1000) << endl;
-    cout << Solution().numberToWords(1101) << endl;
+    cout << Solution().numberToWords(123) << endl;  // One Hundred Twenty Three
+    cout << Solution().numberToWords(1000) << endl;  // One Thousand
+    cout << Solution().numberToWords(1101) << endl;  // One Thousand One Hundred One
 
     return 0;
 }
