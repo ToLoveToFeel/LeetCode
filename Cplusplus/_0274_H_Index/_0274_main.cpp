@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了85.15%的用户
+ * 内存消耗：8.3 MB, 在所有 C++ 提交中击败了97.89%的用户
+ */
 class Solution {
 public:
     int hIndex(vector<int> &c) {
