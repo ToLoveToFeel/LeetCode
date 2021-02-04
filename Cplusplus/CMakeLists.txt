@@ -163,3 +163,4 @@ add_executable(_0395_main _0395_Longest_Substring_with_At_Least_K_Repeating_Char
 add_executable(_0396_main _0396_Rotate_Function/_0396_main.cpp)
 add_executable(_0397_main _0397_Integer_Replacement/_0397_main.cpp)
 add_executable(_0480_main _0480_Sliding_Window_Median/_0480_main.cpp)
+add_executable(_0643_main _0643_Maximum_Average_Subarray_I/_0643_main.cpp)
