@@ -13,10 +13,8 @@ public class Solution {
         double res = Integer.MIN_VALUE;
         for (int i = 0, j = 0, s = 0; i < nums.length; i++) {
             s += nums[i];
-            if (i - j + 1 > k)
-                s -= nums[j++];
-            if (i >= k - 1)  // 滑动窗口的大小等于 k
-                res = Math.max(res, s / (double) k);
+            if (i - j + 1 > k) s -= nums[j++];
+            if (i >= k - 1) res = Math.max(res, s / (double) k);  // 滑动窗口的大小等于 k
         }
 
         return res;
