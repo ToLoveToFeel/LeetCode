@@ -7,6 +7,10 @@ using namespace std;
 typedef long long LL;
 
 // https://www.acwing.com/video/1644/
+/**
+ * 执行用时：44 ms, 在所有 C++ 提交中击败了91.30%的用户
+ * 内存消耗：14.5 MB, 在所有 C++ 提交中击败了76.24%的用户
+ */
 class Solution {
 public:
 
