@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了79.74%的用户
+ * 内存消耗：7.9 MB, 在所有 C++ 提交中击败了34.26%的用户
+ */
 class Solution {
 public:
     int equalSubstring(string s, string t, int maxCost) {
