@@ -6,6 +6,10 @@ using namespace std;
 
 // 此题可以转化成lc上的142题(环形链表II)，即快慢指针
 // 建图方式：索引指向元素，即i -> nums[i]
+/**
+ * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+ * 内存消耗：10.7 MB, 在所有 C++ 提交中击败了85.23%的用户
+ */
 class Solution {
 public:
     int findDuplicate(vector<int> &nums) {
