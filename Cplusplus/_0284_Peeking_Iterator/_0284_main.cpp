@@ -20,7 +20,10 @@ public:
     bool hasNext() const;
 };
 
-
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了81.99%的用户
+ * 内存消耗：7.3 MB, 在所有 C++ 提交中击败了91.54%的用户
+ */
 class PeekingIterator : public Iterator {
 public:
     int cur;
