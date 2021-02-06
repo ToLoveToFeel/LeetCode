@@ -6,6 +6,10 @@ using namespace std;
 
 // 考察数据结构：对顶堆
 // 两个堆：一个大顶堆down，一个小顶堆up。如果一共奇数个元素，则规定down中多一个
+/**
+ * 执行用时：132 ms, 在所有 C++ 提交中击败了83.64%的用户
+ * 内存消耗：45.7 MB, 在所有 C++ 提交中击败了28.87%的用户
+ */
 class MedianFinder {
 public:
     priority_queue<int, vector<int>, greater<int>> up;  // 小顶堆
