@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0284_Peeking_Iterator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0287_Find_the_Duplicate_Number" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -129,11 +131,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0287_Find_the_Duplicate_Number" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0284_Peeking_Iterator" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1208_Get_Equal_Substrings_Within_Budget" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0282_Expression_Add_Operators" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0278_First_Bad_Version" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0275_H_Index_II" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -741,7 +743,7 @@
       <workItem from="1612268006856" duration="3423000" />
       <workItem from="1612321787744" duration="2416000" />
       <workItem from="1612398930877" duration="3758000" />
-      <workItem from="1612484311421" duration="1963000" />
+      <workItem from="1612484311421" duration="3362000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -988,26 +990,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611492278956" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1612486479866">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1612497677268">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612486479866" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1612486479866">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612497677268" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1612497677267">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612486479866" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1612486479865">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612497677267" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1612497677267">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003716" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612486479865" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1612486479866">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612497677267" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1612497677268">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612486479866" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1612497677268" />
     <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1612064110005">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
