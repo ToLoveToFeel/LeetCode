@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了83.83%的用户
+ * 内存消耗：6.4 MB, 在所有 C++ 提交中击败了93.77%的用户
+ */
 class Solution {
 public:
     string getHint(string secret, string guess) {
