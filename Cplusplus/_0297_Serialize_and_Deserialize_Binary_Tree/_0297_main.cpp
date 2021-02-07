@@ -1,6 +1,10 @@
 // Created by WXX on 2021/1/30 20:59
 #include "MyTree.h"
 
+/**
+ * 执行用时：56 ms, 在所有 C++ 提交中击败了80.04%的用户
+ * 内存消耗：30.3 MB, 在所有 C++ 提交中击败了89.28%的用户
+ */
 class Codec {
 public:
     string path;
@@ -23,7 +27,7 @@ public:
     // Decodes your encoded data to tree.
     TreeNode *deserialize(string data) {
         int u = 0;
-        return dfs_d(path, u);
+        return dfs_d(data, u);
     }
 
     // 返回反序列化后的树根，u定义为引用形式是为了让递归的时候共用一个u
