@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：40 ms, 在所有 C++ 提交中击败了48.44%的用户
+ * 内存消耗：14.9 MB, 在所有 C++ 提交中击败了94.17%的用户
+ */
 class NumMatrix {
 public:
     vector<vector<int>> s;
@@ -15,7 +19,7 @@ public:
         int n = matrix.size(), m = matrix[0].size();
         s = vector<vector<int>>(n + 1, vector<int>(m + 1));
         for (int i = 1; i <= n; i++)
-            for (int j = 1; j <= n; j++)
+            for (int j = 1; j <= m; j++)
                 s[i][j] = s[i - 1][j] + s[i][j - 1] - s[i - 1][j - 1] + matrix[i - 1][j - 1];
     }
 
