@@ -5,6 +5,10 @@
 using namespace std;
 
 // https://www.acwing.com/video/1689/  64:00
+/**
+ * 执行用时：108 ms, 在所有 C++ 提交中击败了81.05%的用户
+ * 内存消耗：28.6 MB, 在所有 C++ 提交中击败了45.75%的用户
+ */
 class Solution {
 public:
 
