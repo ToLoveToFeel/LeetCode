@@ -169,3 +169,4 @@ add_executable(_1423_main _1423_Maximum_Points_You_Can_Obtain_from_Cards/_1423_m
 add_executable(_0665_main _0665_Non_decreasing_Array/_0665_main.cpp)
 add_executable(_0978_main _0978_Longest_Turbulent_Subarray/_0978_main.cpp)
 add_executable(_0992_main _0992_Subarrays_with_K_Different_Integers/_0992_main.cpp)
+add_executable(_0567_main _0567_Permutation_in_String/_0567_main.cpp)
