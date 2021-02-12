@@ -15,12 +15,10 @@ public class Solution {
     public List<Integer> getRow(int n) {
 
         List<Integer> res = new ArrayList<>();
-        if (n < 0) return res;
-
         res.add(1);
         for (int i = 1; i <= n; i++) {
-            long temp = ((long) res.get(i - 1)) * (n - i + 1) / i;
-            res.add((int) temp);
+            long t = ((long) res.get(i - 1)) * (n - i + 1) / i;
+            res.add((int) t);
         }
         return res;
     }
