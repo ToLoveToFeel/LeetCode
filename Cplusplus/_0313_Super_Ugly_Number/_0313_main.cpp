@@ -6,6 +6,10 @@
 using namespace std;
 
 // 多路归并
+/**
+ * 执行用时：84 ms, 在所有 C++ 提交中击败了92.67%的用户
+ * 内存消耗：8.5 MB, 在所有 C++ 提交中击败了94.34%的用户
+ */
 class Solution {
 public:
     int nthSuperUglyNumber(int n, vector<int>& primes) {
