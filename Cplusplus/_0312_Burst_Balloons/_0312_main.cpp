@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：752 ms, 在所有 C++ 提交中击败了48.19%的用户
+ * 内存消耗：9.9 MB, 在所有 C++ 提交中击败了43.05%的用户
+ */
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
