@@ -3,29 +3,26 @@ package _0485_Max_Consecutive_Ones;
 /**
  * Date: 2020/9/20 21:28
  * Content:
+ * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：40.2 MB, 在所有 Java 提交中击败了22.24%的用户
  */
 public class Solution {
+
     public int findMaxConsecutiveOnes(int[] nums) {
-        if (nums.length == 0)
-            return 0;
-        int begin = 0, end;  // [begin...end)为连续的1
-        int maxLength = 0;
 
-        while (begin < nums.length) {
-            while (begin < nums.length && nums[begin] == 0)
-                begin++;
-            end = begin;
-            while (end < nums.length && nums[end] == 1)
-                end++;
-            maxLength = Math.max(maxLength, end - begin);
-
-            begin = end + 1;  // 因为 nums[end] == 0 或者 end 越界
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {  // 滑动窗口：[i...j)
+            if (nums[i] == 0) continue;
+            int j = i + 1;
+            while (j < nums.length && nums[j] == 1) j++;
+            res = Math.max(res, j - i);
+            i = j;
         }
-
-        return maxLength;
+        return res;
     }
 
     public static void main(String[] args) {
+
 //        int[] nums = {};
 //        int[] nums = {0};
 //        int[] nums = {0, 0, 0};
