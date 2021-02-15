@@ -5,6 +5,10 @@
 using namespace std;
 
 // 树状数组
+/**
+ * 执行用时：236 ms, 在所有 C++ 提交中击败了18.36%的用户
+ * 内存消耗：74.2 MB, 在所有 C++ 提交中击败了14.63%的用户
+ */
 class Solution {
 public:
     int n = 20001;

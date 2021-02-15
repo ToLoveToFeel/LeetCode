@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0485_Max_Consecutive_Ones/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0485_Max_Consecutive_Ones/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0485_Max_Consecutive_Ones/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0485_Max_Consecutive_Ones/question.txt" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -750,7 +746,7 @@
       <workItem from="1613111487883" duration="1215000" />
       <workItem from="1613177095129" duration="5553000" />
       <workItem from="1613266667333" duration="546000" />
-      <workItem from="1613351628316" duration="846000" />
+      <workItem from="1613351628316" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
