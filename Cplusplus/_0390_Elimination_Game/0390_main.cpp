@@ -12,6 +12,10 @@ using namespace std;
  * 因为f(n)和g(n)的求解是对称的，所以可以得到：f(n)+g(n)=n+1   ②
  * 结合①②，可知f(n) = 2g(n/2) = 2 * (n / 2 + 1 -f(n/2))
  */
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了72.46%的用户
+ * 内存消耗：5.8 MB, 在所有 C++ 提交中击败了86.64%的用户
+ */
 class Solution {
 public:
     int lastRemaining(int n) {
