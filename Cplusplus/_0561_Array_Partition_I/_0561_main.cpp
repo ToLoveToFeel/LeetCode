@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：56 ms, 在所有 C++ 提交中击败了91.95%的用户
+ * 内存消耗：27.6 MB, 在所有 C++ 提交中击败了72.09%的用户
+ */
 class Solution {
 public:
     int arrayPairSum(vector<int> &nums) {
