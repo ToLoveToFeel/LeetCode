@@ -1,27 +1,23 @@
 package _0561_Array_Partition_I;
 
-import java.util.Arrays;
-
 /**
  * Date: 2020/9/20 20:24
- * Content:
- * 哈希表：了解即可
+ * Content: 哈希表：了解即可
  */
 public class Solution2 {
+
     public int arrayPairSum(int[] nums) {
         // 因为题目中给了 数组中的元素范围在 [-10000, 10000].
         int[] arr = new int[20001];
-        int deviation = 10000;
-        for (int num : nums) {
-            arr[num + deviation]++;
-        }
+        int d = 10000;
+        for (int num : nums) arr[num + d]++;
 
         // 记录这次组合时是否用到不同的数据，
         // 如 [a，a，a，b，b，b]，（a，a），（a，b），（b，b），在组合 a 的过程，会消耗一个 b，之后会将 flag 置 1
         int flag = 0;
         int sum = 0;
         for (int num = -10000; num < 10000; num++) {
-            int count = arr[num + deviation];
+            int count = arr[num + d];
             if (count != 0) {
                 sum += (count + 1 - flag) / 2 * num;
                 flag = (count - flag + 2) & 1;
@@ -32,6 +28,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         int[] nums = {1, 4, 3, 2};
         System.out.println((new Solution2()).arrayPairSum(nums));
     }

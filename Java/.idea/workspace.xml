@@ -113,7 +113,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0388_Longest_Absolute_File_Path" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0390_Elimination_Game" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -125,15 +125,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0388_Longest_Absolute_File_Path" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0315_Count_of_Smaller_Numbers_After_Self" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0313_Super_Ugly_Number" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0312_Burst_Balloons" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0448_Find_All_Numbers_Disappeared_in_an_Array" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -142,12 +139,15 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0390_Elimination_Game" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0388_Longest_Absolute_File_Path" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0315_Count_of_Smaller_Numbers_After_Self" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0313_Super_Ugly_Number" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0312_Burst_Balloons" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (5)">
@@ -754,6 +754,7 @@
       <workItem from="1613266667333" duration="546000" />
       <workItem from="1613351628316" duration="1200000" />
       <workItem from="1613398677123" duration="1715000" />
+      <workItem from="1613400627037" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1004,26 +1005,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613114090019" />
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1613400416792">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1613400811481">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400416792" />
-    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1613400416792">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400811481" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1613400811481">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400416792" />
-    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1613400416792">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400811481" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1613400811481">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003716" />
-    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400416792" />
-    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1613400416792">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400811481" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1613400811481">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400416792" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613400811481" />
     <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1613400416793">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
