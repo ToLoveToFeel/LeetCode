@@ -176,3 +176,4 @@ add_executable(_0448_main _0448_Find_All_Numbers_Disappeared_in_an_Array/_0448_m
 add_executable(_0765_main _0765_Couples_Holding_Hands/_0765_main.cpp)
 add_executable(_0485_main _0485_Max_Consecutive_Ones/_0485_main.cpp)
 add_executable(_0561_main _0561_Array_Partition_I/_0561_main.cpp)
+add_executable(_0566_main _0566_Reshape_the_Matrix/_0566_main.cpp)
