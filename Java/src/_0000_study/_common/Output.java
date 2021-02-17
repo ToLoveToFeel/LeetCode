@@ -19,12 +19,9 @@ public class Output {
 
         System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
-            if (i == 0)
-                System.out.println(Arrays.toString(nums[i]) + ",");
-            else if (i < nums.length - 1)
-                System.out.println(" " + Arrays.toString(nums[i]) + ",");
-            else
-                System.out.print(" " + Arrays.toString(nums[i]));
+            if (i > 0) System.out.print(" ");
+            System.out.print(Arrays.toString(nums[i]));
+            if (i != nums.length - 1) System.out.println(", ");
         }
         System.out.println("]");
     }
@@ -33,12 +30,9 @@ public class Output {
 
         System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
-            if (i == 0)
-                System.out.println(Arrays.toString(nums[i]) + ",");
-            else if (i < nums.length - 1)
-                System.out.println(" " + Arrays.toString(nums[i]) + ",");
-            else
-                System.out.print(" " + Arrays.toString(nums[i]));
+            if (i > 0) System.out.print(" ");
+            System.out.print(Arrays.toString(nums[i]));
+            if (i != nums.length - 1) System.out.println(", ");
         }
         System.out.println("]");
     }
