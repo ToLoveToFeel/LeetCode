@@ -115,24 +115,27 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0395_Longest_Substring_with_At_Least_K_Repeating_Characters" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0395_Longest_Substring_with_At_Least_K_Repeating_Characters" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0394_Decode_String" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0697_Degree_of_an_Array" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1004_Max_Consecutive_Ones_III" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -141,38 +144,21 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0395_Longest_Substring_with_At_Least_K_Repeating_Characters" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0394_Decode_String" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0697_Degree_of_an_Array" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1004_Max_Consecutive_Ones_III" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0392_Is_Subsequence" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1004_Max_Consecutive_Ones_III.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1004_Max_Consecutive_Ones_III.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0697_Degree_of_an_Array.Solution" />
@@ -188,13 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0392_Is_Subsequence.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0392_Is_Subsequence.*" />
+          <option name="PATTERN" value="_1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,6 +209,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0395_Longest_Substring_with_At_Least_K_Repeating_Characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0001_Two_Sum.Solution2" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0001_Two_Sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,19 +262,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -763,7 +763,11 @@
       <workItem from="1613639919308" duration="1183000" />
       <workItem from="1613697146848" duration="1518000" />
       <workItem from="1613736941064" duration="1204000" />
-      <workItem from="1613783416340" duration="5440000" />
+      <workItem from="1613783416340" duration="5568000" />
+      <workItem from="1613790964819" duration="915000" />
+      <workItem from="1613819482200" duration="582000" />
+      <workItem from="1613820081873" duration="345000" />
+      <workItem from="1613869503565" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1010,55 +1014,56 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611492278956" />
-    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1613114090019">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="740" y="284" key="FileChooserDialogImpl" timestamp="1613820053573">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="284" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820053573" />
     <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613114090019" />
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1613790348418">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1613873466141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348418" />
-    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1613790348418">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820066277" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873466141" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1613873466141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348418" />
-    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1613790348418">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820066277" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873466141" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1613873466141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003716" />
-    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348418" />
-    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1613790348418">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820066277" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873466141" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1613873466141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1612166003717" />
-    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348418" />
-    <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1613790348578">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820066277" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873466141" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1613873265169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611418533188" />
-    <state width="1877" height="354" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348578" />
-    <state width="1877" height="354" key="GridCell.Tab.1.center" timestamp="1613790348578">
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873265169" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1613873265169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611418533188" />
-    <state width="1877" height="354" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348578" />
-    <state width="1877" height="354" key="GridCell.Tab.1.left" timestamp="1613790348578">
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873265169" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1613873265168">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611418533188" />
-    <state width="1877" height="354" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348578" />
-    <state width="1877" height="354" key="GridCell.Tab.1.right" timestamp="1613790348578">
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873265168" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1613873265169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611418533188" />
-    <state width="1877" height="354" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613790348578" />
-    <state x="2381" y="184" key="SettingsEditor" timestamp="1613184526944">
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873265169" />
+    <state x="2381" y="184" key="SettingsEditor" timestamp="1613873540012">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="177" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611539686928" />
-    <state x="2381" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613184526944" />
+    <state x="461" y="177" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613820423577" />
+    <state x="2381" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613873540012" />
     <state x="2536" y="250" key="run.anything.popup" timestamp="1612579087456">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -1104,11 +1109,6 @@
           <url>file://$PROJECT_DIR$/src/_1018_Binary_Prefix_Divisible_By_5/Solution.java</url>
           <line>19</line>
           <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0395_Longest_Substring_with_At_Least_K_Repeating_Characters/Solution.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
