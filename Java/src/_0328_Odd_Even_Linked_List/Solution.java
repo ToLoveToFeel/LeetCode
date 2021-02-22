@@ -5,49 +5,29 @@ package _0328_Odd_Even_Linked_List;
  * Content:
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
- *
+ * <p>
  * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
- * 内存消耗：38 MB, 在所有 Java 提交中击败了93.29%的用户
+ * 内存消耗：38.5 MB, 在所有 Java 提交中击败了5.10%的用户
  */
 public class Solution {
 
     public ListNode oddEvenList(ListNode head) {
-        // 检查链表是否需要进行处理，如果节点太少(小于等于2个)直接返回
-        if (head == null || head.next == null || head.next.next == null)
-            return head;
 
-        // 第一步：新建两个链表，分别存放奇数节点和偶数节点
-        ListNode oddHead = head;
-        ListNode evenHead = head.next;
+        if (head == null || head.next == null) return head;
 
-
-        head = head.next.next;
-        evenHead.next = null;
-        oddHead.next = null;
-
-        ListNode curOddNode = oddHead;
-        ListNode curEvenNode = evenHead;
-
-        int index = 3;
-        while (head != null) {
-            if ((index & 1) == 1) {
-                curOddNode.next = head;
-                head = head.next;
-                curOddNode = curOddNode.next;
-                curOddNode.next = null;
-            } else {
-                curEvenNode.next = head;
-                head = head.next;
-                curEvenNode = curEvenNode.next;
-                curEvenNode.next = null;
+        ListNode oh = head, ot = oh;  // 奇数
+        ListNode eh = head.next, et = eh;  // 偶数
+        for (ListNode p = head.next.next; p != null; ) {
+            ot = ot.next = p;
+            p = p.next;
+            if (p != null) {
+                et = et.next = p;
+                p = p.next;
             }
-            index++;
         }
-
-        // 第二步：将两个链表拼接在一起，返回
-        curOddNode.next = evenHead;
-
-        return oddHead;
+        ot.next = eh;
+        et.next = null;
+        return oh;
     }
 
     public static void main(String[] args) {
