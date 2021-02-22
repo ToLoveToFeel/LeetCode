@@ -181,3 +181,4 @@ add_executable(_0995_main _0995_Minimum_Number_of_K_Consecutive_Bit_Flips/_0995_
 add_executable(_1004_main _1004_Max_Consecutive_Ones_III/_1004_main.cpp)
 add_executable(_0697_main _0697_Degree_of_an_Array/_0697_main.cpp)
 add_executable(_1438_main _1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit/_1438_main.cpp)
+add_executable(_0766_main _0766_Toeplitz_Matrix/_0766_main.cpp)
