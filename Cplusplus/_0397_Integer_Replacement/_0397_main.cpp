@@ -26,6 +26,7 @@ int main() {
 
     cout << Solution().integerReplacement(8) << endl;  // 3
     cout << Solution().integerReplacement(7) << endl;  // 4
+    cout << Solution().integerReplacement(2147483647) << endl;  // 32
 
     return 0;
 }
