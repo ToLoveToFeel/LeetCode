@@ -8,9 +8,13 @@ using namespace std;
  * 设 S = A[0]+A[1]+A[2]+......+A[n-2]+A[n-1]
  * A[0]     A[1]    A[2]    ......      A[n-2]    A[n-1]
  *  0        1       2                    n-2       n-1     F[0]
- *  1        2       3                    n-1       n-n     F[1]     f[1]-f[0]=S-n*A[n-1]
- *  2        3       4                    n-n        1      F[2]     f[2]-f[1]=S-n*A[n-2]
+ *  1        2       3                    n-1       n-n     F[1]     F[1]-F[0]=S-n*A[n-1]
+ *  2        3       4                    n-n        1      F[2]     F[2]-F[1]=S-n*A[n-2]
  *  ......
+ */
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了89.56%的用户
+ * 内存消耗：10.4 MB, 在所有 C++ 提交中击败了71.90%的用户
  */
 class Solution {
 public:
@@ -22,7 +26,7 @@ public:
         int n = A.size();
         for (int i = 0; i < n; i++) cur += i * A[i];
         LL res = cur;
-        for (int i = n - 1; i; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             cur += sum - (LL) n * A[i];
             res = max(res, cur);
         }
