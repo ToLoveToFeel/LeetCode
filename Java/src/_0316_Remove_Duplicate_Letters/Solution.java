@@ -16,8 +16,6 @@ public class Solution {
 
     public String removeDuplicateLetters(String s) {
 
-        if (s.length() <= 1) return s;
-
         // 第一步：统计各个小写字母出现的次数
         int[] cnt = new int[26];
         for (char c : s.toCharArray()) cnt[c - 'a']++;
@@ -46,7 +44,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        String s = "cbacdcbc";
-        System.out.println((new Solution()).removeDuplicateLetters(s));
+        System.out.println((new Solution()).removeDuplicateLetters("a"));  // a
+        System.out.println((new Solution()).removeDuplicateLetters("cbacdcbc"));  // acdb
     }
 }
