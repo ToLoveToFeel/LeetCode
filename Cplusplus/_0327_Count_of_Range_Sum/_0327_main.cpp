@@ -8,11 +8,15 @@ using namespace std;
 typedef long long LL;
 
 // 前缀和 + 离散化 + 树状数组(下标从1开始)
+/**
+ * 执行用时：32 ms, 在所有 C++ 提交中击败了97.65%的用户
+ * 内存消耗：14.6 MB, 在所有 C++ 提交中击败了76.52%的用户
+ */
 class Solution {
 public:
     int m;
     vector<int> tr;  // 树状数组
-    vector<int> all;  // 待离散化的数据
+    vector<LL> all;  // 待离散化的数据
 
     int get(LL x) {
         return lower_bound(all.begin(), all.end(), x) - all.begin() + 1;
@@ -53,7 +57,6 @@ public:
         // 相当于考虑分析中的 sj = 0 --> lower <= si <= upper 这种情况
         add(get(0), 1);
         for (int i = 1; i <= n; i++) {
-            int t1 = get(s[i] - lower), t2 = query(get(s[i] - upper - 1));
             res += query(get(s[i] - lower)) - query(get(s[i] - upper - 1));
             add(get(s[i]), 1);
         }
