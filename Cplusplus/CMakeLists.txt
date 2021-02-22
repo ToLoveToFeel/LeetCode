@@ -184,3 +184,4 @@ add_executable(_1438_main _1438_Longest_Continuous_Subarray_With_Absolute_Diff_L
 add_executable(_0766_main _0766_Toeplitz_Matrix/_0766_main.cpp)
 add_executable(_0316_main _0316_Remove_Duplicate_Letters/_0316_main.cpp)
 add_executable(_0318_main _0318_Maximum_Product_of_Word_Lengths/_0318_main.cpp)
+add_executable(_0319_main _0319_Bulb_Switcher/_0319_main.cpp)
