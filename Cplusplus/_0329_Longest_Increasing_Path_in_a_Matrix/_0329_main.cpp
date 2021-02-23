@@ -43,10 +43,10 @@ public:
 
 int main() {
 
-    vector<vector<int>> matrx = {{9, 9, 4},
+    vector<vector<int>> matrix = {{9, 9, 4},
                                  {6, 6, 8},
                                  {2, 1, 1}};
-    cout << Solution().longestIncreasingPath(matrx) << endl;  // 4
+    cout << Solution().longestIncreasingPath(matrix) << endl;  // 4
 
     return 0;
 }
