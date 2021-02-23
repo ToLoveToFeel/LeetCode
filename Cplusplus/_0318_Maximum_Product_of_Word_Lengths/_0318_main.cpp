@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：60 ms, 在所有 C++ 提交中击败了72.50%的用户
+ * 内存消耗：16.5 MB, 在所有 C++ 提交中击败了33.45%的用户
+ */
 class Solution {
 public:
     int maxProduct(vector<string> &words) {
