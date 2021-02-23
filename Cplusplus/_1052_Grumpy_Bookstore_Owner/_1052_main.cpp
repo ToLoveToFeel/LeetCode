@@ -29,7 +29,7 @@ int main() {
 
     vector<int> c = {1, 0, 1, 2, 1, 1, 7, 5}, g = {0, 1, 0, 1, 0, 1, 0, 1};
     int X = 3;
-    cout << Solution().maxSatisfied(c, g, X) << endl;
+    cout << Solution().maxSatisfied(c, g, X) << endl;  // 16
 
     return 0;
 }
