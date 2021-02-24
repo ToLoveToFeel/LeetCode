@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * 采用二进制优化方法
  * 最下面的说明
  * <p>
- * 进一步优化：KnapsackMulti_dp4(还未写)
+ * 进一步优化：KnapsackMulti_dp4
  * https://www.acwing.com/solution/content/6500/
  * https://www.acwing.com/solution/content/26583/
  */

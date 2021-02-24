@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/KnapsackMulti_dp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/classicalproblems/knapsack/_03_knapsackmulti/KnapsackMulti_dp3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0279_Perfect_Squares/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0279_Perfect_Squares/Solution3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -216,13 +218,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0329_Longest_Increasing_Path_in_a_Matrix.Solution" />
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0279_Perfect_Squares.Solution3" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0329_Longest_Increasing_Path_in_a_Matrix.*" />
+          <option name="PATTERN" value="_0279_Perfect_Squares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -777,7 +779,7 @@
       <workItem from="1613998012624" duration="6551000" />
       <workItem from="1614044748738" duration="1814000" />
       <workItem from="1614131170218" duration="8056000" />
-      <workItem from="1614155048087" duration="667000" />
+      <workItem from="1614155048087" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
