@@ -15,7 +15,7 @@ public:
 
         int n = nums.size();
         auto midptr = nums.begin() + n / 2;
-        nth_element(nums.begin(), midptr, nums.end());
+        nth_element(nums.begin(), midptr, nums.end());  // 返回第midptr+1小的数据
         int mid = *midptr;  // mid是nums的中位数
 
         #define A(i) nums[(i * 2 + 1) % (n | 1)]
@@ -39,6 +39,7 @@ void OutputBasicArray1D(vector<int> nums) {
 
 int main() {
 
+    // [1, 6, 1, 5, 1, 4]
     vector<int> nums = {1, 5, 1, 1, 6, 4};
     Solution().wiggleSort(nums);
     OutputBasicArray1D(nums);
