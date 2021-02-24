@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,12 +125,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0832_Flipping_an_Image" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0318_Maximum_Product_of_Word_Lengths" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0329_Longest_Increasing_Path_in_a_Matrix" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1052_Grumpy_Bookstore_Owner" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0397_Integer_Replacement" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0204_Count_Primes" />
@@ -141,15 +142,12 @@
       <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
       <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0318_Maximum_Product_of_Word_Lengths" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0329_Longest_Increasing_Path_in_a_Matrix" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1052_Grumpy_Bookstore_Owner" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0397_Integer_Replacement" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0396_Rotate_Function" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (4)">
@@ -770,7 +768,7 @@
       <workItem from="1613978287037" duration="1773000" />
       <workItem from="1613998012624" duration="6551000" />
       <workItem from="1614044748738" duration="1814000" />
-      <workItem from="1614131170218" duration="302000" />
+      <workItem from="1614131170218" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
