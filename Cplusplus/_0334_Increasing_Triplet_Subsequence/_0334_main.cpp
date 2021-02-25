@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Leetcode 300 LIS 的简化版
 class Solution {
 public:
     bool increasingTriplet(vector<int> &nums) {
