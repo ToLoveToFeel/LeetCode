@@ -12,6 +12,7 @@ public:
         if (!n) return 0;
         if (n == 1) return nums[0];
 
+        // f[i]：必选第 i 个点的情况下的最大值；g[i]：必不选第 i 个点的情况下的最大值
         vector<int> f(n + 1), g(n + 1);  // 从1开始，表示第1家店
         // 考虑不抢劫第一家店，则最后一家店可抢可不抢
         for (int i = 2; i <= n; i++) {
