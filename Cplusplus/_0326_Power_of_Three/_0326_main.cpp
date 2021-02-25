@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：24 ms, 在所有 C++ 提交中击败了51.83%的用户
+ * 内存消耗：5.8 MB, 在所有 C++ 提交中击败了79.02%的用户
+ */
 class Solution {
 public:
     bool isPowerOfThree(int n) {
