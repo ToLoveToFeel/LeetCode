@@ -12,7 +12,7 @@ class Solution {
 public:
     int lengthOfLIS(vector<int> &nums) {
 
-        vector<int> q;
+        vector<int> q;  // q[k]表示长度为k的上升子序列的结尾最小值
         for (auto x : nums) {
             if (q.empty() || x > q.back()) q.push_back(x);
             else {
