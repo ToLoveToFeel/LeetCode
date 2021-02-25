@@ -1,38 +1,29 @@
 package _0867_Transpose_Matrix;
 
+import _0000_study._common.Output;
+
 /**
  * Date: 2020/8/28 20:58
  * Content:
  */
 class Solution {
-    private void swap(int[][] A, int i, int j) {
-        int temp = A[i][j];
-        A[i][j] = A[j][i];
-        A[j][i] = temp;
-    }
 
-    public int[][] transpose(int[][] A) {
-        int[][] transpose = new int[A[0].length][A.length];
+    public int[][] transpose(int[][] matrix) {
 
-        for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < A[0].length; j++) {
-                transpose[j][i] = A[i][j];
-            }
-        }
-        return transpose;
+        int n = matrix.length, m = matrix[0].length;
+        int[][] res = new int[m][n];
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                res[j][i] = matrix[i][j];
+        return res;
     }
 
     public static void main(String[] args) {
-        int[][] A = {
-            {1,2,3},
-            {4,5,6},
+
+        int[][] matric = {
+                {1, 2, 3},
+                {4, 5, 6},
         };
-        int[][] transpose = (new Solution()).transpose(A);
-        for (int i = 0; i < transpose.length; i++) {
-            for (int j = 0; j < transpose[0].length; j++) {
-                System.out.print(transpose[i][j] + " ");
-            }
-            System.out.println();
-        }
+        Output.OutputBasicArray2D((new Solution()).transpose(matric));
     }
 }
