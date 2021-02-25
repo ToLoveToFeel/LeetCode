@@ -195,3 +195,4 @@ add_executable(_0329_main _0329_Longest_Increasing_Path_in_a_Matrix/_0329_main.c
 add_executable(_1052_main _1052_Grumpy_Bookstore_Owner/_1052_main.cpp)
 add_executable(_0832_main _0832_Flipping_an_Image/_0832_main.cpp)
 add_executable(_0867_main _0867_Transpose_Matrix/_0867_main.cpp)
+add_executable(_330_main _0330_Patching_Array/_330_main.cpp)
