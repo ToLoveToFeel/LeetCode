@@ -200,3 +200,4 @@ add_executable(_0331_main _0331_Verify_Preorder_Serialization_of_a_Binary_Tree/_
 add_executable(_0332_main _0332_Reconstruct_Itinerary/_0332_main.cpp)
 add_executable(_0334_main _0334_Increasing_Triplet_Subsequence/_0334_main.cpp)
 add_executable(_0335_main _0335_Self_Crossing/_0335_main.cpp)
+add_executable(_0336_main _0336_Palindrome_Pairs/_0336_main.cpp)
