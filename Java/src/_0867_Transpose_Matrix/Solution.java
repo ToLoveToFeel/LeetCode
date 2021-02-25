@@ -20,10 +20,10 @@ class Solution {
 
     public static void main(String[] args) {
 
-        int[][] matric = {
+        int[][] matrix = {
                 {1, 2, 3},
                 {4, 5, 6},
         };
-        Output.OutputBasicArray2D((new Solution()).transpose(matric));
+        Output.OutputBasicArray2D((new Solution()).transpose(matrix));
     }
 }
