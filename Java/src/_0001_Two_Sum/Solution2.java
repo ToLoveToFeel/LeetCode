@@ -13,16 +13,14 @@ public class Solution2 {
 
     public int[] twoSum(int[] nums, int target) {
 
-        HashMap<Integer, Integer> record = new HashMap<>();
-
+        HashMap<Integer, Integer> hash = new HashMap<>();  // (元素，元素对应下标)
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (record.containsKey(complement)) {
-                return new int[]{i, record.get(complement)};
+            if (hash.containsKey(complement)) {
+                return new int[]{i, hash.get(complement)};
             }
-            record.put(nums[i], i);
+            hash.put(nums[i], i);
         }
-
         throw new IllegalArgumentException("the input has no solution!");
     }
 
