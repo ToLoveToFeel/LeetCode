@@ -8,6 +8,10 @@
 using namespace std;
 
 // 欧拉路径：所有的边走一遍（只走一次）
+/**
+ * 执行用时：20 ms, 在所有 C++ 提交中击败了95.56%的用户
+ * 内存消耗：14 MB, 在所有 C++ 提交中击败了62.40%的用户
+ */
 class Solution {
 public:
     unordered_map<string, multiset<string>> g;
