@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了75.60%的用户
+ * 内存消耗：6.7 MB, 在所有 C++ 提交中击败了83.33%的用户
+ */
 class Solution {
 public:
     int k;
@@ -26,7 +30,7 @@ public:
 
 int main() {
 
-//    cout << Solution().isValidSerialization("9,3,4,#,#,1,#,#,2,#,6,#,#") << endl;  // true
+    cout << Solution().isValidSerialization("9,3,4,#,#,1,#,#,2,#,6,#,#") << endl;  // true
     cout << Solution().isValidSerialization("1,#") << endl;  // false
     cout << Solution().isValidSerialization("9,#,#,1") << endl;  // false
 
