@@ -5,6 +5,10 @@
 using namespace std;
 
 // 找规律
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了33.98%的用户
+ * 内存消耗：6.8 MB, 在所有 C++ 提交中击败了64.08%的用户
+ */
 class Solution {
 public:
     bool isSelfCrossing(vector<int> &x) {
