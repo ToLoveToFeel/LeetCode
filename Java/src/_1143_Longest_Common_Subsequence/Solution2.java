@@ -1,40 +1,25 @@
 package _1143_Longest_Common_Subsequence;
 
-import java.util.Arrays;
-
 /**
  * Date: 2020/11/21 16:02
  * Content: 动态规划
- * 状态：dp[m+1][n+1]：text1[0...m] 和 text2[0...n] 的最长子序列的长度
- * 状态转移：
- * dp[m][n] = 1 + dp[m-1][n-1]   if text1[m] == text2[n]
- * dp[m][n] = Math.max(dp[m-1][n], dp[m][n-1])   if text1[m] != text2[n]
- * <p>
- * 执行用时：11 ms, 在所有 Java 提交中击败了79.57%的用户
- * 内存消耗：42.3 MB, 在所有 Java 提交中击败了61.26%的用户
+ * 执行用时：10 ms, 在所有 Java 提交中击败了80.02%的用户
+ * 内存消耗：42.4 MB, 在所有 Java 提交中击败了27.03%的用户
  */
 public class Solution2 {
 
     public int longestCommonSubsequence(String text1, String text2) {
 
-        int len1 = text1.length();
-        int len2 = text2.length();
+        int n = text1.length(), m = text2.length();
+        char[] a = (" " + text1).toCharArray(), b = (" " + text2).toCharArray();
 
-        if (len1 == 0 || len2 == 0)
-            return 0;
-
-        int[][] dp = new int[len1 + 1][len2 + 1];
-
-        for (int i = 0; i < len1; i++) {
-            for (int j = 0; j < len2; j++) {
-                if (text1.charAt(i) == text2.charAt(j))
-                    dp[i + 1][j + 1] = 1 + dp[i][j];
-                else
-                    dp[i + 1][j + 1] = Math.max(dp[i][j + 1], dp[i + 1][j]);
+        int[][] f = new int[n + 1][m + 1];
+        for (int i = 1; i <= n; i++)
+            for (int j = 1; j <= m; j++) {
+                f[i][j] = Math.max(f[i - 1][j], f[i][j - 1]);
+                if (a[i] == b[j]) f[i][j] = Math.max(f[i][j], f[i - 1][j - 1] + 1);
             }
-        }
-
-        return dp[len1][len2];
+        return f[n][m];
     }
 
     public static void main(String[] args) {
