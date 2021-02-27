@@ -216,3 +216,4 @@ add_executable(_0659_main _0659_Split_Array_into_Consecutive_Subsequences/_0659_
 add_executable(_0661_main _0661_Image_Smoother/_0661_main.cpp)
 add_executable(_0662_main _0662_Maximum_Width_of_Binary_Tree/_0662_main.cpp)
 add_executable(_0667_main _0667_Beautiful_Arrangement_II/_0667_main.cpp)
+add_executable(_0668_main _0668_Kth_Smallest_Number_in_Multiplication_Table/_0668_main.cpp)
