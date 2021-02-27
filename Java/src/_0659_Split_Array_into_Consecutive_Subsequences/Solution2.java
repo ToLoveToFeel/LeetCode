@@ -4,54 +4,38 @@ import java.util.*;
 
 /**
  * Date: 2020/12/4 10:52
- * Content:
- * https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/solution/tan-xin-suan-fa-jian-cha-shu-zu-neng-fou-bei-fen-w/
- * <p>
- * 执行用时：46 ms, 在所有 Java 提交中击败了20.54%的用户
- * 内存消耗：40.3 MB, 在所有 Java 提交中击败了26.87%的用户
+ * Content: 贪心：如果x可以接在某个已经存在的序列中，则接上去；否则新开一个(长度至少为3)
+ * 执行用时：32 ms, 在所有 Java 提交中击败了74.31%的用户
+ * 内存消耗：40.1 MB, 在所有 Java 提交中击败了15.66%的用户
  */
 public class Solution2 {
 
-    public boolean isPossible(int[] nums) {
+    Map<Integer, Integer> tail = new HashMap<>();  // 记录每个子序列的结尾
 
-        if (nums.length < 3)
-            return false;
+    private int get(Map<Integer, Integer> map, int x) {
+        return map.getOrDefault(x, 0);
+    }
+
+    public boolean isPossible(int[] nums) {
 
         // 第一步：用一个哈希表统计每个元素出现的次数
         Map<Integer, Integer> map = new HashMap<>();  // (数据，次数)
-        for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+        for (int x : nums) map.put(x, map.getOrDefault(x, 0) + 1);
+
+        for (int x : nums) {
+            int t = map.getOrDefault(x, 0);
+            if (t <= 0) continue;
+            if (get(tail, x - 1) > 0) {  // 前面还有数字，可以构成以 x 结尾的子序列
+                map.put(x, t - 1);
+                tail.put(x - 1, tail.get(x - 1) - 1);  // 删除一个当前以x-1为结尾的子序列
+                tail.put(x, tail.getOrDefault(x, 0) + 1);  // 添加一个以x结尾的子序列
+            } else if (get(map, x + 1) > 0 && get(map, x + 2) > 0) {
+                map.put(x, t - 1);
+                map.put(x + 1, map.get(x + 1) - 1);
+                map.put(x + 2, map.get(x + 2) - 1);
+                tail.put(x + 2, tail.getOrDefault(x + 2, 0) + 1);  // 添加一个以 x+2 为结尾的子序列
+            } else return false;  // 前后不能构成子序列直接返回 false
         }
-
-        // 定义一个哈希表记录最长的子序列
-        Map<Integer, Integer> tail = new HashMap<>();
-        for (int num : nums) {
-
-            int count = map.getOrDefault(num, 0);
-            if (count <= 0) {  // 当前元素已经用完，直接跳过
-                continue;
-            }
-
-            // 说明 count > 0
-            if (tail.getOrDefault(num - 1, 0) > 0) {
-                // 前面还有数字，可以构成以 num 结尾的子序列
-                map.put(num, count - 1);
-                tail.put(num - 1, tail.get(num - 1) - 1);  // 删除一个当前以num-1为结尾的子序列
-                tail.put(num, tail.getOrDefault(num, 0) + 1);  // 添加一个以num结尾的子序列
-
-            } else if (map.getOrDefault(num + 1, 0) > 0 &&
-                    map.getOrDefault(num + 2, 0) > 0) {
-                // 前面无数字构成子序列后，判断能不能跟后面的构成子序列
-                map.put(num, count - 1);
-                map.put(num + 1, map.get(num + 1) - 1);
-                map.put(num + 2, map.get(num + 2) - 1);
-                tail.put(num + 2, tail.getOrDefault(num + 2, 0) + 1);  // 添加一个以 num+2 为结尾的子序列
-
-            } else {
-                return false;  // 前后不能构成子序列直接返回 false
-            }
-        }
-
         return true;
     }
 

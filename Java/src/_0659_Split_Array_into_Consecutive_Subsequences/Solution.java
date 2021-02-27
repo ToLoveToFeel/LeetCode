@@ -20,8 +20,7 @@ public class Solution {
 
     public boolean isPossible(int[] nums) {
 
-        if (nums.length < 3)
-            return false;
+        if (nums.length < 3) return false;
 
         // 第一步：统计以某个数字为结尾的序列的长度
         // (连续序列结尾的数字，以该数字为结尾的序列的长度(可能存在多个))

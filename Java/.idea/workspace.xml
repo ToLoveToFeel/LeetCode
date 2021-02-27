@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0659_Split_Array_into_Consecutive_Subsequences/question.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +148,20 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_0659_Split_Array_into_Consecutive_Subsequences" />
+      <recent name="_0204_Count_Primes" />
+      <recent name="_0203_Remove_Linked_List_Elements" />
+      <recent name="_0120_Triangle" />
+      <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -153,22 +172,8 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0332_Reconstruct_Itinerary" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0331_Verify_Preorder_Serialization_of_a_Binary_Tree" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_0204_Count_Primes" />
-      <recent name="_0203_Remove_Linked_List_Elements" />
-      <recent name="_0120_Triangle" />
-      <recent name="_0104_Maximum_Depth_of_Binary_Tree" />
-      <recent name="_0102_Binary_Tree_Level_Order_Traversal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution2 (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -183,20 +188,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0335_Self_Crossing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0332_Reconstruct_Itinerary.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0332_Reconstruct_Itinerary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,6 +216,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0336_Palindrome_Pairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0659_Split_Array_into_Consecutive_Subsequences.Solution2" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0659_Split_Array_into_Consecutive_Subsequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -802,6 +807,7 @@
       <workItem from="1614390415954" duration="3764000" />
       <workItem from="1614407609541" duration="1368000" />
       <workItem from="1614415047038" duration="1810000" />
+      <workItem from="1614433962115" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
