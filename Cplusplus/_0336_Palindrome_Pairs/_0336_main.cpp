@@ -7,6 +7,10 @@
 using namespace std;
 
 // 时间复杂度：O(n * L^2)  n为字符串数量，L为字符串平均长度
+/**
+ * 执行用时：212 ms, 在所有 C++ 提交中击败了69.71%的用户
+ * 内存消耗：52.9 MB, 在所有 C++ 提交中击败了57.26%的用户
+ */
 class Solution {
 public:
     bool check(string &s) {
