@@ -3,10 +3,10 @@ package _0300_Longest_Increasing_Subsequence;
 /**
  * Date: 2020/9/3 20:26
  * Content: 动态规划
- * 状态：dp[i] 表示以 nums[i] 为结尾的最长上升子序列的长度
+ * 状态：f[i] 表示以 nums[i] 为结尾的最长上升子序列的长度
  * 状态转移： dp[i] = Math.max(dp[i], 1 + dp[j])  其中 0<=j<i
- * 时间复杂度：O(n^2)
- * 空间复杂度：O(n)
+ * 执行用时：71 ms, 在所有 Java 提交中击败了70.29%的用户
+ * 内存消耗：38.2 MB, 在所有 Java 提交中击败了21.50%的用户
  */
 public class Solution3 {
 
@@ -14,13 +14,13 @@ public class Solution3 {
 
         int n = nums.length;
         int res = 1;
-        int[] dp = new int[n];
+        int[] f = new int[n];
         for (int i = 0; i < n; i++) {
-            dp[i] = 1;
+            f[i] = 1;
             for (int j = 0; j < i; j++)
                 if (nums[i] > nums[j])
-                    dp[i] = Math.max(dp[i], 1 + dp[j]);
-            res = Math.max(res, dp[i]);
+                    f[i] = Math.max(f[i], 1 + f[j]);
+            res = Math.max(res, f[i]);
         }
 
         return res;
