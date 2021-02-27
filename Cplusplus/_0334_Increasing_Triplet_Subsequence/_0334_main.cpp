@@ -5,6 +5,10 @@
 using namespace std;
 
 // Leetcode 300 LIS 简化版
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了68.13%的用户
+ * 内存消耗：10.1 MB, 在所有 C++ 提交中击败了48.16%的用户
+ */
 class Solution {
 public:
     bool increasingTriplet(vector<int> &nums) {
