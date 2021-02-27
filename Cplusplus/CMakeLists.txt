@@ -210,3 +210,5 @@ add_executable(_1178_main _1178_Number_of_Valid_Words_for_Each_Puzzle/_1178_main
 add_executable(_1143_main _1143_Longest_Common_Subsequence/_1143_main.cpp)
 add_executable(_0655_main _0655_Print_Binary_Tree/_0655_main.cpp)
 add_executable(_0657_main _0657_Robot_Return_to_Origin/_0657_main.cpp)
+add_executable(_0658_main _0658_Find_K_Closest_Elements/_0658_main.cpp)
+add_executable(_0658_main2 _0658_Find_K_Closest_Elements/_0658_main2.cpp)
