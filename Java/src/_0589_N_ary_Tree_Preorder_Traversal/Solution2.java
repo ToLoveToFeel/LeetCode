@@ -4,33 +4,27 @@ import java.util.*;
 
 /**
  * Date: 2020/11/2 9:33
- * Content:
- * 非递归
+ * Content: 非递归
  * 执行用时：5 ms, 在所有 Java 提交中击败了16.09%的用户
  * 内存消耗：39.7 MB, 在所有 Java 提交中击败了38.13%的用户
  */
 public class Solution2 {
 
-
     public List<Integer> preorder(Node root) {
-        List<Integer> res = new ArrayList<>();
-        if (root == null)
-            return res;
 
-        Deque<Node> stack = new ArrayDeque<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
-            res.add(node.val);
-            if (node.children != null) {
-                Collections.reverse(node.children);
-                for (Node child : node.children) {
+        List<Integer> res = new ArrayList<>();
+        Deque<Node> stk = new ArrayDeque<>();
+        if (root != null) stk.push(root);
+        while (!stk.isEmpty()) {
+            Node t = stk.pop();
+            res.add(t.val);
+            if (t.children != null) {
+                Collections.reverse(t.children);
+                for (Node child : t.children)
                     if (child != null)
-                        stack.push(child);
-                }
+                        stk.push(child);
             }
         }
-
         return res;
     }
 

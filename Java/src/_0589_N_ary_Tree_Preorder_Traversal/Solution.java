@@ -11,22 +11,19 @@ import java.util.List;
  * 内存消耗：39.6 MB, 在所有 Java 提交中击败了56.39%的用户
  */
 public class Solution {
-
-    private void dfs(Node node, List<Integer> res) {
-        if (node != null) {
-            res.add(node.val);
-            if (node.children != null) {
-                for (Node child : node.children) {
-                    dfs(child, res);
-                }
-            }
-        }
-    }
+    List<Integer> res = new ArrayList<>();
 
     public List<Integer> preorder(Node root) {
-        List<Integer> res = new ArrayList<>();
-        dfs(root, res);
+        dfs(root);
         return res;
+    }
+
+    private void dfs(Node root) {
+        if (root == null) return;
+        res.add(root.val);
+        if (root.children != null)
+            for (Node child : root.children)
+                dfs(child);
     }
 
     public static void main(String[] args) {

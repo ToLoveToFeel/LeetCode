@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0102_Binary_Tree_Level_Order_Traversal/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0589_N_ary_Tree_Preorder_Traversal/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0337_House_Robber_III" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -187,6 +188,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0102_Binary_Tree_Level_Order_Traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0589_N_ary_Tree_Preorder_Traversal.Solution" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0589_N_ary_Tree_Preorder_Traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,20 +230,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0102_Binary_Tree_Level_Order_Traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0094_Binary_Tree_Inorder_Traversal.Solution4" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0094_Binary_Tree_Inorder_Traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution4 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution5" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution4 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -808,7 +809,8 @@
       <workItem from="1614415047038" duration="1810000" />
       <workItem from="1614433962115" duration="2992000" />
       <workItem from="1614476875675" duration="2511000" />
-      <workItem from="1614489078389" duration="5325000" />
+      <workItem from="1614489078389" duration="5378000" />
+      <workItem from="1614501823424" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1065,28 +1067,28 @@
     <state x="2660" y="284" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614322862136" />
     <state x="740" y="284" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1613915376707" />
     <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614138699172" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1614494357084">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1614494473739">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494357084" />
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494473739" />
     <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1614011912786" />
     <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614145177390" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1614494357084">
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1614494473739">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494357084" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494473739" />
     <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1614011912785" />
     <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614145177390" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1614494357084">
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1614494473739">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494357084" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494473739" />
     <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1614011912785" />
     <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614145177389" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1614494357084">
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1614494473739">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494357084" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614494473739" />
     <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1614011912786" />
     <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614145177390" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614322867160">
