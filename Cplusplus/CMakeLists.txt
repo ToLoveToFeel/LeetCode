@@ -220,3 +220,4 @@ add_executable(_0668_main _0668_Kth_Smallest_Number_in_Multiplication_Table/_066
 add_executable(_0896_main _0896_Monotonic_Array/_0896_main.cpp)
 add_executable(_0144_main _0144_Binary_Tree_Preorder_Traversal/_0144_main.cpp)
 add_executable(_0144_main2 _0144_Binary_Tree_Preorder_Traversal/_0144_main2.cpp)
+add_executable(_0094_main2 _0094_Binary_Tree_Inorder_Traversal/_0094_main2.cpp)

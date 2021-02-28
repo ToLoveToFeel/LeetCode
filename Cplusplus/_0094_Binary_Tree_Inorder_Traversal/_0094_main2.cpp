@@ -1,28 +1,29 @@
-// Created by WXX on 2021/1/25 14:42
+// Created by WXX on 2021/2/28 14:05
 #include "MyTree.h"
 #include <stack>
 
 using namespace std;
 
-// 递归
+// 非递归
 /**
- * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
- * 内存消耗：8.2 MB, 在所有 C++ 提交中击败了60.90%的用户
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了47.82%的用户
+ * 内存消耗：8.1 MB, 在所有 C++ 提交中击败了94.94%的用户
  */
 class Solution {
 public:
-    vector<int> res;
-
     vector<int> inorderTraversal(TreeNode *root) {
-        dfs(root);
+        vector<int> res;
+        stack<TreeNode *> stk;
+        while (root || stk.size()) {
+            while (root) {
+                stk.push(root);
+                root = root->left;
+            }
+            root = stk.top(), stk.pop();
+            res.push_back(root->val);
+            root = root->right;
+        }
         return res;
-    }
-
-    void dfs(TreeNode *root) {
-        if (!root) return;
-        dfs(root->left);
-        res.push_back(root->val);
-        dfs(root->right);
     }
 };
 
