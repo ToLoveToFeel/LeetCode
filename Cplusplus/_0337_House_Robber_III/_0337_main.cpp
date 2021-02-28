@@ -4,6 +4,10 @@
 using namespace std;
 
 // 树形DP
+/**
+ * 执行用时：28 ms, 在所有 C++ 提交中击败了62.54%的用户
+ * 内存消耗：30.9 MB, 在所有 C++ 提交中击败了14.29%的用户
+ */
 class Solution {
 public:
     int rob(TreeNode *root) {
