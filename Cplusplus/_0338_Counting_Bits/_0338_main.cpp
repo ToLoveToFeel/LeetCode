@@ -5,6 +5,10 @@
 using namespace std;
 
 // 递推
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了61.87%的用户
+ * 内存消耗：7.6 MB, 在所有 C++ 提交中击败了92.20%的用户
+ */
 class Solution {
 public:
     vector<int> countBits(int num) {
