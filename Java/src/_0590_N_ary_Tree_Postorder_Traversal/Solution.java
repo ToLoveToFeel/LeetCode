@@ -5,28 +5,24 @@ import java.util.List;
 
 /**
  * Date: 2020/11/2 8:41
- * Content:
- * 递归
+ * Content: 递归
  * 执行用时：1 ms, 在所有 Java 提交中击败了96.32%的用户
  * 内存消耗：39.7 MB, 在所有 Java 提交中击败了56.65%的用户
  */
 public class Solution {
-
-    private void dfs(Node node, List<Integer> res) {
-        if (node != null) {
-            if (node.children != null) {
-                for (Node child : node.children) {
-                    dfs(child, res);
-                }
-            }
-            res.add(node.val);
-        }
-    }
+    List<Integer> res = new ArrayList<>();
 
     public List<Integer> postorder(Node root) {
-        List<Integer> res = new ArrayList<>();
-        dfs(root, res);
+        dfs(root);
         return res;
+    }
+
+    private void dfs(Node root) {
+        if (root == null) return;
+        if (root.children != null)
+            for (Node child : root.children)
+                dfs(child);
+        res.add(root.val);
     }
 
     public static void main(String[] args) {

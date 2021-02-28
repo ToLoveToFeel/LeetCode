@@ -4,37 +4,29 @@ import java.util.*;
 
 /**
  * Date: 2020/11/2 8:41
- * Content:
- * 非递归
+ * Content: 非递归
  * 后续遍历：子节点1 子节点2 ... 子节点n 根
  * 第一步：根 子节点n ... 子节点2 子节点1
- * 第二步：翻转
- *
- * 执行用时：5 ms, 在所有 Java 提交中击败了22.77%的用户
- * 内存消耗：39.5 MB, 在所有 Java 提交中击败了71.00%的用户
+ * 第二步：翻转得到结果
+ * 执行用时：4 ms, 在所有 Java 提交中击败了40.11%的用户
+ * 内存消耗：39.4 MB, 在所有 Java 提交中击败了47.68%的用户
  */
 public class Solution2 {
 
     public List<Integer> postorder(Node root) {
+
         List<Integer> res = new ArrayList<>();
-        if (root == null)
-            return res;
-
-        Deque<Node> stack = new ArrayDeque<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
+        Deque<Node> stk = new ArrayDeque<>();
+        if (root != null) stk.push(root);
+        while (!stk.isEmpty()) {
+            Node node = stk.pop();
             res.add(node.val);
-            if (node.children != null) {
-                for (Node child : node.children) {
+            if (node.children != null)
+                for (Node child : node.children)
                     if (child != null)
-                        stack.push(child);
-                }
-            }
+                        stk.push(child);
         }
-
         Collections.reverse(res);
-
         return res;
     }
 
