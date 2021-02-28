@@ -1,38 +1,39 @@
 package _0145_Binary_Tree_Postorder_Traversal;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * 非递归算法
- * 时间复杂度：O(n)，n为节点数目
- * 空间复杂度：O(n)
+ * 执行用时：1 ms, 在所有 Java 提交中击败了53.31%的用户
+ * 内存消耗：36.7 MB, 在所有 Java 提交中击败了54.95%的用户
  */
 public class Solution5 {
-
-    // 思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，再反过来
+    // 思路：后序遍历是：左右根，反过来就是：根右左； 按照根右左遍历后，结果再翻转一下即可
     public List<Integer> postorderTraversal(TreeNode root) {
 
         ArrayList<Integer> res = new ArrayList<>();
-        if (root == null) return res;
-
-        Stack<TreeNode> stack = new Stack<>();
-        Stack<TreeNode> output = new Stack<>();
-        TreeNode curNode = root;
-
-        while (null != curNode || !stack.empty()) {
-            while (null != curNode) {
-                output.push(curNode);
-                stack.push(curNode);
-                curNode = curNode.right;
+        Deque<TreeNode> stk = new ArrayDeque<>();
+        while (null != root || !stk.isEmpty()) {
+            while (null != root) {
+                res.add(root.val);
+                stk.push(root);
+                root = root.right;
             }
-
-            curNode = stack.pop();
-            curNode = curNode.left;
+            root = stk.pop().left;
         }
-        while (!output.isEmpty())
-            res.add(output.pop().val);
+        Collections.reverse(res);
         return res;
+    }
+
+    public static void main(String[] args) {
+
+        int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
+        int[] nums = new int[]{
+                1,
+                nu, 2,
+                nu, nu, 3
+        };
+        TreeNode root = (new MyTree(nums)).getRoot();
+        System.out.println((new Solution5()).postorderTraversal(root));
     }
 }
