@@ -5,23 +5,33 @@ import java.util.List;
 
 /**
  * 递归算法
- * 时间复杂度：O(n)，n为节点数目
- * 空间复杂度：O(h)，h为二叉树高度
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36.6 MB, 在所有 Java 提交中击败了82.16%的用户
  */
 public class Solution {
+    ArrayList<Integer> res = new ArrayList<>();
 
     public List<Integer> preorderTraversal(TreeNode root) {
-
-        ArrayList<Integer> res = new ArrayList<>();
-        preorderTraversal(root, res);
+        dfs(root);
         return res;
     }
 
-    private void preorderTraversal(TreeNode node, List<Integer> list) {
-        if (node != null) {
-            list.add(node.val);
-            preorderTraversal(node.left, list);
-            preorderTraversal(node.right, list);
-        }
+    private void dfs(TreeNode root) {
+        if (root == null) return;
+        res.add(root.val);
+        dfs(root.left);
+        dfs(root.right);
+    }
+
+    public static void main(String[] args) {
+
+        int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
+        int[] nums = new int[]{
+                1,
+                nu, 2,
+                nu, nu, 3
+        };
+        TreeNode root = (new MyTree(nums)).getRoot();
+        System.out.println((new Solution()).preorderTraversal(root));
     }
 }
