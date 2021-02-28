@@ -9,10 +9,8 @@ public:
     vector<vector<int>> levelOrder(TreeNode *root) {
 
         vector<vector<int>> res;
-
         queue<TreeNode *> q;
         if (root) q.push(root);
-
         while (q.size()) {
             vector<int> level;
             int len = q.size();
@@ -26,7 +24,6 @@ public:
             }
             res.push_back(level);
         }
-
         return res;
     }
 };
