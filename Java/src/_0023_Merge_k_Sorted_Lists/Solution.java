@@ -3,6 +3,8 @@ package _0023_Merge_k_Sorted_Lists;
 /**
  * Date: 2020/9/20 14:42
  * Content:
+ * 执行用时：3 ms, 在所有 Java 提交中击败了76.22%的用户
+ * 内存消耗：40.7 MB, 在所有 Java 提交中击败了12.53%的用户
  */
 public class Solution {
 
@@ -22,13 +24,11 @@ public class Solution {
 
     public ListNode mergeKLists(ListNode[] lists) {
 
-        if (lists == null || lists.length == 0)
-            return null;
+        if (lists == null || lists.length == 0) return null;
 
         for (int step = 1; step < lists.length; step += step) {  // 每次合并的两个链表的索引差值
             for (int i = 0; i + step < lists.length; i += (step + step)) {  // i 代表两个待合并链表中的第一个
-                // list[i] 和 list[i+step] 进行合并
-                lists[i] = mergeTwoList(lists[i], lists[i + step]);
+                lists[i] = mergeTwoList(lists[i], lists[i + step]);  // list[i] 和 list[i+step] 进行合并
             }
         }
         return lists[0];
