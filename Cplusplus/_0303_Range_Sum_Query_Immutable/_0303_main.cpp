@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：20 ms, 在所有 C++ 提交中击败了98.04%的用户
+ * 内存消耗：16.7 MB, 在所有 C++ 提交中击败了72.77%的用户
+ */
 class NumArray {
 public:
 
