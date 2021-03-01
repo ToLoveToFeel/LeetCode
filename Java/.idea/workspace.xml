@@ -87,11 +87,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="Kotlin File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,7 +133,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0145_Binary_Tree_Postorder_Traversal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0341_Flatten_Nested_List_Iterator" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -145,15 +145,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0145_Binary_Tree_Postorder_Traversal" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0094_Binary_Tree_Inorder_Traversal" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0144_Binary_Tree_Preorder_Traversal" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0338_Counting_Bits" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0337_House_Robber_III" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0429_N_ary_Tree_Level_Order_Traversal" />
@@ -162,12 +159,15 @@
       <recent name="_0203_Remove_Linked_List_Elements" />
       <recent name="_0120_Triangle" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0341_Flatten_Nested_List_Iterator" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0145_Binary_Tree_Postorder_Traversal" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0094_Binary_Tree_Inorder_Traversal" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0144_Binary_Tree_Preorder_Traversal" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0338_Counting_Bits" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution2 (1)">
@@ -808,7 +808,7 @@
       <workItem from="1614476875675" duration="2511000" />
       <workItem from="1614489078389" duration="5378000" />
       <workItem from="1614501823424" duration="4579000" />
-      <workItem from="1614558286076" duration="2234000" />
+      <workItem from="1614558286076" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1046,9 +1046,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1613180866197">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2685" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1614562105878">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2685" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614562105878" />
     <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1611492676815" />
     <state x="2685" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1613180866197" />
     <state x="2479" y="45" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614493160869">
