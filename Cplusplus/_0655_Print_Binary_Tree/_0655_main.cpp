@@ -1,6 +1,10 @@
 // Created by WXX on 2021/2/27 20:42
 #include "MyTree.h"
 
+/**
+ * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+ * 内存消耗：8.8 MB, 在所有 C++ 提交中击败了25.15%的用户
+ */
 class Solution {
 public:
     vector<vector<string>> ans;
