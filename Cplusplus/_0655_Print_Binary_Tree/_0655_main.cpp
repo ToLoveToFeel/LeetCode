@@ -26,7 +26,7 @@ public:
     }
 
     vector<vector<string>> printTree(TreeNode *root) {
-        // 求出数的高度和宽度
+        // 求出树的高度和宽度
         auto t = dfs(root);
         int h = t[0], w = t[1];
 
