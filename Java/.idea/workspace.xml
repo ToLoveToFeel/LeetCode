@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0303_Range_Sum_Query_Immutable/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0303_Range_Sum_Query_Immutable/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -808,7 +808,7 @@
       <workItem from="1614476875675" duration="2511000" />
       <workItem from="1614489078389" duration="5378000" />
       <workItem from="1614501823424" duration="4579000" />
-      <workItem from="1614558286076" duration="455000" />
+      <workItem from="1614558286076" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>

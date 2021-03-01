@@ -18,6 +18,10 @@ public:
 };
 
 // 分为两步：(1) 将数据遍历存入vector中；(2) 从vector中获取数据
+/**
+ * 执行用时：20 ms, 在所有 C++ 提交中击败了39.24%的用户
+ * 内存消耗：13.4 MB, 在所有 C++ 提交中击败了45.43%的用户
+ */
 class NestedIterator {
 public:
     vector<int> q;
