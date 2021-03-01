@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了95.76%的用户
+ * 内存消耗：7.9 MB, 在所有 C++ 提交中击败了68.26%的用户
+ */
 class Solution {
 public:
     bool judgeCircle(string moves) {
