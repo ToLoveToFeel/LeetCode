@@ -237,3 +237,4 @@ add_executable(_0671_main _0671_Second_Minimum_Node_In_a_Binary_Tree/_0671_main.
 add_executable(_0675_main _0675_Cut_Off_Trees_for_Golf_Event/_0675_main.cpp)
 add_executable(_0676_main _0676_Implement_Magic_Dictionary/_0676_main.cpp)
 add_executable(_0677_main _0677_Map_Sum_Pairs/_0677_main.cpp)
+add_executable(_0678_main _0678_Valid_Parenthesis_String/_0678_main.cpp)
