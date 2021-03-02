@@ -21,7 +21,6 @@ public class Test {
                 11, nu, 13, 4,
                 7, 2, nu, nu, nu, nu, 5, 1
         };
-
 //        TreeNode root = (new MyTree(nums)).getRoot();
         MyTree myTree = new MyTree(nums);
         System.out.println("myTree的层次遍历结果：" + myTree.levelOrder());

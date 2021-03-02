@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_auxiliary/mytree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_auxiliary/mytree/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +134,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0661_Image_Smoother" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0662_Maximum_Width_of_Binary_Tree" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -147,11 +150,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0662_Maximum_Width_of_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0661_Image_Smoother" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0658_Find_K_Closest_Elements" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0657_Robot_Return_to_Origin" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0655_Print_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0341_Flatten_Nested_List_Iterator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0658_Find_K_Closest_Elements" />
@@ -168,27 +171,13 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0657_Robot_Return_to_Origin.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0657_Robot_Return_to_Origin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0658_Find_K_Closest_Elements.Solution" />
@@ -211,6 +200,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0661_Image_Smoother.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0662_Maximum_Width_of_Binary_Tree.Solution" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0662_Maximum_Width_of_Binary_Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution2 (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -807,7 +810,7 @@
       <workItem from="1614489078389" duration="5378000" />
       <workItem from="1614501823424" duration="4579000" />
       <workItem from="1614558286076" duration="19333000" />
-      <workItem from="1614648130419" duration="2198000" />
+      <workItem from="1614648130419" duration="3173000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
