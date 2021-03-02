@@ -1,13 +1,30 @@
-Implement a MapSum class with insert, and sum methods.
+Leetcode 0677 键值映射
 
-For the method insert, you'll be given a pair of (string, integer). The string represents the key and the integer represents
-the value. If the key already existed, then the original key-value pair will be overridden to the new one.
+// 实现一个 MapSum 类，支持两个方法，insert 和 sum：
+// MapSum() 初始化 MapSum 对象
+// void insert(String key, int val) 插入 key-val 键值对，字符串表示键 key，整数表示值val。
+//      如果键 key 已经存在，那么原来的键值对将被替代成新的键值对。
+// int sum(string prefix) 返回所有以该前缀 prefix 开头的键 key 的值的总和。
+//
+// 示例：
+// 输入：
+//      ["MapSum", "insert", "sum", "insert", "sum"]
+//      [[], ["apple", 3], ["ap"], ["app", 2], ["ap"]]
+// 输出：
+//      [null, null, 3, null, 5]
+// 解释：
+//      MapSum mapSum = new MapSum();
+//      mapSum.insert("apple", 3);
+//      mapSum.sum("ap");           // return 3 (apple = 3)
+//      mapSum.insert("app", 2);
+//      mapSum.sum("ap");           // return 5 (apple + app = 3 + 2 = 5)
+//
+// 提示：
+// 1 <= key.length, prefix.length <= 50
+// key 和 prefix 仅由小写英文字母组成
+// 1 <= val <= 1000
+// 最多调用 50 次 insert 和 sum
+//
+// Related Topics 字典树
+// 👍 83 👎 0
 
-For the method sum, you'll be given a string representing the prefix, and you need to return the sum of all the pairs' value
-whose key starts with the prefix.
-
-Example 1:
-    Input: insert("apple", 3), Output: Null
-    Input: sum("ap"), Output: 3
-    Input: insert("app", 2), Output: Null
-    Input: sum("ap"), Output: 5
