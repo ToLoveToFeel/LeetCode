@@ -234,3 +234,4 @@ add_executable(_0673_main _0673_Number_of_Longest_Increasing_Subsequence/_0673_m
 add_executable(_0669_main _0669_Trim_a_Binary_Search_Tree/_0669_main.cpp)
 add_executable(_0670_main _0670_Maximum_Swap/_0670_main.cpp)
 add_executable(_0671_main _0671_Second_Minimum_Node_In_a_Binary_Tree/_0671_main.cpp)
+add_executable(_0675_main _0675_Cut_Off_Trees_for_Golf_Event/_0675_main.cpp)
