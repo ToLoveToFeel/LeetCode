@@ -5,6 +5,10 @@
 using namespace std;
 
 // 卷积操作，可以用二维前缀和
+/**
+ * 执行用时：92 ms, 在所有 C++ 提交中击败了32.52%的用户
+ * 内存消耗：18.4 MB, 在所有 C++ 提交中击败了99.55%的用户
+ */
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>> &M) {
