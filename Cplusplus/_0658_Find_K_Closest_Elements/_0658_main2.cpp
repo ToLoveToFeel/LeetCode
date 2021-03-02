@@ -7,6 +7,10 @@
 using namespace std;
 
 // 二分+双指针，时间复杂度：O(log(n) + k)
+/**
+ * 执行用时：28 ms, 在所有 C++ 提交中击败了99.72%的用户
+ * 内存消耗：30.8 MB, 在所有 C++ 提交中击败了46.19%的用户
+ */
 class Solution {
 public:
     vector<int> findClosestElements(vector<int> &arr, int k, int T) {
