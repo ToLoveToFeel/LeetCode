@@ -5,6 +5,10 @@
 using namespace std;
 
 // 这是一个构造题目
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了26.61%的用户
+ * 内存消耗：7.3 MB, 在所有 C++ 提交中击败了86.64%的用户
+ */
 class Solution {
 public:
     vector<int> constructArray(int n, int k) {
