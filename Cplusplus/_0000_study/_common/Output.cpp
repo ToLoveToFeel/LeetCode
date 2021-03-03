@@ -16,7 +16,6 @@ void OutputBasicArray2D1(vector<vector<int>> nums) {
 
     cout << "[";
     for (int i = 0; i < nums.size(); i++) {
-        if (i > 0 && i < nums.size()) cout << ' ';
         cout << "[";
         for (int j = 0; j < nums[i].size(); j++) {
             cout << nums[i][j];
