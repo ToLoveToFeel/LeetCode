@@ -3,7 +3,10 @@
 
 using namespace std;
 
-// 思路：找到第一个相邻的升序对，然后
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了28.80%的用户
+ * 内存消耗：5.9 MB, 在所有 C++ 提交中击败了78.02%的用户
+ */
 class Solution {
 public:
     int maximumSwap(int num) {
@@ -12,7 +15,7 @@ public:
             if (str[i] < str[i + 1]) {
                 int k = i + 1;
                 for (int j = k; j < str.size(); j++)
-                    if (str[j] > str[k])
+                    if (str[j] >= str[k])
                         k = j;
                     for (int j = 0; ; j++)
                         if (str[j] < str[k]) {
@@ -29,6 +32,7 @@ int main() {
 
     cout << Solution().maximumSwap(2736) << endl;  // 7236
     cout << Solution().maximumSwap(9973) << endl;  // 9973
+    cout << Solution().maximumSwap(1993) << endl;  // 9913
 
     return 0;
 }
