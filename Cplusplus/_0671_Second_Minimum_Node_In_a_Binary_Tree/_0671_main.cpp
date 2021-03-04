@@ -1,6 +1,10 @@
 // Created by WXX on 2021/3/2 16:16
 #include "MyTree.h"
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了32.12%的用户
+ * 内存消耗：6.8 MB, 在所有 C++ 提交中击败了90.58%的用户
+ */
 class Solution {
 public:
     long long d1, d2;  // d1存储最小数，d2存储第二小数
