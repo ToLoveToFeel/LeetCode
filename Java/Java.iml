@@ -80,5 +80,6 @@
       </library>
     </orderEntry>
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="c3p0-0.9.1.2" level="project" />
   </component>
 </module>
