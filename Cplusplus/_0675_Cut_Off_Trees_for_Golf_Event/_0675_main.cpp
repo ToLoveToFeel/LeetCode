@@ -6,6 +6,10 @@
 using namespace std;
 
 // 思路：将树从小到大排序。然后求两点之间的最短路径，有多少棵树求多少次bfs
+/**
+ * 执行用时：892 ms, 在所有 C++ 提交中击败了33.96%的用户
+ * 内存消耗：174.7 MB, 在所有 C++ 提交中击败了10.38%的用户
+ */
 class Solution {
 public:
     struct Tree {
