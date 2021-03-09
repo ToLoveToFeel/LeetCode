@@ -6,6 +6,10 @@
 using namespace std;
 
 // 暴搜
+/**
+ * 执行用时：108 ms, 在所有 C++ 提交中击败了8.96%的用户
+ * 内存消耗：24.7 MB, 在所有 C++ 提交中击败了5.18%的用户
+ */
 class Solution {
 public:
     bool judgePoint24(vector<int> &nums) {
