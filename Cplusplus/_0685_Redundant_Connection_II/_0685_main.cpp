@@ -20,6 +20,7 @@ public:
     vector<vector<int>> g;  // 邻接矩阵
     stack<int> stk;
 
+    // 找环函数
     bool dfs(int u) {
         st[u] = true;  // u已经被遍历过了
         stk.push(u), in_k[u] = true;  // 将u加入栈中
