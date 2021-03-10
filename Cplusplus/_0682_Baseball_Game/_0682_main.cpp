@@ -6,6 +6,10 @@
 using namespace std;
 
 // 模拟题
+/**
+ * 执行用时：8 ms, 在所有 C++ 提交中击败了51.65%的用户
+ * 内存消耗：8 MB, 在所有 C++ 提交中击败了95.53%的用户
+ */
 class Solution {
 public:
     int calPoints(vector<string> &ops) {
