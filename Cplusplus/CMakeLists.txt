@@ -250,3 +250,4 @@ add_executable(_1047_main _1047_Remove_All_Adjacent_Duplicates_In_String/_1047_m
 add_executable(_0224_main _0224_Basic_Calculator/_0224_main.cpp)
 add_executable(_0685_main _0685_Redundant_Connection_II/_0685_main.cpp)
 add_executable(_0687_main _0687_Longest_Univalue_Path/_0687_main.cpp)
+add_executable(_0227_main _0227_Basic_Calculator_II/_0227_main.cpp)
