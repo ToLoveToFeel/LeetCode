@@ -15,6 +15,6 @@ public class Test {
 //        list.printLinkedList(head);
 
         // 创建链表，获取链表头结点
-        ListNode head = (new MyLinkedList(new int[]{1, 2, 4})).getHead();
+        // ListNode head = (new MyLinkedList(new int[]{1, 2, 4})).getHead();
     }
 }
