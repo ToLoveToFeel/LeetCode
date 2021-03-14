@@ -144,20 +144,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_0232_Implement_Queue_using_Stacks" />
-      <recent name="_0658_Find_K_Closest_Elements" />
-      <recent name="_0429_N_ary_Tree_Level_Order_Traversal" />
-      <recent name="_0659_Split_Array_into_Consecutive_Subsequences" />
-      <recent name="_0204_Count_Primes" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -168,8 +154,22 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0227_Basic_Calculator_II" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0687_Longest_Univalue_Path" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_0705_Design_HashSet" />
+      <recent name="_0232_Implement_Queue_using_Stacks" />
+      <recent name="_0658_Find_K_Closest_Elements" />
+      <recent name="_0429_N_ary_Tree_Level_Order_Traversal" />
+      <recent name="_0659_Split_Array_into_Consecutive_Subsequences" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -233,13 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0227_Basic_Calculator_II.Solution" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0705_Design_HashSet.Solution2" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0227_Basic_Calculator_II.*" />
+          <option name="PATTERN" value="_0705_Design_HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -833,6 +833,7 @@
       <workItem from="1615641222713" duration="2843000" />
       <workItem from="1615689635302" duration="1475000" />
       <workItem from="1615697248918" duration="121000" />
+      <workItem from="1615726078920" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
