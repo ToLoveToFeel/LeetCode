@@ -12,17 +12,14 @@ public class Solution {
     private boolean[] visited;  // 记录节点是否访问过
 
     public int maxAreaOfIsland(int[][] grid) {
-        if (grid == null)
-            return 0;
+
+        if (grid == null) return 0;
         R = grid.length;
-        if (0 == R)
-            return 0;
+        if (R == 0) return 0;
         C = grid[0].length;
-        if (0 == C)
-            return 0;
+        if (C == 0) return 0;
 
         this.grid = grid;
-
         G = constructGraph();
 
         int res = 0;
@@ -38,7 +35,7 @@ public class Solution {
     }
 
     // 深度优先遍历，返回某个连通分量节点数目
-    private int dfs(int v){
+    private int dfs(int v) {
         visited[v] = true;
         int res = 1;
         for (int w : G[v])
@@ -47,18 +44,18 @@ public class Solution {
         return res;
     }
 
-    private HashSet<Integer>[] constructGraph(){
+    private HashSet<Integer>[] constructGraph() {
         HashSet<Integer>[] g = new HashSet[R * C];
         for (int i = 0; i < g.length; i++)
             g[i] = new HashSet<>();
 
-        for (int v = 0; v < g.length; v++){
-            int x = v /C, y = v % C;  // 一维坐标转化为二维坐标
-            if (1 == grid[x][y]){
-                for (int d = 0; d < 4; d++){
+        for (int v = 0; v < g.length; v++) {
+            int x = v / C, y = v % C;  // 一维坐标转化为二维坐标
+            if (1 == grid[x][y]) {
+                for (int d = 0; d < 4; d++) {
                     int newX = x + dirs[d][0];
                     int newY = y + dirs[d][1];
-                    if (inArea(newX, newY) && grid[newX][newY] == 1){
+                    if (inArea(newX, newY) && grid[newX][newY] == 1) {
                         int next = newX * C + newY;  // 二维坐标转化为一维坐标
                         g[v].add(next);
                         g[next].add(v);
@@ -69,20 +66,20 @@ public class Solution {
         return g;
     }
 
-    private boolean inArea(int x, int y){
+    private boolean inArea(int x, int y) {
         return x >= 0 && x < R && y >= 0 && y < C;
     }
 
     public static void main(String[] args) {
         int[][] grid = {
-                {0,0,1,0,0,0,0,1,0,0,0,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,1,1,0,1,0,0,0,0,0,0,0,0},
-                {0,1,0,0,1,1,0,0,1,0,1,0,0},
-                {0,1,0,0,1,1,0,0,1,1,1,0,0},
-                {0,0,0,0,0,0,0,0,0,0,1,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,0,0,0,0,0,0,1,1,0,0,0,0}
+                {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}
         };
 
         System.out.println((new Solution()).maxAreaOfIsland(grid));

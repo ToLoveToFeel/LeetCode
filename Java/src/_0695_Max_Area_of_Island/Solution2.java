@@ -1,62 +1,57 @@
 package _0695_Max_Area_of_Island;
 
+/**
+ * 执行用时：5 ms, 在所有 Java 提交中击败了18.82%的用户
+ * 内存消耗：38.4 MB, 在所有 Java 提交中击败了99.62%的用户
+ */
 public class Solution2 {
 
-    private int R, C;  // grid的行数，列数
-    private int[][] grid;  // 岛屿
-
-    private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 某个点的四个方向，上右下左
-    private boolean[][] visited;  // 记录节点是否访问过
+    private int n, m;
+    private int[][] g;
+    private final int[][] d = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 上右下左
+    private boolean[][] st;  // 记录节点是否访问过
 
     public int maxAreaOfIsland(int[][] grid) {
-        if (grid == null)
-            return 0;
-        R = grid.length;
-        if (0 == R)
-            return 0;
-        C = grid[0].length;
-        if (0 == C)
-            return 0;
 
-        this.grid = grid;
+        n = grid.length;
+        if (n == 0) return 0;
+        m = grid[0].length;
+        if (m == 0) return 0;
+
+        this.g = grid;
+        st = new boolean[n][m];  // 默认为false
 
         int res = 0;
-        visited = new boolean[R][C];  // 默认为false
-
-        for (int i = 0; i < R; i++)
-            for (int j = 0; j < C; j++)
-                if (!visited[i][j] && grid[i][j] ==1)
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                if (!st[i][j] && grid[i][j] == 1)
                     res = Math.max(res, dfs(i, j));
 
         return res;
     }
 
-    // 深度优先遍历，返回某个陆地大小
-    private int dfs(int x, int y){
-        visited[x][y] = true;
+    // 返回某个陆地大小
+    private int dfs(int sx, int sy) {
+        st[sx][sy] = true;
         int res = 1;
-        for (int d = 0; d < 4; d++){
-            int newX = x + dirs[d][0], newY = y + dirs[d][1];
-            if (inArea(newX, newY) && !visited[newX][newY] && grid[newX][newY] == 1)
-                res += dfs(newX, newY);
+        for (int i = 0; i < 4; i++) {
+            int a = sx + d[i][0], b = sy + d[i][1];
+            if (a >= 0 && a < n && b >= 0 && b < m && !st[a][b] && g[a][b] == 1)
+                res += dfs(a, b);
         }
         return res;
     }
 
-    private boolean inArea(int x, int y){
-        return x >= 0 && x < R && y >= 0 && y < C;
-    }
-
     public static void main(String[] args) {
         int[][] grid = {
-                {0,0,1,0,0,0,0,1,0,0,0,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,1,1,0,1,0,0,0,0,0,0,0,0},
-                {0,1,0,0,1,1,0,0,1,0,1,0,0},
-                {0,1,0,0,1,1,0,0,1,1,1,0,0},
-                {0,0,0,0,0,0,0,0,0,0,1,0,0},
-                {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                {0,0,0,0,0,0,0,1,1,0,0,0,0}
+                {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}
         };
 
         System.out.println((new Solution2()).maxAreaOfIsland(grid));
