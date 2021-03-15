@@ -2,43 +2,41 @@ package _0200_Number_of_Islands;
 
 /**
  * Date: 2020/9/3 16:21
- * Content:
- * 经典的floodfill算法
+ * Content: 经典的 floodfill 算法
+ * 执行用时：2 ms, 在所有 Java 提交中击败了92.58%的用户
+ * 内存消耗：40.7 MB, 在所有 Java 提交中击败了84.35%的用户
  */
 class Solution {
 
     int[][] d = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 上右下左
-    int m, n;  // 行数，列数
-    boolean[][] visited;
-
-    private boolean inArea(int x, int y) {
-        return x >= 0 && x < m && y >= 0 && y < n;
-    }
+    int n, m;  // 行数，列数
+    char[][] g;
+    boolean[][] st;
 
     // 从grid[x][y]的位置开始(该位置要求为'1'，即陆地)，进行 floodfill
-    private void dfs(char[][] grid, int x, int y) {
-        visited[x][y] = true;
+    private void dfs(int x, int y) {
+        st[x][y] = true;
         for (int i = 0; i < 4; i++) {
-            int newx = x + d[i][0];
-            int newy = y + d[i][1];
-            if (inArea(newx, newy) && !visited[newx][newy] && grid[newx][newy] == '1')
-                dfs(grid, newx, newy);
+            int a = x + d[i][0], b = y + d[i][1];
+            if (a >= 0 && a < n && b >= 0 && b < m && !st[a][b] && g[a][b] == '1')
+                dfs(a, b);
         }
     }
 
     public int numIslands(char[][] grid) {
 
-        m = grid.length;
-        if (m == 0) return 0;
-        n = grid[0].length;
-        visited = new boolean[m][n];
+        g = grid;
+        n = g.length;
+        if (n == 0) return 0;
+        m = g[0].length;
+        st = new boolean[n][m];
 
         int res = 0;
-        for (int i = 0; i < m; i++)
-            for (int j = 0; j < n; j++)
-                if (grid[i][j] == '1' && !visited[i][j]) {
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                if (grid[i][j] == '1' && !st[i][j]) {
                     res++;
-                    dfs(grid, i, j);
+                    dfs(i, j);
                 }
         return res;
     }
