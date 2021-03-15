@@ -2,43 +2,25 @@ package _0463_Island_Perimeter;
 
 /**
  * Date: 2020/10/30 10:07
- * Content:
- * 暴力解法
- * 执行用时：9 ms, 在所有 Java 提交中击败了56.99%的用户
- * 内存消耗：39.5 MB, 在所有 Java 提交中击败了72.46%的用户
+ * Content: Floodfill
+ * 执行用时：11 ms, 在所有 Java 提交中击败了32.41%的用户
+ * 内存消耗：39.4 MB, 在所有 Java 提交中击败了88.92%的用户
  */
 public class Solution {
-    int[][] d = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 上右下左
-    int m, n;  // 行数，列数
 
-    private boolean inArea(int x, int y) {
-        return x >= 0 && x < m && y >= 0 && y < n;
-    }
+    int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};  // 上右下左
 
     public int islandPerimeter(int[][] grid) {
-        m = grid.length;
-        if (m == 0)
-            return 0;
-        n = grid[0].length;
 
         int res = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                int count = 0;
-                if (grid[i][j] == 1) {  // 如果当前是岛屿
-                    for (int k = 0; k < 4; k++) {  // 考察岛屿的四个临边
-                        int newX = i + d[k][0];
-                        int newY = j + d[k][1];
-                        if (!inArea(newX, newY))  // 如果临边是边界,边长加一
-                            count++;
-                        else if (grid[newX][newY] == 0)  // 如果临边不是边界，并且临边是水域，边长加一
-                            count++;
+        for (int i = 0; i < grid.length; i++)
+            for (int j = 0; j < grid[0].length; j++)
+                if (grid[i][j] == 1)
+                    for (int k = 0; k < 4; k++) {
+                        int a = i + dx[k], b = j + dy[k];
+                        if (a < 0 || a >= grid.length || b < 0 || b >= grid[0].length) res++;
+                        else if (grid[a][b] == 0) res++;
                     }
-                }
-                res += count;
-            }
-        }
-
         return res;
     }
 
