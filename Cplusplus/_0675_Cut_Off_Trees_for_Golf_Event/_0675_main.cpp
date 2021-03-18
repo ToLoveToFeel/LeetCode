@@ -25,8 +25,7 @@ public:
     int bfs(Tree st, Tree ed) {
         if (st.x == ed.x && st.y == ed.y) return 0;  // 起点终点都是出发点
         queue<Tree> q;
-        const int INF = 1e8;
-        vector<vector<int>> dist(n, vector<int>(m, INF));
+        vector<vector<int>> dist(n, vector<int>(m, -1));
         dist[st.x][st.y] = 0;
         q.push(st);
         int dx[] = {-1, 0, 1, 0}, dy[] = {0, 1, 0, -1};
@@ -36,7 +35,7 @@ public:
             for (int i = 0; i < 4; i++) {
                 int x = t.x + dx[i], y = t.y + dy[i];
                 if (x >= 0 && x < n && y >= 0 && y < m && g[x][y]) {
-                    if (dist[x][y] > dist[t.x][t.y] + 1) {  // 没有判重数组，必须有这句话
+                    if (dist[x][y] == -1) {  // 没有判重数组，必须有这句话
                         dist[x][y] = dist[t.x][t.y] + 1;
                         if (x == ed.x && y == ed.y) return dist[x][y];
                         q.push({x, y});
@@ -71,7 +70,7 @@ public:
 int main() {
 
     vector<vector<int>> forest = {{1, 2, 3},
-                                  {0, 0, 0},
+                                  {0, 0, 4},
                                   {7, 6, 5}};
     cout << Solution().cutOffTree(forest) << endl;  // -1
 
