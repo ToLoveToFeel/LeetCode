@@ -1,5 +1,7 @@
 package _0127_Word_Ladder;
 
+import _0000_study._common.Build;
+
 import java.util.*;
 
 /**
@@ -28,31 +30,25 @@ class Solution2 {
         wordList.add(beginWord);
         List<List<Integer>> graph = new ArrayList<>();
 
-        for (int i = 0; i < wordList.size(); i++)
-            graph.add(new ArrayList<>());
+        for (int i = 0; i < wordList.size(); i++) graph.add(new ArrayList<>());
 
-        for (int i = 0; i < wordList.size(); i++) {
-            for (int j = i + 1; j < wordList.size(); j++) {
+        for (int i = 0; i < wordList.size(); i++)
+            for (int j = i + 1; j < wordList.size(); j++)
                 if (isConnected(wordList.get(i), wordList.get(j))) {
                     graph.get(i).add(j);
                     graph.get(j).add(i);
                 }
-            }
-        }
-
         return graph;
     }
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         int endIndex = -1;
-        for (int i = 0; i < wordList.size(); i++) {
+        for (int i = 0; i < wordList.size(); i++)
             if (endWord.equals(wordList.get(i))) {
                 endIndex = i;
                 break;
             }
-        }
-        if (endIndex == -1)
-            return 0;
+        if (endIndex == -1) return 0;
 
         int n = wordList.size();
         Set<Integer> visited = new HashSet<>();
@@ -62,9 +58,9 @@ class Solution2 {
         List<List<Integer>> graph = constructUndirectedGraph(beginWord, wordList);
 
         Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queueEnd = new LinkedList<>();
         queue.add(n);  // beginWord会放在wordList最后的位置用于建图
         visited.add(n);
-        Queue<Integer> queueEnd = new LinkedList<>();
         queueEnd.add(endIndex);
         visitedEnd.add(endIndex);
         int res = 1;
@@ -97,34 +93,10 @@ class Solution2 {
 
     public static void main(String[] args) {
 
-        String beginWord = "hit";
-        String endWord = "cog";
-        List<String> wordList = new ArrayList<String>() {{
-            add("hot");
-            add("dot");
-            add("dog");
-            add("lot");
-            add("log");
-            add("cog");
-        }};
-        System.out.println((new Solution()).ladderLength(beginWord, endWord, wordList));
-//        String beginWord = "hit";
-//        String endWord = "cog";
-//        List<String> wordList = new ArrayList<String>() {{
-//            add("hot");
-//            add("dot");
-//            add("dog");
-//            add("lot");
-//            add("log");
-//        }};
-//        System.out.println((new Solution()).ladderLength(beginWord, endWord, wordList));
-//        String beginWord = "a";
-//        String endWord = "c";
-//        List<String> wordList = new ArrayList<String>() {{
-//            add("a");
-//            add("b");
-//            add("c");
-//        }};
-//        System.out.println((new Solution2()).ladderLength(beginWord, endWord, wordList));
+        List<String> wordList = Build.build(new String[]{"hot", "dot", "dog", "lot", "log", "cog"});
+        System.out.println((new Solution2()).ladderLength("hit", "cog", wordList));
+
+//        List<String> wordList = Build.build(new String[]{"a", "b", "c"});
+//        System.out.println((new Solution2()).ladderLength("a", "c", wordList));
     }
 }
