@@ -5,8 +5,7 @@ import java.util.List;
 
 /**
  * Date: 2020/10/29 9:30
- * Content:
- * Dijkstra算法：单源最短路径，不能处理负权边
+ * Content: Dijkstra算法：单源最短路径，不能处理负权边
  * 算法步骤：
  * (1) 找到当前还没有得到结果的节点中最短路径对应的节点（找最小值），该题中，找乘法最大值，相当于找加法最小值
  * (2) 确认这个节点的最短路就是当前大小（确定一个解）
@@ -80,23 +79,17 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int n = 3;  // 0.25
-        int[][] edges = {{0, 1}, {1, 2}, {0, 2}};
-        double[] succProb = {0.5, 0.5, 0.2};
-        int start = 0;
-        int end = 2;
-        System.out.println((new Solution()).maxProbability(n, edges, succProb, start, end));
-//        int n = 3;  // 0.3
+
+//        int[][] edges = {{0, 1}, {1, 2}, {0, 2}};
+//        double[] succProb = {0.5, 0.5, 0.2};
+//        System.out.println((new Solution()).maxProbability(3, edges, succProb, 0, 2));  // 0.25
+
 //        int[][] edges = {{0, 1}, {1, 2}, {0, 2}};
 //        double[] succProb = {0.5, 0.5, 0.3};
-//        int start = 0;
-//        int end = 2;
-//        System.out.println((new Solution()).maxProbability(n, edges, succProb, start, end));
-//        int n = 3;  // 0.0
-//        int[][] edges = {{0, 1}};
-//        double[] succProb = {0.5};
-//        int start = 0;
-//        int end = 2;
-//        System.out.println((new Solution()).maxProbability(n, edges, succProb, start, end));
+//        System.out.println((new Solution()).maxProbability(3, edges, succProb, 0, 2));  // 0.3
+
+        int[][] edges = {{0, 1}};
+        double[] succProb = {0.5};
+        System.out.println((new Solution()).maxProbability(3, edges, succProb, 0, 2));  // 0.0
     }
 }
