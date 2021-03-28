@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：32 ms, 在所有 C++ 提交中击败了80.76%的用户
+ * 内存消耗：23.5 MB, 在所有 C++ 提交中击败了57.90%的用户
+ */
 class BSTIterator {
 public:
     vector<int> nums;
