@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * Created by WXX on 2021/3/28 10:24
+ * 执行用时：22 ms, 在所有 Java 提交中击败了95.60%的用户
+ * 内存消耗：42.3 MB, 在所有 Java 提交中击败了9.54%的用户
  */
 public class Solution {
 
