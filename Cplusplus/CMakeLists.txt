@@ -272,3 +272,4 @@ add_executable(_0082_main _0082_Remove_Duplicates_from_Sorted_List_II/_0082_main
 add_executable(_0083_main _0083_Remove_Duplicates_from_Sorted_List/_0083_main.cpp)
 add_executable(_0061_main _0061_Rotate_List/_0061_main.cpp)
 add_executable(_0173_main _0173_Binary_Search_Tree_Iterator/_0173_main.cpp)
+add_executable(_0078_main _0078_Subsets/_0078_main.cpp)
