@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0236_Lowest_Common_Ancestor_of_a_Binary_Tree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0236_Lowest_Common_Ancestor_of_a_Binary_Tree/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -857,7 +858,7 @@
       <workItem from="1616897460454" duration="1699000" />
       <workItem from="1617002605343" duration="1761000" />
       <workItem from="1617064838429" duration="2154000" />
-      <workItem from="1617102016995" duration="606000" />
+      <workItem from="1617102016995" duration="2896000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
