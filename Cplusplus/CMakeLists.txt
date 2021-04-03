@@ -279,3 +279,4 @@ add_executable(_0235_main _0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/_
 add_executable(_0236_main _0236_Lowest_Common_Ancestor_of_a_Binary_Tree/_0236_main.cpp)
 add_executable(_0089_main _0089_Gray_Code/_0089_main.cpp)
 add_executable(_1006_main _1006_Clumsy_Factorial/_1006_main.cpp)
+add_executable(_lcp_04_main _0000_study/_leetcode/_lcp/_LCP_04_Broken_Board_Dominoes/_lcp_04_main.cpp)

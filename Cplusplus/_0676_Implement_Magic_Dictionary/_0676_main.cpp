@@ -54,7 +54,7 @@ public:
 int main() {
 
     MagicDictionary* t = new MagicDictionary();
-    t->buildDict({"hello", "leetcode"});
+    t->buildDict({"hello", "_leetcode"});
     cout << t->search("hello") << endl;  // false
     cout << t->search("hhllo") << endl;  // true
     cout << t->search("hhll") << endl;  // false
