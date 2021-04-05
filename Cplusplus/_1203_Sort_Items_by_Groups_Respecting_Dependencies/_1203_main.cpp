@@ -67,17 +67,19 @@ public:
             }
         }
 
+        // 组间拓扑排序
         vector<int> groupId;
         for (int i = 0; i < n + m; i++) groupId.push_back(i);
         vector<int> outSort = topoSort(degOut, groupId, out);
-        if (outSort.empty()) return vector<int>{};
+        if (outSort.empty()) return vector<int>{};  // 说明组间存在环
 
+        // 组内拓扑排序
         vector<int> res;
-        for (int gid : outSort) {
+        for (int gid : outSort) {  // 根据组间拓扑序遍历每一组
             vector<int> items = groupItem[gid];
             if (items.empty()) continue;
             vector<int> inSort = topoSort(degIn, items, in);
-            if (inSort.empty()) return vector<int>{};
+            if (inSort.empty()) return vector<int>{};  // 说明组内存在环
             for (int i : inSort) res.push_back(i);
         }
 
