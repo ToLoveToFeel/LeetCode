@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// 具体分析参考：https://blog.csdn.net/weixin_42638946/article/details/114502760?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161769890016780255260256%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=161769890016780255260256&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_v29-1-114502760.nonecase&utm_term=%E6%A0%91%E7%8A%B6
+// 具体分析参考：https://blog.csdn.net/weixin_42638946/article/details/114502760
 /**
  * 执行用时：200 ms, 在所有 C++ 提交中击败了35.38%的用户
  * 内存消耗：11.8 MB, 在所有 C++ 提交中击败了70.56%的用户
