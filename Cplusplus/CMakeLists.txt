@@ -286,3 +286,4 @@ add_executable(_0080_main _0080_Remove_Duplicates_from_Sorted_Array_II/_0080_mai
 add_executable(_0406_main _0406_Queue_Reconstruction_by_Height/_0406_main.cpp)
 add_executable(_0406_main2 _0406_Queue_Reconstruction_by_Height/_0406_main2.cpp)
 add_executable(_0401_main _0401_Binary_Watch/_0401_main.cpp)
+add_executable(_0081_main _0081_Search_in_Rotated_Sorted_Array_II/_0081_main.cpp)
