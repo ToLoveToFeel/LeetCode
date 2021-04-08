@@ -2,33 +2,24 @@ package _0153_Find_Minimum_in_Rotated_Sorted_Array;
 
 /**
  * Date: 2020/9/24 13:42
- * Content:
- * https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/xun-zhao-xuan-zhuan-pai-lie-shu-zu-zhong-de-zui-xi/
+ * Content: 二分
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：38.2 MB, 在所有 Java 提交中击败了5.04%的用户
  */
 public class Solution2 {
 
     public int findMin(int[] nums) {
 
-        if (nums.length == 1 || nums[nums.length - 1] > nums[0])  // 数组长度为1 或者 未旋转
-            return nums[0];
+        int n = nums.length - 1;
+        if (nums[n] >= nums[0]) return nums[0];  // 说明未旋转
 
-        int l = 0, r = nums.length - 1;
-        // 在 [l...r] 之间寻找旋转点
-        // l ... mid ... r, 我们必须将 mid 前后的数据都进行比较，这样之后更新才是 l = mid + 1 或 r = mid - 1
-        while (l <= r) {
-            int mid = (r - l) / 2 + l;
-
-            if (nums[mid] > nums[mid + 1])
-                return nums[mid + 1];
-            if (nums[mid - 1] > nums[mid])  // 不加这句话，测试 {4, 5, 1, 2, 3} 无法通过
-                return nums[mid];
-
-            if (nums[mid] > nums[0])
-                l = mid + 1;
-            else
-                r = mid - 1;
+        int l = 0, r = n;
+        while (l < r) {
+            int mid = l + r + 1 >> 1;
+            if (nums[mid] >= nums[0]) l = mid;
+            else r = mid - 1;
         }
-        return -1;
+        return nums[r + 1];
     }
 
     public static void main(String[] args) {
