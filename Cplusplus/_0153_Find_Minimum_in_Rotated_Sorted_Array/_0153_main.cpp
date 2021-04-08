@@ -5,6 +5,10 @@
 using namespace std;
 
 // 整数二分
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了78.71%的用户
+ * 内存消耗：9.9 MB, 在所有 C++ 提交中击败了62.41%的用户
+ */
 class Solution {
 public:
     int findMin(vector<int> &nums) {
