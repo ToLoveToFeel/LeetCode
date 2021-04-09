@@ -10,11 +10,13 @@ using namespace std;
  */
 class Solution {
 public:
+    static const int T = 2;  // 每个元素最多保留次数
+
     int removeDuplicates(vector<int> &a) {
 
         int k = 0;  // [0, k)是需要保留的
         for (int i = 0; i < a.size(); i++)
-            if (k - 2 < 0 || a[i] != a[k - 2])
+            if (k - T < 0 || a[i] != a[k - T])
                 a[k++] = a[i];
         return k;
     }
