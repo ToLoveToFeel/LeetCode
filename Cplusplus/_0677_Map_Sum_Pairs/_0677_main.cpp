@@ -7,7 +7,7 @@ using namespace std;
 const int N = 2510;
 
 int son[N][26], idx;
-int V[N], S[N];  // V存储当前节点的权值，S存储以该节点对应前缀的子树的权值和
+int V[N], S[N];  // V存储当前节点的权值，S存储以该节点为根的前缀树的权值和
 
 /**
  * 执行用时：4 ms, 在所有 C++ 提交中击败了79.83%的用户

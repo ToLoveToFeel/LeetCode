@@ -4,7 +4,7 @@ package _0263_Ugly_Number;
  * Date: 2021/2/1 14:49
  * Content:
  * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
- * 内存消耗：35.5 MB, 在所有 Java 提交中击败了55.87%的用户
+ * 内存消耗：35.2 MB, 在所有 Java 提交中击败了93.92%的用户
  */
 public class Solution {
 
