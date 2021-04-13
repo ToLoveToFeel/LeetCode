@@ -14,16 +14,12 @@ public class Solution2 {
 
     private void dfs(TreeNode root) {
 
-        if (root == null)
-            return;
+        if (root == null) return;
 
         dfs(root.left);
 
-        if (isFirst) {
-            isFirst = false;
-        } else {
-            res = Math.min(res, root.val - last);
-        }
+        if (isFirst) isFirst = false;
+        else res = Math.min(res, root.val - last);
         last = root.val;
 
         dfs(root.right);
