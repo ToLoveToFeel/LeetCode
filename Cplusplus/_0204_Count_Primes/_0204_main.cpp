@@ -13,11 +13,12 @@ class Solution {
 public:
     int countPrimes(int n) {
 
+        n--;
         vector<bool> st(n);  // i为合数的话st[i]=true
         vector<int> p;
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             if (!st[i]) p.push_back(i);
-            for (int j = 0; i * p[j] <= n - 1; j++) {
+            for (int j = 0; p[j] <= n / i; j++) {
                 st[i * p[j]] = true;
                 if (i % p[j] == 0) break;
             }
