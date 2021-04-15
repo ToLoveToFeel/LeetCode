@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：4 ms, 在所有 C++ 提交中击败了39.43%的用户
+ * 内存消耗：7.8 MB, 在所有 C++ 提交中击败了22.41%的用户
+ */
 class Solution {
 public:
     int rob(vector<int> &nums) {
