@@ -26,7 +26,7 @@ public:
         int res = max(g[n], f[n]);
         // 考虑抢劫第一家店，则最后一家店不可以抢劫
         f[1] = nums[0];
-        g[1] = INT_MIN;
+        g[1] = INT_MIN;  // 此时必选nums[0]，但是g[1]表示必不选nums[0]，不合法，因此不能使用该状态更新其他状态
         for (int i = 2; i <= n; i++) {
             f[i] = g[i - 1] + nums[i - 1];
             g[i] = max(f[i - 1], g[i - 1]);
