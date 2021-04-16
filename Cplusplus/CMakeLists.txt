@@ -290,3 +290,5 @@ add_executable(_0081_main _0081_Search_in_Rotated_Sorted_Array_II/_0081_main.cpp
 add_executable(_0179_main _0179_Largest_Number/_0179_main.cpp)
 add_executable(_0783_main _0783_Minimum_Distance_Between_BST_Nodes/_0783_main.cpp)
 add_executable(_0785_main _0785_Is_Graph_Bipartite/_0785_main.cpp)
+add_executable(_0087_main _0087_Scramble_String/_0087_main.cpp)
+add_executable(_0087_main2 _0087_Scramble_String/_0087_main2.cpp)
