@@ -17,8 +17,6 @@ public class Solution2 {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (t < 0) return false;
-
         HashMap<Long, Long> buckets = new HashMap<>();
         long w = (long) t + (long) 1;  // 一个桶里边数字范围的个数是 t + 1
         // id=-1 对应 [-w...-1]

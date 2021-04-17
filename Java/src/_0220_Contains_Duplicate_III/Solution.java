@@ -10,8 +10,6 @@ class Solution {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (t < 0) return false;
-
         TreeSet<Long> record = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {
             long num1 = (long) nums[i] - (long) t;
