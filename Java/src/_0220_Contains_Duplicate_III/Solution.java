@@ -12,8 +12,8 @@ class Solution {
 
         TreeSet<Long> record = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {
-            long num1 = (long) nums[i] - (long) t;
-            long num2 = (long) nums[i] + (long) t;
+            long num1 = (long) nums[i] - t;
+            long num2 = (long) nums[i] + t;
             // record.ceiling(num1) : 返回大于或等于 num1 的最小键
             if (record.ceiling(num1) != null && record.ceiling(num1) <= num2) return true;
             record.add((long) nums[i]);

@@ -292,3 +292,4 @@ add_executable(_0783_main _0783_Minimum_Distance_Between_BST_Nodes/_0783_main.cp
 add_executable(_0785_main _0785_Is_Graph_Bipartite/_0785_main.cpp)
 add_executable(_0087_main _0087_Scramble_String/_0087_main.cpp)
 add_executable(_0087_main2 _0087_Scramble_String/_0087_main2.cpp)
+add_executable(_0220_main _0220_Contains_Duplicate_III/_0220_main.cpp)
