@@ -2,54 +2,40 @@ package _0028_Implement_strStr;
 
 /**
  * Date: 2020/9/19 21:22
- * Content: kmp算法 TODO
+ * Content: kmp算法
+ * 执行用时：3 ms, 在所有 Java 提交中击败了39.16%的用户
+ * 内存消耗：38.4 MB, 在所有 Java 提交中击败了38.65%的用户
  */
 public class Solution {
 
-    private int[] getNext(String T) {
+    public int strStr(String haystack, String needle) {
 
-        int[] next = new int[T.length()];
-        next[0] = -1;  // next[1] 一定为 0
-        int i = 0, j = -1;
-        while (i < T.length() - 1) {
-            // 这里 -1 的原因是因为当 i=T.length()-2 时，下面的循环一定会进入到 if 语句中，会使 i++
-            if (j == -1 || T.charAt(i) == T.charAt(j)) {
-                i++;
-                j++;
-                next[i] = j;
-            } else {
-                j = next[j];
-            }
+        if (needle == null || needle.length() == 0) return 0;
+        if (needle.length() > haystack.length()) return -1;
+
+        int m = haystack.length(), n = needle.length();
+        char[] s = (" " + haystack).toCharArray(), p = (" " + needle).toCharArray();
+
+        int[] ne = new int[n + 10];
+        for (int i = 2, j = 0; i <= n; i++) {
+            while (j != 0 && p[i] != p[j + 1]) j = ne[j];
+            if (p[i] == p[j + 1]) j++;
+            ne[i] = j;
         }
-        return next;
-    }
 
-    public int strStr(String s1, String s2) {
-
-        if (s2.length() == 0) return 0;
-        if (s1.length() < s2.length()) return -1;
-
-        int[] next = getNext(s2);  // 构造 next 表
-        int i = 0, j = 0;  // 从起始开始匹配
-        while (i < s1.length() && j < s2.length()) {
-            if (j < 0 || s1.charAt(i) == s2.charAt(j)) {
-                i++;
-                j++;
-            } else {
-                j = next[j];
-            }
+        for (int i = 1, j = 0; i <= m; i++) {
+            while (j != 0 && s[i] != p[j + 1]) j = ne[j];
+            if (s[i] == p[j + 1]) j++;
+            if (j == n) return i - n;
         }
-        return j == s2.length() ? i - j : -1;
+        return -1;
     }
 
     public static void main(String[] args) {
 
-//        String haystack = "hello";
-//        String needle = "ll";
-//        String haystack = "aaaaa";
-//        String needle = "bba";
-        String haystack = "mississippi";
-        String needle = "issipi";
-        System.out.println((new Solution()).strStr(haystack, needle));
+        System.out.println((new Solution()).strStr("", ""));  // 0
+        System.out.println((new Solution()).strStr("hello", "ll"));  // 2
+        System.out.println((new Solution()).strStr("aaaaa", "bba"));  // -1
+        System.out.println((new Solution()).strStr("mississippi", "issippi"));  // 4
     }
 }
