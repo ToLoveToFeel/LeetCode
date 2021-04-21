@@ -8,17 +8,15 @@ public class Solution {
 
     public int lengthOfLongestSubstring(String s) {
 
-        int[] freq = new int[256];
-        int l = 0, r = -1;  // 滑动窗口[l...r]
+        char[] cs = s.toCharArray();
+
+        int[] f = new int[128];  // 表示窗口[j, i]中字符出现的频率
         int res = 0;
-
-        while (l < s.length()) {
-            if (r + 1 < s.length() && freq[s.charAt(r + 1)] == 0) freq[s.charAt(++r)]++;
-            else freq[s.charAt(l++)]--;
-
-            res = Math.max(res, r - l + 1);
+        for (int i = 0, j = 0; i < cs.length; i++) {
+            f[cs[i]]++;
+            while (f[cs[i]] > 1) f[cs[j++]]--;
+            res = Math.max(res, i - j + 1);
         }
-
         return res;
     }
 
