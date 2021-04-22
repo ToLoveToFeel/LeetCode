@@ -169,7 +169,7 @@
       <recent name="_0232_Implement_Queue_using_Stacks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -205,13 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0018_4Sum.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0023_Merge_k_Sorted_Lists.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0018_4Sum.*" />
+          <option name="PATTERN" value="_0023_Merge_k_Sorted_Lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,13 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0007_Reverse_Integer.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0018_4Sum.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0007_Reverse_Integer.*" />
+          <option name="PATTERN" value="_0018_4Sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2 (2)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution2 (1)" />
       </list>
     </recent_temporary>
   </component>
