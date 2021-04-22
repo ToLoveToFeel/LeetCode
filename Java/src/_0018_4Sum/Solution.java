@@ -70,8 +70,6 @@ public class Solution {
     public static void main(String[] args) {
 
         int[] nums = {1, 0, -1, 0, -2, 2};
-        List<List<Integer>> res = (new Solution()).fourSum(nums, 0);
-        for (List item : res)
-            System.out.println("[" + item.get(0) + " " + item.get(1) + " " + item.get(2) + " " + item.get(3) + "]");
+        System.out.println((new Solution()).fourSum(nums, 0));
     }
 }
