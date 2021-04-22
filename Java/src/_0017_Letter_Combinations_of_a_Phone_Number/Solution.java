@@ -52,9 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        List<String> list = (new Solution()).letterCombinations("234");
-//        list = (new Trie()).letterCombinations("234");
-        for (String s : list)
-            System.out.println(s);
+        System.out.println((new Solution()).letterCombinations("234"));
+
     }
 }

@@ -171,7 +171,7 @@
       <recent name="_0232_Implement_Queue_using_Stacks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2 (2)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -193,13 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0363_Max_Sum_of_Rectangle_No_Larger_Than_K.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0017_Letter_Combinations_of_a_Phone_Number.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0363_Max_Sum_of_Rectangle_No_Larger_Than_K.*" />
+          <option name="PATTERN" value="_0017_Letter_Combinations_of_a_Phone_Number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,13 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0402_Remove_K_Digits.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0363_Max_Sum_of_Rectangle_No_Larger_Than_K.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0402_Remove_K_Digits.*" />
+          <option name="PATTERN" value="_0363_Max_Sum_of_Rectangle_No_Larger_Than_K.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2 (2)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
