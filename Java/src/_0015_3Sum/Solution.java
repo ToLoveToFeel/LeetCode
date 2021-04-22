@@ -87,11 +87,7 @@ public class Solution {
     public static void main(String[] args) {
 
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> res = (new Solution()).threeSum(nums);
+        System.out.println((new Solution()).threeSum(nums));  // [[-1, 0, 1], [-1, -1, 2]]
 
-        for (int i = 0; i < res.size(); i++) {
-            List item = res.get(i);
-            System.out.println("[" + item.get(0) + " " + item.get(1) + " " + item.get(2) + "]");
-        }
     }
 }
