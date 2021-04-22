@@ -310,3 +310,4 @@ add_executable(_0017_main _0017_Letter_Combinations_of_a_Phone_Number/_0017_main
 add_executable(_0018_main _0018_4Sum/_0018_main.cpp)
 add_executable(_0019_main _0019_Remove_Nth_Node_From_End_of_List/_0019_main.cpp)
 add_executable(_0020_main _0020_Valid_Parentheses/_0020_main.cpp)
+add_executable(_0021_main _0021_Merge_Two_Sorted_Lists/_0021_main.cpp)
