@@ -303,3 +303,4 @@ add_executable(_0363_main _0363_Max_Sum_of_Rectangle_No_Larger_Than_K/_0363_main
 add_executable(_0011_main _0011_Container_With_Most_Water/_0011_main.cpp)
 add_executable(_0012_main _0012_Integer_to_Roman/_0012_main.cpp)
 add_executable(_0013_main _0013_Roman_to_Integer/_0013_main.cpp)
+add_executable(_0014_mian _0014_Longest_Common_Prefix/_0014_mian.cpp)
