@@ -31,10 +31,10 @@ public:
                 set<int> S;
                 S.insert(0);
                 for (int k = 1; k <= n; k++) {
-                    int si = get(1, i, k, j);
-                    auto it = S.lower_bound(si - K);
-                    if (it != S.end()) res = max(res, si - *it);
-                    S.insert(si);
+                    int s2 = get(1, i, k, j);
+                    auto s1 = S.lower_bound(s2 - K);
+                    if (s1 != S.end()) res = max(res, s2 - *s1);
+                    S.insert(s2);
                 }
             }
         return res;
