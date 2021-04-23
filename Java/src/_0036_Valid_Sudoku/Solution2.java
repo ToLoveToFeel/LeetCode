@@ -17,14 +17,14 @@ public class Solution2 {
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.') continue;
-                int curNumber = board[i][j] - '0';
-                int index = i / 3 * 3 + j / 3;
-                if (row[i][curNumber] || col[j][curNumber] || box[index][curNumber])
-                    return false;
 
-                row[i][curNumber] = true;
-                col[j][curNumber] = true;
-                box[index][curNumber] = true;
+                int t = board[i][j] - '0';
+                int index = i / 3 * 3 + j / 3;
+                if (row[i][t] || col[j][t] || box[index][t]) return false;
+
+                row[i][t] = true;  // (i, j)在第i行
+                col[j][t] = true;  // (i, j)在第j列
+                box[index][t] = true;  // (i, j)在第index个九宫格
             }
         }
         return true;
