@@ -23,7 +23,7 @@ public:
                     stk.pop();
                     if (stk.size()) res = max(res, i - stk.top());
                     else res = max(res, i - start);
-                } else {
+                } else {  // 说明遇到右括号但是没有可以匹配的左括号，该段结束，进行下一段
                     start = i;
                 }
             }
