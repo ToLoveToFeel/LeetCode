@@ -39,8 +39,19 @@ public:
     }
 };
 
+void OutputBasicArray1D(vector<int> nums) {
+    cout << "[";
+    for (int i = 0; i < nums.size(); i++) {
+        cout << nums[i];
+        if (i != nums.size() - 1) cout << ", ";
+    }
+    cout << "]" << endl;
+}
+
 int main() {
 
+    vector<int> nums = {1, 2, 3};
+    OutputBasicArray1D(Solution().largestDivisibleSubset(nums));
 
     return 0;
 }
