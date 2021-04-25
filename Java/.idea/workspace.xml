@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +135,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0407_Trapping_Rain_Water_II" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0897_Increasing_Order_Search_Tree" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,11 +145,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0897_Increasing_Order_Search_Tree" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0407_Trapping_Rain_Water_II" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0368_Largest_Divisible_Subset" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0363_Max_Sum_of_Rectangle_No_Larger_Than_K" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0087_Scramble_String" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0213_House_Robber_II" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
