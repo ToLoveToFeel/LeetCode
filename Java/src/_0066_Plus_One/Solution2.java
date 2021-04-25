@@ -1,5 +1,7 @@
 package _0066_Plus_One;
 
+import _0000_study._common.Output;
+
 /**
  * Date: 2020/10/27 14:46
  * Content:
@@ -21,9 +23,6 @@ public class Solution2 {
     public static void main(String[] args) {
 
         int[] digits = {9, 9};
-        int[] res = (new Solution2()).plusOne(digits);
-        for (int num : res) {
-            System.out.println(num + " ");
-        }
+        Output.OutputBasicArray1D((new Solution2()).plusOne(digits));
     }
 }
