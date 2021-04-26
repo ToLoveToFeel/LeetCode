@@ -10,17 +10,21 @@ public:
     TreeNode *sortedListToBST(ListNode *head) {
 
         if (!head) return NULL;
-        int n = 0;
-        for (auto p = head; p; p = p->next) n++;
-        if (n == 1) return new TreeNode(head->val);
 
-        auto cur = head;
-        // b/a上取整 = (b+a-1)/a下取整 ==> (n-1)/2上取整 = n/2下取整
-        for (int i = 0; i < n / 2 - 1; i++) cur = cur->next;
-        auto root = new TreeNode(cur->next->val);
-        root->right = sortedListToBST(cur->next->next);
-        cur->next = NULL;
-        root->left = sortedListToBST(head);
+        auto s = head, f = head;  // 快慢指针
+        ListNode *pre = NULL;  // s的上一个节点
+        while (f && f->next) {
+            pre = s;
+            s = s->next;
+            f = f->next->next;
+        }
+
+        auto root = new TreeNode(s->val);
+        if (pre) {
+            pre->next = NULL;
+            root->left = sortedListToBST(head);
+        }
+        root->right = sortedListToBST(s->next);
         return root;
     }
 };
@@ -47,7 +51,7 @@ int main() {
     ListNode *head = MyLinkedList(l).getHead();
     TreeNode *root = Solution().sortedListToBST(head);
     vector<vector<int>> res = MyTree().levelOrder(root);
-    OutputBasicArray2D1(res);
+    OutputBasicArray2D1(res);  // [[0],  [-3, 9],  [-10, 5]]
 
     return 0;
 }
