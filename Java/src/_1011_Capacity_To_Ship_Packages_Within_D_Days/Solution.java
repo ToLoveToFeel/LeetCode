@@ -12,38 +12,31 @@ public class Solution {
 
     // k -> days(k) : 是一个减函数
     // 如果船舶最低载重为k, 需要运输的天数
-    private int days(int[] weights, int k) {
+    private int days(int[] w, int k) {
 
         int res = 0;
-
-        int index = 0;
-        int capacity = k;
-        while (index < weights.length) {
-            while (index < weights.length && capacity >= weights[index]) {
-                capacity -= weights[index];
-                index++;
-            }
+        int i = 0, t = k;
+        while (i < w.length) {
+            while (i < w.length && t >= w[i]) t -= w[i++];
             res++;
-            capacity = k;
+            t = k;
         }
-
         return res;
     }
 
     public int shipWithinDays(int[] weights, int D) {
 
-        int l = Arrays.stream(weights).max().getAsInt(), r = Arrays.stream(weights).sum();
-        while (l < r) {
-
-            int mid = l + (r - l) / 2;
-            //
-            if (days(weights, mid) <= D)
-                r = mid;
-            else
-                l = mid + 1;
+        int l = 0, r = 0;
+        for (int w : weights) {
+            l = Math.max(l, w);
+            r += w;
         }
-
-        return l;
+        while (l < r) {
+            int mid = l + r >> 1;
+            if (days(weights, mid) <= D) r = mid;
+            else l = mid + 1;
+        }
+        return r;
     }
 
     public static void main(String[] args) {
