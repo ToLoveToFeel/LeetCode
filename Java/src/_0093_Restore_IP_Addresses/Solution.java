@@ -4,61 +4,39 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Date: 2020/9/13 19:48
+ * Date: 2021/4/26 17:20
  * Content: 回溯法
  */
 public class Solution {
 
-    List<String> res = new ArrayList<>();
+    List<String> ans = new ArrayList<>();
 
-    private String getString(ArrayList<Integer> ips) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(ips.get(0));
-        for (int i = 1; i < ips.size(); i++) {
-            sb.append(".");
-            sb.append(ips.get(i));
-        }
-        return sb.toString();
-    }
-
-    private void dfs(String s, int index, ArrayList<Integer> ips) {
-        if (index == s.length()) {
-            if (ips.size() == 4) res.add(getString(ips));
+    private void dfs(char[] s, int u, int k, String path) {
+        if (u == s.length) {
+            if (k == 4) ans.add(path.substring(0, path.length() - 1));
             return;
         }
 
-        if (index == 0) {
-            ips.add(s.charAt(0) - '0');
-            dfs(s, index + 1, ips);
-        } else {
-            int next = ips.get(ips.size() - 1) * 10 + (s.charAt(index) - '0');
-            if (next <= 255 && ips.get(ips.size() - 1) != 0) {  // 不能有前导0，有的话直接用.将前后分开
-                ips.set(ips.size() - 1, next);
-                dfs(s, index + 1, ips);
-                ips.set(ips.size() - 1, next / 10);
-            }
-            if (ips.size() < 4) {  // 说明上一个数大于255，或者上一个数为0，则必须重新开始一个新的数据（如果数据的个数小于四个的话）
-                ips.add(s.charAt(index) - '0');
-                dfs(s, index + 1, ips);
-                ips.remove(ips.size() - 1);
-            }
+        if (k == 4) return;
+        for (int i = u, t = 0; i < s.length; i++) {
+            if (i > u && s[u] == '0') break;  // 说明有前导0
+            t = t * 10 + s[i] - '0';
+            if (t <= 255) dfs(s, i + 1, k + 1, path + t + ".");
+            else break;
         }
     }
 
     public List<String> restoreIpAddresses(String s) {
 
-        if (s.length() < 4 || s.length() > 12) return res;
-
-        ArrayList<Integer> ips = new ArrayList<>();
-        dfs(s, 0, ips);
-        return res;
+        dfs(s.toCharArray(), 0, 0, "");
+        return ans;
     }
 
     public static void main(String[] args) {
-//        String s = "25525511135";
-//        String s = "0000";
-//        String s = "1111";
-        String s = "101023";
-        System.out.println((new Solution()).restoreIpAddresses(s));
+
+        System.out.println((new Solution()).restoreIpAddresses("25525511135"));
+        System.out.println((new Solution()).restoreIpAddresses("0000"));
+        System.out.println((new Solution()).restoreIpAddresses("1111"));
+        System.out.println((new Solution()).restoreIpAddresses("101023"));
     }
 }
