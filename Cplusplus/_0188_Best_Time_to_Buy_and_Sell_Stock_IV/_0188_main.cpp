@@ -28,8 +28,8 @@ public:
         int res = 0;
         for (int i = 1; i <= n; i++)
             for (int j = k; j >= 0; j--) {  // 因为需要用到之前的信息
-                g[j] = max(g[j], f[j] - prices[i - 1]);
                 if (j) f[j] = max(f[j], g[j - 1] + prices[i - 1]);
+                g[j] = max(g[j], f[j] - prices[i - 1]);
             }
         for (int i = 1; i <= k; i++) res = max(res, f[i]);
         return res;
