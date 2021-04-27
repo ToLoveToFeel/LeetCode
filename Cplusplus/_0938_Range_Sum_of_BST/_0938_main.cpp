@@ -2,6 +2,10 @@
 #include "MyTree.h"
 #include <stack>
 
+/**
+ * 执行用时：168 ms, 在所有 C++ 提交中击败了23.23%的用户
+ * 内存消耗：63.2 MB, 在所有 C++ 提交中击败了20.32%的用户
+ */
 class Solution {
 public:
     int rangeSumBST(TreeNode *root, int low, int high) {
