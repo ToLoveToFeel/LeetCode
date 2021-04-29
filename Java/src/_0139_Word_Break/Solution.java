@@ -15,6 +15,7 @@ public class Solution {
 
     public boolean wordBreak(String s, List<String> wordDict) {
 
+        char[] cs = (" " + s).toCharArray();
         // 字符串哈希
         int P = 131;
         HashSet<Long> hash = new HashSet<>();
@@ -28,12 +29,11 @@ public class Solution {
         int n = s.length();
         boolean[] f = new boolean[n + 1];
         f[0] = true;
-        s = ' ' + s;
         for (int i = 0; i < n; i++) {
             if (f[i]) {
                 long h = 0;
                 for (int j = i + 1; j <= n; j++) {
-                    h = h * P + s.charAt(j);
+                    h = h * P + cs[j];
                     if (hash.contains(h)) f[j] = true;
                 }
             }
