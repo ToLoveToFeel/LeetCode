@@ -37,3 +37,11 @@ public:
         return false;
     }
 };
+
+int main() {
+
+    vector<int> stones = {0, 1, 3, 5, 6, 8, 12, 17};
+    cout << Solution().canCross(stones) << endl;  // true
+
+    return 0;
+}
