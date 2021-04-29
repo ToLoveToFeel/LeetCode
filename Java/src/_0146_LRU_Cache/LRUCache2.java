@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class LRUCache2 {
 
-    class DLinkedNode {
+    static class DLinkedNode {
         int key;
         int value;
         DLinkedNode prev;

@@ -5,8 +5,7 @@ import java.util.Map;
 
 /**
  * Date: 2020/9/9 21:45
- * Content:
- * 直接使用LinkedHashMap
+ * Content: 直接使用LinkedHashMap
  */
 public class LRUCache extends LinkedHashMap<Integer, Integer> {
     private int capacity;
