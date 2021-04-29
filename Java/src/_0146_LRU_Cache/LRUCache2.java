@@ -12,87 +12,68 @@ import java.util.Map;
  */
 public class LRUCache2 {
 
-    static class DLinkedNode {
-        int key;
-        int value;
-        DLinkedNode prev;
-        DLinkedNode next;
-
-        public DLinkedNode() {
-        }
-
-        public DLinkedNode(int key, int value) {
-            this.key = key;
-            this.value = value;
+    static class Node {
+        int key, val;
+        Node left, right;
+        public Node(int _key, int _val) {
+            key = _key; val = _val; left = null; right = null;
         }
     }
 
-    private Map<Integer, DLinkedNode> cache = new HashMap<>();
-    private int size;
-    public final int capacity;
-    private static DLinkedNode dummyHead, dummyTail;  // 虚拟头结点、虚拟尾节点，头部节点为最新使用过的数据
+    Node L = new Node(-1, -1), R = new Node(-1, -1);
+    HashMap<Integer, Node> hash = new HashMap<>();
+    int n;
 
     public LRUCache2(int capacity) {
-        this.size = 0;
-        this.capacity = capacity;
-        dummyHead = new DLinkedNode();
-        dummyTail = new DLinkedNode();
-        dummyHead.next = dummyTail;
-        dummyTail.next = dummyHead;
+        n = capacity;
+        L.right = R; R.left = L;
     }
 
     public int get(int key) {
-        DLinkedNode node = cache.get(key);
-        if (node == null) return -1;
-        // 如果key存在，将该数据更新到头部
-        moveToHead(node);
-        return node.value;
-    }
-
-    public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
-        if (node == null) {  // key不存在，创建新节点
-            DLinkedNode newNode = new DLinkedNode(key, value);
-            cache.put(key, newNode);  // 添加进哈希表
-            addToHead(newNode);  // 添加至双向链表的头结点
-            size++;
-            if (size > capacity) {
-                DLinkedNode tail = removeTail();  // 如果超出容量，删除双向链表的尾部节点
-                cache.remove(tail.key);  // 删除哈希表中对应的项
-                size--;
-            }
-        } else {  // 如果key存在，更新value，并将节点移动到头部
-            node.value = value;
-            moveToHead(node);
+        if (!hash.containsKey(key)) return -1;
+        else {
+            Node p = hash.get(key);
+            remove(p);
+            insert(p);
+            return p.val;
         }
     }
 
-    private void addToHead(DLinkedNode node) {  // 双向链表在头部添加节点
-        node.prev = dummyHead;
-        node.next = dummyHead.next;
-        dummyHead.next.prev = node;
-        dummyHead.next = node;
+    public void put(int key, int value) {
+        if (hash.containsKey(key)) {
+            Node p = hash.get(key);
+            p.val = value;
+            remove(p);
+            insert(p);
+        } else {
+            if (hash.size() == n) {
+                Node p = R.left;
+                remove(p);
+                hash.remove(p.key);
+                p = null;  // help GC
+            }
+            Node p = new Node(key, value);
+            hash.put(key, p);
+            insert(p);
+        }
     }
 
-    private void removeNode(DLinkedNode node) {  // 双向链表删除node节点
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
+    // 辅助函数
+    private void remove(Node p) {
+        p.left.right = p.right;
+        p.right.left = p.left;
     }
 
-    private void moveToHead(DLinkedNode node) {  // 将node节点移到头结点
-        removeNode(node);
-        addToHead(node);
-    }
-
-    private DLinkedNode removeTail() {
-        DLinkedNode res = dummyTail.prev;
-        removeNode(res);
-        return res;
+    private void insert(Node p) {
+        p.right = L.right;
+        p.left = L;
+        L.right.left = p;
+        L.right = p;
     }
 
     public static void main(String[] args) {
         LRUCache2 cache = new LRUCache2(2);
-        cache.put(1, 1);
+        cache.put(1, 0);
         cache.put(2, 2);
         System.out.println(cache.get(1));  // 返回  1
         cache.put(3, 3);  // 该操作会使得关键字 2 作废
