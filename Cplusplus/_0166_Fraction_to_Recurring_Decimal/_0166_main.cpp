@@ -20,7 +20,7 @@ public:
         if ((x < 0) ^ (y < 0)) res += '-';
         x = abs(x), y = abs(y);
         res += to_string(x / y) + '.', x %= y;
-        unordered_map<LL, int> hash;  // (余数，余数*10 除以除数后的结果)
+        unordered_map<LL, int> hash;  // (余数，余数在字符串中的位置)
         while (x) {
             hash[x] = res.size();
             x *= 10;
