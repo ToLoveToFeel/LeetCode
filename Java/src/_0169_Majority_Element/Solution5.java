@@ -6,23 +6,22 @@ package _0169_Majority_Element;
  * Wiki：Boyer–Moore majority vote algorithm
  * 论文地址：https://link.springer.com/chapter/10.1007%2F978-94-011-3488-0_5
  * 论文名称：MJRTY—A Fast Majority Vote Algorithm
- * 时间复杂度：O(n^logn)
- * 空间复杂度：O(logn)
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 public class Solution5 {
 
     public int majorityElement(int[] nums) {
 
-        int res = nums[0];
-        int count = 0;
-        for (int num : nums) {
-            if (count == 0) res = num;
-
-            if (res == num) count++;
-            else count--;
+        int r = 0, c = 0;
+        for (int x : nums) {
+            if (c == 0) {
+                r = x;
+                c = 1;
+            } else if (r == x) c++;
+            else c--;
         }
-
-        return res;
+        return r;
     }
 
 

@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0168_Excel_Sheet_Column_Title/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0169_Majority_Element/Solution5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
