@@ -9,48 +9,55 @@ import java.util.Deque;
  */
 public class Solution {
 
+    static class MinStack {
+
+        Deque<Integer> stk = new ArrayDeque<>();
+        Deque<Integer> f = new ArrayDeque<>();
+
+        /** initialize your data structure here. */
+        public MinStack() {
+
+        }
+
+        public void push(int val) {
+            stk.push(val);
+            if (f.isEmpty() || val <= f.peek()) f.push(val);
+        }
+
+        public void pop() {
+            if (stk.peek().equals(f.peek())) f.pop();
+            stk.pop();
+        }
+
+        public int top() {
+            return stk.peek();
+        }
+
+        public int getMin() {
+            return f.peek();
+        }
+    }
+
     public static void main(String[] args) {
 
+//        MinStack minStack = new MinStack();
+//        minStack.push(-2);
+//        minStack.push(0);
+//        minStack.push(-3);
+//        System.out.println(minStack.getMin());  // return -3
+//        minStack.pop();
+//        System.out.println(minStack.top());  // return 0
+//        System.out.println(minStack.getMin());  // return -2
         MinStack minStack = new MinStack();
-        minStack.push(-2);
-        minStack.push(0);
-        minStack.push(-3);
-        System.out.println(minStack.getMin());  // return -3
+        minStack.push(512);
+        minStack.push(-1024);
+        minStack.push(-1024);
+        minStack.push(512);
         minStack.pop();
-        System.out.println(minStack.top());  // return 0
-        System.out.println(minStack.getMin());  // return -2
-    }
-}
-
-class MinStack {
-
-    Deque<Integer> stk;  // 存储对应的元素
-    Deque<Integer> f;  // 存储当前stack对应元素中的最小值
-
-    /**
-     * initialize your data structure here.
-     */
-    public MinStack() {
-        stk = new ArrayDeque<>();
-        f = new ArrayDeque<>();
-        f.push(Integer.MAX_VALUE);  // 加入这个元素是为了：在第一次向栈中添加元素，方便比较，相当于哨兵
-    }
-
-    public void push(int x) {
-        stk.push(x);
-        f.push(Math.min(f.peek(), x));
-    }
-
-    public void pop() {
-        stk.pop();
-        f.pop();
-    }
-
-    public int top() {
-        return stk.peek();
-    }
-
-    public int getMin() {
-        return f.peek();
+        System.out.println(minStack.getMin());  // return -1024
+        minStack.pop();
+        System.out.println(minStack.getMin());  // return -1024
+        minStack.pop();
+        System.out.println(minStack.getMin());  // return 512
     }
 }
