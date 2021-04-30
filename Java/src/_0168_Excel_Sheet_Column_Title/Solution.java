@@ -32,8 +32,7 @@ public class Solution {
         while (n != 0) {
             // 因为 Excel 取值范围为 1~26，故可将 26 进制 逻辑上的 个位、十位、百位…均减 1 映射到 0~25 即可，最后转换为字符
             n--;
-            char c = (char) ((n % NBase) + 'A');
-            sb.append(c);
+            sb.append((char) (n % NBase + 'A'));
             n /= NBase;
         }
 
