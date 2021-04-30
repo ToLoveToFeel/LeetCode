@@ -12,7 +12,7 @@ public class Solution {
 
         int l = 0, r = nums.length - 1;
         while (l < r && nums[l] == nums[r]) r--;
-        if (nums[l] < nums[r]) return nums[l];
+        if (nums[r] > nums[l]) return nums[l];
         while (l < r) {
             int mid = l + r >> 1;
             if (nums[mid] < nums[0]) r = mid;
