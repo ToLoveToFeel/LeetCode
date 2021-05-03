@@ -12,22 +12,16 @@ public class Solution {
 
     public boolean isIsomorphic(String s, String t) {
 
-        assert s.length() == t.length();
-
-        if (s.length() == 0 || s.length() == 1)
-            return true;
-
-        HashMap<Character, Character> map1 = new HashMap<>();
-        HashMap<Character, Character> map2 = new HashMap<>();
+        HashMap<Character, Character> st = new HashMap<>(), ts = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
-            if (!map1.containsKey(s.charAt(i))) map1.put(s.charAt(i), t.charAt(i));
-            else if (map1.get(s.charAt(i)) != t.charAt(i)) return false;
+            char a = s.charAt(i), b = t.charAt(i);
 
-            if (!map2.containsKey(t.charAt(i))) map2.put(t.charAt(i), s.charAt(i));
-            else if (map2.get(t.charAt(i)) != s.charAt(i)) return false;
+            if (st.containsKey(a) && st.get(a) != b) return false;
+            st.put(a, b);
+            if (ts.containsKey(b) && ts.get(b) != a) return false;
+            ts.put(b, a);
         }
-
         return true;
     }
 
