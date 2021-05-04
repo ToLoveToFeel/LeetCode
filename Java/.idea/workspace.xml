@@ -24,7 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0216_Combination_Sum_III/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0221_Maximal_Square/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0221_Maximal_Square/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1277_Count_Square_Submatrices_with_All_Ones/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1277_Count_Square_Submatrices_with_All_Ones/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1277_Count_Square_Submatrices_with_All_Ones/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1277_Count_Square_Submatrices_with_All_Ones/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
