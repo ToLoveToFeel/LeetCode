@@ -37,7 +37,7 @@ public:
             return NULL;
         } else {
             int k = u;
-            while (s[u] != ',') u++;
+            while (s[u] != ',') u++;  // 得到这个节点对应的数
             auto root = new TreeNode(stoi(s.substr(k, u - k)));
             u++;  // 跳过,
             root->left = dfs_d(s, u);
