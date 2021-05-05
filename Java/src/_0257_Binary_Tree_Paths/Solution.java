@@ -12,24 +12,14 @@ public class Solution {
     // 函数语义：返回以root为根的所有的路径字符串
     public List<String> binaryTreePaths(TreeNode root) {
 
-        ArrayList<String> res = new ArrayList<>();
-        if (root == null) return res;
-        if (root.left == null && root.right == null) {
-            res.add(Integer.toString(root.val));
-            return res;
-        }
+        if (root == null) return new ArrayList<>();  // 空节点
+        if (root.left == null && root.right == null)  // 叶节点
+            return new ArrayList<String>(){{add(root.val + "");}};
 
-        List<String> leftPaths = binaryTreePaths(root.left);  // 左子树所有路径字符串
-        for (String s : leftPaths) {  // 拼接上左子树的父结点
-            StringBuilder sb = new StringBuilder(Integer.toString(root.val));
-            res.add(sb.append("->").append(s).toString());
-        }
-        List<String> rightPaths = binaryTreePaths(root.right);
-        for (String s : rightPaths) {
-            StringBuilder sb = new StringBuilder(Integer.toString(root.val));
-            res.add(sb.append("->").append(s).toString());
-        }
-
+        List<String> res = new ArrayList<>();
+        List<String> left = binaryTreePaths(root.left), right = binaryTreePaths(root.right);
+        for (String s : left) res.add(root.val + "->" + s);
+        for (String s : right) res.add(root.val + "->" + s);
         return res;
     }
 
