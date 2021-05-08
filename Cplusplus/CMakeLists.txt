@@ -335,3 +335,4 @@ add_executable(_0241_main _0241_Different_Ways_to_Add_Parentheses/_0241_main.cpp
 add_executable(_0740_main _0740_Delete_and_Earn/_0740_main.cpp)
 add_executable(_1720_main _1720_Decode_XOR_Array/_1720_main.cpp)
 add_executable(_1486_main "_1486_XOR_Operation_in_an_Array/_1486_main.cpp")
+add_executable(_1723_main _1723_Find_Minimum_Time_to_Finish_All_Jobs/_1723_main.cpp)
