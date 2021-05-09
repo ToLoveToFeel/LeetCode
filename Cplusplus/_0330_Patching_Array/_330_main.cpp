@@ -16,10 +16,7 @@ public:
         int i = 0, res = 0;
         while (x <= n) {
             if (i < nums.size() && nums[i] <= x) x += nums[i++];
-            else {
-                x += x;
-                res++;
-            }
+            else  x += x, res++;
         }
         return res;
     }
