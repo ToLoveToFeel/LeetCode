@@ -1,56 +1,28 @@
 package _0345_Reverse_Vowels_of_a_String;
 
-import java.util.HashSet;
-
+/**
+ * Date: 2021/5/10 22:26
+ */
 public class Solution {
-    // 时间复杂度：O(n)
-    // 空间复杂度：O(n)
-    private HashSet<Character> vowelSet;
+
+    String t = "aeiou";
 
     public String reverseVowels(String s) {
-        // 创建元音字母集合
-        char[] vowel = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
-        vowelSet = new HashSet<Character>();
-        for (int i = 0; i < vowel.length; i++)
-            vowelSet.add(vowel[i]);
-
-        StringBuilder sb = new StringBuilder(s);
-
-        int l = next_vowel(sb, 0);
-        int r = prev_vowel(sb, s.length()-1);
-
-        while (l < r){
-            swap(sb, l, r);
-            l = next_vowel(sb, l + 1);
-            r = prev_vowel( sb, r - 1);
+        char[] cs = s.toCharArray();
+        for (int i = 0, j = cs.length - 1; i < j; i++, j--) {
+            while (i < j && !check(cs[i])) i++;
+            while (i < j && !check(cs[j])) j--;
+            char t = cs[i]; cs[i] = cs[j]; cs[j] = t;
         }
-
-        return sb.toString();
+        return new String(cs);
     }
 
-    private int next_vowel(StringBuilder s, int index){
-        for (int i = index; i < s.length(); i++)
-            if (vowelSet.contains(s.charAt(i)))
-                return i;
-        return s.length();
-    }
-
-    private int prev_vowel(StringBuilder s, int index){
-        for (int i = index; i >= 0; i--)
-            if (vowelSet.contains(s.charAt(i)))
-                return i;
-        return -1;
-    }
-
-    private void swap(StringBuilder sb, int i, int j){
-        char c = sb.charAt(i);
-        sb.setCharAt(i, sb.charAt(j));
-        sb.setCharAt(j, c);
+    private boolean check(char c) {
+        return t.indexOf(Character.toLowerCase(c)) != -1;
     }
 
     public static void main(String[] args) {
-        String s = "leetcode";
 
-        System.out.println((new Solution()).reverseVowels(s));
+        System.out.println((new Solution()).reverseVowels("hello"));  // holle
     }
 }
