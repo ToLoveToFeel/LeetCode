@@ -307,6 +307,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1734]解码异或后的排列.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1734]解码异或后的排列.cpp" />
+              <option name="questionId" value="1835" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[173]二叉搜索树迭代器.cpp">
           <value>
             <LeetcodeEditor>
@@ -840,6 +848,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[342]4的幂.cpp" />
               <option name="questionId" value="342" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[352]将数据流变为多个不相交区间.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[352]将数据流变为多个不相交区间.cpp" />
+              <option name="questionId" value="352" />
             </LeetcodeEditor>
           </value>
         </entry>

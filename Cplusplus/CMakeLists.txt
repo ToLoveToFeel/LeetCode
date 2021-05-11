@@ -340,3 +340,4 @@ add_executable(_1482_main _1482_Minimum_Number_of_Days_to_Make_m_Bouquets/_1482_
 add_executable(_0872_main _0872_Leaf_Similar_Trees/_0872_main.cpp)
 add_executable(_0343_main _0343_Integer_Break/_0343_main.cpp)
 add_executable(_1734_main _1734_Decode_XORed_Permutation/_1734_main.cpp)
+add_executable(_0352_main _0352_Data_Stream_as_Disjoint_Intervals/_0352_main.cpp)
