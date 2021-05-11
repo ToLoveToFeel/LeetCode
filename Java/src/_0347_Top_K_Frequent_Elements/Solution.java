@@ -12,37 +12,27 @@ class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
 
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
-
-        // 统计词频
-        for (int num : nums)
-            if (hashMap.containsKey(num)) hashMap.put(num, hashMap.get(num) + 1);
-            else hashMap.put(num, 1);
-
-        // 使用优先队列解决
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(
-                (a, b) -> hashMap.get(a) - hashMap.get(b)
-        );  // 最小堆
-        for (int key : hashMap.keySet()) {
-            if (priorityQueue.size() < k) priorityQueue.add(key);
-            else if (hashMap.get(key) > hashMap.get(priorityQueue.peek())) {
-                priorityQueue.remove();
-                priorityQueue.add(key);
+        // (1) 使用哈希表统计各个元素出现的次数；
+        HashMap<Integer, Integer> hash = new HashMap<>();
+        for (int x : nums) hash.put(x, hash.getOrDefault(x, 0) + 1);
+        // (2) 使用小顶堆获得出现频率前k高的元素。
+        PriorityQueue<Integer> heap = new PriorityQueue<>((a, b) -> hash.get(a) - hash.get(b));
+        for (int key : hash.keySet()) {
+            if (heap.size() < k) heap.add(key);
+            else if (hash.get(key) > hash.get(heap.peek())) {
+                heap.remove();
+                heap.add(key);
             }
         }
 
-        ArrayList<Integer> ret = new ArrayList<>();
-        while (!priorityQueue.isEmpty()) ret.add(priorityQueue.remove());
-        // 转换为数组
-        int[] res = new int[ret.size()];
-        for (int i = 0; i < ret.size(); i++) res[i] = ret.get(i);
+        int[] res = new int[heap.size()];
+        for (int i = 0; i < res.length; i++) res[i] = heap.remove();
         return res;
     }
 
     public static void main(String[] args) {
 
-        int[] nums = new int[]{2, 2, 1, 1, 1, 1, 3, 3, 3, 7, 7, 7, 7, 7, 7, 5, 5, 4, 6, 6, 6};
-        int[] res = (new Solution()).topKFrequent(nums, 2);
-        Output.OutputBasicArray1D(res);
+        int[] nums = new int[]{1, 1, 1, 2, 2, 3};
+        Output.OutputBasicArray1D((new Solution()).topKFrequent(nums, 2));  // [1, 2]
     }
 }
