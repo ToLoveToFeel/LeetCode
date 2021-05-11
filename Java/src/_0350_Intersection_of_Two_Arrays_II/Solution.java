@@ -1,38 +1,32 @@
 package _0350_Intersection_of_Two_Arrays_II;
+
+import _0000_study._common.Output;
+
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 class Solution {
+
     public int[] intersect(int[] nums1, int[] nums2) {
-        HashMap<Integer, Integer> comSet = new HashMap<>();
-        ArrayList<Integer> arrayList = new ArrayList();
-        for (int val:nums1) {
-            if(!comSet.containsKey(val))
-                comSet.put(val, 1);
-            else
-                comSet.put(val, comSet.get(val)+1);
-        }
-        for (int val:nums2) {
-            if(comSet.containsKey(val)) {
-                arrayList.add(val);
-                comSet.put(val, comSet.get(val) - 1);
-                if (0 == comSet.get(val))
-                    comSet.remove(val);
+
+        HashMap<Integer, Integer> hash = new HashMap<>();
+        List<Integer> res = new ArrayList<>();
+        for (int x : nums1) hash.put(x, hash.getOrDefault(x, 0) + 1);
+        for (int x : nums2) {
+            if (hash.containsKey(x)) {
+                res.add(x);
+                hash.put(x, hash.get(x) - 1);
+                if (0 == hash.get(x))
+                    hash.remove(x);
             }
         }
-        int[] ret = new int[arrayList.size()];
-        for (int i = 0; i < arrayList.size(); i++) {
-            ret[i] = arrayList.get(i);
-        }
-
-        return ret;
+        return res.stream().mapToInt(Integer::valueOf).toArray();
     }
 
     public static void main(String[] args) {
-        int[] nums1 = new int[]{1,2,2,1,3,3};
-        int[] nums2 = new int[]{2,3,2};
-        int[] ret = (new Solution()).intersect(nums1, nums2);
-        for (int val:ret)
-            System.out.println(val);
+
+        int[] nums1 = new int[]{1, 2, 2, 1, 3, 3}, nums2 = new int[]{2, 3, 2};
+        Output.OutputBasicArray1D((new Solution()).intersect(nums1, nums2));
     }
 }
