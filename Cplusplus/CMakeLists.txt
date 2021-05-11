@@ -339,3 +339,4 @@ add_executable(_1723_main _1723_Find_Minimum_Time_to_Finish_All_Jobs/_1723_main.
 add_executable(_1482_main _1482_Minimum_Number_of_Days_to_Make_m_Bouquets/_1482_main.cpp)
 add_executable(_0872_main _0872_Leaf_Similar_Trees/_0872_main.cpp)
 add_executable(_0343_main _0343_Integer_Break/_0343_main.cpp)
+add_executable(_1734_main _1734_Decode_XORed_Permutation/_1734_main.cpp)
