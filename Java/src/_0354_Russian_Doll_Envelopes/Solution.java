@@ -15,9 +15,7 @@ public class Solution {
     public int maxEnvelopes(int[][] w) {
 
         int n = w.length;
-        Arrays.sort(w, (o1, o2) -> {
-            return o1[0] == o2[0] ? o2[1] -o1[1] : o1[0] - o2[0];
-        });
+        Arrays.sort(w, (o1, o2) -> o1[0] == o2[0] ? o2[1] - o1[1] : o1[0] - o2[0]);
         int[] q = new int[n + 1];
 
         int res = 0;
