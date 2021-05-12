@@ -12,23 +12,24 @@ package _0357_Count_Numbers_with_Unique_Digits;
  */
 public class Solution {
     public int countNumbersWithUniqueDigits(int n) {
-        if (n == 0)
-            return 1;
 
-        int dp = 10;
-        int temp = 9 * 9;
         n = Math.min(n, 10);
-        for (int i = 2; i <= n; i++) {
-            dp += temp;
-            temp *= (10 - i);
+
+        if (n == 0) return 1;
+
+        int res = 10;
+        for (int i = 2, t = 9 * 9; i <= n; i++) {
+            res += t;
+            t *= (10 - i);
         }
-        return dp;
+        return res;
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+
+        Solution t = new Solution();
         for (int i = 0; i < 12; i++) {
-            System.out.println(solution.countNumbersWithUniqueDigits(i));
+            System.out.println(t.countNumbersWithUniqueDigits(i));
         }
     }
 }
