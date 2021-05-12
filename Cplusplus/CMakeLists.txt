@@ -344,3 +344,4 @@ add_executable(_0352_main _0352_Data_Stream_as_Disjoint_Intervals/_0352_main.cpp
 add_executable(_0355_main _0355_Design_Twitter/_0355_main.cpp)
 add_executable(_1310_main _1310_XOR_Queries_of_a_Subarray/_1310_main.cpp)
 add_executable(_0365_main _0365_Water_and_Jug_Problem/_0365_main.cpp)
+add_executable(_0373_main _0373_Find_K_Pairs_with_Smallest_Sums/_0373_main.cpp)
