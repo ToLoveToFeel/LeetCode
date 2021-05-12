@@ -7,12 +7,12 @@ package _0371_Sum_of_Two_Integers;
 public class Solution {
     public int getSum(int a, int b) {
 
-        while (b != 0) {
+        while (a != 0) {
             int x = a, y = b;
-            a = (x ^ y);
-            b = ((x & y) << 1);
+            a = ((x & y) << 1);
+            b = (x ^ y);
         }
-        return a;
+        return b;
     }
 
     public static void main(String[] args) {
