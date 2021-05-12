@@ -7,6 +7,8 @@ import java.util.PriorityQueue;
 
 /**
  * Date: 2021/5/12 22:16
+ * 执行用时：5 ms, 在所有 Java 提交中击败了97.92%的用户
+ * 内存消耗：39 MB, 在所有 Java 提交中击败了92.15%的用户
  */
 public class Solution {
 
