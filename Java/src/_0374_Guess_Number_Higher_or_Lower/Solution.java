@@ -14,7 +14,7 @@ public class Solution {
     public int guessNumber(int n) {
         int l = 1, r = n;
         while (l < r) {
-            int mid = l + r + 1 >> 1;
+            int mid = (r - l + 1) / 2 + l;
             if (guess(mid) >= 0) l = mid;  // 说明猜小了
             else r = mid - 1;
         }
