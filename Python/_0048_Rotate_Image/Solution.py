@@ -1,12 +1,4 @@
 # coding=utf-8
-# @Time       : 2020/3/5
-# @Author     : Wang Xiaoxiao
-# @University : Dalian University of Technology
-# @FileName   : Solution.py
-# @Software   : PyCharm
-# @github     : https://github.com/i-love-linux/LeetCode
-# 旋转图像
-
 
 class Solution(object):
     """

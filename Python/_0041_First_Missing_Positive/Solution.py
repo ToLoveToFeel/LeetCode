@@ -1,12 +1,4 @@
 # coding=utf-8
-# @Time       : 2020/3/6
-# @Author     : Wang Xiaoxiao
-# @University : Dalian University of Technology
-# @FileName   : Solution.py
-# @Software   : PyCharm
-# @github     : https://github.com/i-love-linux/LeetCode
-# 缺失的第一个整数
-
 
 class Solution(object):
     """

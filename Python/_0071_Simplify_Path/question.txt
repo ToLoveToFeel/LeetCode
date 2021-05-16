@@ -1,79 +1,38 @@
-ÒÔ Unix ·ç¸ñ¸ø³öÒ»¸öÎÄ¼şµÄ¾ø¶ÔÂ·¾¶£¬ÄãĞèÒª¼ò»¯Ëü¡£»òÕß»»¾ä»°Ëµ£¬½«Æä×ª»»Îª¹æ·¶Â·¾¶¡£
+Leetcode 0071 ç®€åŒ–è·¯å¾„
 
-ÔÚ Unix ·ç¸ñµÄÎÄ¼şÏµÍ³ÖĞ£¬Ò»¸öµã£¨.£©±íÊ¾µ±Ç°Ä¿Â¼±¾Éí£»´ËÍâ£¬Á½¸öµã £¨..£©±íÊ¾½«Ä¿Â¼ÇĞ»»µ½
-ÉÏÒ»¼¶£¨Ö¸Ïò¸¸Ä¿Â¼£©£»Á½Õß¶¼¿ÉÒÔÊÇ¸´ÔÓÏà¶ÔÂ·¾¶µÄ×é³É²¿·Ö¡£¸ü¶àĞÅÏ¢Çë²ÎÔÄ£ºLinux / UnixÖĞµÄ
-¾ø¶ÔÂ·¾¶ vs Ïà¶ÔÂ·¾¶
-
-Çë×¢Òâ£¬·µ»ØµÄ¹æ·¶Â·¾¶±ØĞëÊ¼ÖÕÒÔĞ±¸Ü / ¿ªÍ·£¬²¢ÇÒÁ½¸öÄ¿Â¼ÃûÖ®¼ä±ØĞëÖ»ÓĞÒ»¸öĞ±¸Ü /¡£×îºóÒ»¸ö
-Ä¿Â¼Ãû£¨Èç¹û´æÔÚ£©²»ÄÜÒÔ / ½áÎ²¡£´ËÍâ£¬¹æ·¶Â·¾¶±ØĞëÊÇ±íÊ¾¾ø¶ÔÂ·¾¶µÄ×î¶Ì×Ö·û´®¡£
-
-Ê¾Àı 1£º
-ÊäÈë£º"/home/"
-Êä³ö£º"/home"
-½âÊÍ£º×¢Òâ£¬×îºóÒ»¸öÄ¿Â¼ÃûºóÃæÃ»ÓĞĞ±¸Ü¡£
-
-Ê¾Àı 2£º
-ÊäÈë£º"/../"
-Êä³ö£º"/"
-½âÊÍ£º´Ó¸ùÄ¿Â¼ÏòÉÏÒ»¼¶ÊÇ²»¿ÉĞĞµÄ£¬ÒòÎª¸ùÊÇÄã¿ÉÒÔµ½´ïµÄ×î¸ß¼¶¡£
-
-Ê¾Àı 3£º
-ÊäÈë£º"/home//foo/"
-Êä³ö£º"/home/foo"
-½âÊÍ£ºÔÚ¹æ·¶Â·¾¶ÖĞ£¬¶à¸öÁ¬ĞøĞ±¸ÜĞèÒªÓÃÒ»¸öĞ±¸ÜÌæ»»¡£
-
-Ê¾Àı 4£º
-ÊäÈë£º"/a/./b/../../c/"
-Êä³ö£º"/c"
-
-Ê¾Àı 5£º
-ÊäÈë£º"/a/../../b/../c//.//"
-Êä³ö£º"/c"
-
-Ê¾Àı 6£º
-ÊäÈë£º"/a//b////c/d//././/.."
-Êä³ö£º"/a/b/c"
-
-
-
-
-
-
-
-Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
-
-In a UNIX-style file system, a period . refers to the current directory. Furthermore, a double period .. moves
-the directory up a level. For more information, see: Absolute path vs relative path in Linux/Unix
-
-Note that the returned canonical path must always begin with a slash /, and there must be only a single slash
- / between two directory names. The last directory name (if it exists) must not end with a trailing /. Also,
-the canonical path must be the shortest string representing the absolute path.
-
-Example 1:
-    Input: "/home/"
-    Output: "/home"
-    Explanation: Note that there is no trailing slash after the last directory name.
-
-Example 2:
-    Input: "/../"
-    Output: "/"
-    Explanation: Going one level up from the root directory is a no-op, as the root level is the highest level you can go.
-
-Example 3:
-    Input: "/home//foo/"
-    Output: "/home/foo"
-    Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
-
-Example 4:
-    Input: "/a/./b/../../c/"
-    Output: "/c"
-
-Example 5:
-    Input: "/a/../../b/../c//.//"
-    Output: "/c"
-
-Example 6:
-    Input: "/a//b////c/d//././/.."
-    Output: "/a/b/c"
-
+// ä»¥ Unix é£æ ¼ç»™å‡ºä¸€ä¸ªæ–‡ä»¶çš„ç»å¯¹è·¯å¾„ï¼Œä½ éœ€è¦ç®€åŒ–å®ƒã€‚æˆ–è€…æ¢å¥è¯è¯´ï¼Œå°†å…¶è½¬æ¢ä¸ºè§„èŒƒè·¯å¾„ã€‚
+// åœ¨ Unix é£æ ¼çš„æ–‡ä»¶ç³»ç»Ÿä¸­ï¼Œä¸€ä¸ªç‚¹ï¼ˆ.ï¼‰è¡¨ç¤ºå½“å‰ç›®å½•æœ¬èº«ï¼›æ­¤å¤–ï¼Œä¸¤ä¸ªç‚¹ ï¼ˆ..ï¼‰ è¡¨ç¤ºå°†
+// ç›®å½•åˆ‡æ¢åˆ°ä¸Šä¸€çº§ï¼ˆæŒ‡å‘çˆ¶ç›®å½•ï¼‰ï¼›ä¸¤è€…éƒ½å¯ä»¥æ˜¯å¤æ‚ç›¸å¯¹è·¯å¾„çš„ç»„æˆéƒ¨åˆ†ã€‚æ›´å¤šä¿¡æ¯è¯·å‚é˜…ï¼š
+// Linux / Unixä¸­çš„ç»å¯¹è·¯å¾„ vs ç›¸å¯¹è·¯å¾„
+// è¯·æ³¨æ„ï¼Œè¿”å›çš„è§„èŒƒè·¯å¾„å¿…é¡»å§‹ç»ˆä»¥æ–œæ  / å¼€å¤´ï¼Œå¹¶ä¸”ä¸¤ä¸ªç›®å½•åä¹‹é—´å¿…é¡»åªæœ‰ä¸€ä¸ªæ–œæ  /ã€‚
+// æœ€åä¸€ä¸ªç›®å½•åï¼ˆå¦‚æœå­˜åœ¨ï¼‰ä¸èƒ½ä»¥ / ç»“å°¾ã€‚æ­¤å¤–ï¼Œè§„èŒƒè·¯å¾„å¿…é¡»æ˜¯è¡¨ç¤ºç»å¯¹è·¯å¾„çš„æœ€çŸ­å­—ç¬¦ä¸²ã€‚
+//
+// ç¤ºä¾‹ 1ï¼š
+// è¾“å…¥ï¼š"/home/"
+// è¾“å‡ºï¼š"/home"
+// è§£é‡Šï¼šæ³¨æ„ï¼Œæœ€åä¸€ä¸ªç›®å½•ååé¢æ²¡æœ‰æ–œæ ã€‚
+//
+// ç¤ºä¾‹ 2ï¼š
+// è¾“å…¥ï¼š"/../"
+// è¾“å‡ºï¼š"/"
+// è§£é‡Šï¼šä»æ ¹ç›®å½•å‘ä¸Šä¸€çº§æ˜¯ä¸å¯è¡Œçš„ï¼Œå› ä¸ºæ ¹æ˜¯ä½ å¯ä»¥åˆ°è¾¾çš„æœ€é«˜çº§ã€‚
+//
+// ç¤ºä¾‹ 3ï¼š
+// è¾“å…¥ï¼š"/home//foo/"
+// è¾“å‡ºï¼š"/home/foo"
+// è§£é‡Šï¼šåœ¨è§„èŒƒè·¯å¾„ä¸­ï¼Œå¤šä¸ªè¿ç»­æ–œæ éœ€è¦ç”¨ä¸€ä¸ªæ–œæ æ›¿æ¢ã€‚
+//
+// ç¤ºä¾‹ 4ï¼š
+// è¾“å…¥ï¼š"/a/./b/../../c/"
+// è¾“å‡ºï¼š"/c"
+//
+// ç¤ºä¾‹ 5ï¼š
+// è¾“å…¥ï¼š"/a/../../b/../c//.//"
+// è¾“å‡ºï¼š"/c"
+//
+// ç¤ºä¾‹ 6ï¼š
+// è¾“å…¥ï¼š"/a//b////c/d//././/.."
+// è¾“å‡ºï¼š"/a/b/c"
+// Related Topics æ ˆ å­—ç¬¦ä¸²
+// ? 238 ? 0
 

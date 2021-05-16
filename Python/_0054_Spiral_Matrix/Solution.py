@@ -1,6 +1,4 @@
 # coding=utf-8
-# 螺旋矩阵
-
 
 class Solution(object):
     """
