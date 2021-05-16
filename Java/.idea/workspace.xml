@@ -137,7 +137,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0421_Maximum_XOR_of_Two_Numbers_in_an_Array" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0421_Maximum_XOR_of_Two_Numbers_in_an_Array" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1269_Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_Steps" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0373_Find_K_Pairs_with_Smallest_Sums" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1310_XOR_Queries_of_a_Subarray" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0355_Design_Twitter" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0352_Data_Stream_as_Disjoint_Intervals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -174,7 +174,7 @@
       <recent name="_0705_Design_HashSet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -238,13 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0371_Sum_of_Two_Integers.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0421_Maximum_XOR_of_Two_Numbers_in_an_Array.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0371_Sum_of_Two_Integers.*" />
+          <option name="PATTERN" value="_0421_Maximum_XOR_of_Two_Numbers_in_an_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +284,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>

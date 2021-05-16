@@ -1,12 +1,6 @@
 # coding=utf-8
-# @Time       : 2020/3/11
-# @Author     : Wang Xiaoxiao
-# @University : Dalian University of Technology
-# @FileName   : Solution.py
-# @Software   : PyCharm
-# @github     : https://github.com/i-love-linux/LeetCode
+# @Time : 2020/3/11
 # 简化路径
-
 
 class Solution(object):
     """
