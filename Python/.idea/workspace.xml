@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0041_First_Missing_Positive/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0041_First_Missing_Positive/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0048_Rotate_Image/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0048_Rotate_Image/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0048_Rotate_Image/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0048_Rotate_Image/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0054_Spiral_Matrix/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0054_Spiral_Matrix/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0054_Spiral_Matrix/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0054_Spiral_Matrix/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0055_Jump_Game/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0055_Jump_Game/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0056_Merge_Intervals/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0056_Merge_Intervals/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0057_Insert_Interval/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0057_Insert_Interval/question.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

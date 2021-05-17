@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/src/_0061_Rotate_List/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0061_Rotate_List/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/_0041_First_Missing_Positive/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/_0041_First_Missing_Positive/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/_0048_Rotate_Image/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/_0048_Rotate_Image/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/_0054_Spiral_Matrix/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/_0054_Spiral_Matrix/Solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
