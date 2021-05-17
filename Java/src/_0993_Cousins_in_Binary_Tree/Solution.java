@@ -5,6 +5,8 @@ import java.util.Queue;
 
 /**
  * Date: 2021/5/17 9:34
+ * 执行用时：1 ms, 在所有 Java 提交中击败了63.53%的用户
+ * 内存消耗：36.1 MB, 在所有 Java 提交中击败了70.22%的用户
  */
 public class Solution {
 
