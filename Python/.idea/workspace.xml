@@ -4,6 +4,8 @@
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,19 +157,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Libratory/大连化物所/石油组学软件" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0000_study/_auxiliary/mylinkedlist" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0000_study\_auxiliary\mylinkedlist" />
+      <recent name="D:\Code\github\LeetCode\Python\_0000_study" />
       <recent name="D:\Code\github\LeetCode\Python\_0002_Add_Two_Numbers" />
       <recent name="D:\Code\github\LeetCode\Python\_0001_Two_Sum" />
       <recent name="D:\Code\github\LeetCode\Python\_0070_Climbing_Stairs" />
-      <recent name="D:\Code\github\LeetCode\Python\_0067_Add_Binary" />
-      <recent name="D:\Code\github\LeetCode\Python\_0061_Rotate_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (4)">
+  <component name="RunManager" selected="Python.Solution (5)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0067_Add_Binary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0067_Add_Binary/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0003_Longest_Substring_Without_Repeating_Characters/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,19 +276,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (4)" />
+      <item itemvalue="Python.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (5)" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution (1)" />
-        <item itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
