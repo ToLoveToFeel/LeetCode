@@ -1,0 +1,9 @@
+
+
+## 关于pycharm 使用
+(1) Alt+Shift+Insert 进入列选模式
+
+
+
+## 关于python
+(1) ord(c) : 返回c对应的ASCII码
