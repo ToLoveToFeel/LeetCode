@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,20 +163,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0000_study/_auxiliary/mylinkedlist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study\_auxiliary\mylinkedlist" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study" />
       <recent name="D:\Code\github\LeetCode\Python\_0002_Add_Two_Numbers" />
       <recent name="D:\Code\github\LeetCode\Python\_0001_Two_Sum" />
-      <recent name="D:\Code\github\LeetCode\Python\_0070_Climbing_Stairs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (5)">
-    <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Solution (1)">
+    <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,32 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0070_Climbing_Stairs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0041_First_Missing_Positive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0070_Climbing_Stairs/Solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Solution (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0071_Simplify_Path" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0071_Simplify_Path/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0041_First_Missing_Positive/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,20 +260,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR/Solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Solution (1)" />
-      <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (4)" />
       <item itemvalue="Python.Solution (5)" />
+      <item itemvalue="Python.Solution" />
+      <item itemvalue="Python.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (1)" />
+        <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (5)" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
-        <item itemvalue="Python.Solution (2)" />
-        <item itemvalue="Python.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
