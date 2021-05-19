@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_0000_study/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0000_study/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,7 @@
       <recent name="D:\Code\github\LeetCode\Python\_0000_study" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.base">
+  <component name="RunManager" selected="Python.stl">
     <configuration name="Solution (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,15 +282,15 @@
     </configuration>
     <list>
       <item itemvalue="Python.Solution (3)" />
-      <item itemvalue="Python.base" />
       <item itemvalue="Python.Solution (4)" />
-      <item itemvalue="Python.stl" />
       <item itemvalue="Python.Solution" />
+      <item itemvalue="Python.base" />
+      <item itemvalue="Python.stl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.base" />
         <item itemvalue="Python.stl" />
+        <item itemvalue="Python.base" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
