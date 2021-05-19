@@ -130,6 +130,12 @@ def test3():
     for i, x in enumerate(lt):  # lt[i] = x
         print(i, x)
     lt.clear()  # 清空lt  []
+    print("---------------------------------------")
+    t = [i for i in range(5)]  # [0, 1, 2, 3, 4]
+    t.pop(0)  # 删除列表中的头元素  [1, 2, 3, 4]
+    t.append(3)  # 在列表的尾部添加元素3  [1, 2, 3, 4, 3]
+    t.reverse()  # 反转列表  [3, 4, 3, 2, 1]
+    t.remove(3)  # 删除第一个3  [4, 3, 2, 1]
 
 
 # tuple: 属于序列类型
@@ -315,4 +321,4 @@ def test10():
 
 
 if __name__ == "__main__":
-    test10()
+    test3()
