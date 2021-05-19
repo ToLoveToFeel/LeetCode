@@ -7,3 +7,4 @@
 
 ## 关于python
 (1) ord(c) : 返回c对应的ASCII码
+(2) python中: -1 // 10 == -1 向下取整，即向负无穷大取整, 关于该问题：https://zhuanlan.zhihu.com/p/70819721
