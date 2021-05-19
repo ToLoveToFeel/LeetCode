@@ -86,6 +86,9 @@ def test2():
     print(t.center(30, "="))  # t居中，两侧用=填充    ====One world, one dream!=====
     print(t.strip("!O"))  # 从str中去掉在其左侧和右侧所列出的字符    ne world, one dream
     print("+".join("1234"))  # 1234用+隔开    1+2+3+4
+    tl = t.split(" ")
+    print(tl)  # 按空格将字符串拆开    ['One', 'world,', 'one', 'dream!']
+    print("-".join(tl))  # One-world,-one-dream!
     # 字符串格式化输出
     print("---------------------------------------")
     print("{0:.2f}".format(12345))  # 保留两位小数（四舍五入）    12345.00
@@ -135,7 +138,8 @@ def test3():
     t.pop(0)  # 删除列表中的头元素  [1, 2, 3, 4]
     t.append(3)  # 在列表的尾部添加元素3  [1, 2, 3, 4, 3]
     t.reverse()  # 反转列表  [3, 4, 3, 2, 1]
-    t.remove(3)  # 删除第一个3  [4, 3, 2, 1]
+    t.remove(3)  # 删除第一个3，不存在产生ValueError异常  [4, 3, 2, 1]
+    t.extend(["xyz", 'abc', 123])  # 追加一个列表  [4, 3, 2, 1, 'hi', 'k', 122]
 
 
 # tuple: 属于序列类型
@@ -321,4 +325,4 @@ def test10():
 
 
 if __name__ == "__main__":
-    test3()
+    test2()

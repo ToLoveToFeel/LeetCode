@@ -168,14 +168,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1738_Find_Kth_Largest_XOR_Coordinate_Value" />
       <recent name="D:\Code\github\LeetCode\Python\_0004_Median_of_Two_Sorted_Arrays" />
       <recent name="D:\Code\github\LeetCode\Python\_1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study\_auxiliary\mylinkedlist" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study" />
-      <recent name="D:\Code\github\LeetCode\Python\_0002_Add_Two_Numbers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution">
+  <component name="RunManager" selected="Python.base">
     <configuration name="Solution (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,9 +290,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Solution" />
-        <item itemvalue="Python.stl" />
         <item itemvalue="Python.base" />
+        <item itemvalue="Python.stl" />
+        <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
       </list>
