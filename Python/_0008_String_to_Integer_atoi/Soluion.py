@@ -23,7 +23,7 @@ class Solution:
             if minus > 0 and res > (pow(2, 31) - 1 - x) / 10:
                 return pow(2, 31) - 1
             if minus < 0 and -res < (-pow(2, 31) + x) / 10:
-                return -pow(2, 31)
+                return -int(pow(2, 31))
             res = res * 10 + x
             k += 1
         return minus * res
