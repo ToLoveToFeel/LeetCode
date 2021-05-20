@@ -350,3 +350,4 @@ add_executable(_0421_main _0421_Maximum_XOR_of_Two_Numbers_in_an_Array/_0421_mai
 add_executable(_0993_main _0993_Cousins_in_Binary_Tree/_0993_main.cpp)
 add_executable(_1442_main _1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR/_1442_main.cpp)
 add_executable(_1738_main _1738_Find_Kth_Largest_XOR_Coordinate_Value/_1738_main.cpp)
+add_executable(_0692_main _0692_Top_K_Frequent_Words/_0692_main.cpp)
