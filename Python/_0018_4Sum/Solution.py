@@ -1,6 +1,7 @@
 # coding=utf-8
 from typing import List
 
+
 # 执行用时：1660 ms, 在所有 Python3 提交中击败了10.68%的用户
 # 内存消耗：14.8 MB, 在所有 Python3 提交中击败了93.48%的用户
 class Solution:

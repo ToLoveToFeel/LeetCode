@@ -160,16 +160,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0019_Remove_Nth_Node_From_End_of_List" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0020_Valid_Parentheses" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0020_Valid_Parentheses" />
       <recent name="D:\Code\github\LeetCode\Python\_0019_Remove_Nth_Node_From_End_of_List" />
       <recent name="D:\Code\github\LeetCode\Python\_0018_4Sum" />
       <recent name="D:\Code\github\LeetCode\Python\_0017_Letter_Combinations_of_a_Phone_Number" />
       <recent name="D:\Code\github\LeetCode\Python\_0016_3Sum_Closest" />
-      <recent name="D:\Code\github\LeetCode\Python\_0015_3Sum" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (4)">
