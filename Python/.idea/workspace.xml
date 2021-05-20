@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,11 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0014_Longest_Common_Prefix" />
+      <recent name="D:\Code\github\LeetCode\Python\_0013_Roman_to_Integer" />
+      <recent name="D:\Code\github\LeetCode\Python\_0012_Integer_to_Roman" />
       <recent name="D:\Code\github\LeetCode\Python\_0011_Container_With_Most_Water" />
       <recent name="D:\Code\github\LeetCode\Python\_0692_Top_K_Frequent_Words" />
-      <recent name="D:\Code\github\LeetCode\Python\_0010_Regular_Expression_Matching" />
-      <recent name="D:\Code\github\LeetCode\Python\_0009_Palindrome_Number" />
-      <recent name="D:\Code\github\LeetCode\Python\_0008_String_to_Integer_atoi" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (4)">
