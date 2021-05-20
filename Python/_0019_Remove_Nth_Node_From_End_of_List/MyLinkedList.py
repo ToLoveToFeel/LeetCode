@@ -9,7 +9,7 @@ class ListNode:
 
 
 class MyLinkedList:
-    # head = MyLinkedList().createLinkedList([1, 2, 3])
+    # l1 = MyLinkedList().createLinkedList([1, 2, 3])
     def __int__(self):
         pass
 
