@@ -196,6 +196,9 @@ def test6():
     d = {"c1": 2, "c2": 4, "hh": 18, "wxx": 21, 13: 14, 1: 0}
     print(d["wxx"])  # 21
     print(d[13])  # 14
+    d[13] += 1
+    print(d[13])  # 15
+    d["future"] = "wonderful"  # 字典中添加键值对
     del d[1]  # 删除字典d中键1对应的数据值
     print("wxx" in d)  # 判断键"wxx"是否在字典d中，如果在返回True，否则False
     print(d.keys())  # 返回字典d中所有的键信息  dict_keys(['c1', 'c2', 'hh', 'wxx', 13])
@@ -301,10 +304,12 @@ def test10():
     arr.sort()  # 作用在arr上
     print(arr)  # [1, 2, 3, 5, 6, 9]
     # list成员函数sort() 自定义比较
-    arr = [(2, 2), (3, 4), (4, 1), (1, 3)]
+    arr = [(2, 2), (3, 4), (4, 1), (1, 3), (4, 2)]
     def cmp(e):
         return e[1]
     arr.sort(reverse=True, key=cmp)  # 根据第二维降序排列
+    print(arr)
+    arr.sort(key=lambda x: (-x[0], x[1]))  # 第一维降序，第二维升序排列
     print(arr)
 
     # sorted
@@ -325,4 +330,4 @@ def test10():
 
 
 if __name__ == "__main__":
-    test2()
+    test10()
