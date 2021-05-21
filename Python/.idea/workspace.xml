@@ -357,11 +357,6 @@
           <line>16</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/_0030_Substring_with_Concatenation_of_All_Words/Solution.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
