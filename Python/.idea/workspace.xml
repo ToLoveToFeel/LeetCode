@@ -162,19 +162,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0023_Merge_k_Sorted_Lists" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0024_Swap_Nodes_in_Pairs" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0024_Swap_Nodes_in_Pairs" />
       <recent name="D:\Code\github\LeetCode\Python\_0023_Merge_k_Sorted_Lists" />
       <recent name="D:\Code\github\LeetCode\Python\_0022_Generate_Parentheses" />
       <recent name="D:\Code\github\LeetCode\Python\_0021_Merge_Two_Sorted_Lists" />
       <recent name="D:\Code\github\LeetCode\Python\_1035_Uncrossed_Lines" />
-      <recent name="D:\Code\github\LeetCode\Python\_0020_Valid_Parentheses" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution">
+  <component name="RunManager" selected="Python.Solution (4)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,11 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_1035_Uncrossed_Lines" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0024_Swap_Nodes_in_Pairs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1035_Uncrossed_Lines/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0024_Swap_Nodes_in_Pairs/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution" />
+      <item itemvalue="Python.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution (1)" />
-        <item itemvalue="Python.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
