@@ -79,6 +79,7 @@ def test2():
     # 字符串处理方法
     print("---------------------------------------")
     t = "One world, one dream!"
+    print(t.find("ne"))  # 找到第一次出现ne的位置    1
     print(t.lower())  # 全部转为小写    one world, one dream!
     print(t.upper())  # 全部转为大写    ONE WORLD, ONE DREAM!
     print(t.count("one"))  # 计算某个字符换出现的次数    1
@@ -330,4 +331,4 @@ def test10():
 
 
 if __name__ == "__main__":
-    test10()
+    test2()
