@@ -353,3 +353,4 @@ add_executable(_1738_main _1738_Find_Kth_Largest_XOR_Coordinate_Value/_1738_main
 add_executable(_0692_main _0692_Top_K_Frequent_Words/_0692_main.cpp)
 add_executable(_1035_main _1035_Uncrossed_Lines/_1035_main.cpp)
 add_executable(_0810_main _0810_Chalkboard_XOR_Game/_0810_main.cpp)
+add_executable(_0044_main _0044_Wildcard_Matching/_0044_main.cpp)
