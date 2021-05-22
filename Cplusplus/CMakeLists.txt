@@ -352,3 +352,4 @@ add_executable(_1442_main _1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal
 add_executable(_1738_main _1738_Find_Kth_Largest_XOR_Coordinate_Value/_1738_main.cpp)
 add_executable(_0692_main _0692_Top_K_Frequent_Words/_0692_main.cpp)
 add_executable(_1035_main _1035_Uncrossed_Lines/_1035_main.cpp)
+add_executable(_0810_main _0810_Chalkboard_XOR_Game/_0810_main.cpp)
