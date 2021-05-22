@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 class Solution {
 
-//    private boolean isValid(char[][] board, int i, int j, int num) {
+    //    private boolean isValid(char[][] board, int i, int j, int num) {
 //
 //        // 行有相同的,说明尝试错误.
 //        for (int row = 0; row < 9; row++)
@@ -53,7 +53,7 @@ class Solution {
 //        if (board == null || board.length == 0) return;
 //        searchRes(board);
 //    }
-boolean[][] row = new boolean[9][9], col = new boolean[9][9];
+    boolean[][] row = new boolean[9][9], col = new boolean[9][9];
     boolean[][][] cell = new boolean[3][3][9];
 
     public void solveSudoku(char[][] board) {
