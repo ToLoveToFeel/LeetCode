@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0037_Sudoku_Solver/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0037_Sudoku_Solver/Solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,16 +162,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0036_Valid_Sudoku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0037_Sudoku_Solver" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0037_Sudoku_Solver" />
       <recent name="D:\Code\github\LeetCode\Python\_0036_Valid_Sudoku" />
       <recent name="D:\Code\github\LeetCode\Python\_0035_Search_Insert_Position" />
       <recent name="D:\Code\github\LeetCode\Python\_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array" />
       <recent name="D:\Code\github\LeetCode\Python\_0810_Chalkboard_XOR_Game" />
-      <recent name="D:\Code\github\LeetCode\Python\_0033_Search_in_Rotated_Sorted_Array" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (4)">
