@@ -172,7 +172,7 @@
       <recent name="D:\Code\github\LeetCode\Python\_0045_Jump_Game_II" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (2)">
+  <component name="RunManager" selected="Python.Solution (4)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0045_Jump_Game_II" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0050_Pow_x_n" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0045_Jump_Game_II/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0050_Pow_x_n/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,19 +279,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (2)" />
+      <item itemvalue="Python.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution" />
-        <item itemvalue="Python.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
