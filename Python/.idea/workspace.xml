@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +160,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0050_Pow_x_n" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0051_N_Queens" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0051_N_Queens" />
       <recent name="D:\Code\github\LeetCode\Python\_0050_Pow_x_n" />
       <recent name="D:\Code\github\LeetCode\Python\_0049_Group_Anagrams" />
       <recent name="D:\Code\github\LeetCode\Python\_0047_Permutations_II" />
       <recent name="D:\Code\github\LeetCode\Python\_0046_Permutations" />
-      <recent name="D:\Code\github\LeetCode\Python\_1707_Maximum_XOR_With_an_Element_From_Array" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (5)">
