@@ -338,8 +338,171 @@ def test05():
 
 # numpy中的聚合运算
 def test06():
-    pass
+    # 向量
+    L = np.arange(10)
+    print(sum(L))  # python自带的sum效率低于np.sum    45
+    print(np.sum(L))  # 等价于 print(L.sum())    45
+    print(np.min(L))  # 最小值    0
+    print(np.max(L))  # 最小值    9
+
+    # 矩阵
+    print("---------------------------------------")
+    X = np.arange(12).reshape(3, -1)
+    print(X)
+    '''
+    [[ 0  1  2  3]
+     [ 4  5  6  7]
+     [ 8  9 10 11]]
+    '''
+    print(np.sum(X))  # 所有元素的和    66
+    print(np.sum(X, axis=0))  # 列和（将第一维压缩掉了）    [12 15 18 21]
+    print(np.sum(X, axis=1))  # 行和（将第二维压缩掉了）    [ 6 22 38]
+    print(np.prod(X))  # 返回X中所有元素的乘积    0
+    print(np.mean(X))  # 所有元素对应的均值    5.5
+    print(np.var(X))  # 所有元素对应的方差    11.916666666666666
+    print(np.std(X))  # 所有元素对应的标准差    3.452052529534663
+    print(np.median(X))  # 所有元素对应的中位数    5.5
+
+    # np.
+    print("---------------------------------------")
+    # arr = np.random.rand(100000)
+    arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+    print(np.percentile(arr, q=50))  # 相当于返回中位数    4.5
+    print(np.percentile(arr, q=100))  # 相当于返回最大值    8
+    for percent in [0, 25, 50, 75, 100]:
+        print(np.percentile(arr, q=percent), end=" ")  # 1.0 2.75 4.5 6.25 8.0
+
+
+# numpy中的arg运算
+def test07():
+    # 向量
+    x = np.arange(16)
+    np.random.seed(666)  # 该种子只对下一句话有作用
+    np.random.shuffle(x)  # 此时x已经被改变了
+    print(x)  # [11 10  8  5 14 15  0  7  1  3  4  9  6 13  2 12]
+    print(np.sort(x))  # 此时x没有改变,使用x.sort()的话会让x变为升序
+    print(np.argmin(x))  # 找到x中最小的元素在原数组中的下标    6
+    print(np.argmax(x))  # 找到x中最大的元素在原数组中的下标    5
+    print(np.argsort(x))  # x升序排列对应的索引    [ 6  8 14  9 10  3 12  7  2 11  1  0 15 13  4  5]
+    print(np.partition(x, 3))  # 让x[3]在升序排序后的位置上，左右可以无序
+    '''
+    [ 0  1  2  3  4  5  6 10  7  8  9 11 15 13 14 12]
+    '''
+    t = np.argpartition(x, 3)
+    print(t)  # t[3]=9, 说明x[9]应该在升序数组中的下标为3的位置
+    '''
+    [ 6  8 14  9 10  3 12  1  7  2 11  0  5 13  4 15]
+    '''
+
+    # 矩阵
+    print("---------------------------------------")
+    np.random.seed(666)
+    X = np.random.randint(10, size=(3, 4))
+    print(X)
+    '''
+    [[2 6 9 4]
+     [3 1 0 8]
+     [7 5 2 5]]
+    '''
+    print(np.sort(X))  # 每行都按照升序排列，不影响X，等价于 print(np.sort(X, axis=1))
+    '''
+    [[2 4 6 9]
+     [0 1 3 8]
+     [2 5 5 7]]
+    '''
+    print(np.sort(X, axis=0))  # 每列都按照升序排列
+    '''
+    [[2 1 0 4]
+     [3 5 2 5]
+     [7 6 9 8]]
+    '''
+    print(np.argsort(X))  # 对每行向量进行 argsort 处理, 等价于 print(np.argsort(X, axis=1))
+    print(np.argsort(X, axis=0))  # 对每列向量进行 argsort 处理
+    print(np.argpartition(X, 2))  # 对每行向量进行 argpartition 处理
+    print(np.argpartition(X, 2, axis=0))  # 对每列向量进行 argpartition 处理
+
+
+# numpy中的 FancyIndexing 和 比较运算
+def test08():
+    # FancyIndexing
+    x = np.arange(1, 17)
+    print(x)  # [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
+    print([x[3], x[5], x[8]])  # 取出x中下标为3、5、8对应的元素    [4, 6, 9]
+    ind = [3, 5, 8]
+    print(x[ind])  # 取出x中下标为3、5、8对应的元素    [4 6 9]
+    ind = np.array([[0, 2],
+                    [1, 3]])
+    print(x[ind])  # 返回一个二维数组，第一行取出x下标为0、2的数据，第二行取出下标为1、3的数据
+    '''
+    [[1 3]
+     [2 4]]
+    '''
+    print("---------------------------------------")
+    X = np.arange(16).reshape(4, -1)
+    print(X)
+    '''
+    [[ 0  1  2  3]
+     [ 4  5  6  7]
+     [ 8  9 10 11]
+     [12 13 14 15]]
+    '''
+    row = [0, 1, 2]  # 写成 row = np.array([0, 1, 2])也可以
+    col = np.array([1, 2, 3])
+    print(X[row, col])  # 返回X[0, 1], X[1, 2], X[2, 3]这三个元素    [ 1  6 11]
+    print(X[0, col])  # 返回第0行下标为col的元素    [1 2 3]
+    print(X[:2, col])  # 返回前两行下标为col的元素
+    '''
+    [[1 2 3]
+     [5 6 7]]
+    '''
+    col = [True, False, True, True]
+    print(X[1:3, col])  # 返回第1行和第2行中col对应位置为True的元素
+    '''
+    [[ 4  6  7]
+     [ 8 10 11]]
+    '''
+
+    # numpy.array 的比较
+    print("---------------------------------------")
+    x = np.arange(8)
+    print(x)  # [0 1 2 3 4 5 6 7]
+    print(x < 3)  # [ True  True  True False False False False False]
+    print(x >= 3)  # [False False False  True  True  True  True  True]
+    print(x == 3)  # [False False False  True False False False False]
+    print(x != 3)  # [ True  True  True False  True  True  True  True]
+    print(2 * x == 24 - 4 * x)  # [False False False False  True False False False]
+    A = np.arange(16).reshape(4, -1)
+    print(A < 6)
+    '''
+    [[ True  True  True  True]
+     [ True  True False False]
+     [False False False False]
+     [False False False False]]
+    '''
+    print("---------------------------------------")
+    print(np.sum(x <= 2))  # 统计x中小于等于2的数据个数    3
+    print(np.count_nonzero(x <= 2))  # 等价于上一句话    3
+    print(np.any(x == 0))  # 判断x中是否存在0    True
+    print(np.any(x < 0))  # 判断x中是否存在元素小于0    False
+    print(np.all(x >= 0))  # 判断x中是否所有元素都大于等于0    True
+    print(np.sum((x > 3) & (x < 6)))  # 计算x中大于3小于6的数的个数    2
+    print(np.sum((x % 2 == 0) | (x >= 7)))  # 计算x中偶数或大于等于7的数的个数    5
+    print(np.sum(~(x == 0)))  # 计算x中非零元素的个数    7
+    print("---------------------------------------")
+    print(np.sum(A % 2 == 0))  # 计算A中偶数的个数    8
+    print(np.sum(A % 2 == 0, axis=1))  # 计算A中每行偶数的个数    [2 2 2 2]
+    print(np.sum(A % 2 == 0, axis=0))  # 计算A中每列偶数的个数    [4 0 4 0]
+    print(np.all(A > 0, axis=1))  # 判断A中每列数据是否都大于0    [False  True  True  True]
+
+    print("---------------------------------------")
+    print(x[x < 5])  # 输出x中所有小于5的数    [0 1 2 3 4]
+    print(x[x % 2 == 0])  # 输出x中所有偶数    [0 2 4 6]
+    print(A[A[:, 3] % 3 == 0, :])  # 输出A中最后一列能被3整除对应的行
+    '''
+    [[ 0  1  2  3]
+     [12 13 14 15]]
+    '''
 
 
 if __name__ == "__main__":
-    test05()
+    test08()
