@@ -30,37 +30,11 @@ public:
     }
 };
 
-//class Solution {
-//public:
-//    string reverseParentheses(string s) {
-//        int n = s.size();
-//        stack<int> stk;
-//        //i 会跳到其 ne[i]的位置
-//        vector<int> ne(n);
-//        for (int i = 0; i < n; ++i) {
-//            if (s[i] == '(') stk.push(i);
-//            else if (s[i] == ')') {
-//                int j = stk.top();
-//                stk.pop();
-//                ne[i] = j;
-//                ne[j] = i;
-//            }
-//        }
-//
-//        string ans;
-//        for (int i = 0, dir = 1; i < n; i += dir) {
-//            if (s[i] == '(' || s[i] == ')') {
-//                i = ne[i];
-//                dir = -dir; //变换遍历方向
-//            } else ans += s[i];
-//        }
-//        return ans;
-//    }
-//};
-
 int main() {
 
+    cout << Solution().reverseParentheses("(u(love)i)") << endl;
     cout << Solution().reverseParentheses("(a(bc(def)g)h)") << endl;
+    cout << Solution().reverseParentheses("a(bcdefghijkl(mno)p)q") << endl;
 
     return 0;
 }
