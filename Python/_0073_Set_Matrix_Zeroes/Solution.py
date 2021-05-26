@@ -8,10 +8,8 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        n = len(matrix);
-        m = len(matrix[0])
-        r0 = False;
-        c0 = False
+        n = len(matrix); m = len(matrix[0])
+        r0 = False; c0 = False
         for i in range(m):
             if matrix[0][i] == 0:
                 r0 = True

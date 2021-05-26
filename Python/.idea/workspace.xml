@@ -164,16 +164,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0073_Set_Matrix_Zeroes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0075_Sort_Colors" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0075_Sort_Colors" />
+      <recent name="D:\Code\github\LeetCode\Python\_0074_Search_a_2D_Matrix" />
+      <recent name="D:\Code\github\LeetCode\Python\_0073_Set_Matrix_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Python\_0072_Edit_Distance" />
       <recent name="D:\Code\github\LeetCode\Python\_0069_Sqrt_x" />
-      <recent name="D:\Code\github\LeetCode\Python\_0066_Plus_One" />
-      <recent name="D:\Code\github\LeetCode\Python\_1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses" />
-      <recent name="D:\Code\github\LeetCode\Python\_0063_Unique_Paths_II" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (3)">
