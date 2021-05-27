@@ -1,0 +1,3 @@
+id,name,sex,age,salary
+1,tom,male,21,25000.0
+2,alice,female,18,12000.0
