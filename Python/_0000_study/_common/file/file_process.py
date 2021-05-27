@@ -93,6 +93,7 @@ def test02():
 
 # csv文件的处理
 def test03():
+    # csv的读取
     # 最基本做法
     filename = "test4.csv"
     data = []
@@ -101,6 +102,7 @@ def test03():
             data.append(line.strip("\n").split(","))
     print(data)  # list
     # 使用csv处理
+    print("---------------------------------------")
     import csv
     with open(filename, 'r') as f:
         reader = csv.reader(f)
@@ -108,10 +110,107 @@ def test03():
         data = data[1:]
     print(data)  # list, data[0]也是list
     # 使用pandas
+    print("---------------------------------------")
     import pandas as pd
-    print(pd.read_csv(filename))
+    import numpy as np
+    df = pd.read_csv(filename)  # 默认第一行为表头，自动生成索引, dataFrame类型
+    print(df)
+    '''
+       Sepal.Length  Sepal.Width  Petal.Length  Petal.Width     Species
+    0           5.1          3.5           1.4          0.2      setosa
+    1           4.9          3.0           1.4          0.2      setosa
+    2           7.0          3.2           4.7          1.4  versicolor
+    3           6.4          3.2           4.5          1.5  versicolor
+    4           6.3          3.3           6.0          2.5   virginica
+    5           5.8          2.7           5.1          1.9   virginica
+    '''
+    a = df.values  # a是numpy类型
+    print(a)
+    '''
+    [[5.1 3.5 1.4 0.2 'setosa']
+     [4.9 3.0 1.4 0.2 'setosa']
+     [7.0 3.2 4.7 1.4 'versicolor']
+     [6.4 3.2 4.5 1.5 'versicolor']
+     [6.3 3.3 6.0 2.5 'virginica']
+     [5.8 2.7 5.1 1.9 'virginica']]
+    '''
+    print(a.dtype)  # object
+    print(type(a[0][0]))  # <class 'float'>
+    print(type(a[0][4]))  # <class 'str'>
+    # data = a[:, :-1]  # dtype 仍然为 object
+    data = np.array(a[:, :-1], dtype=float)  # dtype 为 float64
+    print(data)
+    '''
+    [[5.1 3.5 1.4 0.2]
+     [4.9 3.0 1.4 0.2]
+     [7.0 3.2 4.7 1.4]
+     [6.4 3.2 4.5 1.5]
+     [6.3 3.3 6.0 2.5]
+     [5.8 2.7 5.1 1.9]]
+    '''
+    labels = a[:, -1].tolist()
+    print(type(labels))  # list类型    <class 'list'>
+    print(labels)
+    '''
+    ['setosa' 'setosa' 'versicolor' 'versicolor' 'virginica' 'virginica']
+    '''
 
+    # 写入csv文件: 将list写入csv文件
+    print("---------------------------------------")
+    import csv
+    headers = ['class', 'name', 'sex', 'height', 'year']
+    rows = [
+        [1, 'xiaoming', 'male', 168, 23],
+        [1, 'xiaohong', 'female', 162, 22],
+        [2, 'xiaozhang', 'female', 163, 21],
+        [2, 'xiaoli', 'male', 158, 21]
+    ]
+    with open('test5.csv', 'w', newline="") as f:  # newline="" 是为了去掉行与行之间的空格
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        writer.writerows(rows)
+
+
+# excel文件的处理
+def test04():
+    import pandas as pd
+    filename = "test6.xlsx"
+    df = pd.read_excel(filename, engine='openpyxl')
+    print(df)
+    '''
+       Sepal.Length  Sepal.Width  Petal.Length  Petal.Width     Species
+    0           5.1          3.5           1.4          0.2      setosa
+    1           4.9          3.0           1.4          0.2      setosa
+    2           7.0          3.2           4.7          1.4  versicolor
+    3           6.4          3.2           4.5          1.5  versicolor
+    4           6.3          3.3           6.0          2.5   virginica
+    5           5.8          2.7           5.1          1.9   virginica
+    '''
+    # 之后和test03()一样
+
+    # 写入excel文件：将list写入excel
+    print("---------------------------------------")
+    import xlsxwriter  # xlsxwriter只支持写入
+    filename = "test7.xlsx"
+    headers = ['class', 'name', 'sex', 'height', 'year']
+    rows = [
+        [1, 'xiaoming', 'male', 168, 23],
+        [1, 'xiaohong', 'female', 162, 22],
+        [2, 'xiaozhang', 'female', 163, 21],
+        [2, 'xiaoli', 'male', 158, 21]
+    ]
+    data = [headers] + rows
+    print(data)
+    # 新建excel表
+    workbook = xlsxwriter.Workbook(filename, {'nan_inf_to_errors': True})
+    # 创建sheet，默认名称sheet1
+    worksheet = workbook.add_worksheet()
+    # 数据写入excel
+    for i in range(len(data)):
+        worksheet.write_row("A{}".format(i + 1), data[i])
+    # 将excel文件保存关闭，如果没有这一行运行代码会报错
+    workbook.close()
 
 
 if __name__ == "__main__":
-    test03()
+    test04()
