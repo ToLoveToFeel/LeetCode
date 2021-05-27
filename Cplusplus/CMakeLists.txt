@@ -359,3 +359,4 @@ add_executable(Solution _1707_Maximum_XOR_With_an_Element_From_Array/Solution.cp
 add_executable(_0664_main _0664_Strange_Printer/_0664_main.cpp)
 add_executable(_1190_main _1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses/_1190_main.cpp)
 add_executable(_1190_main2 _1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses/_1190_main2.cpp)
+add_executable(_0461_main _0461_Hamming_Distance/_0461_main.cpp)
