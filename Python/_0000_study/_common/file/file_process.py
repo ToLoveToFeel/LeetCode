@@ -91,5 +91,27 @@ def test02():
     # 写入文件，和test01一致，需要将每行的数据转为字符串写入
 
 
+# csv文件的处理
+def test03():
+    # 最基本做法
+    filename = "test4.csv"
+    data = []
+    with open(filename, 'r') as f:
+        for line in f.readlines()[1:]:  # [1:]是为了过滤掉表头
+            data.append(line.strip("\n").split(","))
+    print(data)  # list
+    # 使用csv处理
+    import csv
+    with open(filename, 'r') as f:
+        reader = csv.reader(f)
+        data = [row for row in reader]
+        data = data[1:]
+    print(data)  # list, data[0]也是list
+    # 使用pandas
+    import pandas as pd
+    print(pd.read_csv(filename))
+
+
+
 if __name__ == "__main__":
-    test02()
+    test03()

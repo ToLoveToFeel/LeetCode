@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0000_study/_common/file/file_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0000_study/_common/file/file_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_0461_Hamming_Distance" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,11 +284,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (1)" />
-      <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution" />
-      <item itemvalue="Python.file_process" />
+      <item itemvalue="Python.Solution (3)" />
+      <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.numpy_use" />
+      <item itemvalue="Python.file_process" />
     </list>
     <recent_temporary>
       <list>
