@@ -135,7 +135,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0560_Subarray_Sum_Equals_K" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1074_Number_of_Submatrices_That_Sum_to_Target" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -145,11 +145,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1074_Number_of_Submatrices_That_Sum_to_Target" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0560_Subarray_Sum_Equals_K" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0477_Total_Hamming_Distance" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0461_Hamming_Distance" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0664_Strange_Printer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -1110,70 +1110,6 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0000_study/_datastructure/utils/FileOperation.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[119]杨辉三角 II.java</url>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[367]有效的完全平方数.java</url>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0000_study/_algorithm/sorting/SortTestHelper.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0649_Dota2_Senate/Solution.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_1018_Binary_Prefix_Divisible_By_5/Solution.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0146_LRU_Cache/LRUCache2.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0146_LRU_Cache/LRUCache2.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0155_Min_Stack/Solution.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0355_Design_Twitter/Solution.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_0029_Divide_Two_Integers/Solution.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="follows" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
