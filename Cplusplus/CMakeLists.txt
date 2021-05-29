@@ -367,3 +367,4 @@ add_executable(_0378_main _0378_Kth_Smallest_Element_in_a_Sorted_Matrix/_0378_ma
 add_executable(_0380_main _0380_Insert_Delete_GetRandom_O1/_0380_main.cpp)
 add_executable(_0381_main _0381_Insert_Delete_GetRandom_O1_Duplicates_allowed/_0381_main.cpp)
 add_executable(_0382_main _0382_Linked_List_Random_Node/_0382_main.cpp)
+add_executable(_0383_main _0383_Ransom_Note/_0383_main.cpp)
