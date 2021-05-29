@@ -366,3 +366,4 @@ add_executable(_1074_main _1074_Number_of_Submatrices_That_Sum_to_Target/_1074_m
 add_executable(_0378_main _0378_Kth_Smallest_Element_in_a_Sorted_Matrix/_0378_main.cpp)
 add_executable(_0380_main _0380_Insert_Delete_GetRandom_O1/_0380_main.cpp)
 add_executable(_0381_main _0381_Insert_Delete_GetRandom_O1_Duplicates_allowed/_0381_main.cpp)
+add_executable(_0382_main _0382_Linked_List_Random_Node/_0382_main.cpp)
