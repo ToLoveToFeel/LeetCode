@@ -369,3 +369,4 @@ add_executable(_0381_main _0381_Insert_Delete_GetRandom_O1_Duplicates_allowed/_0
 add_executable(_0382_main _0382_Linked_List_Random_Node/_0382_main.cpp)
 add_executable(_0383_main _0383_Ransom_Note/_0383_main.cpp)
 add_executable(_0384_main _0384_Shuffle_an_Array/_0384_main.cpp)
+add_executable(_0385_main _0385_Mini_Parser/_0385_main.cpp)
