@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * 执行用时：120 ms, 在所有 C++ 提交中击败了82.49%的用户
+ * 内存消耗：88.2 MB, 在所有 C++ 提交中击败了42.28%的用户
+ */
 class Solution {
 public:
 
