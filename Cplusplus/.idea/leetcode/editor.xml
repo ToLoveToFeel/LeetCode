@@ -75,6 +75,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1074]元素和为目标值的子矩阵数量.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1074]元素和为目标值的子矩阵数量.cpp" />
+              <option name="questionId" value="1145" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1128]等价多米诺骨牌对的数量.cpp">
           <value>
             <LeetcodeEditor>
@@ -1128,6 +1136,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[554]砖墙.cpp" />
               <option name="questionId" value="554" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[560]和为K的子数组.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[560]和为K的子数组.cpp" />
+              <option name="questionId" value="560" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -361,3 +361,4 @@ add_executable(_1190_main _1190_Reverse_Substrings_Between_Each_Pair_of_Parenthe
 add_executable(_1190_main2 _1190_Reverse_Substrings_Between_Each_Pair_of_Parentheses/_1190_main2.cpp)
 add_executable(_0461_main _0461_Hamming_Distance/_0461_main.cpp)
 add_executable(_0477_main _0477_Total_Hamming_Distance/_0477_main.cpp)
+add_executable(_0560_main _0560_Subarray_Sum_Equals_K/_0560_main.cpp)

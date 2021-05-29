@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,11 +170,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0477_Total_Hamming_Distance" />
       <recent name="D:\Code\github\LeetCode\Python\_0461_Hamming_Distance" />
       <recent name="D:\Code\github\LeetCode\Python\_0075_Sort_Colors" />
       <recent name="D:\Code\github\LeetCode\Python\_0074_Search_a_2D_Matrix" />
       <recent name="D:\Code\github\LeetCode\Python\_0073_Set_Matrix_Zeroes" />
-      <recent name="D:\Code\github\LeetCode\Python\_0072_Edit_Distance" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (2)">
