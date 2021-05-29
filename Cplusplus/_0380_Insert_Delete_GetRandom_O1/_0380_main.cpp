@@ -52,6 +52,14 @@ public:
 
 int main() {
 
+    auto* r = new RandomizedSet();
+    cout << r->insert(1) << endl;  // true
+    cout << r->remove(2) << endl;  // false
+    cout << r->insert(2) << endl;  // true
+    cout << r->getRandom() << endl;  // 2
+    cout << r->remove(1) << endl;  // true
+    cout << r->insert(2) << endl;  // false
+    cout << r->getRandom() << endl;  // 2
 
     return 0;
 }
