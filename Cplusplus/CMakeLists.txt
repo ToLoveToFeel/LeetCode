@@ -362,3 +362,4 @@ add_executable(_1190_main2 _1190_Reverse_Substrings_Between_Each_Pair_of_Parenth
 add_executable(_0461_main _0461_Hamming_Distance/_0461_main.cpp)
 add_executable(_0477_main _0477_Total_Hamming_Distance/_0477_main.cpp)
 add_executable(_0560_main _0560_Subarray_Sum_Equals_K/_0560_main.cpp)
+add_executable(_1074_main _1074_Number_of_Submatrices_That_Sum_to_Target/_1074_main.cpp)
