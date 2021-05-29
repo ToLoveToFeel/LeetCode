@@ -18,12 +18,12 @@ public:
 
     /** Returns a random node's value. */
     int getRandom() {
-        int c = -1, n = 0;
+        int res = -1, n = 0;
         for (auto p = h; p; p = p->next) {
             n++;
-            if (rand() % n == 0) c = p->val;  // 此时有1/n概率抽到p->val
+            if (rand() % n == 0) res = p->val;  // 此时有1/n概率抽到p->val
         }
-        return c;
+        return res;
     }
 };
 
