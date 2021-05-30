@@ -11,9 +11,9 @@ import java.util.Map;
  */
 public class Solution {
 
-    public int K;
-    public Map<Character, Integer> cnt = new HashMap<>();  // 不同字符在区间中出现的次数
-    public int x = 0, y = 0;  // x表示s[j...i]中不同字符的数量，y表示s[j...i]中满足字符数量大于K的字符的数量
+    int K;
+    Map<Character, Integer> cnt = new HashMap<>();  // 不同字符在区间中出现的次数
+    int x = 0, y = 0;  // x表示s[j...i]中不同字符的数量，y表示s[j...i]中满足字符数量大于K的字符的数量
 
     private void add(char c) {
         if (cnt.getOrDefault(c, 0) == 0) x++;
