@@ -25,7 +25,7 @@ public:
             for (int j = 0; j < k - 1; j++) {
                 int t = i + 1 + j;
                 if (t >= data.size()) return false;  // 说明最后一个字符不完整
-                if (!(get(data[t], 7) && !get(data[t], 6))) return false;
+                if (!(get(data[t], 7) && !get(data[t], 6))) return false;  // 后面的必须是10开头
             }
             i += k - 1;
         }
