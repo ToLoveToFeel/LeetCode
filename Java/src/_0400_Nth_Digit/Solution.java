@@ -17,4 +17,8 @@ public class Solution {
         n = (int) (n % k == 0 ? k : n % k);
         return ("" + s).charAt(n - 1) - '0';
     }
+
+    public static void main(String[] args) {
+        System.out.println((new Solution()).findNthDigit(3));  // 3
+    }
 }
