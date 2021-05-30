@@ -37,7 +37,7 @@ public:
             for (int i = 0, j = 0, x = 0, y = 0; i < s.size(); i++) {
                 add(s[i], x, y);
                 while (x > k) del(s[j++], x, y);
-                if (x == y) res = max(res, i - j + 1);
+                if (x == y) res = max(res, i - j + 1);  // 说明区间中的字符出现次数都大于等于k
             }
         }
         return res;

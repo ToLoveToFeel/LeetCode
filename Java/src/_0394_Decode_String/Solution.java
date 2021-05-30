@@ -8,10 +8,10 @@ package _0394_Decode_String;
  */
 public class Solution {
 
-    public int u = 0;
+    static int u = 0;
 
     public String decodeString(String s) {
-
+        u = 0;
         return dfs(s.toCharArray());
     }
 
