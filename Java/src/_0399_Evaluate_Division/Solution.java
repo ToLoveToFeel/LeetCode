@@ -17,7 +17,7 @@ public class Solution {
 
         for (int i = 0; i < equations.size(); i++) {
             String a = equations.get(i).get(0), b = equations.get(i).get(1);
-            Double c = values[i];
+            double c = values[i];
             if (!d.containsKey(a)) d.put(a, new HashMap<>());
             d.get(a).put(b, c);
             if (!d.containsKey(b)) d.put(b, new HashMap<>());

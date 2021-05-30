@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/src/_0399_Evaluate_Division/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0399_Evaluate_Division/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0398_Random_Pick_Index" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0386_Lexicographical_Numbers" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0385_Mini_Parser" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0384_Shuffle_an_Array" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0383_Ransom_Note" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0382_Linked_List_Random_Node" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
