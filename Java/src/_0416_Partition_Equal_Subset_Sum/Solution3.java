@@ -17,7 +17,7 @@ class Solution3 {
         f[0] = true;
         for (int x : nums)
             for (int j = sum / 2; j >= x; j--)
-                f[j] = f[j] || f[j - x];
+                f[j] = f[j] | f[j - x];
         return f[s];
     }
 
