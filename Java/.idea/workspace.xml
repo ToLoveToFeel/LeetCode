@@ -135,7 +135,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0409_Longest_Palindrome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0410_Split_Array_Largest_Sum" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -145,11 +145,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0410_Split_Array_Largest_Sum" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0409_Longest_Palindrome" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0401_Binary_Watch" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_062_lastRemaining" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0400_Nth_Digit" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0398_Random_Pick_Index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -172,7 +172,7 @@
       <recent name="_0127_Word_Ladder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -208,6 +208,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0412_Fizz_Buzz.Solution" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0412_Fizz_Buzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_0405_Convert_a_Number_to_Hexadecimal.Solution" />
       <module name="Java" />
@@ -229,20 +243,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0404_Sum_of_Left_Leaves.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0400_Nth_Digit.Solution2" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0400_Nth_Digit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
