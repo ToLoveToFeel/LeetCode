@@ -24,7 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0404_Sum_of_Left_Leaves/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0404_Sum_of_Left_Leaves/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0404_Sum_of_Left_Leaves/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0404_Sum_of_Left_Leaves/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0000_study/_leetcode/_swordoffer/_062_lastRemaining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0401_Binary_Watch" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -148,11 +149,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0401_Binary_Watch" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_062_lastRemaining" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0400_Nth_Digit" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0398_Random_Pick_Index" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0386_Lexicographical_Numbers" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0385_Mini_Parser" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -175,7 +176,7 @@
       <recent name="_0127_Word_Ladder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution2 (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -225,13 +226,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0387_First_Unique_Character_in_a_String.Solution" />
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0404_Sum_of_Left_Leaves.Solution2" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0387_First_Unique_Character_in_a_String.*" />
+          <option name="PATTERN" value="_0404_Sum_of_Left_Leaves.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,19 +286,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
