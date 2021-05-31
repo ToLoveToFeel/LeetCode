@@ -36,6 +36,8 @@ public:
 
 int main() {
 
+    vector<int> nums = {7, 2, 5, 10, 8};
+    cout << Solution().splitArray(nums, 2) << endl;  // 18
 
     return 0;
 }
