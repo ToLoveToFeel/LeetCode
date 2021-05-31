@@ -378,3 +378,4 @@ add_executable(_swordoffer_62_main _0000_study/_leetcode/_swordoffer/_062_lastRe
 add_executable(_0404_main _0404_Sum_of_Left_Leaves/_0404_main.cpp)
 add_executable(_0405_main _0405_Convert_a_Number_to_Hexadecimal/_0405_main.cpp)
 add_executable(_0409_mian _0409_Longest_Palindrome/_0409_mian.cpp)
+add_executable(_0410_main _0410_Split_Array_Largest_Sum/_0410_main.cpp)
