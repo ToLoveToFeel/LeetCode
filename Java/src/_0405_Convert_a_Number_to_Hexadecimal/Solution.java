@@ -14,7 +14,7 @@ public class Solution {
             sb.append(nums[num & 0xf]);
             num >>>= 4;  // >>
         }
-        return sb.toString();
+        return sb.reverse().toString();
     }
 
     public static void main(String[] args) {
