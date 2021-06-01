@@ -5,6 +5,8 @@ import java.util.HashSet;
 
 /**
  * Date: 2021/6/1 19:15
+ * 执行用时：26 ms, 在所有 Java 提交中击败了45.74%的用户
+ * 内存消耗：43.9 MB, 在所有 Java 提交中击败了97.52%的用户
  */
 public class Solution {
 
