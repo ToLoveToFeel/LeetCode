@@ -391,3 +391,4 @@ add_executable(_0423_main _0423_Reconstruct_Original_Digits_from_English/_0423_m
 add_executable(_1744_main _1744_Can_You_Eat_Your_Favorite_Candy_on_Your_Favorite_Day/_1744_main.cpp)
 add_executable(_0427_main _0427_Construct_Quad_Tree/_0427_main.cpp)
 add_executable(_0430_main _0430_Flatten_a_Multilevel_Doubly_Linked_List/_0430_main.cpp)
+add_executable(_0432_main _0432_All_one_Data_Structure/_0432_main.cpp)
