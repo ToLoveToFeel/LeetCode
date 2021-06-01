@@ -10,23 +10,17 @@ import java.util.Arrays;
  */
 public class Solution {
 
-    public int eraseOverlapIntervals(int[][] intervals) {
+    public int eraseOverlapIntervals(int[][] q) {
 
-        if (intervals.length <= 1) return 0;
-
-        // 第一步：排序
-        Arrays.sort(intervals, (o1, o2) -> o1[1] - o2[1]);
-
-        // 统计需要移除的区间
-        int res = 0;
-        int xEnd = intervals[0][1];
-        for (int i = 1; i < intervals.length; i++) {
-            int start = intervals[i][0];
-            if (start < xEnd) res++;
-            else xEnd = intervals[i][1];
-        }
-
-        return res;
+        if (q.length == 0) return 0;
+        Arrays.sort(q, (o1, o2) -> o1[1] - o2[1]);
+        int res = 1, r = q[0][1];
+        for (int i = 1; i < q.length; i++)
+            if (q[i][0] >= r) {
+                res++;
+                r = q[i][1];
+            }
+        return q.length - res;
     }
 
     public static void main(String[] args) {
