@@ -17,19 +17,12 @@ public class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
 
         int n = nums.length;
-        // 特殊情况处理 k = 0
-        if (k == 0) {  // 判断nums是否存在两个连续的0即可
-            for (int i = 1; i < n; i++)
-                if (nums[i - 1] == 0 && nums[i] == 0) return true;
-            return false;
-        }
-
-        int[] sum = new int[n + 1];
-        for (int i = 1; i <= n; i++) sum[i] = sum[i - 1] + nums[i - 1];
-        HashSet<Integer> set = new HashSet<>();
+        int[] s = new int[n + 1];
+        for (int i = 1; i <= n; i++) s[i] = s[i - 1] + nums[i - 1];
+        HashSet<Integer> hash = new HashSet<>();
         for (int i = 2; i <= n; i++) {
-            set.add(sum[i - 2] % k);
-            if (set.contains(sum[i] % k)) return true;
+            hash.add(s[i - 2] % k);
+            if (hash.contains(s[i] % k)) return true;
         }
         return false;
     }
@@ -37,7 +30,6 @@ public class Solution {
     public static void main(String[] args) {
 
         int[] nums = {23, 2, 4, 6, 7};
-        int k = 6;
-        System.out.println((new Solution()).checkSubarraySum(nums, k));
+        System.out.println((new Solution()).checkSubarraySum(nums, 6));  // true
     }
 }
