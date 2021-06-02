@@ -14,8 +14,7 @@ public class Solution {
         return res;
     }
 
-    // 在以node为根结点的二叉树中，寻找包含node的路径，和为sum
-    // 返回这样的路径个数
+    // 在以node为根结点的二叉树中，寻找包含node的路径，和为sum, 返回这样的路径个数
     private int findPath(TreeNode node, int sum) {
 
         if (node == null) return 0;
