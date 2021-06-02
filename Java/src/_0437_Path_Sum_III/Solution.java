@@ -5,8 +5,7 @@ public class Solution {
     // 在以root为根结点的二叉树中，寻找和为sum的路径，返回这样的路径个数
     public int pathSum(TreeNode root, int sum) {
 
-        if (root == null)
-            return 0;
+        if (root == null) return 0;
 
         int res = findPath(root, sum);  // 包含结点root其和为sum的个数
         res += pathSum(root.left, sum);  // 进入左子树，寻找和为sum的路径
@@ -19,15 +18,14 @@ public class Solution {
     // 返回这样的路径个数
     private int findPath(TreeNode node, int sum) {
 
-        if (node == null)
-            return 0;
+        if (node == null) return 0;
 
         int res = 0;
-        if (node.val == sum)
-            res += 1;
+        sum -= node.val;
+        if (sum == 0) res += 1;
 
-        res += findPath(node.left, sum - node.val);
-        res += findPath(node.right, sum - node.val);
+        res += findPath(node.left, sum);
+        res += findPath(node.right, sum);
 
         return res;
     }
@@ -43,7 +41,6 @@ public class Solution {
         };
 
         TreeNode root = (new MyTree(nums)).getRoot();
-        int sum = 8;
-        System.out.println((new Solution()).pathSum(root, sum));
+        System.out.println((new Solution()).pathSum(root, 8));  // 3
     }
 }
