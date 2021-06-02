@@ -29,8 +29,23 @@ public:
     }
 };
 
+void OutputBasicArray1D(vector<int> nums) {
+    cout << "[";
+    for (int i = 0; i < nums.size(); i++) {
+        cout << nums[i];
+        if (i != nums.size() - 1) cout << ", ";
+    }
+    cout << "]" << endl;
+}
+
 int main() {
 
+    vector<vector<int>> interval = {
+            {3, 4},
+            {2, 3},
+            {1, 2},
+    };
+    OutputBasicArray1D(Solution().findRightInterval(interval));  // [-1, 0, 1]
 
     return 0;
 }
