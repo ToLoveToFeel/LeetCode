@@ -20,24 +20,17 @@ public class Solution {
     public int findMaxLength(int[] nums) {
 
         int n = nums.length;
-        HashMap<Integer, Integer> map = new HashMap<>();  // (sum[i], sum[i]出现的最小下标i)
-        map.put(0, 0);  // sum[0] = 0
+        HashMap<Integer, Integer> hash = new HashMap<>();  // (sum[i], sum[i]出现的最小下标i)
+        hash.put(0, 0);  // sum[0] = 0
         int res = 0;
         for (int i = 1, one = 0, zero = 0; i <= n; i++) {
-
             int num = nums[i - 1];
-            if (num == 0)
-                zero++;
-            else
-                one++;
-            int sum = one - zero;  // sum[i]
-
-            if (map.containsKey(sum))  // 说明 sum[i] - sum[k] = 0, (sum[k], k)为之前存储进去的数据
-                res = Math.max(res, i - map.get(sum));
-            else
-                map.put(sum, i);
+            if (num == 0) zero++;
+            else one++;
+            int s = one - zero;  // s[i]
+            if (hash.containsKey(s)) res = Math.max(res, i - hash.get(s));
+            else hash.put(s, i);
         }
-
         return res;
     }
 
