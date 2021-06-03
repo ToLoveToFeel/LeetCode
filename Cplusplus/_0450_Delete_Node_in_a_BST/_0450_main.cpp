@@ -39,6 +39,8 @@ int main() {
             2, 4, nu, 7
     };
     TreeNode *root = MyTree(nums).getRoot();
+    root = Solution().deleteNode(root, 3);
+    OutputBasicArray2D1(MyTree().levelOrder(root));  // [[5],  [4, 6],  [2, 7]]
 
     return 0;
 }

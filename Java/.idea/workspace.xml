@@ -137,7 +137,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0449_Serialize_and_Deserialize_BST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0450_Delete_Node_in_a_BST" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0450_Delete_Node_in_a_BST" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0449_Serialize_and_Deserialize_BST" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0443_String_Compression" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0446_Arithmetic_Slices_II_Subsequence" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0442_Find_All_Duplicates_in_an_Array" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0441_Arranging_Coins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
