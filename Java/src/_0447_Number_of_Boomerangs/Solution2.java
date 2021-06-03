@@ -15,7 +15,7 @@ public class Solution2 {
                     int d = dx * dx + dy * dy;
                     hash.put(d, hash.getOrDefault(d, 0) + 1);
                 }
-            for (int dis : hash.keySet()) res += hash.get(dis) * (hash.get(dis) - 1);
+            for (int v : hash.values()) res += v * (v - 1);
         }
         return res;
     }
@@ -23,6 +23,6 @@ public class Solution2 {
     public static void main(String[] args) {
 
         int[][] points = {{0, 0}, {1, 0}, {2, 0}};
-        System.out.println((new Solution2()).numberOfBoomerangs(points));
+        System.out.println((new Solution2()).numberOfBoomerangs(points));  // 2
     }
 }
