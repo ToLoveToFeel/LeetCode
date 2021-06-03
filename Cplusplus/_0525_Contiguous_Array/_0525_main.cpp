@@ -30,7 +30,8 @@ public:
 
 int main() {
 
-
+    vector<int> nums = {0, 1};
+    cout << Solution().findMaxLength(nums) << endl;  // 2
 
     return 0;
 }
