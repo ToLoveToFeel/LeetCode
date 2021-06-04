@@ -4,6 +4,10 @@ package _0451_Sort_Characters_By_Frequency;
 
 import java.util.*;
 
+/**
+ * 执行用时：17 ms, 在所有 Java 提交中击败了53.02%的用户
+ * 内存消耗：38.7 MB, 在所有 Java 提交中击败了92.90%的用户
+ */
 public class Solution {
 
     public String frequencySort(String s) {
