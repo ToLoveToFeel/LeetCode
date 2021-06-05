@@ -176,7 +176,7 @@
       <recent name="D:\Code\github\LeetCode\Python\_0434_Number_of_Segments_in_a_String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (1)">
+  <component name="RunManager" selected="Python.Solution (3)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0523_Continuous_Subarray_Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0456_132_Pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0523_Continuous_Subarray_Sum/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0456_132_Pattern/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution" />
       <item itemvalue="Python.file_process" />
       <item itemvalue="Python.Solution (1)" />
+      <item itemvalue="Python.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.file_process" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (2)" />
-        <item itemvalue="Python.Solution (5)" />
       </list>
     </recent_temporary>
   </component>

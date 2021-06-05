@@ -414,3 +414,4 @@ add_executable(_0452_main _0452_Minimum_Number_of_Arrows_to_Burst_Balloons/_0452
 add_executable(_0453_main _0453_Minimum_Moves_to_Equal_Array_Elements/_0453_main.cpp)
 add_executable(_0454_main _0454_4Sum_II/_0454_main.cpp)
 add_executable(_0455_main _0455_Assign_Cookies/_0455_main.cpp)
+add_executable(_0457_main _0457_Circular_Array_Loop/_0457_main.cpp)
