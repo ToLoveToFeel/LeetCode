@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +164,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0959_Regions_Cut_By_Slashes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0990_Satisfiability_of_Equality_Equations" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0990_Satisfiability_of_Equality_Equations" />
       <recent name="D:\Code\github\LeetCode\Python\_0959_Regions_Cut_By_Slashes" />
       <recent name="D:\Code\github\LeetCode\Python\_0947_Most_Stones_Removed_with_Same_Row_or_Column" />
       <recent name="D:\Code\github\LeetCode\Python\_0839_Similar_String_Groups" />
       <recent name="D:\Code\github\LeetCode\Python\_0765_Couples_Holding_Hands" />
-      <recent name="D:\Code\github\LeetCode\Python\_0684_Redundant_Connection" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (2)">
