@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
-#include <unordered_set>
 
 using namespace std;
 
 const int N = 1010;
 
-int p[N], sz[N];
+int p[N];
 
 int find(int x) {
     if(p[x] != x) p[x] = find(p[x]);
@@ -14,16 +13,16 @@ int find(int x) {
 }
 
 /**
-* 执行用时：236 ms, 在所有 C++ 提交中击败了41.21%的用户
- * 内存消耗：14.6 MB, 在所有 C++ 提交中击败了58.08%的用户
-*/
+ * 执行用时：244 ms, 在所有 C++ 提交中击败了29.77%的用户
+ * 内存消耗：13.7 MB, 在所有 C++ 提交中击败了96.11%的用户
+ */
 class Solution {
 public:
     int removeStones(vector<vector<int>> &stones) {
-
         int n = stones.size();
-        for (int i = 0; i < n; i++) p[i] = i, sz[i] = 1;  // 并查集初始化
-        // 考虑任意两个石子之间
+        for (int i = 0; i < n; i++) p[i] = i;  // 并查集初始化
+
+        int cnt = n;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++)
                 if (stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1])  {
@@ -31,25 +30,13 @@ public:
                     int p1 = find(i), p2 = find(j);
                     if (p1 != p2) {
                         p[p1] = p2;
-                        sz[p2] += sz[p1];
+                        cnt--;
                     }
                 }
         }
-
-        int res = 0;
-        unordered_set<int> groups;  // 防止重复计算
-        for (int i = 0; i < n; i++) {
-            int t = find(i);
-            if (!groups.count(t)) {
-                res += sz[t] - 1;
-                groups.insert(t);
-            }
-        }
-
-        return res;
+        return n - cnt;
     }
 };
-
 
 int main() {
 
