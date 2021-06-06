@@ -12,37 +12,36 @@ using namespace std;
 class Solution {
 public:
     int n;  // 边数
-    vector<bool> st1;  // 表示每条边是否在环中
+    vector<bool> st1;  // 表示每条边是否在环中  (环)
     vector<bool> st2;  // 表示当前边是不是某个点的两条入边之一
-    vector<bool> st;  // 找环的时候的判重数组
-    vector<bool> in_k;  // 找环过程中表示某个点是否在栈里
-    vector<bool> in_c;  // 表示某个点是否在环里
+    vector<bool> st;  // 找环的时候的判重数组  (环)
+    vector<bool> in_stk;  // 找环过程中表示某个点是否在栈里  (环)
+    vector<bool> in_cycle;  // 表示某个点是否在环里  (环)
     vector<vector<int>> g;  // 邻接矩阵
-    stack<int> stk;
+    stack<int> stk;  // 记录当前深搜经过的点  (环)
 
-    // 找环函数
     bool dfs(int u) {
         st[u] = true;  // u已经被遍历过了
-        stk.push(u), in_k[u] = true;  // 将u加入栈中
+        stk.push(u), in_stk[u] = true;  // 将u加入栈中
 
         for (int x : g[u]) {
             if (!st[x]) {
                 if (dfs(x)) return true;
-            } else if (in_k[x]) {  // 说明找到了环，找出环中所有的点
+            } else if (in_stk[x]) {  // 说明找到了环，找出环中所有的点
                 while (stk.top() != x) {
-                    in_c[stk.top()] = true;
+                    in_cycle[stk.top()] = true;
                     stk.pop();
                 }
-                in_c[x] = true;  // x也在环里
+                in_cycle[x] = true;  // x也在环里
                 return true;
             }
         }
 
-        stk.pop(), in_k[u] = false;  // 将u弹出栈
+        stk.pop(), in_stk[u] = false;  // 将u弹出栈
         return false;  // 说明没有找到环
     }
 
-    void work1(vector<vector<int>> &edges) {
+    void work1(vector<vector<int>> &edges) {  // 找环中的边
         for (auto &e : edges) {  // 创建邻接矩阵
             int a = e[0], b = e[1];
             g[a].push_back(b);
@@ -53,12 +52,12 @@ public:
 
         for (int i = 0; i < n; i++) {
             int a = edges[i][0], b = edges[i][1];
-            if (in_c[a] && in_c[b])  // 如果顶点a,b都在环内，则edges[i]在环内
+            if (in_cycle[a] && in_cycle[b])  // 如果顶点a,b都在环内，则edges[i]在环内
                 st1[i] = true;
         }
     }
 
-    void work2(vector<vector<int>> &edges) {
+    void work2(vector<vector<int>> &edges) {  // 找某个点对应的两条入边
         vector<int> p(n + 1, -1);
         for (int i = 0; i < n; i++) {
             int a = edges[i][0], b = edges[i][1];
@@ -76,10 +75,10 @@ public:
 
         n = edges.size();
         // 一旦被赋值，比如st1[0]=true，地址就不相同了
-        st1 = st2 = st = in_k = in_c = vector<bool>(n + 1);
+        st1 = st2 = st = in_stk = in_cycle = vector<bool>(n + 1);
         g.resize(n + 1);
-        work1(edges);
-        work2(edges);
+        work1(edges);  // 找环中的边
+        work2(edges);  // 找某个点对应的两条入边
 
         for (int i = n - 1; i >= 0; i--)
             if (st1[i] && st2[i])
