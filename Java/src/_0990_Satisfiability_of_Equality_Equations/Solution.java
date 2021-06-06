@@ -9,6 +9,50 @@ import java.util.List;
  */
 public class Solution {
 
+    static class UnionFind {
+        private int[] parent;
+        private int[] rank;
+
+        public UnionFind(int size) {
+            parent = new int[size];
+            rank = new int[size];
+            for (int i = 0; i < size; i++) {
+                parent[i] = i;
+                rank[i] = 1;
+            }
+        }
+
+        private int find(int p) {
+            while (p != parent[p]) {
+                parent[p] = parent[parent[p]];
+                p = parent[p];
+            }
+            return p;
+        }
+
+        public boolean isConnected(int p, int q) {
+            return find(p) == find(q);
+        }
+
+        public void unionElements(int p, int q) {
+            int pRoot = find(p);
+            int qRoot = find(q);
+
+            if (pRoot == qRoot)
+                return;
+
+            // 合并
+            if (rank[pRoot] < rank[qRoot])
+                parent[pRoot] = qRoot;
+            else if (rank[qRoot] < rank[pRoot])
+                parent[qRoot] = pRoot;
+            else {
+                parent[pRoot] = qRoot;
+                rank[qRoot] += 1;
+            }
+        }
+    }
+
     public boolean equationsPossible(String[] eq) {
 
         // 第一步：统计字母的个数，并将 eq 根据相等与否分为两个集合
@@ -37,49 +81,5 @@ public class Solution {
 //        String[] equations = {"a==b", "b!=c", "c==a"};  // false
         String[] equations = {"a==b", "b!=a"};  // false
         System.out.println((new Solution()).equationsPossible(equations));
-    }
-}
-
-class UnionFind {
-    private int[] parent;
-    private int[] rank;
-
-    public UnionFind(int size) {
-        parent = new int[size];
-        rank = new int[size];
-        for (int i = 0; i < size; i++) {
-            parent[i] = i;
-            rank[i] = 1;
-        }
-    }
-
-    private int find(int p) {
-        while (p != parent[p]) {
-            parent[p] = parent[parent[p]];
-            p = parent[p];
-        }
-        return p;
-    }
-
-    public boolean isConnected(int p, int q) {
-        return find(p) == find(q);
-    }
-
-    public void unionElements(int p, int q) {
-        int pRoot = find(p);
-        int qRoot = find(q);
-
-        if (pRoot == qRoot)
-            return;
-
-        // 合并
-        if (rank[pRoot] < rank[qRoot])
-            parent[pRoot] = qRoot;
-        else if (rank[qRoot] < rank[pRoot])
-            parent[qRoot] = pRoot;
-        else {
-            parent[pRoot] = qRoot;
-            rank[qRoot] += 1;
-        }
     }
 }
