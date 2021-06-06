@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
-#include <algorithm>
+#include <set>
 
 using namespace std;
 
@@ -18,60 +18,44 @@ int find(int x) {
  * 执行用时：108 ms, 在所有 C++ 提交中击败了99.61%的用户
  * 内存消耗：38.3 MB, 在所有 C++ 提交中击败了31.40%的用户
  */
-// 可以看成一个图，点是邮箱，如果两个邮箱是同一个人的，则有一条边
-// 一个人可以对应多个邮箱，但是一个邮箱只能对应一个人
+// 一个人可以对应多个邮箱，但是一个邮箱只能对应一个人且同一个邮箱对应的人名一定相同
 class Solution {
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>> &accounts) {
 
-        for (int i = 0; i < N; i++) p[i] = i;  // 并查集初始化
+    vector<int> p;
 
-        unordered_map<string, int> emailToId;  // (email, id), id用来唯一标识邮箱
-        unordered_map<string, string> emailToName;  // (email, username)
-        int index = 0;
-        for (vector<string> account : accounts) {
-            string name = account[0];
-            for (int i = 1; i < account.size(); i++) {
-                if (!emailToId.count(account[i])) {
-                    emailToId[account[i]] = index++;
-                    emailToName[account[i]] = name;
-                }
+    int find(int x) {
+        if (p[x] != x) p[x] = find(p[x]);
+        return p[x];
+    }
+
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        int n = accounts.size();
+        for (int i = 0; i < n; i++) p.push_back(i);
+        // (1) 将同一个邮件对应的账户id(使用下标表示账户的id)放到一个集合中
+        unordered_map<string, vector<int>> hash;
+        for (int i = 0; i < n; i++)
+            for (int j = 1; j < accounts[i].size(); j++)
+                hash[accounts[i][j]].push_back(i);
+        // (2) 将同一个邮件对应的账户id合并
+        for (auto &[k, v] : hash)
+            for (int i = 1; i < v.size(); i++)
+                p[find(v[i])] = find(v[0]);
+        // (3) 合并账户
+        vector<set<string>> res(n);
+        for (int i = 0; i < n; i++)
+            for (int j = 1; j < accounts[i].size(); j++)
+                res[find(i)].insert(accounts[i][j]);
+        // (4) 按照题目要求返回结果
+        vector<vector<string>> ans;
+        for (int i = 0; i < n; i++)
+            if (res[i].size()) {
+                vector<string> t;
+                t.push_back(accounts[i][0]);  // 姓名
+                for (auto &e : res[i]) t.push_back(e);
+                ans.push_back(t);
             }
-        }
-
-        // 根据邮箱合并
-        for (vector<string> account : accounts) {
-            if (account.size() > 1) {
-                int x = emailToId[account[1]];
-                for (int i = 2; i < account.size(); i++) {
-                    int y = emailToId[account[i]];
-                    int p1 = find(x), p2 = find(y);
-                    if (p1 != p2) p[p1] = p2;  // 合并邮箱id
-                }
-            }
-        }
-
-        // 将id映射到emails (find(id), emails)
-        unordered_map<int, vector<string>> idToEmails;
-        for (auto &t : emailToId) {
-            string email = t.first;
-            int id = t.second;
-            int f = find(id);
-            idToEmails[f].push_back(email);
-        }
-
-        // 根据id得到emails，然后根据任意一个email得到用户名，然后得到(username, emails)
-        vector<vector<string>> res;
-        for (auto &t : idToEmails) {
-            vector<string> emails = t.second;
-            sort(emails.begin(), emails.end());
-            string name = emailToName[emails[0]];
-            vector<string> account = {name};
-            for (auto &e : emails) account.push_back(e);
-            res.push_back(account);
-        }
-
-        return res;
+        return ans;
     }
 };
 
