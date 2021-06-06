@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,16 +165,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0547_Number_of_Provinces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0684_Redundant_Connection" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0684_Redundant_Connection" />
       <recent name="D:\Code\github\LeetCode\Python\_0547_Number_of_Provinces" />
       <recent name="D:\Code\github\LeetCode\Python\_0474_Ones_and_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Python\_0462_Minimum_Moves_to_Equal_Array_Elements_II" />
       <recent name="D:\Code\github\LeetCode\Python\_0456_132_Pattern" />
-      <recent name="D:\Code\github\LeetCode\Python\_0203_Remove_Linked_List_Elements" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (5)">
