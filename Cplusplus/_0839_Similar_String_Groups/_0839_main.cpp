@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int N = 10010;  // 本题给的数据标注的长度是错误的，这句话错误：1 <= strs.length <= 100
+const int N = 310;
 
 int p[N];
 
