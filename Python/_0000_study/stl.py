@@ -105,7 +105,7 @@ def test4():
     from collections import deque
     # 定义 deque
     d = deque()
-    # // 双端队列中插入、删除元素
+    # 双端队列中插入、删除元素
     d.append(20)  # 队尾插入一个元素  deque([20])
     d.append(10)  # 队尾插入一个元素  deque([20, 10])
     d.pop()  # 弹出一个尾部数据  deque([20])
@@ -125,17 +125,201 @@ def test4():
     print(len(d) == 0)  # True
 
 
-# 内部有序的set?
+# set
 def test5():
-    pass
+    """
+    有序的集合：SortedSet
+    网址：http://www.grantjenks.com/docs/sortedcontainers/sortedset.html
+    """
+    from sortedcontainers import SortedSet
+    # 创建 SortedSet
+    ss = SortedSet([3, 1, 2, 5, 4])
+    print(ss)  # SortedSet([1, 2, 3, 4, 5])
+    from operator import neg
+    ss1 = SortedSet([3, 1, 2, 5, 4], neg)
+    print(ss1)  # SortedSet([5, 4, 3, 2, 1], key=<built-in function neg>)
+    # SortedSet 转为 list/tuple/set
+    print(list(ss))  # SortedSet转为list    [1, 2, 3, 4, 5]
+    print(tuple(ss))  # SortedSet转为tuple    (1, 2, 3, 4, 5)
+    print(set(ss))  # SortedSet转为set    {1, 2, 3, 4, 5}
+    # 插入、删除元素
+    ss.discard(-1)  # 删除不存在的元素不报错
+    ss.remove(1)  # 删除不存在的元素报错, KeyError
+    ss.discard(3)  # SortedSet([1, 2, 4, 5])
+    ss.add(-10)  # SortedSet([-10, 1, 2, 4, 5])
+    # 返回第一个和最后一个元素
+    print(ss[0])  # -10
+    print(ss[-1])  # 5
+    # 遍历 set
+    for e in ss:
+        print(e, end=", ")  # -10, 2, 4, 5,
+    print()
+    # set 中判断某元素是否存在
+    print(2 in ss)  # True
+    # bisect_left() / bisect_right()
+    print(ss.bisect_left(4))  # 返回大于等于4的最小元素对应的下标    2
+    print(ss.bisect_right(4))  # 返回大于4的最小元素对应的下标    3
+    # 清空 set
+    ss.clear()
+    print(len(ss))  # 0
+    print(len(ss) == 0)  # True
+
+    """
+    无序的集合: set
+    """
+    # 集合的定义：集合是不可变的，因此集合中元素不能是list
+    A = {"hi", 2, ("we", 24)}
+    B = set()  # 空集合的定义，不能使用B = {}定义集合，这样是字典的定义
+    # 集合间的操作, 下面的运算法符都可以写成 op= 的形式
+    print("---------------------------------------")
+    S = {1, 2, 3}
+    T = {3, 4, 5}
+    print(S & T)  # 交集，返回一个新集合，包括同时在集合S和T中的元素
+    print(S | T)  # 并集，返回一个新集合，包括在集合S和T中的所有元素
+    print(S - T)  # 差集，返回一个新集合，包括在集合S但不在T中的元素
+    print(S ^ T)  # 补集，返回一个新集合，包括集合S和T中的非相同元素
+    # 集合的包含关系
+    print("---------------------------------------")
+    C = {1, 2}
+    D = {1, 2}
+    print(C <= D)  # C是否是D的子集  True
+    print(C < D)  # C是否是D的真子集  False
+    print(C >= D)  # D是否是C的子集  True
+    print(C > D)  # D是否是C的真子集  False
+    # 集合的处理方法
+    print("---------------------------------------")
+    S = {1, 2, 3, 5, 6}
+    S.add(4)  # 如果x不在集合S中，将x增加到S
+    S.discard(1)  # 移除S中元素x，如果x不在集合S中，不报错
+    S.remove(2)  # 移除S中元素x，如果x不在集合S中，产生KeyError异常
+    for e in S:  # 遍历
+        print(e, end=",")
+    print()
+    print(S.pop())  # 从S中随机弹出一个元素，S长度减1，若S为空产生KeyError异常
+    print(S.copy())  # 返回集合S的一个副本, 对该副本的操作不会影响S
+    print(len(S))  # 返回集合S的元素个数
+    print(5 in S)  # 判断S中元素x， x在集合S中，返回True，否则返回False
+    print(5 not in S)  # 判断S中元素x， x在集合S中，返回True，否则返回False
+    S.clear()  # 移除S中所有元素
 
 
-# OrderedDict: 是有序的，有序体现在，先添加的排在前面，后添加的排在后面
+# SortedList: 类似于C++中的multiset
+def _test5():
+    """
+    网址：http://www.grantjenks.com/docs/sortedcontainers/sortedlist.html
+    """
+    from sortedcontainers import SortedList
+    # 定义
+    sl = SortedList(key=lambda x: -x)  # 降序
+    sl = SortedList([3, 1, 2, 1, 5, 4])  # 升序
+    print(sl)  # SortedList([1, 1, 2, 3, 4, 5])
+    # 插入、删除元素
+    sl.add(3)
+    sl.add(3)
+    sl.discard(2)  # SortedList([1, 1, 3, 3, 3, 4, 5])
+    print(sl)
+    # 统计某个元素出现的次数
+    print(sl.count(3))  # 3
+    # 返回第一个和最后一个元素
+    print(sl[0])  # 1
+    print(sl[-1])  # 5
+    # 遍历 set
+    for e in sl:
+        print(e, end=", ")  # 1, 1, 3, 3, 3, 4, 5,
+    print()
+    # 判断某元素是否存在
+    print(2 in sl)  # False
+    # bisect_left() / bisect_right()
+    print(sl.bisect_left(3))  # 返回大于等于3的最小元素对应的下标    2
+    print(sl.bisect_right(3))  # 返回大于3的最小元素对应的下标    5
+    # 清空
+    sl.clear()
+    print(len(sl))  # 0
+    print(len(sl) == 0)  # True
+
+
+# map
 def test6():
-    from collections import OrderedDict
-    d = OrderedDict({"c2": 2, "c1": 4, "wxx": 21, "hh": 18})
-    print(d)
-    print(d.popitem())
+    """
+    有序的map: SortedDict
+    网址: http://www.grantjenks.com/docs/sortedcontainers/sorteddict.html
+    """
+    from sortedcontainers import SortedDict
+    sd = SortedDict()
+    # 插入、删除元素
+    sd["wxx"] = 21
+    sd["hh"] = 18
+    sd["other"] = 20
+    print(sd)  # SortedDict({'hh': 18, 'other': 20, 'wxx': 21})
+    print(sd["wxx"])  # 访问不存在的键会报错, KeyError
+    print(sd.get("c"))  # 访问不存在的键会返回None     None
+    # SortedDict转dict
+    print(dict(sd))  # {'hh': 18, 'other': 20, 'wxx': 21}
+    # 返回最后一个元素和最后一个元素
+    print(sd.peekitem(0))  # 类型tuple, 返回第一个元素    ('hh', 18)
+    print(sd.peekitem())  # 类型tuple, 返回最后一个元素    ('wxx', 21)
+    # 遍历
+    for k, v in sd.items():
+        print(k, ':', v, sep="", end=", ")  # sep取消每行输出之间的空格
+    print()
+    for k in sd:  # 遍历键k, 等价于for k in d.keys:
+        print(str(k) + ":" + str(sd[k]), end=", ")
+    print()
+    for v in sd.values():  # 遍历值v
+        print(v, end=", ")
+    print()
+    # 返回Map中的一个键
+    print(sd.peekitem()[0])
+    # 返回Map中的一个值
+    print(sd.peekitem()[1])
+    # 中判断某元素是否存在
+    print("wxx" in sd)  # True
+    # bisect_left() / bisect_right()
+    sd["a"] = 1
+    sd["c1"] = 2
+    sd["c2"] = 4
+    print(sd)  # SortedDict({'a': 1, 'c1': 2, 'c2': 4, 'hh': 18, 'other': 20, 'wxx': 21})
+    print(sd.bisect_left("c1"))  # 返回键大于等于"c1"的最小元素对应的下标    1
+    print(sd.bisect_right("c1"))  # 返回键大于"c1"的最小元素对应的下标    2
+    # 清空
+    sd.clear()
+    print(len(sd))  # 0
+    print(len(sd) == 0)  # True
+
+    """
+    无序的map: dict
+    """
+    print("---------------------------------------")
+    d = {"c1": 2, "c2": 4, "hh": 18, "wxx": 21, 13: 14, 1: 0}
+    print(d["wxx"])  # 21
+    print(d[13])  # 14
+    d[13] += 1
+    print(d[13])  # 15
+    d["future"] = "wonderful"  # 字典中添加键值对
+    del d[1]  # 删除字典d中键1对应的数据值
+    print("wxx" in d)  # 判断键"wxx"是否在字典d中，如果在返回True，否则False
+    print(d.keys())  # 返回字典d中所有的键信息  dict_keys(['c1', 'c2', 'hh', 'wxx', 13])
+    print(d.values())  # 返回字典d中所有的值信息  dict_values([2, 4, 18, 21, 14])
+    print(d.items())  # dict_items([('c1', 2), ('c2', 4), ('hh', 18), ('wxx', 21), (13, 14)])
+    for k, v in d.items():  # 遍历 k, v
+        print(k, ':', v)
+    for k in d:  # 遍历键k, 等价于for k in d.keys:
+        print(str(k) + ":" + str(d[k]), end=", ")
+    print()
+    for v in d.values():  # 遍历值v
+        print(v, end=", ")
+    print()
+    # 字典类型操作函数和方法
+    print("---------------------------------------")
+    d = {"中国": "北京", "美国": "华盛顿", "法国": "巴黎"}
+    print(len(d))  # 返回字典d中元素的个数  3
+    print(d.get("中国", "不存在"))  # 键k存在，则返回相应值，不在则返回<default>值  北京
+    print(d.get("中", "不存在"))  # 不存在
+    print(d.get("中"))  # None
+    d["美国"] = "Washington"  # 修改键对应的值
+    print(d.pop("美国"))  # 键k存在，则返回相应值，并将其从dict中删除
+    print(d.popitem())  # 随机从字典d中取出一个键值对，以元组形式返回，并将其从dict中删除
+    d.clear()  # 删除所有的键值对
 
 
 if __name__ == "__main__":
