@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * Date: 2021/6/7 15:25
+ * 执行用时：1 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36 MB, 在所有 Java 提交中击败了92.65%的用户
  */
 public class Solution {
 
