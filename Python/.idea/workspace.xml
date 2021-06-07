@@ -164,19 +164,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0990_Satisfiability_of_Equality_Equations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1584_Min_Cost_to_Connect_All_Points" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1584_Min_Cost_to_Connect_All_Points" />
       <recent name="D:\Code\github\LeetCode\Python\_0990_Satisfiability_of_Equality_Equations" />
       <recent name="D:\Code\github\LeetCode\Python\_0959_Regions_Cut_By_Slashes" />
       <recent name="D:\Code\github\LeetCode\Python\_0947_Most_Stones_Removed_with_Same_Row_or_Column" />
       <recent name="D:\Code\github\LeetCode\Python\_0839_Similar_String_Groups" />
-      <recent name="D:\Code\github\LeetCode\Python\_0765_Couples_Holding_Hands" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (2)">
+  <component name="RunManager" selected="Python.Solution">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0684_Redundant_Connection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_1584_Min_Cost_to_Connect_All_Points" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0684_Redundant_Connection/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1584_Min_Cost_to_Connect_All_Points/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (4)" />
       <item itemvalue="Python.Solution (2)" />
+      <item itemvalue="Python.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (1)" />
-        <item itemvalue="Python.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
