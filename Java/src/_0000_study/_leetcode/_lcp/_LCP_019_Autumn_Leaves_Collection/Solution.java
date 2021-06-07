@@ -1,4 +1,4 @@
-package _0000_study._leetcode._lcp._lcp_019_Autumn_Leaves_Collection;
+package _0000_study._leetcode._lcp._LCP_019_Autumn_Leaves_Collection;
 
 /**
  * Date: 2020/10/1 10:06
