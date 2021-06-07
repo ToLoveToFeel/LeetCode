@@ -422,3 +422,4 @@ add_executable(_0462_main _0462_Minimum_Moves_to_Equal_Array_Elements_II/_0462_m
 add_executable(_0474_main _0474_Ones_and_Zeroes/_0474_main.cpp)
 add_executable(_0990_main _0990_Satisfiability_of_Equality_Equations/_0990_main.cpp)
 add_executable(_0494_main _0494_Target_Sum/_0494_main.cpp)
+add_executable(_0494_main2 _0494_Target_Sum/_0494_main2.cpp)
