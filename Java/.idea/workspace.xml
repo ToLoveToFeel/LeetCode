@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +137,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0494_Target_Sum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0000_study/_leetcode/_lcp/_LCP_04_Broken_Board_Dominoes" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -148,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_lcp\_LCP_04_Broken_Board_Dominoes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0494_Target_Sum" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0839_Similar_String_Groups" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0474_Ones_and_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0462_Minimum_Moves_to_Equal_Array_Elements_II" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0460_LFU_Cache" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
