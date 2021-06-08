@@ -424,3 +424,4 @@ add_executable(_0990_main _0990_Satisfiability_of_Equality_Equations/_0990_main.
 add_executable(_0494_main _0494_Target_Sum/_0494_main.cpp)
 add_executable(_0494_main2 _0494_Target_Sum/_0494_main2.cpp)
 add_executable(_1049_main _1049_Last_Stone_Weight_II/_1049_main.cpp)
+add_executable(_1046_main _1046_Last_Stone_Weight/_1046_main.cpp)
