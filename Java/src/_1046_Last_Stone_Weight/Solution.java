@@ -13,17 +13,15 @@ public class Solution {
 
     public int lastStoneWeight(int[] stones) {
 
-        Queue<Integer> q = new PriorityQueue<>((o1, o2) -> o2 - o1);
-        for (Integer stone : stones) q.add(stone);
-        while (q.size() > 1) {
-            int y = q.remove();
-            int x = q.remove();
-
+        Queue<Integer> heap = new PriorityQueue<>((o1, o2) -> o2 - o1);
+        for (int x : stones) heap.add(x);
+        while (heap.size() > 1) {
+            int y = heap.remove(), x = heap.remove();
             if (x == y) continue;
-            q.add(y - x);
+            heap.add(y - x);
         }
 
-        return q.size() == 1 ? q.remove() : 0;
+        return heap.size() == 1 ? heap.remove() : 0;
     }
 
     public static void main(String[] args) {
