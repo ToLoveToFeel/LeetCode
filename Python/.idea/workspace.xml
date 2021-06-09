@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_0000_study/_auxiliary/mytree/MyTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/_0000_study/_auxiliary/mytree/MyTree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +171,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0879_Profitable_Schemes" />
       <recent name="D:\Code\github\LeetCode\Python\_0094_Binary_Tree_Inorder_Traversal" />
       <recent name="D:\Code\github\LeetCode\Python\_1046_Last_Stone_Weight" />
       <recent name="D:\Code\github\LeetCode\Python\_1049_Last_Stone_Weight_II" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study\_leetcode" />
-      <recent name="D:\Code\github\LeetCode\Python\_0785_Is_Graph_Bipartite" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (1)">
+  <component name="RunManager" selected="Python.MyTree">
     <configuration name="MyTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,8 +293,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.MyTree" />
+        <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.stl" />
