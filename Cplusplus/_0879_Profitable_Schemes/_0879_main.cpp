@@ -27,12 +27,10 @@ public:
 
 int main() {
 
-//    vector<int> group = {2, 2};
-//    vector<int> profit = {2, 3};
+//    vector<int> group = {2, 2}, profit = {2, 3};
 //    cout << Solution().profitableSchemes(5, 3, group, profit) << endl;  // 2
 
-    vector<int> group = {2, 3, 5};
-    vector<int> profit = {6, 7, 8};
+    vector<int> group = {2, 3, 5}, profit = {6, 7, 8};
     cout << Solution().profitableSchemes(10, 5, group, profit) << endl;  // 7
 
     return 0;
