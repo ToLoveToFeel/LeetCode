@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +164,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1449_Form_Largest_Integer_With_Digits_That_Add_up_to_Target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0852_Peak_Index_in_a_Mountain_Array" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0852_Peak_Index_in_a_Mountain_Array" />
       <recent name="D:\Code\github\LeetCode\Python\_1449_Form_Largest_Integer_With_Digits_That_Add_up_to_Target" />
       <recent name="D:\Code\github\LeetCode\Python\_0518_Coin_Change_2" />
       <recent name="D:\Code\github\LeetCode\Python\_0094_Binary_Tree_Inorder_Traversal" />
       <recent name="D:\Code\github\LeetCode\Python\_0879_Profitable_Schemes" />
-      <recent name="D:\Code\github\LeetCode\Python\_1046_Last_Stone_Weight" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution">
