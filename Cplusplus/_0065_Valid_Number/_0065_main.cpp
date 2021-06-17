@@ -38,18 +38,18 @@ public:
 int main() {
 
     cout << Solution().isNumber("0") << endl;  // true
-    cout << Solution().isNumber("   ") << endl;
-    cout << Solution().isNumber("+") << endl;
-    cout << Solution().isNumber(".") << endl;
-    cout << Solution().isNumber(".e") << endl;
+    cout << Solution().isNumber("   ") << endl;  // false
+    cout << Solution().isNumber("+") << endl;  // false
+    cout << Solution().isNumber(".") << endl;  // false
+    cout << Solution().isNumber(".e") << endl;  // false
     cout << Solution().isNumber("1.e1") << endl;  // true
-    cout << Solution().isNumber("1.1.1e2") << endl;
-    cout << Solution().isNumber("2e2.5") << endl;
-    cout << Solution().isNumber("2e") << endl;
-    cout << Solution().isNumber("e2") << endl;
-    cout << Solution().isNumber("2e2e") << endl;
-    cout << Solution().isNumber("2e+") << endl;
-    cout << Solution().isNumber("2e 3") << endl;
+    cout << Solution().isNumber("1.1.1e2") << endl;  // false
+    cout << Solution().isNumber("2e2.5") << endl;  // false
+    cout << Solution().isNumber("2e") << endl;  // false
+    cout << Solution().isNumber("e2") << endl;  // false
+    cout << Solution().isNumber("2e2e") << endl;  // false
+    cout << Solution().isNumber("2e+") << endl;  // false
+    cout << Solution().isNumber("2e 3") << endl;  // false
 
     return 0;
 }
