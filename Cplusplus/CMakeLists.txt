@@ -432,3 +432,4 @@ add_executable(_1449_main2 _1449_Form_Largest_Integer_With_Digits_That_Add_up_to
 add_executable(_0852_main _0852_Peak_Index_in_a_Mountain_Array/_0852_main.cpp)
 add_executable(_0877_main _0877_Stone_Game/_0877_main.cpp)
 add_executable(_0065_main _0065_Valid_Number/_0065_main.cpp)
+add_executable(_0483_main _0483_Smallest_Good_Base/_0483_main.cpp)
