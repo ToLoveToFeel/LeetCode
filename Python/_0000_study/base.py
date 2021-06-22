@@ -329,6 +329,11 @@ def test10():
     print(sorted(d.items()))  # 返回list  [('a', 24), ('b', 21), ('c', 12)]
     print(sorted(d.items(), key=lambda e: e[1], reverse=True))  # 按照值降序排列
 
+    # 对字符串进行排序
+    s = "cbaCBA"
+    s = "".join((lambda x: (x.sort(), x)[1])(list(s)))
+    print(s)  # ABCabc
+
 
 if __name__ == "__main__":
-    test2()
+    test10()
