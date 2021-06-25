@@ -437,3 +437,5 @@ add_executable(_1600_main _1600_Throne_Inheritance/_1600_main.cpp)
 add_executable(_0390_main _0390_Elimination_Game/_0390_main.cpp)
 add_executable(_swordoffer_38_main _0000_study/_leetcode/_swordoffer/_038_permutation/_swordoffer_38_main.cpp)
 add_executable(_swordoffer_15_main _0000_study/_leetcode/_swordoffer/_015_hammingWeight/_swordoffer_15_main.cpp)
+
+add_executable(_0752_main _0752_Open_the_Lock/_0752_main.cpp)
