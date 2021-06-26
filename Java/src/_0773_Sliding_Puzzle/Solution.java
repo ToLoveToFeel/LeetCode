@@ -7,26 +7,26 @@ import java.util.Queue;
 
 public class Solution {
     // 时间复杂度：O(n!)
-    private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 某个点的四个方向，上右下左
+    private static final int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 某个点的四个方向，上右下左
 
     public int slidingPuzzle(int[][] board) {
 
-        Queue<String> queue = new LinkedList<>();
+        Queue<String> q = new LinkedList<>();
         HashMap<String, Integer> dist = new HashMap<>();  // 记录到达 String 需要的步骤，不存在在visited里代表没访问到
 
         String start = boardToString(board);
         if (start.equals("123450")) return 0;
 
-        queue.add(start);
+        q.add(start);
         dist.put(start, 0);
-        while (!queue.isEmpty()) {
-            String t = queue.remove();
+        while (!q.isEmpty()) {
+            String t = q.remove();
 
             ArrayList<String> nexts = getNexts(t);
 
             for (String next : nexts)
                 if (!dist.containsKey(next)) {
-                    queue.add(next);
+                    q.add(next);
                     dist.put(next, dist.get(t) + 1);
                     if (next.equals("123450")) return dist.get(next);
                 }
