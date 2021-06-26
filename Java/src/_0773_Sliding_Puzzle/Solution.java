@@ -12,31 +12,30 @@ public class Solution {
     public int slidingPuzzle(int[][] board) {
 
         Queue<String> queue = new LinkedList<>();
-        HashMap<String, Integer> visited = new HashMap<>();  // 记录到达 String 需要的步骤，不存在在visited里代表没访问到
+        HashMap<String, Integer> dist = new HashMap<>();  // 记录到达 String 需要的步骤，不存在在visited里代表没访问到
 
-        String initialState = boardToString(board);
-        if (initialState.equals("123450"))
-            return 0;
+        String start = boardToString(board);
+        if (start.equals("123450")) return 0;
 
-        queue.add(initialState);
-        visited.put(initialState, 0);
+        queue.add(start);
+        dist.put(start, 0);
         while (!queue.isEmpty()) {
-            String cur = queue.remove();
+            String t = queue.remove();
 
-            ArrayList<String> nexts = getNexts(cur);
+            ArrayList<String> nexts = getNexts(t);
 
             for (String next : nexts)
-                if (!visited.containsKey(next)) {
+                if (!dist.containsKey(next)) {
                     queue.add(next);
-                    visited.put(next, visited.get(cur) + 1);
-                    if (next.equals("123450"))
-                        return visited.get(next);
+                    dist.put(next, dist.get(t) + 1);
+                    if (next.equals("123450")) return dist.get(next);
                 }
         }
         return -1;
     }
 
     private ArrayList<String> getNexts(String s) {
+
         ArrayList<String> res = new ArrayList<>();
         int[][] cur = stringToBoard(s);
         int zero;
@@ -44,16 +43,15 @@ public class Solution {
             if (0 == cur[zero / 3][zero % 3])
                 break;
 
-        int zx = zero / 3, zy = zero % 3;
+        int x = zero / 3, y = zero % 3;
         for (int d = 0; d < 4; d++) {
-            int newX = zx + dirs[d][0], newY = zy + dirs[d][1];
-            if (inArea(newX, newY)) {
-                swap(cur, zx, zy, newX, newY);
+            int a = x + dirs[d][0], b = y + dirs[d][1];
+            if (a >= 0 && a < 2 && b >= 0 && b < 3) {
+                swap(cur, x, y, a, b);
                 res.add(boardToString(cur));
-                swap(cur, zx, zy, newX, newY);
+                swap(cur, x, y, a, b);
             }
         }
-
         return res;
     }
 
@@ -66,16 +64,10 @@ public class Solution {
     }
 
     private int[][] stringToBoard(String s) {
+
         int[][] res = new int[2][3];
-
-        for (int i = 0; i < s.length(); i++)
-            res[i / 3][i % 3] = s.charAt(i) - '0';
-
+        for (int i = 0; i < s.length(); i++) res[i / 3][i % 3] = s.charAt(i) - '0';
         return res;
-    }
-
-    private boolean inArea(int x, int y) {
-        return x >= 0 && x < 2 && y >= 0 && y < 3;
     }
 
     private void swap(int[][] board, int x, int y, int newX, int newY) {
@@ -85,9 +77,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         int[][] board = {{4, 1, 2}, {5, 0, 3}};
-
-        System.out.println((new Solution()).slidingPuzzle(board));
+        System.out.println((new Solution()).slidingPuzzle(board));  // 5
     }
-
 }
