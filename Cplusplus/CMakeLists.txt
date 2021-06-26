@@ -439,3 +439,4 @@ add_executable(_swordoffer_38_main _0000_study/_leetcode/_swordoffer/_038_permut
 add_executable(_swordoffer_15_main _0000_study/_leetcode/_swordoffer/_015_hammingWeight/_swordoffer_15_main.cpp)
 
 add_executable(_0752_main _0752_Open_the_Lock/_0752_main.cpp)
+add_executable(_0773_main _0773_Sliding_Puzzle/_0773_main.cpp)
