@@ -17,7 +17,7 @@ typedef pair<int, int> PII;
 class Solution {
 public:
     vector<vector<int>> id;  // 坐标->编号
-    vector<PII> cor;  // 标号->坐标
+    vector<PII> cor;  // 编号->坐标
 
     int snakesAndLadders(vector<vector<int>> &board) {
         int n = board.size();
@@ -49,7 +49,7 @@ public:
             if (k == n * n) return dist[t.x][t.y];
             for (int i = k + 1; i <= k + 6 && i <= n * n; i++) {
                 int x = cor[i].x, y = cor[i].y;
-                if (board[x][y] != -1) {  // 每个会和只能传送一次
+                if (board[x][y] != -1) {  // 每个回合只能传送一次
                     int r = board[x][y];
                     x = cor[r].x, y = cor[r].y;
                 }
