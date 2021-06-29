@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,16 +162,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0909_Snakes_and_Ladders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0815_Bus_Routes" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0815_Bus_Routes" />
       <recent name="D:\Code\github\LeetCode\Python\_0909_Snakes_and_Ladders" />
       <recent name="D:\Code\github\LeetCode\Python\_0773_Sliding_Puzzle" />
       <recent name="D:\Code\github\LeetCode\Python\_0752_Open_the_Lock" />
       <recent name="D:\Code\github\LeetCode\Python\_0149_Max_Points_on_a_Line" />
-      <recent name="D:\Code\github\LeetCode\Python\_0000_study\_leetcode\_swordoffer\_015_hammingWeight" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (5)">
