@@ -8,8 +8,7 @@ public class Solution {
     public int titleToNumber(String s) {
         char[] cs = s.toCharArray();
         int res = 0;
-        for (int i = 0; i < cs.length; i++)
-            res = res * 26 + (cs[i] - 'A' + 1);
+        for (char c : cs) res = res * 26 + (c - 'A' + 1);
         return res;
     }
 
