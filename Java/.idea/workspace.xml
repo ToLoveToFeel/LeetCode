@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0172_Factorial_Trailing_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0815_Bus_Routes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0909_Snakes_and_Ladders" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_015_hammingWeight" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_038_permutation" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
@@ -282,11 +284,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
