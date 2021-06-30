@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0172_Factorial_Trailing_Zeroes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0741_Cherry_Pickup" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,11 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0741_Cherry_Pickup" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0172_Factorial_Trailing_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0815_Bus_Routes" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0909_Snakes_and_Ladders" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_015_hammingWeight" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_038_permutation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
