@@ -164,19 +164,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0741_Cherry_Pickup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0000_study/_leetcode/_lcp/_LCP_07_numWays" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0000_study\_leetcode\_lcp\_LCP_07_numWays" />
       <recent name="D:\Code\github\LeetCode\Python\_0741_Cherry_Pickup" />
       <recent name="D:\Code\github\LeetCode\Python\_0172_Factorial_Trailing_Zeroes" />
       <recent name="D:\Code\github\LeetCode\Python\_0171_Excel_Sheet_Column_Number" />
       <recent name="D:\Code\github\LeetCode\Python\_0168_Excel_Sheet_Column_Title" />
-      <recent name="D:\Code\github\LeetCode\Python\_0815_Bus_Routes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (2)">
+  <component name="RunManager" selected="Python.Solution (1)">
+    <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0000_study/_leetcode/_lcp/_LCP_07_numWays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0000_study/_leetcode/_lcp/_LCP_07_numWays/Solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Solution (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,27 +232,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0168_Excel_Sheet_Column_Title/Solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Solution (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0909_Snakes_and_Ladders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0909_Snakes_and_Ladders/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (4)" />
       <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (2)" />
+      <item itemvalue="Python.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (5)" />
-        <item itemvalue="Python.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
