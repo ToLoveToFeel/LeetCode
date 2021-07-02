@@ -14,6 +14,7 @@ import java.util.List;
  * Content: junit 测试
  */
 public class CustomerServiceImplTest {
+
     private CustomerServiceImpl dao = new CustomerServiceImpl();
 
     @Test

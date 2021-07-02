@@ -24,14 +24,10 @@ public class BlobTest {
         String sql = "insert into customers(name,email,birth,photo)values(?,?,?,?)";
         PreparedStatement ps = conn.prepareStatement(sql);
         // 3.填充占位符
-        ps.setObject(1, "567");
-        ps.setObject(2, "567@qq.com");
-        ps.setObject(3, "2010-09-08");
-        String path = "src\\_0000_study\\_jdbc\\basic\\preparedstatement\\blob\\刺客伍六七.png";
-//        ps.setObject(1, "mice");
-//        ps.setObject(2, "mice@qq.com");
-//        ps.setObject(3, "2008-09-08");
-//        String path = "src\\_0000_study\\_jdbc\\basic\\preparedstatement\\blob\\友情与爱情.jpg";
+        ps.setObject(1, "mice");
+        ps.setObject(2, "mice@qq.com");
+        ps.setObject(3, "2008-09-08");
+        String path = "src/_0000_study/_db/_jdbc/basic/preparedstatement/blob/友情与爱情.jpg";
         FileInputStream is = new FileInputStream(new File(path));
         ps.setBlob(4, is);
         // 4.执行
@@ -55,7 +51,7 @@ public class BlobTest {
             String sql = "select id,name,email,birth,photo from customers where id = ?";
             ps = conn.prepareStatement(sql);
             // 3.填充占位符
-            ps.setInt(1, 23);
+            ps.setInt(1, 20);
             // 4.执行,并返回结果集
             rs = ps.executeQuery();
             if (rs.next()) {
@@ -76,7 +72,7 @@ public class BlobTest {
                 // 将Blob类型的字段下载下来，以文件的方式保存在本地
                 Blob photo = rs.getBlob("photo");
                 is = photo.getBinaryStream();
-                String path = "src\\_0000_study\\_jdbc\\basic\\preparedstatement\\blob\\friendshipAndLove.jpg";
+                String path = "src/_0000_study/_db/_jdbc/basic/preparedstatement/blob/friendshipAndLove.jpg";
                 fos = new FileOutputStream(path);
                 byte[] buffer = new byte[1024];
                 int len;

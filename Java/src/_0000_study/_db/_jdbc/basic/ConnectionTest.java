@@ -28,10 +28,10 @@ public class ConnectionTest {
         // 3306: 默认mysql的端口号
         // test: test数据库
 //        String url = "jdbc:mysql://localhost:3306/test";  // 无法连接成功
-        String url = "jdbc:mysql://172.17.82.113:3306/test";
+        String url = "jdbc:mysql://localhost:3306/test";
         // 将用户名和密码封装在Properties中
         Properties info = new Properties();
-        info.setProperty("user", "mmall");
+        info.setProperty("user", "root");
         info.setProperty("password", "123456");
 
         Connection conn = driver.connect(url, info);
@@ -46,11 +46,11 @@ public class ConnectionTest {
         Driver driver = (Driver) clazz.newInstance();
 
         // 2.提供要连接的数据库
-        String url = "jdbc:mysql://172.17.82.113:3306/test";
+        String url = "jdbc:mysql://localhost:3306/test";
 
         // 3.提供连接需要的用户名和密码
         Properties info = new Properties();
-        info.setProperty("user", "mmall");
+        info.setProperty("user", "root");
         info.setProperty("password", "123456");
 
         // 4.获取连接
@@ -62,8 +62,8 @@ public class ConnectionTest {
     @Test
     public void testConnection3() throws Exception {
         // 1.除了 driver, 提供另外三个连接的基本信息：
-        String url = "jdbc:mysql://172.17.82.113:3306/test";
-        String user = "mmall";
+        String url = "jdbc:mysql://localhost:3306/test";
+        String user = "root";
         String password = "123456";
 
         // 2.获取Driver实现类对象：使用反射
@@ -82,8 +82,8 @@ public class ConnectionTest {
     @Test
     public void testConnection4() throws Exception {
         // 1.除了 driver, 提供另外三个连接的基本信息：
-        String url = "jdbc:mysql://172.17.82.113:3306/test";
-        String user = "mmall";
+        String url = "jdbc:mysql://localhost:3306/test";
+        String user = "root";
         String password = "123456";
 
         // 2.加载Driver
@@ -105,6 +105,12 @@ public class ConnectionTest {
     @Test
     public void getConnection() throws Exception {
 
+/* 配置文件信息如下：
+user=root
+password=123456
+url=jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true
+driverClass=com.mysql.jdbc.Driver
+ */
         // 1.读取配置文件中的4个基本信息
         InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream(JDBCUtils.PORPERTYPATH  + "jdbc.properties");
 

@@ -30,6 +30,7 @@ import java.sql.PreparedStatement;
  * }
  */
 public class BatchInsertTest {
+
     // 批量插入的方式二：使用PreparedStatement
     @Test
     public void batchInsertTest1() {

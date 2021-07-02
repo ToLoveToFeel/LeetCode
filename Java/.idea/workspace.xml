@@ -22,7 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/batchinsert/BatchInsertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/batchinsert/BatchInsertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/blob/BlobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/blob/BlobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/basic/preparedstatement/blob/friendshipAndLove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/example/example2/test/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/example/example2/test/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/jdbc_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/jdbc_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +183,7 @@
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="JUnit.BlobTest.testQuery">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -180,69 +191,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0741_Cherry_Pickup.Solution" />
+    <configuration name="PreparedStatementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.statementcrud.PreparedStatementTest" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0741_Cherry_Pickup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._leetcode._lcp._LCP_07_numWays.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0000_study._leetcode._lcp._LCP_07_numWays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0172_Factorial_Trailing_Zeroes.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0172_Factorial_Trailing_Zeroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1833_Maximum_Ice_Cream_Bars.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1833_Maximum_Ice_Cream_Bars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0980_Unique_Paths_III.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0980_Unique_Paths_III.*" />
+          <option name="PATTERN" value="_0000_study._db._jdbc.basic.statementcrud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,6 +207,74 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlobTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.blob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob.BlobTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlobTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.blob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob.BlobTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerForQuery.testQueryForCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.crud.CustomerForQuery" />
+      <option name="METHOD_NAME" value="testQueryForCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreparedStatementQueryTest.testGetForList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.crud.PreparedStatementQueryTest" />
+      <option name="METHOD_NAME" value="testGetForList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.PreparedStatementTest" />
+      <item itemvalue="JUnit.PreparedStatementQueryTest.testGetForList" />
+      <item itemvalue="JUnit.CustomerForQuery.testQueryForCustomers" />
+      <item itemvalue="JUnit.BlobTest.testInsert" />
+      <item itemvalue="JUnit.BlobTest.testQuery" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="JUnit.BlobTest.testQuery" />
+        <item itemvalue="JUnit.BlobTest.testInsert" />
+        <item itemvalue="JUnit.CustomerForQuery.testQueryForCustomers" />
+        <item itemvalue="JUnit.PreparedStatementQueryTest.testGetForList" />
+        <item itemvalue="Application.PreparedStatementTest" />
       </list>
     </recent_temporary>
   </component>
