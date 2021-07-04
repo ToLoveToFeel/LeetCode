@@ -449,3 +449,4 @@ add_executable(_swordoffer_009_main _0000_study/_leetcode/_swordoffer/_009_CQueu
 add_executable(_lcp_07_main _0000_study/_leetcode/_lcp/_LCP_07_numWays/_lcp_07_main.cpp)
 add_executable(_0980_main _0980_Unique_Paths_III/_0980_main.cpp)
 add_executable(_1833_main _1833_Maximum_Ice_Cream_Bars/_1833_main.cpp)
+add_executable(_0645_main _0645_Set_Mismatch/_0645_main.cpp)
