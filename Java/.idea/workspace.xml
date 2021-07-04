@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +172,7 @@
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlobTest.testQuery">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -182,13 +180,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="PreparedStatementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.statementcrud.PreparedStatementTest" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0645_Set_Mismatch.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._db._jdbc.basic.statementcrud.*" />
+          <option name="PATTERN" value="_0645_Set_Mismatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,23 +294,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PreparedStatementTest" />
       <item itemvalue="JUnit.PreparedStatementQueryTest.testGetForList" />
       <item itemvalue="JUnit.CustomerForQuery.testQueryForCustomers" />
       <item itemvalue="JUnit.BlobTest.testInsert" />
       <item itemvalue="JUnit.BlobTest.testQuery" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.BlobTest.testQuery" />
         <item itemvalue="JUnit.BlobTest.testInsert" />
         <item itemvalue="JUnit.CustomerForQuery.testQueryForCustomers" />
         <item itemvalue="JUnit.PreparedStatementQueryTest.testGetForList" />
-        <item itemvalue="Application.PreparedStatementTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

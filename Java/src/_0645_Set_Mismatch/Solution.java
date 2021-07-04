@@ -18,29 +18,23 @@ public class Solution {
 
         int[] res = new int[2];
 
-        for (int num : nums) {  // num 大小在[1...n]之间
-            int k = Math.abs(num);
-            if (nums[k - 1] < 0) {  // 如果 nums[k - 1] < 0, 说明 k之前出现过了一次
-                res[0] = k;
-            }
+        for (int x : nums) {  // x 大小在[1...n]之间
+            int k = Math.abs(x);
+            if (nums[k - 1] < 0) res[0] = k;
             nums[k - 1] *= -1;
         }
-
-        for (int i = 1; i <= nums.length; i++) {
-            // nums[i-1] > 0 说明 i 出现了两次或者零次
+        for (int i = 1; i <= nums.length; i++)
             if (nums[i - 1] > 0 && i != res[0]) {
                 res[1] = i;
+                break;
             }
-        }
 
         return res;
     }
 
     public static void main(String[] args) {
 
-//        int[] nums = {1, 2, 2, 4};
-        int[] nums = {4, 1, 2, 2};
-        int[] res = (new Solution()).findErrorNums(nums);
-        System.out.println(Arrays.stream(res).boxed().collect(Collectors.toList()));
+        int[] nums = {1, 2, 2, 4};
+        System.out.println(Arrays.toString((new Solution()).findErrorNums(nums)));
     }
 }
