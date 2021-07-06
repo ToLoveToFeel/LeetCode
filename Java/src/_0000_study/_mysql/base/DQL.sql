@@ -22,6 +22,8 @@ from table_name [as table_alias]
 -- 准备，执行util包下的school.sql文件即可
 
 -- =================================================================
+use `school`;
+
 -- 查询全部的学生
 select * from `student`;
 

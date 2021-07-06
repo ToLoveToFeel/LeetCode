@@ -23,11 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b01fd15-dd69-4a60-90d7-0593edcdee5c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/connectionpool/C3P0Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/connectionpool/C3P0Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/dbcp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/dbcp.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/DDL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/DDL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/DML.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/DML.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/DQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/DQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/ForeignKey.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/ForeignKey.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/Index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/Index.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/OperateDatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/OperateDatabase.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/Transaction.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/Transaction.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/UserManagement.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/UserManagement.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/images/联表查询1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/images/联表查询1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/images/联表查询2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/images/联表查询2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_mysql/util/school.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_mysql/base/util/school.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,55 +50,6 @@
     <SUITE FILE_PATH="coverage/Java$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1578623781078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>_0279_Perfect_Squares.*</FILTER>
     </SUITE>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="leetcode: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shop: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,34 +104,24 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0726_Number_of_Atoms" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_lcp\_LCP_07_numWays" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0741_Cherry_Pickup" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0172_Factorial_Trailing_Zeroes" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="_0000_study._jdbc.example.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_summary" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="_0000_study._jdbc.example.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0494_Target_Sum" />
@@ -177,8 +130,18 @@
       <recent name="_0028_Implement_strStr" />
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0726_Number_of_Atoms" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_lcp\_LCP_07_numWays" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0741_Cherry_Pickup" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0172_Factorial_Trailing_Zeroes" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.C3P0Test.testGetConnection1">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -214,13 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0645_Set_Mismatch.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0001_Two_Sum.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0645_Set_Mismatch.*" />
+          <option name="PATTERN" value="_0001_Two_Sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,23 +257,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="JUnit.C3P0Test.testGetConnection" />
       <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
         <item itemvalue="JUnit.C3P0Test.testGetConnection" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -888,6 +851,9 @@
       <workItem from="1618100024751" duration="58000" />
       <workItem from="1618792799644" duration="63000" />
       <workItem from="1625212443698" duration="459000" />
+      <workItem from="1625561046360" duration="232000" />
+      <workItem from="1625561329656" duration="709000" />
+      <workItem from="1625562065752" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1123,6 +1089,36 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625562158791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625562158791" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1625561835901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625561835901" />
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1625562044025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625562044025" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1625562044025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625562044025" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1625562044024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625562044024" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1625562044025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625562044025" />
+    <state x="461" y="164" width="1207" height="712" key="SettingsEditor" timestamp="1625561558095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" width="1207" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625561558095" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
