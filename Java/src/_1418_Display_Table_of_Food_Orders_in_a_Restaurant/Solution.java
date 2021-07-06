@@ -2,10 +2,7 @@ package _1418_Display_Table_of_Food_Orders_in_a_Restaurant;
 
 import _0000_study._common.Build;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Date: 2021/7/6 14:51
@@ -17,14 +14,14 @@ public class Solution {
     public List<List<String>> displayTable(List<List<String>> orders) {
 
         TreeSet<String> foodList = new TreeSet<>();  // 用于记录表头
-        TreeMap<Integer, TreeMap<String, Integer>> tableList = new TreeMap<>();  // 餐桌对应的食物数量
+        TreeMap<Integer, HashMap<String, Integer>> tableList = new TreeMap<>();  // 餐桌对应的食物数量
         for (List<String> e : orders) {
             int id = Integer.parseInt(e.get(1));  // 餐桌编号
             String foodName = e.get(2);  // 食物名称
 
             foodList.add(foodName);
 
-            if (!tableList.containsKey(id)) tableList.put(id, new TreeMap<>());
+            if (!tableList.containsKey(id)) tableList.put(id, new HashMap<>());
             tableList.get(id).put(foodName, tableList.get(id).getOrDefault(foodName, 0) + 1);
         }
 
@@ -38,7 +35,7 @@ public class Solution {
         for (Integer id : tableList.keySet()) {  // 得到餐桌的id
             List<String> t = new ArrayList<>();
             t.add(id + "");
-            TreeMap<String, Integer> foods = tableList.get(id);  // 得到餐桌上的食物及其数量
+            HashMap<String, Integer> foods = tableList.get(id);  // 得到餐桌上的食物及其数量
             for (String name : foodList) t.add(foods.getOrDefault(name, 0) + "");
             res.add(t);
         }
