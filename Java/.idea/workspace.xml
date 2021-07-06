@@ -22,7 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resource/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/connectionpool/C3P0Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/connectionpool/C3P0Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/dbcp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/dbcp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0000_study/_db/_jdbc/util/druid.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +178,7 @@
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="JUnit.C3P0Test.testGetConnection1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -228,34 +234,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlobTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C3P0Test.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.blob.*" />
+          <option name="PATTERN" value="_0000_study._db._jdbc.connectionpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob" />
-      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob.BlobTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.connectionpool" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.connectionpool.C3P0Test" />
+      <option name="METHOD_NAME" value="testGetConnection" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlobTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C3P0Test.testGetConnection1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._db._jdbc.basic.preparedstatement.blob.*" />
+          <option name="PATTERN" value="_0000_study._db._jdbc.connectionpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob" />
-      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.basic.preparedstatement.blob.BlobTest" />
-      <option name="METHOD_NAME" value="testQuery" />
+      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.connectionpool" />
+      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.connectionpool.C3P0Test" />
+      <option name="METHOD_NAME" value="testGetConnection1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -290,17 +296,17 @@
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="JUnit.BlobTest.testInsert" />
-      <item itemvalue="JUnit.BlobTest.testQuery" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="JUnit.C3P0Test.testGetConnection" />
+      <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
+        <item itemvalue="JUnit.C3P0Test.testGetConnection" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.BlobTest.testQuery" />
-        <item itemvalue="JUnit.BlobTest.testInsert" />
       </list>
     </recent_temporary>
   </component>

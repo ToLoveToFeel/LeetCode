@@ -4,8 +4,8 @@
     <named-config name="helloc3p0">
         <!-- 提供获取连接的4个基本信息 -->
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://172.17.82.113:3306/test?rewriteBatchedStatements=true</property>
-        <property name="user">mmall</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true</property>
+        <property name="user">root</property>
         <property name="password">123456</property>
 
         <!-- 进行数据库连接池管理的基本信息 -->
