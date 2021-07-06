@@ -26,7 +26,7 @@ class Solution:
                 t = self.dfs(s)
                 self.u += 1
                 cnt, k = 1, self.u
-                while k < len(s) and s[k] >= '0' and s[k] <= '9':
+                while k < len(s) and '0' <= s[k] <= '9':
                     k += 1
                 if k > self.u:
                     cnt = (int)(s[self.u:k])
@@ -39,15 +39,15 @@ class Solution:
                 break
             else:
                 k = self.u + 1
-                while k < len(s) and s[k] >= 'a' and s[k] <= 'z':
+                while k < len(s) and 'a' <= s[k] <= 'z':
                     k += 1
                 key = s[self.u:k]
                 self.u = k
                 cnt = 1
-                while k < len(s) and s[k] >= '0' and s[k] <= '9':
+                while k < len(s) and '0' <= s[k] <= '9':
                     k += 1
                 if k > self.u:
-                    cnt = (int)(s[self.u:k])
+                    cnt = int(s[self.u:k])
                     self.u = k
                 if key not in res:
                     res[key] = 0
