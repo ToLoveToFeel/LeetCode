@@ -28,6 +28,8 @@ public:
 
 int main() {
 
+    vector<int> nums = {1, 0, 1, 0, 1};
+    cout << Solution().numSubarraysWithSum(nums, 2) << endl;  // 4
 
     return 0;
 }
