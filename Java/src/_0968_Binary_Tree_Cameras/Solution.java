@@ -1,25 +1,39 @@
 package _0968_Binary_Tree_Cameras;
 
 /**
- * Date: 2020/9/22 8:55
+ * Date: 2021/7/8 22:04
  * Content:
- * 该解法没有理解，所以没有完成，可以参 Solution2
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：38.2 MB, 在所有 Java 提交中击败了40.37%的用户
  */
 public class Solution {
-    /*
-    对于某个节点，有三种状态：
-        State a: 已经安装了摄像头               √
-        State b: 没有安装摄像头，但已被覆盖       △
-        State c: 没有安装摄像头，但还未被覆盖     ○
-    对于某个节点 node 而言，设其左右孩子分别是 left 和 right, 对应的状态分别是 (la, lb, lc), (ra, tb, rc)
-            node √
-           /   \        a = lb + rb
-      △ left  right △
-            node △
-           /   \        b = min(1 + la + rb, lc + rc)     c = 1 + la + rb
-      √ left  right ○
-     */
+
+    static int INF = (int) (1e8);
+
     public int minCameraCover(TreeNode root) {
-        return 0;
+        int[] f = dfs(root);
+        return Math.min(f[1], f[2]);
+    }
+
+    int[] dfs(TreeNode root) {
+        if (root == null) return new int[]{0, 0, INF};
+        int[] l = dfs(root.left), r = dfs(root.right);
+        return new int[]{
+                Math.min(l[1], l[2]) + Math.min(r[1], r[2]),
+                Math.min(l[2] + Math.min(r[1], r[2]), r[2] + Math.min(l[1], l[2])),
+                Math.min(l[0], Math.min(l[1], l[2])) + Math.min(r[0], Math.min(r[1], r[2])) + 1,
+        };
+    }
+
+    public static void main(String[] args) {
+
+        int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
+        int[] nums = new int[]{
+                1,
+                1, nu,
+                1, 1,
+        };
+        TreeNode root = (new MyTree(nums)).getRoot();
+        System.out.println((new Solution()).minCameraCover(root));  // 1
     }
 }

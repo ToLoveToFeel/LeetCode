@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0968_Binary_Tree_Cameras/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0968_Binary_Tree_Cameras/Solution2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_0968_Binary_Tree_Cameras/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_0968_Binary_Tree_Cameras/question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1711_Count_Good_Meals" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0930_Binary_Subarrays_With_Sum" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -100,15 +105,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_1711_Count_Good_Meals" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0726_Number_of_Atoms" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_lcp\_LCP_07_numWays" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0741_Cherry_Pickup" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0494_Target_Sum" />
@@ -117,15 +119,18 @@
       <recent name="_0028_Implement_strStr" />
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0930_Binary_Subarrays_With_Sum" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1711_Count_Good_Meals" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0726_Number_of_Atoms" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_lcp\_LCP_07_numWays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -140,6 +145,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_0930_Binary_Subarrays_With_Sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_0968_Binary_Tree_Cameras.Solution" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_0968_Binary_Tree_Cameras.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,23 +196,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C3P0Test.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_0000_study._db._jdbc.connectionpool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_0000_study._db._jdbc.connectionpool" />
-      <option name="MAIN_CLASS_NAME" value="_0000_study._db._jdbc.connectionpool.C3P0Test" />
-      <option name="METHOD_NAME" value="testGetConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,17 +245,17 @@
     <list>
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="JUnit.C3P0Test.testGetConnection" />
-      <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="JUnit.C3P0Test.testGetConnection1" />
-        <item itemvalue="JUnit.C3P0Test.testGetConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -841,7 +843,8 @@
       <workItem from="1625572621191" duration="3872000" />
       <workItem from="1625620336056" duration="7707000" />
       <workItem from="1625661980285" duration="622000" />
-      <workItem from="1625706168983" duration="603000" />
+      <workItem from="1625706168983" duration="1476000" />
+      <workItem from="1625752647301" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1087,22 +1090,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625561835901" />
-    <state width="0" height="0" key="GridCell.Tab.0.bottom" timestamp="1625706170184">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1625711427105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625706170184" />
-    <state width="0" height="0" key="GridCell.Tab.0.center" timestamp="1625706170184">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625711427105" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1625711427105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625706170184" />
-    <state width="0" height="0" key="GridCell.Tab.0.left" timestamp="1625706170183">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625711427105" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1625711427105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625706170183" />
-    <state width="0" height="0" key="GridCell.Tab.0.right" timestamp="1625706170184">
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625711427105" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1625711427105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625706170184" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625711427105" />
     <state x="461" y="164" width="1207" height="712" key="SettingsEditor" timestamp="1625561558095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
