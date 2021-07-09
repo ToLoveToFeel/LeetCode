@@ -1,4 +1,4 @@
-package _0000_study._leetcode._interviewquestions._04_03_List_of_Depth;
+package _0000_study._leetcode._interview._04_03_List_of_Depth;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

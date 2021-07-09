@@ -1,4 +1,4 @@
-package _0000_study._leetcode._interviewquestions._01_08_Zero_Matrix;
+package _0000_study._leetcode._interview._01_08_Zero_Matrix;
 
 import java.util.HashSet;
 

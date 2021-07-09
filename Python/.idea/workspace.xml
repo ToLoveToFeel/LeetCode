@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +164,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0930_Binary_Subarrays_With_Sum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0968_Binary_Tree_Cameras" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0968_Binary_Tree_Cameras" />
       <recent name="D:\Code\github\LeetCode\Python\_0930_Binary_Subarrays_With_Sum" />
       <recent name="D:\Code\github\LeetCode\Python\_1711_Count_Good_Meals" />
       <recent name="D:\Code\github\LeetCode\Python\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
       <recent name="D:\Code\github\LeetCode\Python\_0726_Number_of_Atoms" />
-      <recent name="D:\Code\github\LeetCode\Python\_0645_Set_Mismatch" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (4)">
@@ -281,11 +283,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Solution (3)" />
-      <item itemvalue="Python.Solution" />
-      <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (1)" />
+      <item itemvalue="Python.Solution (2)" />
+      <item itemvalue="Python.Solution (3)" />
       <item itemvalue="Python.Solution (4)" />
+      <item itemvalue="Python.Solution" />
     </list>
     <recent_temporary>
       <list>

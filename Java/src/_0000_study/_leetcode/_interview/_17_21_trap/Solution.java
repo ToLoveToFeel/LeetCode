@@ -1,4 +1,4 @@
-package _0000_study._leetcode._interviewquestions._17_21_trap;
+package _0000_study._leetcode._interview._17_21_trap;
 
 /**
  * Created by WXX on 2021/3/23 10:45

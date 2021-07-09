@@ -1,4 +1,4 @@
-package _0000_study._leetcode._interviewquestions._17_14_smallestK;
+package _0000_study._leetcode._interview._17_14_smallestK;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package _0000_study._leetcode._interviewquestions._04_03_List_of_Depth;
+package _0000_study._leetcode._interview._04_03_List_of_Depth;
 
 /**
  * Date: 2020/9/4 18:08
