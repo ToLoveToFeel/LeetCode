@@ -119,7 +119,7 @@ gmt_update  修改时间
     MYISAM  早些年使用的
         节约空间，速度较快
 
-                    INNODB                  MYISAM
+                    MYISAM                  INNODB
     事务支持          不支持                   支持
     数据行锁定        不支持                    支持
     外键约束          不支持                   支持
