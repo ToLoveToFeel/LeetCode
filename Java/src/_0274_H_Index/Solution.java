@@ -1,6 +1,7 @@
 package _0274_H_Index;
 
 import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * Date: 2021/2/3 11:31
@@ -23,5 +24,10 @@ public class Solution {
 
         int[] c = {3, 0, 6, 1, 5};
         System.out.println((new Solution()).hIndex(c));  // 3
+        TreeSet<Long> S = new TreeSet<Long>();
+        S.add(1l);
+        S.add(1l);
+        S.add(1l);
+        System.out.println(S.size());
     }
 }
