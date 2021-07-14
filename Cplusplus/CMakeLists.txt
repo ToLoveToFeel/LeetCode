@@ -459,3 +459,4 @@ add_executable(_iv_17_10_main _0000_study/_leetcode/_interview/_17_10_majorityEl
 add_executable(_0981_main _0981_Time_Based_Key_Value_Store/_0981_main.cpp)
 add_executable(_1928_main _1928_Minimum_Cost_to_Reach_Destination_in_Time/_1928_main.cpp)
 add_executable(_0218_main _0218_The_Skyline_Problem/_0218_main.cpp)
+add_executable(_1818_main _1818_Minimum_Absolute_Sum_Difference/_1818_main.cpp)
