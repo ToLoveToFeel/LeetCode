@@ -125,7 +125,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -133,13 +133,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0968_Binary_Tree_Cameras.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1818_Minimum_Absolute_Sum_Difference.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0968_Binary_Tree_Cameras.*" />
+          <option name="PATTERN" value="_1818_Minimum_Absolute_Sum_Difference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +235,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -842,6 +842,7 @@
       <workItem from="1625965986982" duration="734000" />
       <workItem from="1626051154757" duration="1868000" />
       <workItem from="1626138505067" duration="1441000" />
+      <workItem from="1626226054192" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
