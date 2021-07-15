@@ -123,7 +123,7 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -145,13 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1928_Minimum_Cost_to_Reach_Destination_in_Time.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1846_Maximum_Element_After_Decreasing_and_Rearranging.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1928_Minimum_Cost_to_Reach_Destination_in_Time.*" />
+          <option name="PATTERN" value="_1846_Maximum_Element_After_Decreasing_and_Rearranging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,13 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0000_study._leetcode._interview._17_10_majorityElement.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1928_Minimum_Cost_to_Reach_Destination_in_Time.Solution" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_0000_study._leetcode._interview._17_10_majorityElement.*" />
+          <option name="PATTERN" value="_1928_Minimum_Cost_to_Reach_Destination_in_Time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -841,6 +841,7 @@
       <workItem from="1626051154757" duration="1868000" />
       <workItem from="1626138505067" duration="1441000" />
       <workItem from="1626226054192" duration="1311000" />
+      <workItem from="1626312428966" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
