@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1928_Minimum_Cost_to_Reach_Destination_in_Time" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1818_Minimum_Absolute_Sum_Difference" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -100,12 +98,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1818_Minimum_Absolute_Sum_Difference" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1928_Minimum_Cost_to_Reach_Destination_in_Time" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0981_Time_Based_Key_Value_Store" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0930_Binary_Subarrays_With_Sum" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1711_Count_Good_Meals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0494_Target_Sum" />
@@ -114,15 +115,12 @@
       <recent name="_0028_Implement_strStr" />
       <recent name="_0000_study._leetcode._interviewquestions._17_21_trap" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_1928_Minimum_Cost_to_Reach_Destination_in_Time" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0981_Time_Based_Key_Value_Store" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0930_Binary_Subarrays_With_Sum" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1711_Count_Good_Meals" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1418_Display_Table_of_Food_Orders_in_a_Restaurant" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
@@ -842,7 +840,7 @@
       <workItem from="1625965986982" duration="734000" />
       <workItem from="1626051154757" duration="1868000" />
       <workItem from="1626138505067" duration="1441000" />
-      <workItem from="1626226054192" duration="601000" />
+      <workItem from="1626226054192" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1088,22 +1086,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625561835901" />
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1626145562724">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1626229421255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626145562724" />
-    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1626145562724">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626229421255" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1626229421255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626145562724" />
-    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1626145562724">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626229421255" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1626229421254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626145562724" />
-    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1626145562724">
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626229421254" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1626229421255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626145562724" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626229421255" />
     <state x="461" y="164" width="1207" height="712" key="SettingsEditor" timestamp="1625561558095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
