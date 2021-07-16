@@ -4,44 +4,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * PreOrder Morris Traversal
+ * Morris
  * 参考网址：https://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html
- * 时间复杂度：O(n)，n为节点数目
- * 空间复杂度：O(1)
+ * 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
+ * 内存消耗：36.7 MB, 在所有 Java 提交中击败了46.51%的用户
  */
 public class Solution6 {
-    /*
-        1. 如果当前节点的左孩子为空，则输出当前节点并将其右孩子作为当前节点。
-        2. 如果当前节点的左孩子不为空，在当前节点的左子树中找到当前节点在中序遍历下的前驱节点。
-               a) 如果前驱节点的右孩子为空，将它的右孩子设置为当前节点。输出当前节点（在这里输出，这是与中序遍历唯一一点不同）。
-               当前节点更新为当前节点的左孩子。
-               b) 如果前驱节点的右孩子为当前节点，将它（前驱节点）的右孩子重新设为空。当前节点更新为当前节点的右孩子。
-        3. 重复以上1、2直到当前节点为空。
-    */
 
     public List<Integer> preorderTraversal(TreeNode root) {
 
-        ArrayList<Integer> res = new ArrayList<>();
-        if (root == null) return res;
+        List<Integer> res = new ArrayList<>();
+        while (root != null) {
+            if (root.left == null) {  // (1)
+                res.add(root.val);
+                root = root.right;
+            } else {  // (2)
+                TreeNode p = root.left;
+                while (p.right != null && p.right != root) p = p.right;
 
-        TreeNode cur = root;
-        while (cur != null) {
-            if (cur.left == null) {  // 1.
-                res.add(cur.val);
-                cur = cur.right;
-            } else {
-                // find predecessor
-                TreeNode prev = cur.left;
-                while (prev.right != null && prev.right != cur)
-                    prev = prev.right;
-
-                if (prev.right == null) {  // 2.a
-                    res.add(cur.val);
-                    prev.right = cur;
-                    cur = cur.left;
-                } else {                    // 2.b
-                    prev.right = null;
-                    cur = cur.right;
+                if (p.right == null) {  // (2.1)
+                    p.right = root;
+                    res.add(root.val);
+                    root = root.left;
+                } else {  // (2.2)
+                    p.right = null;
+                    root = root.right;
                 }
             }
         }
