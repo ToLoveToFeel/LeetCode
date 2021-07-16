@@ -66,8 +66,8 @@ public class MyTree {
                 size++;
                 createByLevelOrder(node.left, nums, leftIndex);
             }
-            int rightIndex = leftIndex + 1;  // nums[index]对应二叉树节点的左孩子下标为 2 * index + 2
-            if (rightIndex <= n - 1) {  // 只有 num[leftIndex] 存在，考察rightIndex才有意义
+            int rightIndex = leftIndex + 1;  // nums[index]对应二叉树节点的右孩子下标为 2 * index + 2
+            if (rightIndex <= n - 1) {  // 说明 num[rightIndex] 存在
                 if (nums[rightIndex] != Integer.MIN_VALUE) {
                     node.right = new TreeNode(nums[rightIndex]);
                     size++;
@@ -79,6 +79,10 @@ public class MyTree {
 
     // 层次遍历
     public ArrayList<List<Integer>> levelOrder() {
+        return levelOrder(root);
+    }
+
+    public static ArrayList<List<Integer>> levelOrder(TreeNode root) {
         ArrayList<List<Integer>> res = new ArrayList<>();
         if (null == root)
             return null;
