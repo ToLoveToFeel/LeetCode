@@ -15,7 +15,7 @@ package _0000_study._auxiliary.mytree;
 public class Test {
     public static void main(String[] args) {
         int nu = Integer.MIN_VALUE;  // 用Integer.MIN_VALUE表示二叉树 null
-        int[] nums = new int[]{
+        int[] nums = {
                 5,
                 4, 8,
                 11, nu, 13, 4,
