@@ -461,3 +461,4 @@ add_executable(_1928_main _1928_Minimum_Cost_to_Reach_Destination_in_Time/_1928_
 add_executable(_0218_main _0218_The_Skyline_Problem/_0218_main.cpp)
 add_executable(_1818_main _1818_Minimum_Absolute_Sum_Difference/_1818_main.cpp)
 add_executable(_1846_main _1846_Maximum_Element_After_Decreasing_and_Rearranging/_1846_main.cpp)
+add_executable(_swordoffer_53_main _0000_study/_leetcode/_swordoffer/_053_search/_swordoffer_53_main.cpp)

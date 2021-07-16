@@ -162,19 +162,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1818_Minimum_Absolute_Sum_Difference" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1846_Maximum_Element_After_Decreasing_and_Rearranging" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1846_Maximum_Element_After_Decreasing_and_Rearranging" />
       <recent name="D:\Code\github\LeetCode\Python\_1818_Minimum_Absolute_Sum_Difference" />
       <recent name="D:\Code\github\LeetCode\Python\_0275_H_Index_II" />
       <recent name="D:\Code\github\LeetCode\Python\_0274_H_Index" />
       <recent name="D:\Code\github\LeetCode\Python\_0981_Time_Based_Key_Value_Store" />
-      <recent name="D:\Code\github\LeetCode\Python\_0000_study\_leetcode\_interview\_17_10_majorityElement" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (1)">
+  <component name="RunManager" selected="Python.Solution (4)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,11 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0000_study/_leetcode/_interview/_17_10_majorityElement" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_1846_Maximum_Element_After_Decreasing_and_Rearranging" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0000_study/_leetcode/_interview/_17_10_majorityElement/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1846_Maximum_Element_After_Decreasing_and_Rearranging/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,17 +283,17 @@
     <list>
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (3)" />
-      <item itemvalue="Python.Solution (5)" />
       <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (1)" />
+      <item itemvalue="Python.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.Solution (3)" />
-        <item itemvalue="Python.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
