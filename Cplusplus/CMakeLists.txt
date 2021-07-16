@@ -469,3 +469,4 @@ add_executable(_0145_main3 _0145_Binary_Tree_Postorder_Traversal/_0145_main3.cpp
 add_executable(_0099_main2 _0099_Recover_Binary_Search_Tree/_0099_main2.cpp)
 add_executable(_0538_main _0538_Convert_BST_to_Greater_Tree/_0538_main.cpp)
 add_executable(_0543_main _0543_Diameter_of_Binary_Tree/_0543_main.cpp)
+add_executable(_0581_main _0581_Shortest_Unsorted_Continuous_Subarray/_0581_main.cpp)
