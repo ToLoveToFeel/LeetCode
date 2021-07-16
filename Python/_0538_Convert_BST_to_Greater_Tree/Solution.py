@@ -30,7 +30,6 @@ if __name__ == "__main__":
         3, 13,
         nu, 4, 7, 16
     ]
-    myTree = MyTree(nums)
-    root = myTree.getRoot()
+    root = MyTree(nums).getRoot()
     Solution().convertBST(root)
-    print(myTree)  # [[41], [48, 29], [45, 36, 16]]
+    print(MyTree().levelOrder(root))  # [[41], [48, 29], [45, 36, 16]]
