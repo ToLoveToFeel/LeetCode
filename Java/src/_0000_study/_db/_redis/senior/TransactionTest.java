@@ -50,7 +50,7 @@ public class TransactionTest {
         jedis.set("debt", String.valueOf(debt));
 
         jedis.watch("balance");
-        // jedis.set("balance","5");  // 此句不该出现，讲课方便。模拟其他程序已经修改了该条目
+//        jedis.set("balance","5");  // 此句不该出现，讲课方便。模拟其他程序已经修改了该条目
 
         balance = Integer.parseInt(jedis.get("balance"));
         if (balance < amtToSubtract) {

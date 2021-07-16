@@ -6,7 +6,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * Date: 2020/11/1 10:03
- * Content:
+ * Content: DCL单例模式
  */
 public class JedisPoolUtil {
     private static volatile JedisPool jedisPool;

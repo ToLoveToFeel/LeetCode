@@ -24,6 +24,10 @@ public class ConnectionTest {
     @Test
     public void test2() throws IOException {
         // 1.读取配置文件
+/* 配置文件内容
+ip=127.0.0.1
+port=6379
+ */
         InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream(RedisUtils.PORPERTYPATH + "redis.properties");
         Properties pros = new Properties();
         pros.load(is);
