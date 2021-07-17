@@ -20,7 +20,7 @@ public:
                 res[stk.top()] = i - stk.top();
                 stk.pop();
             }
-            if (stk.empty() || t[stk.top()] >= t[i]) stk.push(i);
+            stk.push(i);
         }
         return res;
     }
