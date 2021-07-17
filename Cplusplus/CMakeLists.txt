@@ -473,3 +473,4 @@ add_executable(_0581_main _0581_Shortest_Unsorted_Continuous_Subarray/_0581_main
 add_executable(_0617_main _0617_Merge_Two_Binary_Trees/_0617_main.cpp)
 add_executable(_swordoffer_42_main _0000_study/_leetcode/_swordoffer/_042_maxSubArray/_swordoffer_42_main.cpp)
 add_executable(_0621_main _0621_Task_Scheduler/_0621_main.cpp)
+add_executable(_0647_main _0647_Palindromic_Substrings/_0647_main.cpp)
