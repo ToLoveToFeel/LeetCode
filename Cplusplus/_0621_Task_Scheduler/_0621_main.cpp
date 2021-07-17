@@ -11,7 +11,7 @@ using namespace std;
  */
 class Solution {
 public:
-    int leastInterval(vector<char>& tasks, int n) {
+    int leastInterval(vector<char> &tasks, int n) {
         unordered_map<int, int> hash;
         for (auto c : tasks) hash[c]++;
         int maxc = 0, cnt = 0;
@@ -19,7 +19,7 @@ public:
         for (auto &[k, v] : hash)
             if (maxc == v)
                 cnt++;
-        return max((int)tasks.size(), (maxc - 1) * (n + 1) + cnt);
+        return max((int) tasks.size(), (maxc - 1) * (n + 1) + cnt);
     }
 };
 
