@@ -484,3 +484,4 @@ add_executable(_swordoffer_06_main _0000_study/_leetcode/_swordoffer/_006_revers
 add_executable(_swordoffer_07_main _0000_study/_leetcode/_swordoffer/_007_buildTree/_swordoffer_07_main.cpp)
 add_executable(_swordoffer_10_main_I _0000_study/_leetcode/_swordoffer/_010_Fibonacci_I/_swordoffer_10_main_I.cpp)
 add_executable(_swordoffer_10_main_II _0000_study/_leetcode/_swordoffer/_010_Fibonacci_II/_swordoffer_10_main_II.cpp)
+add_executable(_swordoffer_11_main _0000_study/_leetcode/_swordoffer/_011_minArray/_swordoffer_11_main.cpp)
