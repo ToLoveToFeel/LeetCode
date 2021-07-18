@@ -494,3 +494,4 @@ add_executable(_swordoffer_17_main _0000_study/_leetcode/_swordoffer/_017_printN
 add_executable(_swordoffer_18_main _0000_study/_leetcode/_swordoffer/_018_deleteNode/_swordoffer_18_main.cpp)
 add_executable(_swordoffer_19_main _0000_study/_leetcode/_swordoffer/_019_isMatch/_swordoffer_19_main.cpp)
 add_executable(_swordoffer_20_main _0000_study/_leetcode/_swordoffer/_020_isNumber/_swordoffer_20_main.cpp)
+add_executable(_swordoffer_21_main _0000_study/_leetcode/_swordoffer/_021_exchange/_swordoffer_21_main.cpp)
