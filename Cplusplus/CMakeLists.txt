@@ -475,3 +475,4 @@ add_executable(_swordoffer_42_main _0000_study/_leetcode/_swordoffer/_042_maxSub
 add_executable(_0621_main _0621_Task_Scheduler/_0621_main.cpp)
 add_executable(_0647_main _0647_Palindromic_Substrings/_0647_main.cpp)
 add_executable(_0739_main _0739_Daily_Temperatures/_0739_main.cpp)
+add_executable(_swordoffer_36_main _0000_study/_leetcode/_swordoffer/_036_treeToDoublyList/_swordoffer_36_main.cpp)
