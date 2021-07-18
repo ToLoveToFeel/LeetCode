@@ -481,3 +481,4 @@ add_executable(_swordoffer_03_main _0000_study/_leetcode/_swordoffer/_003_findRe
 add_executable(_swordoffer_04_main _0000_study/_leetcode/_swordoffer/_004_findNumberIn2DArray/_swordoffer_04_main.cpp)
 add_executable(_swordoffer_05_main _0000_study/_leetcode/_swordoffer/_005_replaceSpace/_swordoffer_05_main.cpp)
 add_executable(_swordoffer_06_main _0000_study/_leetcode/_swordoffer/_006_reversePrint/_swordoffer_06_main.cpp)
+add_executable(_swordoffer_07_main _0000_study/_leetcode/_swordoffer/_007_buildTree/_swordoffer_07_main.cpp)
