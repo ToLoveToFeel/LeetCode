@@ -487,3 +487,4 @@ add_executable(_swordoffer_10_main_II _0000_study/_leetcode/_swordoffer/_010_Fib
 add_executable(_swordoffer_11_main _0000_study/_leetcode/_swordoffer/_011_minArray/_swordoffer_11_main.cpp)
 add_executable(_swordoffer_12_main _0000_study/_leetcode/_swordoffer/_012_exist/_swordoffer_12_main.cpp)
 add_executable(_swordoffer_13_main _0000_study/_leetcode/_swordoffer/_013_movingCount/_swordoffer_13_main.cpp)
+add_executable(_swordoffer_14_main_I _0000_study/_leetcode/_swordoffer/_014_cuttingRope_I/_swordoffer_14_main_I.cpp)
