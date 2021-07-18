@@ -497,3 +497,4 @@ add_executable(_swordoffer_20_main _0000_study/_leetcode/_swordoffer/_020_isNumb
 add_executable(_swordoffer_21_main _0000_study/_leetcode/_swordoffer/_021_exchange/_swordoffer_21_main.cpp)
 add_executable(_swordoffer_22_main _0000_study/_leetcode/_swordoffer/_022_getKthFromEnd/_swordoffer_22_main.cpp)
 add_executable(_swordoffer_24_main _0000_study/_leetcode/_swordoffer/_024_reverseList/_swordoffer_24_main.cpp)
+add_executable(_swordoffer_25_main _0000_study/_leetcode/_swordoffer/_025_mergeTwoLists/_swordoffer_25_main.cpp)
