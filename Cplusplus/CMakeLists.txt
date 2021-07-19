@@ -520,3 +520,4 @@ add_executable(_swordoffer_44_main _0000_study/_leetcode/_swordoffer/_044_findNt
 add_executable(_swordoffer_45_main _0000_study/_leetcode/_swordoffer/_045_minNumber/_swordoffer_45_main.cpp)
 add_executable(_swordoffer_46_main _0000_study/_leetcode/_swordoffer/_046_translateNum/_swordoffer_46_main.cpp)
 add_executable(_swordoffer_47_main _0000_study/_leetcode/_swordoffer/_047_maxValue/_swordoffer_47_main.cpp)
+add_executable(_swordoffer_48_main _0000_study/_leetcode/_swordoffer/_048_lengthOfLongestSubstring/_swordoffer_48_main.cpp)
