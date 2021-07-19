@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,11 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1838_Frequency_of_the_Most_Frequent_Element" />
       <recent name="D:\Code\github\LeetCode\Python\_0739_Daily_Temperatures" />
       <recent name="D:\Code\github\LeetCode\Python\_0647_Palindromic_Substrings" />
       <recent name="D:\Code\github\LeetCode\Python\_0621_Task_Scheduler" />
       <recent name="D:\Code\github\LeetCode\Python\_0000_study\_leetcode\_swordoffer\_042_maxSubArray" />
-      <recent name="D:\Code\github\LeetCode\Python\_0617_Merge_Two_Binary_Trees" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (5)">
