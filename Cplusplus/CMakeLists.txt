@@ -533,3 +533,4 @@ add_executable(_swordoffer_56_main_I _0000_study/_leetcode/_swordoffer/_056_sing
 add_executable(_swordoffer_56_main_II _0000_study/_leetcode/_swordoffer/_056_singleNumbers_II/_swordoffer_56_main_II.cpp)
 add_executable(_swordoffer_57_main _0000_study/_leetcode/_swordoffer/_057_twoSum/_swordoffer_57_main.cpp)
 add_executable(_swordoffer_57_main_I _0000_study/_leetcode/_swordoffer/_057_findContinuousSequence/_swordoffer_57_main_I.cpp)
+add_executable(_swordoffer_58_main _0000_study/_leetcode/_swordoffer/_058_reverseWords/_swordoffer_58_main.cpp)
