@@ -511,4 +511,5 @@ add_executable(_swordoffer_33_main _0000_study/_leetcode/_swordoffer/_033_verify
 add_executable(_swordoffer_34_main _0000_study/_leetcode/_swordoffer/_034_pathSum/_swordoffer_34_main.cpp)
 add_executable(_swordoffer_35_main _0000_study/_leetcode/_swordoffer/_035_copyRandomList/_swordoffer_35_main.cpp)
 add_executable(_swordoffer_37_main _0000_study/_leetcode/_swordoffer/_037_Codec/_swordoffer_37_main.cpp)
-add_executable(_swordoffer_40_main _0000_study/_leetcode/_swordoffer/_039_majorityElement/_swordoffer_39_main.cpp)
+add_executable(_swordoffer_39_main _0000_study/_leetcode/_swordoffer/_039_majorityElement/_swordoffer_39_main.cpp)
+add_executable(_swordoffer_40_main _0000_study/_leetcode/_swordoffer/_040_getLeastNumbers/_swordoffer_40_main.cpp)
