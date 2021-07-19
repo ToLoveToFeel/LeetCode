@@ -515,3 +515,4 @@ add_executable(_swordoffer_39_main _0000_study/_leetcode/_swordoffer/_039_majori
 add_executable(_swordoffer_40_main _0000_study/_leetcode/_swordoffer/_040_getLeastNumbers/_swordoffer_40_main.cpp)
 
 add_executable(_swordoffer_41_main _0000_study/_leetcode/_swordoffer/_041_MedianFinder/_swordoffer_41_main.cpp)
+add_executable(_swordoffer_43_main _0000_study/_leetcode/_swordoffer/_043_countDigitOne/_swordoffer_43_main.cpp)
