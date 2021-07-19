@@ -509,3 +509,4 @@ add_executable(_swordoffer_32_main_II _0000_study/_leetcode/_swordoffer/_032_lev
 add_executable(_swordoffer_32_main_III _0000_study/_leetcode/_swordoffer/_032_levelOrder_III/_swordoffer_32_main_III.cpp)
 add_executable(_swordoffer_33_main _0000_study/_leetcode/_swordoffer/_033_verifyPostorder/_swordoffer_33_main.cpp)
 add_executable(_swordoffer_34_main _0000_study/_leetcode/_swordoffer/_034_pathSum/_swordoffer_34_main.cpp)
+add_executable(_swordoffer_35_main _0000_study/_leetcode/_swordoffer/_035_copyRandomList/_swordoffer_35_main.cpp)
