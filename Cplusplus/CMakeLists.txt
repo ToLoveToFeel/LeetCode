@@ -499,3 +499,4 @@ add_executable(_swordoffer_22_main _0000_study/_leetcode/_swordoffer/_022_getKth
 add_executable(_swordoffer_24_main _0000_study/_leetcode/_swordoffer/_024_reverseList/_swordoffer_24_main.cpp)
 add_executable(_swordoffer_25_main _0000_study/_leetcode/_swordoffer/_025_mergeTwoLists/_swordoffer_25_main.cpp)
 add_executable(_swordoffer_26_main _0000_study/_leetcode/_swordoffer/_026_isSubStructure/_swordoffer_26_main.cpp)
+add_executable(_1838_main _1838_Frequency_of_the_Most_Frequent_Element/_1838_main.cpp)
