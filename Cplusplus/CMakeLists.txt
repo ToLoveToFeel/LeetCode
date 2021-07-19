@@ -503,3 +503,4 @@ add_executable(_1838_main _1838_Frequency_of_the_Most_Frequent_Element/_1838_mai
 add_executable(_swordoffer_27_main _0000_study/_leetcode/_swordoffer/_027_mirrorTree/_swordoffer_27_main.cpp)
 add_executable(_swordoffer_28_main _0000_study/_leetcode/_swordoffer/_028_isSymmetric/_swordoffer_28_main.cpp)
 add_executable(_swordoffer_29_main _0000_study/_leetcode/_swordoffer/_029_spiralOrder/_swordoffer_29_main.cpp)
+add_executable(_swordoffer_30_main _0000_study/_leetcode/_swordoffer/_030_MinStack/_swordoffer_30_main.cpp)
