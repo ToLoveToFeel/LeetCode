@@ -529,3 +529,4 @@ add_executable(_swordoffer_53_main_I _0000_study/_leetcode/_swordoffer/_053_miss
 add_executable(_swordoffer_54_main _0000_study/_leetcode/_swordoffer/_054_kthLargest/_swordoffer_54_main.cpp)
 add_executable(_swordoffer_55_main _0000_study/_leetcode/_swordoffer/_055_maxDepth/_swordoffer_55_main.cpp)
 add_executable(_swordoffer_55_main_I _0000_study/_leetcode/_swordoffer/_055_isBalanced/_swordoffer_55_main_I.cpp)
+add_executable(_swordoffer_56_main_I _0000_study/_leetcode/_swordoffer/_056_singleNumbers_I/_swordoffer_56_main_I.cpp)
