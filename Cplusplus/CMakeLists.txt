@@ -525,3 +525,4 @@ add_executable(_swordoffer_49_main _0000_study/_leetcode/_swordoffer/_049_nthUgl
 add_executable(_swordoffer_50_main _0000_study/_leetcode/_swordoffer/_050_firstUniqChar/_swordoffer_50_main.cpp)
 add_executable(_swordoffer_51_main _0000_study/_leetcode/_swordoffer/_051_reversePairs/_swordoffer_51_main.cpp)
 add_executable(_swordoffer_52_main _0000_study/_leetcode/_swordoffer/_052_getIntersectionNode/_swordoffer_52_main.cpp)
+add_executable(_swordoffer_53_main_I _0000_study/_leetcode/_swordoffer/_053_missingNumber/_swordoffer_53_main_I.cpp)
