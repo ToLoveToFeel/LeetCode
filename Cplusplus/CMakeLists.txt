@@ -542,3 +542,4 @@ add_executable(_swordoffer_60_main _0000_study/_leetcode/_swordoffer/_060_dicesP
 add_executable(_swordoffer_60_main_I _0000_study/_leetcode/_swordoffer/_060_dicesProbability/_swordoffer_60_main_I.cpp)
 add_executable(_swordoffer_61_main _0000_study/_leetcode/_swordoffer/_061_isStraight/_swordoffer_61_main.cpp)
 add_executable(_swordoffer_63_main _0000_study/_leetcode/_swordoffer/_063_maxProfit/_swordoffer_63_main.cpp)
+add_executable(_swordoffer_64_main _0000_study/_leetcode/_swordoffer/_064_sumNums/_swordoffer_64_main.cpp)
