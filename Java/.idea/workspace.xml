@@ -86,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1838_Frequency_of_the_Most_Frequent_Element" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1877_Minimize_Maximum_Pair_Sum_in_Array" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,12 +98,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1877_Minimize_Maximum_Pair_Sum_in_Array" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1838_Frequency_of_the_Most_Frequent_Element" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_042_maxSubArray" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0581_Shortest_Unsorted_Continuous_Subarray" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0543_Diameter_of_Binary_Tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0145_Binary_Tree_Postorder_Traversal" />
@@ -112,15 +115,12 @@
       <recent name="_0093_Restore_IP_Addresses" />
       <recent name="_0028_Implement_strStr" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_1838_Frequency_of_the_Most_Frequent_Element" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_042_maxSubArray" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0581_Shortest_Unsorted_Continuous_Subarray" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0543_Diameter_of_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0538_Convert_BST_to_Greater_Tree" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (5)">
@@ -848,7 +848,7 @@
       <workItem from="1626504648926" duration="5816000" />
       <workItem from="1626572588883" duration="2566000" />
       <workItem from="1626657850002" duration="1317000" />
-      <workItem from="1626743593011" duration="1221000" />
+      <workItem from="1626743593011" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1098,22 +1098,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625561835901" />
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1626662478214">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1626745665974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626662478214" />
-    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1626662478214">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626745665974" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1626745665974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626662478214" />
-    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1626662478213">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626745665974" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1626745665974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626662478213" />
-    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1626662478214">
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626745665974" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1626745665974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626662478214" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626745665974" />
     <state x="461" y="164" width="1207" height="712" key="SettingsEditor" timestamp="1625561558095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

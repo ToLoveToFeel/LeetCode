@@ -537,3 +537,4 @@ add_executable(_swordoffer_58_main _0000_study/_leetcode/_swordoffer/_058_revers
 add_executable(_swordoffer_58_main_I _0000_study/_leetcode/_swordoffer/_058_reverseLeftWords/_swordoffer_58_main_I.cpp)
 add_executable(_swordoffer_59_main _0000_study/_leetcode/_swordoffer/_059_maxSlidingWindow/_swordoffer_59_main.cpp)
 add_executable(_1877_main _1877_Minimize_Maximum_Pair_Sum_in_Array/_1877_main.cpp)
+add_executable(_swordoffer_59_main_I _0000_study/_leetcode/_swordoffer/_059_MaxQueue/_swordoffer_59_main_I.cpp)
