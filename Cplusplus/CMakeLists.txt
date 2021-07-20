@@ -540,3 +540,4 @@ add_executable(_1877_main _1877_Minimize_Maximum_Pair_Sum_in_Array/_1877_main.cp
 add_executable(_swordoffer_59_main_I _0000_study/_leetcode/_swordoffer/_059_MaxQueue/_swordoffer_59_main_I.cpp)
 add_executable(_swordoffer_60_main _0000_study/_leetcode/_swordoffer/_060_dicesProbability/_swordoffer_60_main.cpp)
 add_executable(_swordoffer_60_main_I _0000_study/_leetcode/_swordoffer/_060_dicesProbability/_swordoffer_60_main_I.cpp)
+add_executable(_swordoffer_61_main _0000_study/_leetcode/_swordoffer/_061_isStraight/_swordoffer_61_main.cpp)
