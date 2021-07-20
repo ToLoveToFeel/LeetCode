@@ -544,3 +544,4 @@ add_executable(_swordoffer_61_main _0000_study/_leetcode/_swordoffer/_061_isStra
 add_executable(_swordoffer_63_main _0000_study/_leetcode/_swordoffer/_063_maxProfit/_swordoffer_63_main.cpp)
 add_executable(_swordoffer_64_main _0000_study/_leetcode/_swordoffer/_064_sumNums/_swordoffer_64_main.cpp)
 add_executable(_swordoffer_65_main _0000_study/_leetcode/_swordoffer/_065_add/_swordoffer_65_main.cpp)
+add_executable(_swordoffer_66_main _0000_study/_leetcode/_swordoffer/_066_constructArr/_swordoffer_66_main.cpp)
