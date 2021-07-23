@@ -483,6 +483,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1893]检查是否区域内所有整数都被覆盖.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1893]检查是否区域内所有整数都被覆盖.java" />
+              <option name="questionId" value="2005" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[190]颠倒二进制位.cpp">
           <value>
             <LeetcodeEditor>
@@ -2736,6 +2744,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 67]把字符串转换成整数.java" />
               <option name="questionId" value="100340" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 68 - II]二叉树的最近公共祖先.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 68 - II]二叉树的最近公共祖先.java" />
+              <option name="questionId" value="100347" />
             </LeetcodeEditor>
           </value>
         </entry>
