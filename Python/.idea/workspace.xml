@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,11 +170,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
       <recent name="D:\Code\github\LeetCode\Python\_1877_Minimize_Maximum_Pair_Sum_in_Array" />
       <recent name="D:\Code\github\LeetCode\Python\_1838_Frequency_of_the_Most_Frequent_Element" />
       <recent name="D:\Code\github\LeetCode\Python\_0739_Daily_Temperatures" />
       <recent name="D:\Code\github\LeetCode\Python\_0647_Palindromic_Substrings" />
-      <recent name="D:\Code\github\LeetCode\Python\_0621_Task_Scheduler" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution">
