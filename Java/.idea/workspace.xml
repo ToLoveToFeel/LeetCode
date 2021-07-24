@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多" />
+    <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +88,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1736_Latest_Time_by_Replacing_Hidden_Digits" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,12 +100,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1736_Latest_Time_by_Replacing_Hidden_Digits" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1877_Minimize_Maximum_Pair_Sum_in_Array" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1838_Frequency_of_the_Most_Frequent_Element" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_042_maxSubArray" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0145_Binary_Tree_Postorder_Traversal" />
@@ -112,15 +117,12 @@
       <recent name="_0093_Restore_IP_Addresses" />
       <recent name="_0028_Implement_strStr" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1877_Minimize_Maximum_Pair_Sum_in_Array" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1838_Frequency_of_the_Most_Frequent_Element" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_leetcode\_swordoffer\_042_maxSubArray" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0581_Shortest_Unsorted_Continuous_Subarray" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
@@ -851,7 +853,7 @@
       <workItem from="1626743593011" duration="1637000" />
       <workItem from="1626829889205" duration="813000" />
       <workItem from="1627001024509" duration="2186000" />
-      <workItem from="1627089897035" duration="600000" />
+      <workItem from="1627089897035" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1101,22 +1103,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625561835901" />
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1627004565390">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1627091096727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627004565390" />
-    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1627004565390">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627091096727" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1627091096727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627004565390" />
-    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1627004565390">
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627091096727" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1627091096726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627004565390" />
-    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1627004565390">
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627091096726" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1627091096727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627004565390" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627091096727" />
     <state x="461" y="164" width="1207" height="712" key="SettingsEditor" timestamp="1625561558095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
