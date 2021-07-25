@@ -551,3 +551,4 @@ add_executable(_swordoffer_68_main_II _0000_study/_leetcode/_swordoffer/_068_low
 add_executable(_1893_main _1893_Check_if_All_the_Integers_in_a_Range_Are_Covered/_1893_main.cpp)
 add_executable(_1736_main _1736_Latest_Time_by_Replacing_Hidden_Digits/_1736_main.cpp)
 add_executable(_1743_main _1743_Restore_the_Array_From_Adjacent_Pairs/_1743_main.cpp)
+add_executable(_0147_main _0147_Insertion_Sort_List/_0147_main.cpp)
