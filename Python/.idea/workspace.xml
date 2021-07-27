@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,16 +165,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1743_Restore_the_Array_From_Adjacent_Pairs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1713_Minimum_Operations_to_Make_a_Subsequence" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1713_Minimum_Operations_to_Make_a_Subsequence" />
       <recent name="D:\Code\github\LeetCode\Python\_1743_Restore_the_Array_From_Adjacent_Pairs" />
       <recent name="D:\Code\github\LeetCode\Python\_1736_Latest_Time_by_Replacing_Hidden_Digits" />
       <recent name="D:\Code\github\LeetCode\Python\_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
       <recent name="D:\Code\github\LeetCode\Python\_1877_Minimize_Maximum_Pair_Sum_in_Array" />
-      <recent name="D:\Code\github\LeetCode\Python\_1838_Frequency_of_the_Most_Frequent_Element" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (1)">
