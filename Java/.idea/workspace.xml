@@ -86,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0863_All_Nodes_Distance_K_in_Binary_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,12 +98,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1713_Minimum_Operations_to_Make_a_Subsequence" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1743_Restore_the_Array_From_Adjacent_Pairs" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1736_Latest_Time_by_Replacing_Hidden_Digits" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0863_All_Nodes_Distance_K_in_Binary_Tree" />
@@ -112,15 +115,12 @@
       <recent name="_0400_Nth_Digit" />
       <recent name="_0093_Restore_IP_Addresses" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1713_Minimum_Operations_to_Make_a_Subsequence" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1743_Restore_the_Array_From_Adjacent_Pairs" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1736_Latest_Time_by_Replacing_Hidden_Digits" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (5)">
@@ -857,7 +857,7 @@
       <workItem from="1627261533415" duration="2293000" />
       <workItem from="1627348250545" duration="641000" />
       <workItem from="1627433678350" duration="1526000" />
-      <workItem from="1627521018003" duration="762000" />
+      <workItem from="1627521018003" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
