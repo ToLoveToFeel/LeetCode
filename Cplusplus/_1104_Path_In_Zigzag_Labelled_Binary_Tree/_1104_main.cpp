@@ -1,6 +1,10 @@
 // Created by WXX on 2021/7/29 9:36
-#include "MyTree.h"
+#include <iostream>
+#include <vector>
+#include <algorithm>
 #include <cmath>
+
+using namespace std;
 
 /**
  * 执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
@@ -27,14 +31,6 @@ public:
 
 int main() {
 
-    int nu = INT_MAX;
-    vector<int> nums = {
-            1,
-            3, 2,
-            4, 5, 6, 7,
-            15, 14, 13, 12, 11, 10, 9, 8,
-    };
-    TreeNode *root = MyTree(nums).getRoot();
     OutputBasicArray1D(Solution().pathInZigZagTree(14));  // [1, 3, 4, 14]
 
     return 0;
