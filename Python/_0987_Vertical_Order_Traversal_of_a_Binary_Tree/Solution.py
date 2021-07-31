@@ -1,12 +1,13 @@
 # coding=utf-8
 # Date: 2021/7/31 15:21
 from MyTree import *
-from sortedcontainers import SortedDict
+
 
 # 执行用时：32 ms, 在所有 Python3 提交中击败了96.10%的用户
 # 内存消耗：15.5 MB, 在所有 Python3 提交中击败了5.32%的用户
 class Solution:
     def __init__(self):
+        from sortedcontainers import SortedDict
         self.S = SortedDict()
 
     def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
