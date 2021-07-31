@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,16 +162,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0863_All_Nodes_Distance_K_in_Binary_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_0671_Second_Minimum_Node_In_a_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_1713_Minimum_Operations_to_Make_a_Subsequence" />
       <recent name="D:\Code\github\LeetCode\Python\_1743_Restore_the_Array_From_Adjacent_Pairs" />
-      <recent name="D:\Code\github\LeetCode\Python\_1736_Latest_Time_by_Replacing_Hidden_Digits" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Solution (5)">
