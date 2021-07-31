@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,22 +164,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Python\_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_0671_Second_Minimum_Node_In_a_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_1713_Minimum_Operations_to_Make_a_Subsequence" />
-      <recent name="D:\Code\github\LeetCode\Python\_1743_Restore_the_Array_From_Adjacent_Pairs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution (5)">
+  <component name="RunManager" selected="Python.Solution (3)">
     <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +214,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1736_Latest_Time_by_Replacing_Hidden_Digits/Solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Solution (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_0987_Vertical_Order_Traversal_of_a_Binary_Tree/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,41 +285,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_1893_Check_if_All_the_Integers_in_a_Range_Are_Covered/Solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (4)" />
       <item itemvalue="Python.Solution (5)" />
+      <item itemvalue="Python.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Solution (3)" />
         <item itemvalue="Python.Solution (5)" />
         <item itemvalue="Python.Solution (4)" />
         <item itemvalue="Python.Solution (1)" />
         <item itemvalue="Python.Solution (2)" />
-        <item itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
