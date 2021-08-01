@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_1337_The_K_Weakest_Rows_in_a_Matrix" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -101,12 +100,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="_0000_study._jdbc.example.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_1337_The_K_Weakest_Rows_in_a_Matrix" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_1713_Minimum_Operations_to_Make_a_Subsequence" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0863_All_Nodes_Distance_K_in_Binary_Tree" />
@@ -115,15 +117,12 @@
       <recent name="_0400_Nth_Digit" />
       <recent name="_0093_Restore_IP_Addresses" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\github\LeetCode\Java\src\_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1713_Minimum_Operations_to_Make_a_Subsequence" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1743_Restore_the_Array_From_Adjacent_Pairs" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_algorithm\binarysearch\upper" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_datastructure\heap\indexmaxheap" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
@@ -862,7 +861,7 @@
       <workItem from="1627433678350" duration="1526000" />
       <workItem from="1627521018003" duration="1780000" />
       <workItem from="1627714080402" duration="1663000" />
-      <workItem from="1627783135889" duration="819000" />
+      <workItem from="1627783135889" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
