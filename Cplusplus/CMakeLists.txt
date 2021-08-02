@@ -559,3 +559,4 @@ add_executable(_1104_main _1104_Path_In_Zigzag_Labelled_Binary_Tree/_1104_main.c
 add_executable(_0987_main _0987_Vertical_Order_Traversal_of_a_Binary_Tree/_0987_main.cpp)
 add_executable(_1337_main _1337_The_K_Weakest_Rows_in_a_Matrix/_1337_main.cpp)
 add_executable(_0946_main _0946_Validate_Stack_Sequences/_0946_main.cpp)
+add_executable(_0743_main _0743_Network_Delay_Time/_0743_main.cpp)
