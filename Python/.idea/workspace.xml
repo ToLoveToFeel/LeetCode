@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +166,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0946_Validate_Stack_Sequences" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0611_Valid_Triangle_Number" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_0611_Valid_Triangle_Number" />
       <recent name="D:\Code\github\LeetCode\Python\_0946_Validate_Stack_Sequences" />
       <recent name="D:\Code\github\LeetCode\Python\_1337_The_K_Weakest_Rows_in_a_Matrix" />
       <recent name="D:\Code\github\LeetCode\Python\_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
       <recent name="D:\Code\github\LeetCode\Python\_1104_Path_In_Zigzag_Labelled_Binary_Tree" />
-      <recent name="D:\Code\github\LeetCode\Python\_0863_All_Nodes_Distance_K_in_Binary_Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Python" />
