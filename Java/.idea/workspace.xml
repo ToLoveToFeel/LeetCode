@@ -83,7 +83,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0611_Valid_Triangle_Number" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0802_Find_Eventual_Safe_States" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -93,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_0802_Find_Eventual_Safe_States" />
       <recent name="$PROJECT_DIR$/src/_0611_Valid_Triangle_Number" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0743_Network_Delay_Time" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0946_Validate_Stack_Sequences" />
       <recent name="D:\Code\github\LeetCode\Java\src\_1337_The_K_Weakest_Rows_in_a_Matrix" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0987_Vertical_Order_Traversal_of_a_Binary_Tree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
