@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799d7982-6e42-470a-a218-66df4fc897e7" name="Default" comment="LeetCode 242 数组相关问题 对撞指针 水容量最多">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0802_Find_Eventual_Safe_States" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_0847_Shortest_Path_Visiting_All_Nodes" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -94,15 +95,8 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/_0802_Find_Eventual_Safe_States" />
-      <recent name="$PROJECT_DIR$/src/_0611_Valid_Triangle_Number" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0743_Network_Delay_Time" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_0946_Validate_Stack_Sequences" />
-      <recent name="D:\Code\github\LeetCode\Java\src\_1337_The_K_Weakest_Rows_in_a_Matrix" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="_0000_study._jdbc.example.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\base" />
@@ -111,15 +105,22 @@
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql\images" />
       <recent name="D:\Code\github\LeetCode\Java\src\_0000_study\_mysql" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="_0000_study._jdbc.example.test" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_0863_All_Nodes_Distance_K_in_Binary_Tree" />
       <recent name="_0145_Binary_Tree_Postorder_Traversal" />
       <recent name="_0494_Target_Sum" />
       <recent name="_0400_Nth_Digit" />
       <recent name="_0093_Restore_IP_Addresses" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\LeetCode\Java\src\_0847_Shortest_Path_Visiting_All_Nodes" />
+      <recent name="$PROJECT_DIR$/src/_0802_Find_Eventual_Safe_States" />
+      <recent name="$PROJECT_DIR$/src/_0611_Valid_Triangle_Number" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0743_Network_Delay_Time" />
+      <recent name="D:\Code\github\LeetCode\Java\src\_0946_Validate_Stack_Sequences" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
@@ -864,7 +865,7 @@
       <workItem from="1627783135889" duration="1319000" />
       <workItem from="1627787449090" duration="764000" />
       <workItem from="1627867201905" duration="1101000" />
-      <workItem from="1628215078419" duration="594000" />
+      <workItem from="1628215078419" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode 11 数组相关问题 对撞指针 水容量最多">
       <created>1579764368745</created>
@@ -1100,6 +1101,24 @@
     <MESSAGE value="LeetCode 773 图论问题 最短路径 BFS 滑动谜题" />
     <MESSAGE value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode 980 图论问题 DFS 哈密尔顿路径问题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom" timestamp="1628217725238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628217725238" />
+    <state width="1876" height="282" key="GridCell.Tab.0.center" timestamp="1628217725238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628217725238" />
+    <state width="1876" height="282" key="GridCell.Tab.0.left" timestamp="1628217725237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628217725237" />
+    <state width="1876" height="282" key="GridCell.Tab.0.right" timestamp="1628217725238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628217725238" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
