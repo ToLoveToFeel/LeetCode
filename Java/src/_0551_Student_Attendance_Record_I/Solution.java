@@ -8,6 +8,7 @@ package _0551_Student_Attendance_Record_I;
  * 内存消耗：36.5 MB, 在所有 Java 提交中击败了82.95%的用户
  */
 public class Solution {
+
     public static final Character ABSENT = 'A';  // 缺勤
     public static final Character LATE = 'L';  // 迟到
     public static final Character PRESENT = 'P';  // 到场
@@ -16,20 +17,18 @@ public class Solution {
         if (s.length() <= 1)
             return true;
 
-        int countAbsent = 0;  // 记录缺勤的次数
-        int countLate = 0;  // 记录连续迟到的次数
+        int a = 0;  // 记录缺勤的次数
+        int l = 0;  // 记录连续迟到的次数
         for (char c : s.toCharArray()) {
             if (c == ABSENT) {
-                countAbsent++;
-                if (countAbsent >= 2)
-                    return false;
-                countLate = 0;
+                a++;
+                if (a >= 2) return false;
+                l = 0;
             } else if (c == LATE) {
-                if (countLate >= 2)
-                    return false;
-                countLate++;
+                if (l >= 2) return false;
+                l++;
             } else {  // c == PRESENT
-                countLate = 0;
+                l = 0;
             }
         }
 

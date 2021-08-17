@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/_0576_Out_of_Boundary_Paths/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/_0576_Out_of_Boundary_Paths/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ca14b1c-ce2c-48c1-8aa8-4fdc426fe253" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,16 +162,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0576_Out_of_Boundary_Paths" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_0526_Beautiful_Arrangement" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_0526_Beautiful_Arrangement" />
       <recent name="$PROJECT_DIR$/_0576_Out_of_Boundary_Paths" />
       <recent name="$PROJECT_DIR$/_0516_Longest_Palindromic_Subsequence" />
       <recent name="$PROJECT_DIR$/_1137_N_th_Tribonacci_Number" />
       <recent name="D:\Code\github\LeetCode\Python\_0847_Shortest_Path_Visiting_All_Nodes" />
-      <recent name="$PROJECT_DIR$/_0802_Find_Eventual_Safe_States" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\github\LeetCode\Python" />
